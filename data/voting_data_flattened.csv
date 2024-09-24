@@ -1,0 +1,520 @@
+Category,Component,System,Freedom,Expert
+Code,Data preprocessing code,Llama,Study,SZ
+Code,Data preprocessing code,Llama,Study,DT
+Code,Data preprocessing code,Llama,Modify,SZ
+Code,Data preprocessing code,Llama,Modify,EL
+Code,Data preprocessing code,Llama,Modify,DT
+Code,Data preprocessing code,Pythia,Study,SB
+Code,Data preprocessing code,Pythia,Study,SH
+Code,Data preprocessing code,Pythia,Study,CO
+Code,Data preprocessing code,Pythia,Study,AS
+Code,Data preprocessing code,Pythia,Modify,SB
+Code,Data preprocessing code,Pythia,Modify,SH
+Code,Data preprocessing code,Pythia,Modify,CO
+Code,Data preprocessing code,OpenCV,Use,IE
+Code,Data preprocessing code,OpenCV,Use,DM
+Code,Data preprocessing code,OpenCV,Use,PN
+Code,Data preprocessing code,OpenCV,Study,KH
+Code,Data preprocessing code,OpenCV,Study,RA
+Code,Data preprocessing code,OpenCV,Study,TM
+Code,Data preprocessing code,OpenCV,Study,IE
+Code,Data preprocessing code,OpenCV,Study,DM
+Code,Data preprocessing code,OpenCV,Study,PN
+Code,Data preprocessing code,OpenCV,Modify,TM
+Code,Data preprocessing code,OpenCV,Modify,DM
+Code,Data preprocessing code,OpenCV,Modify,PN
+Code,Data preprocessing code,OpenCV,Share,IE
+Code,Data preprocessing code,Bloom,Use,JL
+Code,Data preprocessing code,Bloom,Study,DC
+Code,Data preprocessing code,Bloom,Study,GCGB
+Code,Data preprocessing code,Bloom,Study,JPL
+Code,Data preprocessing code,Bloom,Study,JL
+Code,Data preprocessing code,Bloom,Study,DB
+Code,Data preprocessing code,Bloom,Modify,DC
+Code,Data preprocessing code,Bloom,Modify,GCGB
+Code,Data preprocessing code,Bloom,Modify,JPL
+Code,Data preprocessing code,Bloom,Modify,JL
+Code,Data preprocessing code,Bloom,Share,JL
+Code,"Training, validation and testing code",Llama,Study,SZ
+Code,"Training, validation and testing code",Llama,Study,DT
+Code,"Training, validation and testing code",Llama,Study,EL
+Code,"Training, validation and testing code",Llama,Modify,SZ
+Code,"Training, validation and testing code",Llama,Modify,DT
+Code,"Training, validation and testing code",Llama,Modify,EL
+Code,"Training, validation and testing code",Pythia,Study,SB
+Code,"Training, validation and testing code",Pythia,Study,SH
+Code,"Training, validation and testing code",Pythia,Study,CO
+Code,"Training, validation and testing code",Pythia,Modify,SB
+Code,"Training, validation and testing code",Pythia,Modify,SH
+Code,"Training, validation and testing code",Pythia,Modify,CO
+Code,"Training, validation and testing code",OpenCV,Use,TM
+Code,"Training, validation and testing code",OpenCV,Use,RA
+Code,"Training, validation and testing code",OpenCV,Use,IE
+Code,"Training, validation and testing code",OpenCV,Use,DM
+Code,"Training, validation and testing code",OpenCV,Use,PN
+Code,"Training, validation and testing code",OpenCV,Study,KH
+Code,"Training, validation and testing code",OpenCV,Study,TM
+Code,"Training, validation and testing code",OpenCV,Study,IE
+Code,"Training, validation and testing code",OpenCV,Study,DM
+Code,"Training, validation and testing code",OpenCV,Study,PN
+Code,"Training, validation and testing code",OpenCV,Modify,IE
+Code,"Training, validation and testing code",OpenCV,Modify,DM
+Code,"Training, validation and testing code",OpenCV,Share,IE
+Code,"Training, validation and testing code",Bloom,Use,JL
+Code,"Training, validation and testing code",Bloom,Study,DC
+Code,"Training, validation and testing code",Bloom,Study,GCGB
+Code,"Training, validation and testing code",Bloom,Study,JPL
+Code,"Training, validation and testing code",Bloom,Study,DB
+Code,"Training, validation and testing code",Bloom,Study,JL
+Code,"Training, validation and testing code",Bloom,Modify,DC
+Code,"Training, validation and testing code",Bloom,Modify,GCGB
+Code,"Training, validation and testing code",Bloom,Modify,JPL
+Code,"Training, validation and testing code",Bloom,Modify,DB
+Code,"Training, validation and testing code",Bloom,Modify,JL
+Code,"Training, validation and testing code",Bloom,Share,JL
+Code,Test code,Pythia,Study,SB
+Code,Test code,Pythia,Study,SH
+Code,Test code,Pythia,Study,CO
+Code,Validation code,Llama,Modify,SZ
+Code,Validation code,Pythia,Study,SB
+Code,Validation code,Pythia,Study,SH
+Code,Validation code,Pythia,Study,CO
+Code,Inference code,Llama,Use,SM
+Code,Inference code,Llama,Use,EL
+Code,Inference code,Llama,Use,DT
+Code,Inference code,Llama,Use,SM
+Code,Inference code,Llama,Use,JT
+Code,Inference code,Llama,Use,SZ
+Code,Inference code,Llama,Study,DT
+Code,Inference code,Llama,Modify,SZ
+Code,Inference code,Llama,Share,SZ
+Code,Inference code,Llama,Share,EL
+Code,Inference code,Pythia,Use,SB
+Code,Inference code,Pythia,Use,SH
+Code,Inference code,Pythia,Use,AS
+Code,Inference code,Pythia,Study,AS
+Code,Inference code,Pythia,Study,SH
+Code,Inference code,OpenCV,Use,IE
+Code,Inference code,OpenCV,Use,DM
+Code,Inference code,OpenCV,Study,RA
+Code,Inference code,OpenCV,Study,IE
+Code,Inference code,OpenCV,Study,DM
+Code,Inference code,OpenCV,Study,PN
+Code,Inference code,OpenCV,Modify,IE
+Code,Inference code,OpenCV,Modify,DM
+Code,Inference code,OpenCV,Share,RA
+Code,Inference code,OpenCV,Share,IE
+Code,Inference code,Bloom,Use,DC
+Code,Inference code,Bloom,Use,GCGB
+Code,Inference code,Bloom,Use,JPL
+Code,Inference code,Bloom,Use,DB
+Code,Inference code,Bloom,Use,JL
+Code,Inference code,Bloom,Study,DC
+Code,Inference code,Bloom,Study,GCGB
+Code,Inference code,Bloom,Study,JPL
+Code,Inference code,Bloom,Study,DB
+Code,Inference code,Bloom,Study,JL
+Code,Inference code,Bloom,Modify,DC
+Code,Inference code,Bloom,Modify,GCGB
+Code,Inference code,Bloom,Modify,JPL
+Code,Inference code,Bloom,Modify,DB
+Code,Inference code,Bloom,Share,DC
+Code,Inference code,Bloom,Share,GCGB
+Code,Inference code,Bloom,Share,JPL
+Code,Inference code,Bloom,Share,DB
+Code,Evaluation code,Pythia,Study,SB
+Code,Evaluation code,Pythia,Study,SH
+Code,Evaluation code,Pythia,Study,CO
+Code,Evaluation code,Pythia,Study,AS
+Code,Evaluation code,OpenCV,Use,IE
+Code,Evaluation code,OpenCV,Use,DM
+Code,Evaluation code,OpenCV,Study,RA
+Code,Evaluation code,OpenCV,Study,IE
+Code,Evaluation code,OpenCV,Study,DM
+Code,Evaluation code,OpenCV,Study,PN
+Code,Evaluation code,OpenCV,Modify,IE
+Code,Evaluation code,OpenCV,Modify,DM
+Code,Evaluation code,OpenCV,Share,IE
+Code,Evaluation code,Bloom,Use,JL
+Code,Evaluation code,Bloom,Study,DC
+Code,Evaluation code,Bloom,Study,JL
+Code,Evaluation code,Bloom,Study,DB
+Code,Evaluation code,Bloom,Modify,JL
+Code,Evaluation code,Bloom,Share,JL
+Code,Code used to perform inference for benchmark tests,Pythia,Study,SB
+Code,Code used to perform inference for benchmark tests,Pythia,Study,SH
+Code,Code used to perform inference for benchmark tests,Pythia,Study,CO
+Code,Code used to perform inference for benchmark tests,Bloom,Use,JL
+Code,Code used to perform inference for benchmark tests,Bloom,Study,DC
+Code,Code used to perform inference for benchmark tests,Bloom,Study,JL
+Code,Code used to perform inference for benchmark tests,Bloom,Study,DB
+Code,Code used to perform inference for benchmark tests,Bloom,Modify,JL
+Code,Code used to perform inference for benchmark tests,Bloom,Share,JL
+Data,Training datasets,Llama,Study,SZ
+Data,Training datasets,Llama,Study,EL
+Data,Training datasets,Llama,Modify,SZ
+Data,Training datasets,Pythia,Study,SB
+Data,Training datasets,Pythia,Study,SH
+Data,Training datasets,Pythia,Study,CO
+Data,Training datasets,OpenCV,Use,TM
+Data,Training datasets,OpenCV,Use,IE
+Data,Training datasets,OpenCV,Use,DM
+Data,Training datasets,OpenCV,Use,PN
+Data,Training datasets,OpenCV,Study,TM
+Data,Training datasets,OpenCV,Study,IE
+Data,Training datasets,OpenCV,Study,DM
+Data,Training datasets,OpenCV,Study,PN
+Data,Training datasets,OpenCV,Modify,TM
+Data,Training datasets,OpenCV,Modify,DM
+Data,Training datasets,Bloom,Use,JL
+Data,Training datasets,Bloom,Study,DG
+Data,Training datasets,Bloom,Study,DC
+Data,Training datasets,Bloom,Study,JPL
+Data,Training datasets,Bloom,Study,DB
+Data,Training datasets,Bloom,Study,JL
+Data,Training datasets,Bloom,Modify,GCGB
+Data,Training datasets,Bloom,Modify,JPL
+Data,Training datasets,Bloom,Modify,JL
+Data,Testing datasets,Llama,Modify,SZ
+Data,Testing datasets,Llama,Modify,DT
+Data,Testing datasets,Llama,Modify,JT
+Data,Testing datasets,Pythia,Study,SB
+Data,Testing datasets,Pythia,Study,SH
+Data,Testing datasets,Pythia,Study,CO
+Data,Testing datasets,OpenCV,Use,TM
+Data,Testing datasets,OpenCV,Use,IE
+Data,Testing datasets,OpenCV,Use,DM
+Data,Testing datasets,OpenCV,Use,PN
+Data,Testing datasets,OpenCV,Study,TM
+Data,Testing datasets,OpenCV,Study,RA
+Data,Testing datasets,OpenCV,Study,IE
+Data,Testing datasets,OpenCV,Study,DM
+Data,Testing datasets,OpenCV,Study,PN
+Data,Testing datasets,OpenCV,Modify,DM
+Data,Testing datasets,Bloom,Use,DG
+Data,Testing datasets,Bloom,Use,JL
+Data,Testing datasets,Bloom,Study,DC
+Data,Testing datasets,Bloom,Study,JPL
+Data,Testing datasets,Bloom,Study,DB
+Data,Testing datasets,Bloom,Study,DG
+Data,Testing datasets,Bloom,Study,JL
+Data,Testing datasets,Bloom,Modify,GCGB
+Data,Testing datasets,Bloom,Share,JL
+Data,Validation datasets,Llama,Modify,SZ
+Data,Validation datasets,Pythia,Study,SB
+Data,Validation datasets,Pythia,Study,SH
+Data,Validation datasets,Pythia,Study,CO
+Data,Validation datasets,OpenCV,Use,IE
+Data,Validation datasets,OpenCV,Use,DM
+Data,Validation datasets,OpenCV,Use,PN
+Data,Validation datasets,OpenCV,Study,IE
+Data,Validation datasets,OpenCV,Study,DM
+Data,Validation datasets,OpenCV,Study,PN
+Data,Validation datasets,OpenCV,Modify,TM
+Data,Validation datasets,OpenCV,Modify,DM
+Data,Validation datasets,Bloom,Use,JL
+Data,Validation datasets,Bloom,Study,DC
+Data,Validation datasets,Bloom,Study,JPLD
+Data,Validation datasets,Bloom,Study,JL
+Data,Validation datasets,Bloom,Modify,GCGB
+Data,Validation datasets,Bloom,Share,JL
+Data,Benchmarking datasets,Llama,Modify,EL
+Data,Benchmarking datasets,Pythia,Study,SB
+Data,Benchmarking datasets,Pythia,Study,SH
+Data,Benchmarking datasets,Pythia,Study,CO
+Data,Benchmarking datasets,OpenCV,Use,IE
+Data,Benchmarking datasets,OpenCV,Use,DM
+Data,Benchmarking datasets,OpenCV,Study,TM
+Data,Benchmarking datasets,OpenCV,Study,IE
+Data,Benchmarking datasets,OpenCV,Study,DM
+Data,Benchmarking datasets,OpenCV,Modify,TM
+Data,Benchmarking datasets,OpenCV,Modify,DM
+Data,Benchmarking datasets,OpenCV,Share,RA
+Data,Benchmarking datasets,OpenCV,Share,DM
+Data,Benchmarking datasets,Bloom,Use,JL
+Data,Benchmarking datasets,Bloom,Study,DC
+Data,Benchmarking datasets,Bloom,Study,GCGB
+Data,Benchmarking datasets,Bloom,Study,JPL
+Data,Benchmarking datasets,Bloom,Study,DB
+Data,Benchmarking datasets,Bloom,Study,JL
+Data,Benchmarking datasets,Bloom,Modify,GCGB
+Data,Benchmarking datasets,Bloom,Modify,JL
+Data,Benchmarking datasets,Bloom,Share,JL
+Data,Data card,Llama,Study,DT
+Data,Data card,Llama,Study,JT
+Data,Data card,Pythia,Study,SB
+Data,Data card,OpenCV,Study,IE
+Data,Data card,Bloom,Study,DC
+Data,Data card,Bloom,Study,JPL
+Data,Data card,Bloom,Study,DB
+Data,Evaluation metrics and results,Llama,Study,DT
+Data,Evaluation metrics and results,Llama,Study,JT
+Data,Evaluation metrics and results,Pythia,Study,SB
+Data,Evaluation metrics and results,Pythia,Study,SH
+Data,Evaluation metrics and results,Pythia,Study,CO
+Data,Evaluation data,OpenCV,Study,IE
+Data,Evaluation data,Bloom,Study,DC
+Data,Evaluation data,Bloom,Study,JPL
+Data,Evaluation data,Bloom,Modify,GCGB
+Data,Evaluation results,OpenCV,Study,IE
+Data,Evaluation results,Bloom,Study,DC
+Data,Evaluation results,Bloom,Study,GCGB
+Data,Evaluation results,Bloom,Study,JPL
+Data,Evaluation results,Bloom,Study,DB
+Data,Evaluation results,Bloom,Modify,GCGB
+Data,All other data documentation,Llama,Study,SZ
+Data,All other data documentation,Llama,Modify,SZ
+Data,All other data documentation,Pythia,Study,SB
+Data,All other data documentation,Pythia,Study,SH
+Data,All other data documentation,Pythia,Study,CO
+Data,All other data documentation,OpenCV,Use,DM
+Data,All other data documentation,OpenCV,Study,IE
+Data,All other data documentation,OpenCV,Study,DM
+Data,All other data documentation,OpenCV,Study,PN
+Data,All other data documentation,OpenCV,Modify,DM
+Data,All other data documentation,Bloom,Use,JL
+Data,All other data documentation,Bloom,Study,DC
+Data,All other data documentation,Bloom,Study,JPL
+Data,All other data documentation,Bloom,Study,JL
+Data,All other data documentation,Bloom,Modify,GCGB
+Data,All other data documentation,Bloom,Modify,JL
+Data,All other data documentation,Bloom,Share,JL
+Model,Model architecture,Llama,Study,SZ
+Model,Model architecture,Llama,Study,DT
+Model,Model architecture,Llama,Study,JT
+Model,Model architecture,Llama,Modify,SZ
+Model,Model architecture,Llama,Modify,DT
+Model,Model architecture,Llama,Modify,JT
+Model,Model architecture,Pythia,Use,SB
+Model,Model architecture,Pythia,Use,SH
+Model,Model architecture,Pythia,Use,CO
+Model,Model architecture,Pythia,Study,SB
+Model,Model architecture,Pythia,Study,SH
+Model,Model architecture,Pythia,Study,CO
+Model,Model architecture,Pythia,Modify,SB
+Model,Model architecture,Pythia,Modify,SH
+Model,Model architecture,Pythia,Modify,CO
+Model,Model architecture,Pythia,Share,SB
+Model,Model architecture,Pythia,Share,SH
+Model,Model architecture,Pythia,Share,CO
+Model,Model architecture,OpenCV,Use,DM
+Model,Model architecture,OpenCV,Study,RA
+Model,Model architecture,OpenCV,Study,IE
+Model,Model architecture,OpenCV,Study,DM
+Model,Model architecture,OpenCV,Study,PN
+Model,Model architecture,OpenCV,Modify,DM
+Model,Model architecture,OpenCV,Share,RA
+Model,Model architecture,Bloom,Use,JL
+Model,Model architecture,Bloom,Study,DC
+Model,Model architecture,Bloom,Study,GCGB
+Model,Model architecture,Bloom,Study,JPL
+Model,Model architecture,Bloom,Study,JL
+Model,Model architecture,Bloom,Study,DB
+Model,Model architecture,Bloom,Modify,DC
+Model,Model architecture,Bloom,Modify,GCGB
+Model,Model architecture,Bloom,Modify,JPL
+Model,Model architecture,Bloom,Modify,DB
+Model,Model architecture,Bloom,Modify,JL
+Model,Model architecture,Bloom,Share,JL
+Model,Model parameters,Llama,Use,SM
+Model,Model parameters,Llama,Use,SZ
+Model,Model parameters,Llama,Use,JT
+Model,Model parameters,Llama,Use,DT
+Model,Model parameters,Llama,Study,SZ
+Model,Model parameters,Llama,Study,EL
+Model,Model parameters,Llama,Modify,SZ
+Model,Model parameters,Llama,Modify,EL
+Model,Model parameters,Llama,Share,SZ
+Model,Model parameters,Pythia,Use,SB
+Model,Model parameters,Pythia,Use,SH
+Model,Model parameters,Pythia,Use,CO
+Model,Model parameters,Pythia,Use,AS
+Model,Model parameters,Pythia,Study,SB
+Model,Model parameters,Pythia,Study,SH
+Model,Model parameters,Pythia,Study,CO
+Model,Model parameters,Pythia,Modify,SB
+Model,Model parameters,Pythia,Modify,SH
+Model,Model parameters,Pythia,Modify,CO
+Model,Model parameters,Pythia,Modify,AS
+Model,Model parameters,Pythia,Share,SB
+Model,Model parameters,Pythia,Share,SH
+Model,Model parameters,Pythia,Share,CO
+Model,Model parameters,Pythia,Share,AS
+Model,Model parameters,OpenCV,Use,DM
+Model,Model parameters,OpenCV,Study,IE
+Model,Model parameters,OpenCV,Study,DM
+Model,Model parameters,OpenCV,Study,PN
+Model,Model parameters,OpenCV,Modify,DM
+Model,Model parameters,OpenCV,Share,RA
+Model,Model parameters,Bloom,Use,JL
+Model,Model parameters,Bloom,Study,DC
+Model,Model parameters,Bloom,Study,GCGB
+Model,Model parameters,Bloom,Study,JPL
+Model,Model parameters,Bloom,Study,DB
+Model,Model parameters,Bloom,Study,JL
+Model,Model parameters,Bloom,Modify,DC
+Model,Model parameters,Bloom,Modify,GCGB
+Model,Model parameters,Bloom,Modify,JPL
+Model,Model parameters,Bloom,Modify,DB
+Model,Model parameters,Bloom,Modify,JL
+Model,Model parameters,Bloom,Share,JL
+Model,Model metadata ,OpenCV,Use,DM
+Model,Model metadata ,OpenCV,Study,IE
+Model,Model metadata ,OpenCV,Study,DM
+Model,Model metadata ,OpenCV,Study,PN
+Model,Model metadata ,OpenCV,Modify,DM
+Model,Model metadata ,Bloom,Modify,GCGB
+Model,Model card,Llama,Use,EL
+Model,Model card,Llama,Study,DT
+Model,Model card,Llama,Modify,DT
+Model,Model card,Llama,Modify,EL
+Model,Model card,Llama,Share,EL
+Model,Model card,OpenCV,Use,DM
+Model,Model card,OpenCV,Study,IE
+Model,Model card,OpenCV,Study,DM
+Model,Model card,OpenCV,Study,PN
+Model,Model card,OpenCV,Modify,DM
+Model,Model card,OpenCV,Share,DM
+Model,Model card,Bloom,Use,JPL
+Model,Model card,Bloom,Study,JPL
+Model,Model card,Bloom,Study,DB
+Model,Model card,Bloom,Modify,JPL
+Model,Sample model outputs,Llama,Study,EL
+Model,Sample model outputs,Llama,Study,DT
+Model,Sample model outputs,Llama,Modify,DT
+Model,Sample model outputs,Pythia,Study,SH
+Model,Sample model outputs,OpenCV,Use,DM
+Model,Sample model outputs,OpenCV,Study,IE
+Model,Sample model outputs,OpenCV,Study,DM
+Model,Sample model outputs,OpenCV,Study,PN
+Model,Sample model outputs,OpenCV,Modify,DM
+Model,Sample model outputs,OpenCV,Share,RA
+Model,Sample model outputs,OpenCV,Share,DM
+Other,Research paper,Llama,Study,EL
+Other,Research paper,Llama,Study,DT
+Other,Research paper,Llama,Modify,DT
+Other,Research paper,OpenCV,Use,DM
+Other,Research paper,OpenCV,Study,KH
+Other,Research paper,OpenCV,Study,RA
+Other,Research paper,OpenCV,Study,TM
+Other,Research paper,OpenCV,Study,IE
+Other,Research paper,OpenCV,Study,DM
+Other,Research paper,OpenCV,Study,PN
+Other,Research paper,OpenCV,Modify,DM
+Other,Research paper,OpenCV,Share,DM
+Other,Research paper,Bloom,Use,DB
+Other,Research paper,Bloom,Use,DG
+Other,Research paper,Bloom,Use,JL
+Other,Research paper,Bloom,Study,DC
+Other,Research paper,Bloom,Study,GCGB
+Other,Research paper,Bloom,Study,DB
+Other,Research paper,Bloom,Study,DG
+Other,Research paper,Bloom,Study,JL
+Other,Research paper,Bloom,Modify,JL
+Other,Research paper,Bloom,Share,JL
+Other,Usage documentation,Llama,Use,DT
+Other,Usage documentation,Llama,Modify,SZ
+Other,Usage documentation,Llama,Share,EL
+Other,Usage documentation,OpenCV,Use,IE
+Other,Usage documentation,OpenCV,Use,DM
+Other,Usage documentation,OpenCV,Study,IE
+Other,Usage documentation,OpenCV,Study,DM
+Other,Usage documentation,OpenCV,Study,PN
+Other,Usage documentation,OpenCV,Modify,DM
+Other,Usage documentation,OpenCV,Modify,PN
+Other,Usage documentation,OpenCV,Share,RA
+Other,Usage documentation,OpenCV,Share,KH
+Other,Usage documentation,OpenCV,Share,DM
+Other,Usage documentation,Bloom,Use,DC
+Other,Usage documentation,Bloom,Use,JPL
+Other,Usage documentation,Bloom,Study,DC
+Other,Usage documentation,Bloom,Study,GCGB
+Other,Usage documentation,Bloom,Study,JPL
+Other,Usage documentation,Bloom,Modify,DC
+Other,Usage documentation,Bloom,Modify,GCGB
+Other,Usage documentation,Bloom,Modify,JPL
+Other,Usage documentation,Bloom,Share,DC
+Other,Usage documentation,Bloom,Share,JPL
+Other,Technical report,OpenCV,Study,IE
+Other,Technical report,OpenCV,Study,TM
+Other,Technical report,OpenCV,Study,PN
+Other,Technical report,OpenCV,Modify,PN
+Other,Technical report,Bloom,Study,DC
+Other,Technical report,Bloom,Study,GCGB
+Other,Technical report,Bloom,Modify,GCGB
+Other,Supporting libraries and tools,Pythia,Use,SB
+Other,Supporting libraries and tools,Pythia,Study,SB
+Other,Supporting libraries and tools,Pythia,Modify,SB
+Other,Supporting libraries and tools,Pythia,Share,SB
+Other,Supporting libraries and tools,OpenCV,Use,IE
+Other,Supporting libraries and tools,OpenCV,Study,KH
+Other,Supporting libraries and tools,OpenCV,Study,TM
+Other,Supporting libraries and tools,OpenCV,Study,IE
+Other,Supporting libraries and tools,OpenCV,Study,PN
+Other,Supporting libraries and tools,OpenCV,Modify,PN
+Other,Supporting libraries and tools,Bloom,Use,DC
+Other,Supporting libraries and tools,Bloom,Use,GCGB
+Other,Supporting libraries and tools,Bloom,Use,JPL
+Other,Supporting libraries and tools,Bloom,Use,DB
+Other,Supporting libraries and tools,Bloom,Use,JL
+Other,Supporting libraries and tools,Bloom,Study,DC
+Other,Supporting libraries and tools,Bloom,Study,GCGB
+Other,Supporting libraries and tools,Bloom,Study,JPL
+Other,Supporting libraries and tools,Bloom,Study,DB
+Other,Supporting libraries and tools,Bloom,Study,JL
+Other,Supporting libraries and tools,Bloom,Modify,DC
+Other,Supporting libraries and tools,Bloom,Modify,GCGB
+Other,Supporting libraries and tools,Bloom,Modify,JPL
+Other,Supporting libraries and tools,Bloom,Modify,DB
+Other,Supporting libraries and tools,Bloom,Modify,JL
+Other,Supporting libraries and tools,Bloom,Share,DC
+Other,Supporting libraries and tools,Bloom,Share,GCGB
+Other,Supporting libraries and tools,Bloom,Share,JPL
+Other,Supporting libraries and tools,Bloom,Share,DB
+Other,Supporting libraries and tools,Bloom,Share,JL
+Other,Other libraries or code artifacts,Llama,Use,BG
+Other,Other libraries or code artifacts,Llama,Use,EL
+Other,Other libraries or code artifacts,Llama,Use,SM
+Other,Other libraries or code artifacts,Llama,Use,SZ
+Other,Other libraries or code artifacts,Llama,Use,DT
+Other,Other libraries or code artifacts,Llama,Use,JT
+Other,Other libraries or code artifacts,Llama,Study,SZ
+Other,Other libraries or code artifacts,Llama,Study,EL
+Other,Other libraries or code artifacts,Llama,Study,DT
+Other,Other libraries or code artifacts,Llama,Study,JT
+Other,Other libraries or code artifacts,Llama,Modify,SZ
+Other,Other libraries or code artifacts,Llama,Modify,EL
+Other,Other libraries or code artifacts,Llama,Modify,DT
+Other,Other libraries or code artifacts,Llama,Modify,JT
+Other,Other libraries or code artifacts,Llama,Share,SZ
+Other,Other libraries or code artifacts,Llama,Share,EL
+Other,Other libraries or code artifacts,Llama,Share,DT
+Other,Other libraries or code artifacts,Llama,Share,JT
+Other,Other libraries or code artifacts,Pythia,Use,SB
+Other,Other libraries or code artifacts,Pythia,Use,CO
+Other,Other libraries or code artifacts,Pythia,Use,AS
+Other,Other libraries or code artifacts,Pythia,Study,SB
+Other,Other libraries or code artifacts,Pythia,Study,SH
+Other,Other libraries or code artifacts,Pythia,Study,CO
+Other,Other libraries or code artifacts,Pythia,Modify,SB
+Other,Other libraries or code artifacts,Pythia,Modify,CO
+Other,Other libraries or code artifacts,Bloom,Use,DC
+Other,Other libraries or code artifacts,Bloom,Use,GCGB
+Other,Other libraries or code artifacts,Bloom,Use,JPL
+Other,Other libraries or code artifacts,Bloom,Use,JL
+Other,Other libraries or code artifacts,Bloom,Use,DB
+Other,Other libraries or code artifacts,Bloom,Study,DC
+Other,Other libraries or code artifacts,Bloom,Study,GCGB
+Other,Other libraries or code artifacts,Bloom,Study,JPL
+Other,Other libraries or code artifacts,Bloom,Study,JL
+Other,Other libraries or code artifacts,Bloom,Study,DB
+Other,Other libraries or code artifacts,Bloom,Modify,DC
+Other,Other libraries or code artifacts,Bloom,Modify,GCGB
+Other,Other libraries or code artifacts,Bloom,Modify,JPL
+Other,Other libraries or code artifacts,Bloom,Modify,JL
+Other,Other libraries or code artifacts,Bloom,Modify,DB
+Other,Other libraries or code artifacts,Bloom,Share,DC
+Other,Other libraries or code artifacts,Bloom,Share,GCGB
+Other,Other libraries or code artifacts,Bloom,Share,JPL
+Other,Other libraries or code artifacts,Bloom,Share,JL
+Other,Other libraries or code artifacts,Bloom,Share,DB
