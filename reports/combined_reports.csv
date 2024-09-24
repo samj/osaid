@@ -1,0 +1,95 @@
+System,Category,Component,Use,Study,Modify,Share
+llama2,Code,Data preprocessing code,,2,3,
+llama2,Code,Training code,,3,3,
+llama2,Code,Test code,,,,
+llama2,Code,Code used to perform inference for benchmark tests,,1,,
+llama2,Code,Validation code,,,1,
+llama2,Code,Inference code,6,1,1,2
+llama2,Code,Evaluation code,,,,
+llama2,Code,Other libraries or code artifacts,6,5,5,5
+llama2,Data,Training data sets,,2,1,
+llama2,Data,Testing data sets,,2,1,
+llama2,Data,Validation data sets,,,1,
+llama2,Data,Benchmarking data sets,,,1,
+llama2,Data,Data card,,2,,
+llama2,Data,Evaluation data,,,,
+llama2,Data,Evaluation metrics and results,,2,,
+llama2,Data,All other data documentation,,1,1,
+llama2,Model,Model architecture,,3,3,
+llama2,Model,Model parameters,4,2,2,1
+llama2,Model,Model card,1,1,2,1
+llama2,Model,Sample model outputs,,,,
+llama2,Other,Research paper,,2,1,
+llama2,Other,Usage documentation,1,,1,1
+llama2,Other,Technical report,,,,
+llama2,Other,Supporting tools,,,,
+bloom,Code,Data preprocessing code,1,5,4,1
+bloom,Code,"Training, validation and testing code",1,5,5,1
+bloom,Code,Code used to perform inference for benchmark tests,1,3,1,1
+bloom,Code,Inference code,5,5,4,4
+bloom,Code,Evaluation code,1,3,1,1
+bloom,Code,Other libraries or code artifacts,5,5,5,5
+bloom,Data,Training data sets,2,5,3,1
+bloom,Data,Testing data sets,2,5,2,1
+bloom,Data,Validation data sets,1,3,2,1
+bloom,Data,Benchmarking data sets,1,5,2,1
+bloom,Data,Data card,,3,,
+bloom,Data,Evaluation data,,2,1,
+bloom,Data,Evaluation results,,4,1,
+bloom,Data,All other data documentation,1,3,2,1
+bloom,Model,Model architecture,1,5,5,1
+bloom,Model,Model parameters,1,5,5,1
+bloom,Model,Model metadata,,1,,
+bloom,Model,Model card,1,2,1,
+bloom,Model,Sample model outputs,,,,
+bloom,Other,Research paper,3,5,1,1
+bloom,Other,Usage documentation,2,3,3,2
+bloom,Other,Technical report,,2,1,
+bloom,Other,Supporting tools,5,5,5,5
+pythia,Code,Data preprocessing code,,4,3,
+pythia,Code,Training code,,4,3,
+pythia,Code,Test code,,4,,
+pythia,Code,Code used to perform inference for benchmark tests,,3,,
+pythia,Code,Validation code,,3,,
+pythia,Code,Inference code,3,2,,
+pythia,Code,Evaluation code,,2,,
+pythia,Code,Other libraries or code artifacts,2,4,2,
+pythia,Data,Training data sets,,4,,
+pythia,Data,Testing data sets,,4,,
+pythia,Data,Validation data sets,,3,,
+pythia,Data,Benchmarking data sets,,3,,
+pythia,Data,Data card,,1,,
+pythia,Data,Evaluation data,,3,,
+pythia,Data,Evaluation metrics and results,,3,,
+pythia,Data,All other data documentation,,3,,
+pythia,Model,Model architecture,3,3,3,3
+pythia,Model,Model parameters,4,3,4,4
+pythia,Model,Model card,,,,
+pythia,Model,Sample model outputs,,1,,
+pythia,Other,Research paper,,,,
+pythia,Other,Usage documentation,,,,
+pythia,Other,Technical report,,,,
+pythia,Other,Supporting tools,1,1,1,1
+opencv,Code,Data preprocessing code,3,5,3,1
+opencv,Code,"Training, validation and testing code",5,5,2,1
+opencv,Code,Code used to perform inference for benchmark tests,,,,
+opencv,Code,Inference code,2,4,2,2
+opencv,Code,Evaluation code,2,4,2,1
+opencv,Code,Other libraries or code artifacts,,,,
+opencv,Data,Training data sets,4,4,2,
+opencv,Data,Testing data sets,4,5,1,
+opencv,Data,Validation data sets,3,3,2,
+opencv,Data,Benchmarking data sets,2,3,2,2
+opencv,Data,Data card,,1,,
+opencv,Data,Evaluation data,,1,,
+opencv,Data,Evaluation results,,1,,
+opencv,Data,All other data documentation,1,3,1,
+opencv,Model,Model architecture,1,4,1,1
+opencv,Model,Model parameters,1,3,1,1
+opencv,Model,Model metadata,1,3,1,
+opencv,Model,Model card,1,3,1,1
+opencv,Model,Sample model outputs,1,3,1,2
+opencv,Other,Research paper,1,6,1,1
+opencv,Other,Usage documentation,2,3,2,3
+opencv,Other,Technical report,,3,2,
+opencv,Other,Supporting tools,1,4,1,

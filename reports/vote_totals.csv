@@ -1,0 +1,28 @@
+Category,Component,Use,Study,Modify,Share,Total
+Code,Other libraries or code artifacts,13.0,14.0,12.0,10.0,49.0
+Code,Inference code,16.0,12.0,7.0,8.0,43.0
+Model,Model parameters,10.0,13.0,12.0,7.0,42.0
+Model,Model architecture,5.0,15.0,12.0,5.0,37.0
+Code,Data preprocessing code,4.0,16.0,13.0,2.0,35.0
+Other,Supporting tools,7.0,10.0,7.0,6.0,30.0
+Data,Training data sets,6.0,15.0,6.0,1.0,28.0
+Data,Testing data sets,6.0,16.0,4.0,1.0,27.0
+Code,"Training, validation and testing code",6.0,10.0,7.0,2.0,25.0
+Other,Usage documentation,5.0,6.0,6.0,6.0,23.0
+Data,Benchmarking data sets,3.0,11.0,5.0,3.0,22.0
+Other,Research paper,4.0,13.0,3.0,2.0,22.0
+Data,Validation data sets,4.0,9.0,5.0,1.0,19.0
+Data,All other data documentation,2.0,10.0,4.0,1.0,17.0
+Code,Evaluation code,3.0,9.0,3.0,2.0,17.0
+Model,Model card,3.0,6.0,4.0,2.0,15.0
+Code,Training code,0.0,7.0,6.0,0.0,13.0
+Code,Code used to perform inference for benchmark tests,1.0,7.0,1.0,1.0,10.0
+Model,Sample model outputs,1.0,4.0,1.0,2.0,8.0
+Other,Technical report,0.0,5.0,3.0,0.0,8.0
+Data,Evaluation data,0.0,6.0,1.0,0.0,7.0
+Data,Data card,0.0,7.0,0.0,0.0,7.0
+Data,Evaluation results,0.0,5.0,1.0,0.0,6.0
+Model,Model metadata,1.0,4.0,1.0,0.0,6.0
+Data,Evaluation metrics and results,0.0,5.0,0.0,0.0,5.0
+Code,Validation code,0.0,3.0,1.0,0.0,4.0
+Code,Test code,0.0,4.0,0.0,0.0,4.0

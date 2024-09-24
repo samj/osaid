@@ -5,7 +5,7 @@
 |Code used to perform inference for benchmark tests|1|3|1|1|
 |Inference code|5|5|4|4|
 |Evaluation code|1|3|1|1|
-|Other libraries or code artifacts that are part of the system, such as tokenizers and hyperparameter search code, if used.|5|5|5|5|
+|Other libraries or code artifacts|5|5|5|5|
 |**Data** All data sets, including:|||||
 |Training data sets|2|5|3|1|
 |Testing data sets|2|5|2|1|

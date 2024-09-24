@@ -7,7 +7,7 @@
 |Validation code||3|||
 |Inference code|3|2|||
 |Evaluation code||2|||
-|Other libraries or code artifacts that are part of the system, such as tokenizers and hyperparameter search code, if used.|2|4|2||
+|Other libraries or code artifacts|2|4|2||
 |**Data** All data sets, including:|||||
 |Training data sets||4|||
 |Testing data sets||4|||
