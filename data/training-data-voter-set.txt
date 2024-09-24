@@ -1,0 +1,6 @@
+1: DT, EL*, JT, SZ*
+2: SB*, SH*, CO*
+3: DM*, IE*, TM*, PN*, RA
+4: DB*, DC*, DG*, GCGB*, JL*, JPL*
+
+15/18
