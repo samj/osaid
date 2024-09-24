@@ -2,6 +2,7 @@
 
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 import re
 
 # Load the CSV file
@@ -111,4 +112,23 @@ plt.ylabel('Component')
 plt.title('Votes per Freedom per Component')
 plt.tight_layout()
 plt.savefig('../figures/votes_per_freedom_per_component.png')
+plt.close()
+
+# Define the order for the systems
+system_order = ['Llama', 'Pythia', 'OpenCV', 'Bloom']
+
+# Create a pivot table for the heatmap
+heatmap_data = processed_df.pivot_table(index=['Category', 'Component'], columns=['System', 'Freedom'], aggfunc='size', fill_value=0)
+
+# Reorder the columns to match the desired system order
+heatmap_data = heatmap_data.reindex(system_order, level='System', axis=1)
+
+# Plot 5: Heatmap of votes by component and freedom for each system
+plt.figure(figsize=(20, 12))
+sns.heatmap(heatmap_data, annot=True, fmt='d', cmap='YlGnBu', linewidths=.5)
+plt.xlabel('System and Freedom')
+plt.ylabel('Category and Component')
+plt.title('Heatmap of Votes by Component and Freedom for Each System')
+plt.tight_layout()
+plt.savefig('../figures/heatmap_votes_by_component_and_freedom.png')
 plt.close()
