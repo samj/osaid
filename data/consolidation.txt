@@ -1,0 +1,15 @@
+Test code / Validation code
+ - [combined into training, validation and testing code] for OpenCV & Bloom
+ - overlaps with "training, validation and testing code"
+ - collapses down into "training, validation and testing code"
+
+Evaluation data / Evaluation results
+ - No results for Llama or Pythia
+ - Study: IE for OpenCV
+ - Study for DB, DC, GCGP, JL, JPL in Bloom
+ - Modify for GCGB in Bloom
+ - collapses down into "evaluation metrics and results"
+
+ Model metatata
+ - none ofr Llama & Pythia because it was added later
+ - collapses into model parameters for OpenCV & Bloom
