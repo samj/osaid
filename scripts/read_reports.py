@@ -70,7 +70,9 @@ reports_directory = 'reports'
 df = read_all_reports(reports_directory)
 
 if not df.empty:
-    # Display the DataFrame
-    print(df)
+    # Save the DataFrame to a CSV file
+    output_csv_path = 'reports/combined_reports.csv'
+    df.to_csv(output_csv_path, index=False)
+    print(f"Data has been saved to {output_csv_path}")
 else:
     print("No data to display.")
