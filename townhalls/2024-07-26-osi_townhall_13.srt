@@ -1,0 +1,896 @@
+1
+00:00:00,001 --> 00:00:06,640
+So, first of all, let me introduce myself.
+
+2
+00:00:06,640 --> 00:00:08,320
+My name is Nick Vidal.
+
+3
+00:00:08,320 --> 00:00:14,040
+I'm the community manager at the OSI, the Open Source Initiative.
+
+4
+00:00:14,040 --> 00:00:22,360
+And every two weeks, we organize a public town hall about the open source AI definition.
+
+5
+00:00:22,360 --> 00:00:28,680
+The goal of this town hall is to give updates and news about what has been happening with
+
+6
+00:00:28,680 --> 00:00:35,840
+the definition and also to hear your feedback and see how we can make it better.
+
+7
+00:00:35,840 --> 00:00:42,200
+So let's jump to the rules, right?
+
+8
+00:00:42,200 --> 00:00:45,120
+What are some agreements that we have here?
+
+9
+00:00:45,120 --> 00:00:51,560
+I think we can all be very open and very kind.
+
+10
+00:00:51,560 --> 00:01:01,720
+The idea here, even though if we have any differences, we can agree to disagree.
+
+11
+00:01:01,720 --> 00:01:07,240
+And so this is especially important when I open space for questions.
+
+12
+00:01:07,240 --> 00:01:16,680
+You're free to ask any questions and I'll be happy to answer them as best as possible.
+
+13
+00:01:16,680 --> 00:01:21,420
+So let's talk about the open source AI definition and where we are.
+
+14
+00:01:21,420 --> 00:01:28,040
+We have been at version 0.0.8 for quite some time right now.
+
+15
+00:01:28,040 --> 00:01:34,000
+And the reason for that is that we received a lot of feedback and we are working those
+
+16
+00:01:34,000 --> 00:01:44,520
+details because the next one, the next version will be something much more stable and really
+
+17
+00:01:44,520 --> 00:01:48,640
+with very few changes going forward.
+
+18
+00:01:48,640 --> 00:01:53,960
+So the current definition, what we have right now is we have the preamble, we have the four
+
+19
+00:01:53,960 --> 00:01:58,660
+freedoms and a checklist.
+
+20
+00:01:58,660 --> 00:02:03,640
+Now what are we working for version 0.0.9?
+
+21
+00:02:03,640 --> 00:02:10,280
+There are going to be some significant changes based on this feedback and we're about to
+
+22
+00:02:10,280 --> 00:02:14,680
+release version 0.0.9.
+
+23
+00:02:14,680 --> 00:02:20,960
+It's just a matter of a final approval.
+
+24
+00:02:20,960 --> 00:02:33,540
+And we still have the preamble and we try to clarify who are the recipients of the freedoms.
+
+25
+00:02:33,540 --> 00:02:43,080
+We also have the what's open source AI and we clarify those four freedoms.
+
+26
+00:02:43,080 --> 00:02:52,640
+As you know, we have the freedom to use, to study, to modify and to share the system.
+
+27
+00:02:52,640 --> 00:03:00,040
+And for those who know, who have some background on the history of free software and open source,
+
+28
+00:03:00,040 --> 00:03:05,320
+you know very well that those four freedoms are from the free software definition.
+
+29
+00:03:05,320 --> 00:03:07,480
+And this has been very stable.
+
+30
+00:03:07,480 --> 00:03:16,200
+We have been using those four freedoms as the basis throughout most of the moment.
+
+31
+00:03:16,200 --> 00:03:24,640
+Now one observation that we're also making is that we are underlining that components
+
+32
+00:03:24,640 --> 00:03:35,200
+and systems must be free from encumbrances that prevent any developer, deployer or user
+
+33
+00:03:35,200 --> 00:03:37,880
+from exercising those freedoms.
+
+34
+00:03:37,880 --> 00:03:44,560
+So this is something that we highlighted for this version as well.
+
+35
+00:03:44,560 --> 00:03:52,560
+And now we made some substantial changes to the preferred form to make modifications to
+
+36
+00:03:52,560 --> 00:03:56,200
+machine learning systems.
+
+37
+00:03:56,200 --> 00:04:04,840
+And the reason why we did that, we received a lot of feedback and we wanted to really
+
+38
+00:04:04,840 --> 00:04:07,760
+make this as precise as possible.
+
+39
+00:04:07,760 --> 00:04:13,000
+So we added the definitions, right?
+
+40
+00:04:13,000 --> 00:04:21,960
+Also there's the question of OSD compliance and OSD conformance for each one of those
+
+41
+00:04:21,960 --> 00:04:25,720
+requirements, right?
+
+42
+00:04:25,720 --> 00:04:29,800
+And also the legal requirements for each components.
+
+43
+00:04:29,800 --> 00:04:38,080
+So we made this text here, the preferred form, clearer for us to understand.
+
+44
+00:04:38,080 --> 00:04:41,280
+And now this is a big one.
+
+45
+00:04:41,280 --> 00:04:48,520
+Since the definition is going to be something very stable, we cannot make, we shouldn't
+
+46
+00:04:48,520 --> 00:04:52,080
+make many changes with every version.
+
+47
+00:04:52,080 --> 00:04:54,580
+We want to have something very solid.
+
+48
+00:04:54,580 --> 00:04:59,720
+So this, the definition itself should not change much.
+
+49
+00:04:59,720 --> 00:05:09,680
+However, we know that the technologies are evolving very rapidly and there might be some
+
+50
+00:05:09,680 --> 00:05:16,840
+changes to the legal framework or to each one of those components.
+
+51
+00:05:16,840 --> 00:05:26,520
+And so what we're doing for 0.0.9 is actually we're going to make the checklist as a separate
+
+52
+00:05:26,520 --> 00:05:31,800
+document because the definition is going to be stable.
+
+53
+00:05:31,800 --> 00:05:40,120
+And the checklist, we might have some smaller changes, of course, but it's going to evolve,
+
+54
+00:05:40,120 --> 00:05:41,120
+right?
+
+55
+00:05:41,120 --> 00:05:50,040
+And I wanted to highlight that we use as the list of components, the model openness
+
+56
+00:05:50,040 --> 00:05:51,040
+framework.
+
+57
+00:05:51,040 --> 00:05:58,800
+This is something that was created by the Linux Foundation and they have 17 components
+
+58
+00:05:58,800 --> 00:06:01,560
+and we're using that as a basis, right?
+
+59
+00:06:01,560 --> 00:06:08,280
+For the checklist.
+
+60
+00:06:08,280 --> 00:06:19,240
+Now we are currently validating the open source CI definition, looking at several models.
+
+61
+00:06:19,240 --> 00:06:31,760
+Right now we're looking at Arctic, Bloom, Falcon, Grok, Yamachu, LLM360, Mistral, Oumu,
+
+62
+00:06:31,760 --> 00:06:41,120
+OpenCV, Fitu, Pythia, T5, and also I believe Vykan, we added that as well.
+
+63
+00:06:41,120 --> 00:06:49,960
+So the idea behind this is we are looking at the open source CI definition and looking
+
+64
+00:06:49,960 --> 00:06:55,160
+at the different models and different AI systems that exist.
+
+65
+00:06:55,160 --> 00:07:05,760
+And we are matching that, looking at the checklist and seeing if those systems are in fact, if
+
+66
+00:07:05,760 --> 00:07:10,360
+they achieve this, right?
+
+67
+00:07:10,360 --> 00:07:17,040
+If the open source CI definition applies well to them and we're validating this.
+
+68
+00:07:17,040 --> 00:07:25,440
+And so as part of this validation updates, here are the current results so far.
+
+69
+00:07:25,440 --> 00:07:35,160
+So looking at Arctic, for example, this is a large language model by Snowflake and it's
+
+70
+00:07:35,160 --> 00:07:36,540
+actually pretty good.
+
+71
+00:07:36,540 --> 00:07:38,600
+It's pretty open.
+
+72
+00:07:38,600 --> 00:07:46,680
+And we are looking at those different systems and for Arctic, we believe that it's expected
+
+73
+00:07:46,680 --> 00:07:52,880
+that it does, yes, fulfill the open source CI definition, all the checklists.
+
+74
+00:07:52,880 --> 00:07:59,640
+So it's very likely that Arctic is an open source AI, right?
+
+75
+00:07:59,640 --> 00:08:08,880
+Now we have other systems which can be a bit more challenging, right?
+
+76
+00:08:08,880 --> 00:08:19,640
+So Bloom, Bloom is regarded as an open model by some, but at the same time, they use Rail,
+
+77
+00:08:19,640 --> 00:08:22,400
+which is very restrictive.
+
+78
+00:08:22,400 --> 00:08:30,560
+It does not match the open source CI definition on that regard.
+
+79
+00:08:30,560 --> 00:08:36,240
+And if we look at all other models as well, we see that a few of them, the ones that we
+
+80
+00:08:36,240 --> 00:08:43,000
+expect to actually be considered open, in fact, they are, they are validating.
+
+81
+00:08:43,000 --> 00:08:51,080
+So for example, Omo, it's a very open and it's likely that it meets the open source
+
+82
+00:08:51,080 --> 00:08:53,840
+CI definition requirements.
+
+83
+00:08:53,840 --> 00:08:59,560
+And AlphaBifia, it's a confirmed yes right now.
+
+84
+00:08:59,560 --> 00:09:05,080
+So this validation process is important, right?
+
+85
+00:09:05,080 --> 00:09:08,240
+Now this, what's next?
+
+86
+00:09:08,240 --> 00:09:09,640
+What's the timeline?
+
+87
+00:09:09,640 --> 00:09:10,760
+What's happening?
+
+88
+00:09:10,760 --> 00:09:13,200
+We have this validation phase.
+
+89
+00:09:13,200 --> 00:09:14,920
+We are looking at the comments.
+
+90
+00:09:14,920 --> 00:09:21,480
+We're about to release version 0.0.9 after this validation.
+
+91
+00:09:21,480 --> 00:09:26,920
+We want to have a release candidate.
+
+92
+00:09:26,920 --> 00:09:30,880
+Also there's a guidance from the board and this is really important.
+
+93
+00:09:30,880 --> 00:09:37,360
+So the board has three requirements, right, for this definition.
+
+94
+00:09:37,360 --> 00:09:43,720
+It has to be supported by diverse stakeholders, right?
+
+95
+00:09:43,720 --> 00:09:47,600
+Also it must provide real life examples.
+
+96
+00:09:47,600 --> 00:09:57,480
+We don't want a definition that there's no AI system that actually matches that.
+
+97
+00:09:57,480 --> 00:10:06,640
+So it's important for us to have this, at least a few cases where those AI systems match
+
+98
+00:10:06,640 --> 00:10:08,160
+the open source CI definition.
+
+99
+00:10:08,160 --> 00:10:11,480
+They fulfill the open source CI definition.
+
+100
+00:10:11,480 --> 00:10:20,200
+And we really want to have this stable version by October, at all things open, where we're
+
+101
+00:10:20,200 --> 00:10:22,400
+going to be announcing this.
+
+102
+00:10:22,400 --> 00:10:25,620
+So we have this, this restriction on time.
+
+103
+00:10:25,620 --> 00:10:30,400
+We cannot just go on for this forever.
+
+104
+00:10:30,400 --> 00:10:39,040
+In fact, a lot of, there's a lot going on around policies and legislation around the
+
+105
+00:10:39,040 --> 00:10:40,040
+world.
+
+106
+00:10:40,040 --> 00:10:44,800
+And a definition, a clear definition really is really important.
+
+107
+00:10:44,800 --> 00:10:51,720
+So we're trying to run against the clock, right?
+
+108
+00:10:51,720 --> 00:10:58,180
+Basically this is a timeline throughout this past month, we've been attending several events
+
+109
+00:10:58,180 --> 00:11:00,060
+worldwide.
+
+110
+00:11:00,060 --> 00:11:07,020
+So July, right now we were in New York City for an event called Auspice for Good that
+
+111
+00:11:07,020 --> 00:11:12,360
+happened in the United Nations headquarters in New York.
+
+112
+00:11:12,360 --> 00:11:16,060
+And we also participated in Sustain Africa.
+
+113
+00:11:16,060 --> 00:11:17,520
+August is coming up.
+
+114
+00:11:17,520 --> 00:11:22,740
+We're still going to organize those online events, especially because not everyone can
+
+115
+00:11:22,740 --> 00:11:24,820
+travel, right?
+
+116
+00:11:24,820 --> 00:11:27,420
+And this makes it more accessible.
+
+117
+00:11:27,420 --> 00:11:31,900
+But we're going to attend AI Dev in Hong Kong.
+
+118
+00:11:31,900 --> 00:11:35,180
+This is an event by the Linux Foundation.
+
+119
+00:11:35,180 --> 00:11:37,540
+We're going to give a talk there.
+
+120
+00:11:37,540 --> 00:11:40,980
+We're also going to be in Northern Ireland, Buenos Aires.
+
+121
+00:11:40,980 --> 00:11:46,980
+So we want to make sure that we keep AI Dev will happen in Hong Kong, in Asia.
+
+122
+00:11:46,980 --> 00:11:50,500
+Northern Ireland, in Buenos Aires, in Latin America.
+
+123
+00:11:50,500 --> 00:11:52,960
+We just came from an event in New York.
+
+124
+00:11:52,960 --> 00:11:58,340
+So we really try to make this as representative as possible.
+
+125
+00:11:58,340 --> 00:12:02,940
+We're trying to organize an in-person event in Africa as well.
+
+126
+00:12:02,940 --> 00:12:06,380
+And I think we're finalizing that as well.
+
+127
+00:12:06,380 --> 00:12:13,340
+So we're trying to make the events as accessible as possible by making it online, but also
+
+128
+00:12:13,340 --> 00:12:19,620
+in-person events and representative of the whole world, right?
+
+129
+00:12:19,620 --> 00:12:28,460
+For October, then we have the All Things Open events, an important event around open source.
+
+130
+00:12:28,460 --> 00:12:34,980
+And by then, we hope to announce the stable version of the definition.
+
+131
+00:12:34,980 --> 00:12:42,580
+Also there's an event, a very small meeting around data.
+
+132
+00:12:42,580 --> 00:12:48,660
+But this is, we've been gathering mostly nonprofit organizations to be part of this meeting.
+
+133
+00:12:48,660 --> 00:12:52,100
+It's really small and it's fully booked.
+
+134
+00:12:52,100 --> 00:12:58,100
+So apologies if we cannot open it up more.
+
+135
+00:12:58,100 --> 00:13:07,260
+We will try to organize other events as well and invite people to be part of that.
+
+136
+00:13:07,260 --> 00:13:12,800
+This is the list of some events that have been happening these past months.
+
+137
+00:13:12,800 --> 00:13:16,820
+We were also in France for OW2.
+
+138
+00:13:16,820 --> 00:13:25,780
+And so you can see the dates here.
+
+139
+00:13:25,780 --> 00:13:28,760
+And this in-person events, they have been important.
+
+140
+00:13:28,760 --> 00:13:34,780
+We have been able to hear a lot of good feedback from everyone and really try to come up with
+
+141
+00:13:34,780 --> 00:13:43,100
+a definition that it has a lot of backing from people, right?
+
+142
+00:13:43,100 --> 00:13:50,340
+And so I would like to invite you to participate at these events, the events in person as well.
+
+143
+00:13:50,340 --> 00:14:01,500
+Also the public forum, you can go to discuss.opensource.org and comments on the drafts or any other topic
+
+144
+00:14:01,500 --> 00:14:04,340
+that you like to understand.
+
+145
+00:14:04,340 --> 00:14:05,380
+It's totally free.
+
+146
+00:14:05,380 --> 00:14:06,380
+You can join.
+
+147
+00:14:06,380 --> 00:14:11,420
+You don't have to join as an OSI paying member.
+
+148
+00:14:11,420 --> 00:14:13,840
+You can join as a free member as well.
+
+149
+00:14:13,840 --> 00:14:17,140
+And you have an access to the forum.
+
+150
+00:14:17,140 --> 00:14:22,300
+We're going to continue organizing this biweekly virtual townhouse.
+
+151
+00:14:22,300 --> 00:14:26,940
+And here is an opportunity for you to ask questions and try to understand what's really
+
+152
+00:14:26,940 --> 00:14:29,580
+happening, right?
+
+153
+00:14:29,580 --> 00:14:33,460
+Invite you if you want to volunteer for the validation process.
+
+154
+00:14:33,460 --> 00:14:42,940
+I believe right now it's the working groups are closed, but you can still email us to
+
+155
+00:14:42,940 --> 00:14:47,260
+know if there's still an opportunity.
+
+156
+00:14:47,260 --> 00:14:49,380
+And that's it.
+
+157
+00:14:49,380 --> 00:14:56,220
+So right now I'm going to open up spaces for questions and answers.
+
+158
+00:14:56,220 --> 00:15:03,340
+You can either ask questions on chats, if you have your microphone option open as well,
+
+159
+00:15:03,340 --> 00:15:05,940
+you can ask that question live.
+
+160
+00:15:05,940 --> 00:15:11,180
+And I'm available to answer your questions as best as I can.
+
+161
+00:15:11,180 --> 00:15:17,180
+>> I have a quick question.
+
+162
+00:15:17,180 --> 00:15:22,540
+Do you think there are only a few people on this call because there's not a release of
+
+163
+00:15:22,540 --> 00:15:29,420
+the .9 to discuss or sort of is that why this call is so quiet?
+
+164
+00:15:29,420 --> 00:15:31,100
+>> Yes.
+
+165
+00:15:31,100 --> 00:15:35,380
+So this is our 13th townhouse.
+
+166
+00:15:35,380 --> 00:15:40,020
+And so it has been we do this every two weeks.
+
+167
+00:15:40,020 --> 00:15:45,940
+And I think right now there's a high expectation for version 0.0.9.
+
+168
+00:15:45,940 --> 00:15:52,660
+We've been discussing 0.0.8 for quite some time right now.
+
+169
+00:15:52,660 --> 00:15:59,460
+And I think most of the questions around this version have been answered.
+
+170
+00:15:59,460 --> 00:16:03,300
+So people are really expecting a new version.
+
+171
+00:16:03,300 --> 00:16:04,300
+And highly so.
+
+172
+00:16:04,300 --> 00:16:05,300
+So are we.
+
+173
+00:16:05,300 --> 00:16:15,020
+We're just waiting for a final decision from the board to release the version.
+
+174
+00:16:15,020 --> 00:16:19,740
+I expect that we're going to have more questions around that.
+
+175
+00:16:19,740 --> 00:16:20,740
+>> Okay.
+
+176
+00:16:20,740 --> 00:16:23,420
+I have another question.
+
+177
+00:16:23,420 --> 00:16:26,540
+What about the events in Hong Kong and Buenos Aires?
+
+178
+00:16:26,540 --> 00:16:31,940
+Are there going to be more discussions, like presentations or more discussions or are they
+
+179
+00:16:31,940 --> 00:16:32,940
+panels?
+
+180
+00:16:32,940 --> 00:16:37,380
+Can you tell me any more about what's planned specifically for Hong Kong?
+
+181
+00:16:37,380 --> 00:16:38,380
+>> Of course.
+
+182
+00:16:38,380 --> 00:16:39,380
+Yeah.
+
+183
+00:16:39,380 --> 00:16:51,900
+For AI Dev Hong Kong, we're going to have a talk from Mare Joyce, who is the facilitator
+
+184
+00:16:51,900 --> 00:16:55,580
+of the open source AI definition.
+
+185
+00:16:55,580 --> 00:17:04,860
+And also from Annie Lai, who is the chair of the Linux Foundation AI and Data.
+
+186
+00:17:04,860 --> 00:17:08,880
+So they're going to give this talk.
+
+187
+00:17:08,880 --> 00:17:15,020
+And I believe they're also going to be available for any discussions.
+
+188
+00:17:15,020 --> 00:17:17,660
+I don't think we have a panel there.
+
+189
+00:17:17,660 --> 00:17:26,700
+Now for Buenos Aires, for Nerdiarla, there's going to be I see that there's a yes.
+
+190
+00:17:26,700 --> 00:17:33,460
+So we're going to have a presentation by Mare Joyce and staff.
+
+191
+00:17:33,460 --> 00:17:39,100
+And are we going to have a panel there or a I believe we're going to have a workshop
+
+192
+00:17:39,100 --> 00:17:43,220
+as well.
+
+193
+00:17:43,220 --> 00:17:51,300
+This is being confirmed right now by Holo, who is organizing this.
+
+194
+00:17:51,300 --> 00:17:54,220
+Yeah.
+
+195
+00:17:54,220 --> 00:18:02,500
+We're going to have a workshop as well.
+
+196
+00:18:02,500 --> 00:18:08,780
+It's very likely we're going to have a workshop there.
+
+197
+00:18:08,780 --> 00:18:14,420
+And it's this event in Buenos Aires is pretty huge.
+
+198
+00:18:14,420 --> 00:18:17,780
+It's 10,000 participants.
+
+199
+00:18:17,780 --> 00:18:20,440
+And very well organized events.
+
+200
+00:18:20,440 --> 00:18:28,220
+So I highly recommend it as well.
+
+201
+00:18:28,220 --> 00:18:40,460
+Anyone has any other questions?
+
+202
+00:18:40,460 --> 00:18:41,460
+Of course.
+
+203
+00:18:41,460 --> 00:18:42,460
+Yeah.
+
+204
+00:18:42,460 --> 00:18:43,460
+So let me share the link here.
+
+205
+00:18:43,460 --> 00:18:44,460
+Oh, thanks, Holo.
+
+206
+00:18:44,460 --> 00:18:47,460
+Holo has already added that.
+
+207
+00:18:47,460 --> 00:18:52,140
+In fact, Holo is one of the organizers of the events.
+
+208
+00:18:52,140 --> 00:18:54,100
+The leading organizer.
+
+209
+00:18:54,100 --> 00:19:00,380
+If you'd like to reach out to him directly, Holo, maybe if you could base your email
+
+210
+00:19:00,380 --> 00:19:03,260
+or all right.
+
+211
+00:19:03,260 --> 00:19:04,260
+Yeah.
+
+212
+00:19:04,260 --> 00:19:12,500
+Feel free to reach out to Holo regarding the events.
+
+213
+00:19:12,500 --> 00:19:18,100
+All right.
+
+214
+00:19:18,100 --> 00:19:23,500
+So if there are no other questions, this is going to be made available, the slides and
+
+215
+00:19:23,500 --> 00:19:24,500
+the recording.
+
+216
+00:19:24,500 --> 00:19:28,700
+I'm going to be basing this on the forum.
+
+217
+00:19:28,700 --> 00:19:29,700
+And thank you so much.
+
+218
+00:19:29,700 --> 00:19:31,780
+We really appreciate it.
+
+219
+00:19:31,780 --> 00:19:34,980
+And we look forward to your feedback on the forum as well.
+
+220
+00:19:34,980 --> 00:19:35,980
+All right?
+
+221
+00:19:35,980 --> 00:19:36,980
+Have a great weekend.
+
+222
+00:19:36,980 --> 00:19:37,980
+Bye bye.
+
+223
+00:19:37,980 --> 00:19:37,980
+Bye bye.
+
+224
+00:19:37,980 --> 00:19:47,500
+Bye bye.
+

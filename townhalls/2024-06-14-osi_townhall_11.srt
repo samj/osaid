@@ -1,0 +1,2052 @@
+1
+00:00:00,001 --> 00:00:08,040
+All right, folks, thanks for joining this town hall.
+
+2
+00:00:08,040 --> 00:00:13,520
+We meet every two weeks, try to keep up to date the community about the evolution of
+
+3
+00:00:13,520 --> 00:00:21,880
+the draft and summarizing the conversations that we've been having on the forums and in
+
+4
+00:00:21,880 --> 00:00:29,960
+conferences like the conference that I just presented at here in Paris, in Cologne, Paris,
+
+5
+00:00:29,960 --> 00:00:31,760
+in a hotel.
+
+6
+00:00:31,760 --> 00:00:41,240
+So hopefully the network gods support us to go through this recording.
+
+7
+00:00:41,240 --> 00:00:45,920
+Just the community agreement, remember that we're trying, the one that I'm really focused
+
+8
+00:00:45,920 --> 00:00:52,640
+on and love the most is the forward motion, the fact that we are trying to understand
+
+9
+00:00:52,640 --> 00:00:57,280
+where the problems are and if we don't find an immediate solution, still we've marked
+
+10
+00:00:57,280 --> 00:01:03,680
+the spot, we move around, we'll get back to it because we do have to find a solution.
+
+11
+00:01:03,680 --> 00:01:08,600
+We do have a tremendous amount of pressure from all over the place, from politicians,
+
+12
+00:01:08,600 --> 00:01:16,800
+policymakers and from the industry, from academia, from the nonprofit and civil society to provide
+
+13
+00:01:16,800 --> 00:01:23,960
+some sort of guidance of what open source AI really means since everyone is using this
+
+14
+00:01:23,960 --> 00:01:26,200
+term.
+
+15
+00:01:26,200 --> 00:01:32,360
+And reminding that this is our objective to have by the end of the year a workable definition,
+
+16
+00:01:32,360 --> 00:01:41,880
+something that is acceptable even though it may not be the most perfect test thing that
+
+17
+00:01:41,880 --> 00:01:49,960
+we can imagine because the world is moving very rapidly and things might change in the
+
+18
+00:01:49,960 --> 00:01:51,880
+future.
+
+19
+00:01:51,880 --> 00:01:59,840
+So we need to find ways to provide solid principles that maybe will not change but allow for some
+
+20
+00:01:59,840 --> 00:02:01,960
+parts to be adapted.
+
+21
+00:02:01,960 --> 00:02:07,080
+We'll talk about some of the topics that emerged last week.
+
+22
+00:02:07,080 --> 00:02:16,840
+So the current version of the definition is still draft 008 and this was released a little
+
+23
+00:02:16,840 --> 00:02:26,760
+bit over a month ago at this point and it's made of some parts and parts that have received
+
+24
+00:02:26,760 --> 00:02:34,960
+very little comments in the past months are the preamble which is the place where we define
+
+25
+00:02:34,960 --> 00:02:42,200
+what we're talking about which is we decided to adopt the definition of an AI system provided
+
+26
+00:02:42,200 --> 00:02:49,960
+by the Organization for Economic Collaboration and Development or ECD.
+
+27
+00:02:49,960 --> 00:02:55,480
+It seems to be a widely accepted definition so we're going to use that as a reference.
+
+28
+00:02:55,480 --> 00:03:00,960
+Maybe it's worth going back and remind people at this stage that the reason why we have
+
+29
+00:03:00,960 --> 00:03:08,840
+a definition of an AI system is because we needed to have an anchor for the conversation.
+
+30
+00:03:08,840 --> 00:03:15,680
+In the free software definition, the free software definition refers to the program
+
+31
+00:03:15,680 --> 00:03:22,560
+and everyone understands what the program is or at least there is a very small margin
+
+32
+00:03:22,560 --> 00:03:27,800
+for error or misinterpretations.
+
+33
+00:03:27,800 --> 00:03:34,240
+But when it comes to AI there are misinterpretations and that's why there is a definition and these
+
+34
+00:03:34,240 --> 00:03:43,960
+definitions are also stated in law like the AI Act mentions, defines an AI system in a
+
+35
+00:03:43,960 --> 00:03:47,240
+very similar way to the OECD text.
+
+36
+00:03:47,240 --> 00:03:49,000
+So that's what we have.
+
+37
+00:03:49,000 --> 00:03:55,960
+And then we have in the preamble the reason why we are working on and the reason why we
+
+38
+00:03:55,960 --> 00:04:03,680
+want the definition of open source AI which is a very short summary of the intention to
+
+39
+00:04:03,680 --> 00:04:13,760
+give users the same rights that they have in software, the same independence, control
+
+40
+00:04:13,760 --> 00:04:22,200
+of the technology to enable permissionless innovation and collaboration.
+
+41
+00:04:22,200 --> 00:04:29,120
+Now the concept of user is also not defined in the free software space and this is an
+
+42
+00:04:29,120 --> 00:04:31,160
+area that has received some comments.
+
+43
+00:04:31,160 --> 00:04:38,680
+We want to be explicit and I think I'm working on a draft 0.9 and that will specify, will
+
+44
+00:04:38,680 --> 00:04:45,240
+contain a suggestion for what the recipients of the rights should be.
+
+45
+00:04:45,240 --> 00:04:52,080
+And draft 0.09 will probably mention the fact that we want end users, so anyone who is interacting
+
+46
+00:04:52,080 --> 00:04:59,400
+with the system, putting input and receiving outputs and also developers and deployers
+
+47
+00:04:59,400 --> 00:05:04,120
+of AI systems needs to be able to enjoy those freedoms.
+
+48
+00:05:04,120 --> 00:05:09,840
+Now below this part have not received a lot of comments so they seem to be fairly stable
+
+49
+00:05:09,840 --> 00:05:10,840
+to me.
+
+50
+00:05:10,840 --> 00:05:19,800
+The one part that is new in draft 0.08 is the concept of preferred form to make modifications.
+
+51
+00:05:19,800 --> 00:05:27,440
+That is something that is described in the free software definition as access to the
+
+52
+00:05:27,440 --> 00:05:35,320
+source code that is necessary for the actions of study the software and modify the software.
+
+53
+00:05:35,320 --> 00:05:43,000
+Now to study an AI system and to modify an AI system it's necessary to define what the
+
+54
+00:05:43,000 --> 00:05:49,320
+preferred form to make modification is and that's where there is a new section in 0.08
+
+55
+00:05:49,320 --> 00:05:53,000
+that says what the preferred form to make modification is.
+
+56
+00:05:53,000 --> 00:05:55,520
+I'll go into the details later.
+
+57
+00:05:55,520 --> 00:05:58,360
+And finally the bottom part is a legal checklist.
+
+58
+00:05:58,360 --> 00:06:05,600
+This is what I refer to as it's based on a paper from the Linux Foundation called the
+
+59
+00:06:05,600 --> 00:06:08,280
+Model Openness Framework.
+
+60
+00:06:08,280 --> 00:06:14,960
+You will see often referred to with the acronym MOF.
+
+61
+00:06:14,960 --> 00:06:22,560
+And this lists components of machine learning systems and in generic terms but they're defined
+
+62
+00:06:22,560 --> 00:06:23,600
+in the paper.
+
+63
+00:06:23,600 --> 00:06:32,880
+We use this as an ideal checklist that a future certifier or reviewer of AI systems might
+
+64
+00:06:32,880 --> 00:06:39,440
+use as a reference to say if this component is available under licenses or terms or legal
+
+65
+00:06:39,440 --> 00:06:45,200
+terms that allow the same grant, the same freedoms of the open source definition, the
+
+66
+00:06:45,200 --> 00:06:52,800
+original one, then if the required components are available under those acceptable conditions
+
+67
+00:06:52,800 --> 00:06:56,280
+then the AI system is an open source AI.
+
+68
+00:06:56,280 --> 00:06:58,840
+If not, most likely it's not.
+
+69
+00:06:58,840 --> 00:07:02,080
+Okay, so let's go a little bit into the details.
+
+70
+00:07:02,080 --> 00:07:09,400
+The key feedback that we have received is around what is required and what is optional.
+
+71
+00:07:09,400 --> 00:07:21,960
+So the pieces of optional components, I mean required
+
+72
+00:07:21,960 --> 00:07:29,760
+components are the biggest conversation is about data.
+
+73
+00:07:29,760 --> 00:07:40,960
+The original datasets are seen, some people have seen the training dataset into the optional
+
+74
+00:07:40,960 --> 00:07:46,360
+components and I believe they may have jumped to conclusions because the, well I'll talk
+
+75
+00:07:46,360 --> 00:07:53,720
+about it, but these are replaced with data information.
+
+76
+00:07:53,720 --> 00:07:55,640
+So let's skip through.
+
+77
+00:07:55,640 --> 00:08:00,600
+The other required components that I want to draw your attention on is the fact that
+
+78
+00:08:00,600 --> 00:08:13,520
+the data processing and like one of the components is actually required and data processing and
+
+79
+00:08:13,520 --> 00:08:19,880
+labeling techniques and all the disclosures about how the dataset has been built are part
+
+80
+00:08:19,880 --> 00:08:24,560
+of the draft.
+
+81
+00:08:24,560 --> 00:08:32,920
+And I'll go into more details later.
+
+82
+00:08:32,920 --> 00:08:43,840
+So there is a very lots of confusion around this part of the definition and we need to
+
+83
+00:08:43,840 --> 00:08:46,240
+spend a little bit more time to discuss.
+
+84
+00:08:46,240 --> 00:08:52,440
+Other minor requests are comments that we have received that are around the fact that
+
+85
+00:08:52,440 --> 00:09:02,840
+the legal requirements are described as available with terms like available under OSD, the original
+
+86
+00:09:02,840 --> 00:09:10,840
+open source definition, OSD compliant terms or OSD conformant terms.
+
+87
+00:09:10,840 --> 00:09:14,040
+Quick explanation of what this means.
+
+88
+00:09:14,040 --> 00:09:19,280
+The data information, I mean the concept here in data information like training methodologies,
+
+89
+00:09:19,280 --> 00:09:25,480
+et cetera, training, training scope, the data, the scope of the data, where the sources,
+
+90
+00:09:25,480 --> 00:09:31,400
+et cetera, are in documentation are probably going to be in the form of documentation.
+
+91
+00:09:31,400 --> 00:09:39,000
+The documentation uses different licenses and different agreements for sharing and distributing
+
+92
+00:09:39,000 --> 00:09:42,160
+for distribution.
+
+93
+00:09:42,160 --> 00:09:49,880
+However, the OSI has reviewed licenses that are not specifically targeting software.
+
+94
+00:09:49,880 --> 00:09:57,600
+So we don't have a way to say right now, we don't have a list of OSI approved licenses
+
+95
+00:09:57,600 --> 00:09:58,720
+for documentation.
+
+96
+00:09:58,720 --> 00:10:05,120
+So we know what they look like and they conform, they comply with the open source definition.
+
+97
+00:10:05,120 --> 00:10:10,680
+In other words, they allow for no discrimination of use, no discrimination of people, no field
+
+98
+00:10:10,680 --> 00:10:18,320
+of use, strict restrictions, ability of preferred form to make modification to the text, like
+
+99
+00:10:18,320 --> 00:10:22,040
+the source code of the documentation, et cetera.
+
+100
+00:10:22,040 --> 00:10:27,440
+So like you don't distribute a PDF encrypted as documentation.
+
+101
+00:10:27,440 --> 00:10:28,440
+That's not acceptable.
+
+102
+00:10:28,440 --> 00:10:30,280
+So that's what these words say.
+
+103
+00:10:30,280 --> 00:10:37,500
+And for the model parameters, we do talk about the OSD conformant.
+
+104
+00:10:37,500 --> 00:10:43,520
+So we use a different term because most likely model parameters don't fall.
+
+105
+00:10:43,520 --> 00:10:47,280
+Actually it's quite clear at this point, they don't fall into copyright law.
+
+106
+00:10:47,280 --> 00:10:58,920
+So using the word licenses and license approved, OSI approved, OSI compliant terms is not really
+
+107
+00:10:58,920 --> 00:11:00,720
+useful.
+
+108
+00:11:00,720 --> 00:11:05,120
+We need to be using a different framework and it's probably going to be more in the
+
+109
+00:11:05,120 --> 00:11:12,120
+contract law, at least that's what many of the lawyers that I talk to seem to think.
+
+110
+00:11:12,120 --> 00:11:18,760
+And that's, you know, OSD conformant means you still need to give us access to the, give
+
+111
+00:11:18,760 --> 00:11:25,400
+us the possibility to share, modify, give out free, without asking for permissions,
+
+112
+00:11:25,400 --> 00:11:26,400
+et cetera.
+
+113
+00:11:26,400 --> 00:11:31,680
+So it's a word that it will be more explicit in draft 09.
+
+114
+00:11:31,680 --> 00:11:37,280
+There will be a description in that lawyers can interpret more clearly.
+
+115
+00:11:37,280 --> 00:11:40,480
+So let's get into the concept of data information.
+
+116
+00:11:40,480 --> 00:11:42,520
+And maybe I need to take a little bit of a step back.
+
+117
+00:11:42,520 --> 00:11:51,020
+The intention of the definition is to provide in the upper part, so above the checklist,
+
+118
+00:11:51,020 --> 00:11:58,040
+what we call the checklist, in the upper part of the document, the stated intentions and
+
+119
+00:11:58,040 --> 00:12:06,440
+sort of a general, unmutable, general purpose reference point that can resist the test of
+
+120
+00:12:06,440 --> 00:12:07,440
+time.
+
+121
+00:12:07,440 --> 00:12:11,480
+That's why we have principles in the preamble.
+
+122
+00:12:11,480 --> 00:12:16,080
+The definition of open source AI is synthetic in the four freedoms.
+
+123
+00:12:16,080 --> 00:12:22,000
+The definition of preferred form to make modifications to a machine learning system is because machine
+
+124
+00:12:22,000 --> 00:12:31,280
+learning is the place where we have the challenges today of recognizing the new artifacts in
+
+125
+00:12:31,280 --> 00:12:34,480
+these AI, modern AI systems.
+
+126
+00:12:34,480 --> 00:12:40,000
+And so when we get into the preferred form to make modifications, we were looking for,
+
+127
+00:12:40,000 --> 00:12:46,560
+we were pushing the community to find a way to describe in generic terms, the intention.
+
+128
+00:12:46,560 --> 00:12:52,480
+And the intention is to have the possibility to recreate from scratch.
+
+129
+00:12:52,480 --> 00:13:00,520
+If I receive an AI system that I like and I wanted to give it to others, I need to be
+
+130
+00:13:00,520 --> 00:13:08,520
+able to have all the instructions and all the tools and all the data to recreate a substantially
+
+131
+00:13:08,520 --> 00:13:12,640
+equivalent system.
+
+132
+00:13:12,640 --> 00:13:14,160
+Because that's important.
+
+133
+00:13:14,160 --> 00:13:21,400
+That's one of the fundamental principles of open source has always been to be able to
+
+134
+00:13:21,400 --> 00:13:28,920
+have the instructions and be able to share those with others.
+
+135
+00:13:28,920 --> 00:13:36,560
+Now during the review process and during the co-design process, we asked volunteers to
+
+136
+00:13:36,560 --> 00:13:48,520
+evaluate existing systems and to rank the importance of some of the components.
+
+137
+00:13:48,520 --> 00:13:55,200
+And during that phase, a recommendation came out when they voted that many people voted
+
+138
+00:13:55,200 --> 00:14:05,880
+much higher the availability of the details about how the datasets were built rather than
+
+139
+00:14:05,880 --> 00:14:07,960
+the actual datasets.
+
+140
+00:14:07,960 --> 00:14:16,560
+So that gave us our suggestion that maybe it was worth testing the waters and understand
+
+141
+00:14:16,560 --> 00:14:22,460
+a little bit better what the issue around data is.
+
+142
+00:14:22,460 --> 00:14:30,400
+From the high level perspective, when approaching the problem, we realized, I mean, all of us
+
+143
+00:14:30,400 --> 00:14:38,840
+have had the same impression, data, the pipeline to build an AI system starts with data that
+
+144
+00:14:38,840 --> 00:14:44,080
+gets filtered, mangled, assembled, tokenized into a dataset.
+
+145
+00:14:44,080 --> 00:14:47,360
+The dataset gets fed into the training machine.
+
+146
+00:14:47,360 --> 00:14:49,640
+Training is an iterative process.
+
+147
+00:14:49,640 --> 00:14:53,040
+Data comes in at different stages.
+
+148
+00:14:53,040 --> 00:14:59,840
+All of this is complicated but should be described and made available.
+
+149
+00:14:59,840 --> 00:15:02,880
+And after the training is done, you get the parameters.
+
+150
+00:15:02,880 --> 00:15:05,640
+And with the parameters, you load them into an inference engine.
+
+151
+00:15:05,640 --> 00:15:13,080
+And that is what responds to, well, and you put an UI on top that gives you input and
+
+152
+00:15:13,080 --> 00:15:19,240
+outputs like think of chat GPT or other systems like that.
+
+153
+00:15:19,240 --> 00:15:27,920
+When you look from the distance at this whole pipeline, the intuition is that the whole
+
+154
+00:15:27,920 --> 00:15:29,840
+pipeline needs to be made available.
+
+155
+00:15:29,840 --> 00:15:34,600
+That whole pipeline is what you need to modify the preferred form to make modifications to
+
+156
+00:15:34,600 --> 00:15:35,600
+the system.
+
+157
+00:15:35,600 --> 00:15:40,360
+Now, when you start to zoom in, that's where the problem arises.
+
+158
+00:15:40,360 --> 00:15:45,880
+So when I started looking into one of these systems that in my mind were the two systems
+
+159
+00:15:45,880 --> 00:15:55,080
+that are the most open, the most freely licensed, freely made available, and that one is called
+
+160
+00:15:55,080 --> 00:15:59,480
+Pythia from the nonprofit called Eleuther AI.
+
+161
+00:15:59,480 --> 00:16:06,000
+The other one is from the research institute, ALEN AI Institute.
+
+162
+00:16:06,000 --> 00:16:11,880
+And Pythia has been trained on a dataset called the pile.
+
+163
+00:16:11,880 --> 00:16:14,080
+The pile is fully described.
+
+164
+00:16:14,080 --> 00:16:16,960
+There is that community working on it.
+
+165
+00:16:16,960 --> 00:16:23,720
+All the tools that have been used to assemble the pile, filter the pile, train Pythia using
+
+166
+00:16:23,720 --> 00:16:28,360
+the pile and all that, they're all released with open source licenses.
+
+167
+00:16:28,360 --> 00:16:37,040
+Now the pile has been an object of a takedown request for alleged copyright infringement
+
+168
+00:16:37,040 --> 00:16:39,080
+in the United States.
+
+169
+00:16:39,080 --> 00:16:45,880
+And since then, the original distributor of the pile has stopped distributing it.
+
+170
+00:16:45,880 --> 00:16:56,040
+Now you can still ask the Eleuther AI group to get the dataset, but the legal status of
+
+171
+00:16:56,040 --> 00:17:01,960
+the distribution of the pile is in jeopardy, or at least it's unclear in the United States.
+
+172
+00:17:01,960 --> 00:17:08,360
+But as discussions on the forum have revealed, the pile is perfectly legal in Japan.
+
+173
+00:17:08,360 --> 00:17:15,480
+And because it's distributed by a nonprofit and it's distributed for nonprofit uses,
+
+174
+00:17:15,480 --> 00:17:24,720
+maybe it's also legal in Europe, because Europe has reformed its copyright act a few years
+
+175
+00:17:24,720 --> 00:17:36,440
+ago and they have included an explicit exception for nonprofit text and data mining, which
+
+176
+00:17:36,440 --> 00:17:39,480
+is what the pile does.
+
+177
+00:17:39,480 --> 00:17:45,840
+So this raises a question, like what happens when you have...
+
+178
+00:17:45,840 --> 00:17:49,560
+Well, Dolma is in a similar situation.
+
+179
+00:17:49,560 --> 00:17:56,280
+Initially it was released with a license that doesn't obey, it's not compliant with the
+
+180
+00:17:56,280 --> 00:17:57,960
+open source definition.
+
+181
+00:17:57,960 --> 00:18:05,760
+It is imposing restrictions and permissions that needed to be asked to the island institute
+
+182
+00:18:05,760 --> 00:18:07,360
+before it could be used.
+
+183
+00:18:07,360 --> 00:18:09,940
+And then they changed the license.
+
+184
+00:18:09,940 --> 00:18:16,240
+So initially it would be not an open source dataset or an open dataset.
+
+185
+00:18:16,240 --> 00:18:20,320
+It has become an open dataset now with the change of license.
+
+186
+00:18:20,320 --> 00:18:27,080
+But upon looking at more closely, it contains probably the same issues that the pile has.
+
+187
+00:18:27,080 --> 00:18:34,960
+So someone could sue or request Dolma to be taken down for copyright infringement in the
+
+188
+00:18:34,960 --> 00:18:36,800
+United States.
+
+189
+00:18:36,800 --> 00:18:46,040
+So there are these legal issues around copyright, the fact that datasets can be open at a certain
+
+190
+00:18:46,040 --> 00:18:51,640
+point in time and not open at a later stage or vice versa.
+
+191
+00:18:51,640 --> 00:18:59,800
+And the legality of the distribution of this dataset may change over time and changes over
+
+192
+00:18:59,800 --> 00:19:01,600
+geographies.
+
+193
+00:19:01,600 --> 00:19:04,520
+So calling an open...
+
+194
+00:19:04,520 --> 00:19:13,520
+Anchoring the definition of open source AI to something that can change so quickly and
+
+195
+00:19:13,520 --> 00:19:19,840
+can change over time is challenging in many ways.
+
+196
+00:19:19,840 --> 00:19:22,400
+And there is another issue that is more technical.
+
+197
+00:19:22,400 --> 00:19:29,880
+There are ways to train systems without actually creating a dataset.
+
+198
+00:19:29,880 --> 00:19:32,720
+And one of these is called federated learning.
+
+199
+00:19:32,720 --> 00:19:40,840
+And in federated learning, each provider of datasets is more common.
+
+200
+00:19:40,840 --> 00:19:43,760
+It's common or, you know, yeah, it's common.
+
+201
+00:19:43,760 --> 00:19:47,360
+It's used with privacy preserving techniques.
+
+202
+00:19:47,360 --> 00:19:52,640
+If you have data that is owned by a different entity and they don't want to share it with
+
+203
+00:19:52,640 --> 00:19:56,080
+others, they don't want to create a pool for different reasons.
+
+204
+00:19:56,080 --> 00:20:01,320
+If they cannot create a pool because law, like privacy laws for medical records, for
+
+205
+00:20:01,320 --> 00:20:07,320
+example, doesn't allow hospitals to share data of their patients, then what they can
+
+206
+00:20:07,320 --> 00:20:14,120
+do is to set up training engines inside their own data centers.
+
+207
+00:20:14,120 --> 00:20:20,600
+And these training engines collaborate remotely in a privacy preserving way, training a model
+
+208
+00:20:20,600 --> 00:20:24,480
+without the data actually ever leaving their data centers.
+
+209
+00:20:24,480 --> 00:20:31,080
+So this technique creates models, parameters, but doesn't create datasets.
+
+210
+00:20:31,080 --> 00:20:38,280
+So when we were keeping this in mind, then we thought, OK, so this is a challenge and
+
+211
+00:20:38,280 --> 00:20:41,280
+we need to find another way to approach it.
+
+212
+00:20:41,280 --> 00:20:48,600
+And that's where we came up with the definition of data information.
+
+213
+00:20:48,600 --> 00:21:00,600
+Data information is, I didn't put this in the slides, but data information is described
+
+214
+00:21:00,600 --> 00:21:10,000
+in the draft, which I encourage everyone to look at.
+
+215
+00:21:10,000 --> 00:21:22,240
+The draft says that data information is, the intention here is to recreate an equivalent
+
+216
+00:21:22,240 --> 00:21:24,760
+system.
+
+217
+00:21:24,760 --> 00:21:34,640
+And the text says sufficiently detailed information about the data used to train the system.
+
+218
+00:21:34,640 --> 00:21:40,840
+So that, and this is the very important part, it's not just the information about this data
+
+219
+00:21:40,840 --> 00:21:46,540
+used to train the system, but the objective here needs to be taken into consideration
+
+220
+00:21:46,540 --> 00:21:57,040
+so that a skilled person can recreate a substantially equivalent system using the same or similar
+
+221
+00:21:57,040 --> 00:21:58,880
+data.
+
+222
+00:21:58,880 --> 00:22:04,240
+And this concept of the same or similar is important.
+
+223
+00:22:04,240 --> 00:22:08,960
+And I'll give you one example.
+
+224
+00:22:08,960 --> 00:22:18,360
+Let's say you have received a model that the original developer trained on Reddit.
+
+225
+00:22:18,360 --> 00:22:29,400
+This was an example brought up by Tom Callaway's bot from the AWS team, who doesn't agree with
+
+226
+00:22:29,400 --> 00:22:32,400
+the concept of data information.
+
+227
+00:22:32,400 --> 00:22:40,600
+And he said, what if someone trained on Reddit, but licensed the data from the Reddit corporations,
+
+228
+00:22:40,600 --> 00:22:42,980
+let's say for $100 million.
+
+229
+00:22:42,980 --> 00:22:50,760
+So you receive now, they have disclosed the data information, and they have given you
+
+230
+00:22:50,760 --> 00:22:54,840
+all the code, the source code used to train and run the system.
+
+231
+00:22:54,840 --> 00:23:02,360
+Now what about the, does that qualify, would that qualify as an open source AI?
+
+232
+00:23:02,360 --> 00:23:10,880
+Now, my answer to that, looking at the concept of data information, I want to be able, to
+
+233
+00:23:10,880 --> 00:23:15,480
+give an answer, I need to be able to know if I can build a substantially equivalent
+
+234
+00:23:15,480 --> 00:23:19,080
+system using the same or similar data.
+
+235
+00:23:19,080 --> 00:23:28,840
+So the same data would require me to enter into $100 million agreement with Reddit corporation.
+
+236
+00:23:28,840 --> 00:23:34,200
+But if you think about it, while thinking about it, I know that a data set called Common
+
+237
+00:23:34,200 --> 00:23:42,400
+Crawl contains the Reddit data already, despite the fact that Reddit tries to remove, to have
+
+238
+00:23:42,400 --> 00:23:45,040
+Common Crawl remove that data.
+
+239
+00:23:45,040 --> 00:23:46,100
+But that's a different story.
+
+240
+00:23:46,100 --> 00:23:49,720
+So Common Crawl has the Reddit data.
+
+241
+00:23:49,720 --> 00:23:57,560
+So before I can answer to the question, whether something trained on Reddit licensed data,
+
+242
+00:23:57,560 --> 00:24:05,640
+I need to extract, try to extract the Reddit data from Common Crawl, run the training.
+
+243
+00:24:05,640 --> 00:24:11,520
+If the model that I find, that I obtained at the end of the training, using the same
+
+244
+00:24:11,520 --> 00:24:17,040
+code from the people who have given it to me initially, if I get something that behaves
+
+245
+00:24:17,040 --> 00:24:21,340
+the same way, then I would say it's an open source AI.
+
+246
+00:24:21,340 --> 00:24:31,340
+If the original training data set from Reddit contains some really special source that makes
+
+247
+00:24:31,340 --> 00:24:38,840
+it impossible to replicate, then it would not be an open source AI.
+
+248
+00:24:38,840 --> 00:24:42,680
+And so I leave it at that.
+
+249
+00:24:42,680 --> 00:24:50,620
+I want to make clear that the intention at this stage of the definition, the preferred
+
+250
+00:24:50,620 --> 00:24:56,400
+form to make modifications to the system, is written in generic terms to accommodate
+
+251
+00:24:56,400 --> 00:25:06,180
+the fact that sometimes data sets don't exist and sometimes data sets cannot be distributed
+
+252
+00:25:06,180 --> 00:25:14,900
+or they can be distributed, but only in some geographies and only at different times.
+
+253
+00:25:14,900 --> 00:25:22,620
+So it's been written by lawyers and you can recognize in there some concepts like the
+
+254
+00:25:22,620 --> 00:25:27,500
+concept of the word skilled person, which is a term of art.
+
+255
+00:25:27,500 --> 00:25:36,620
+And it's meant to be a generic application of the principles of open source.
+
+256
+00:25:36,620 --> 00:25:42,780
+Now we have received also on the forums there have been proposals from Giulio Ferraglioli
+
+257
+00:25:42,780 --> 00:25:50,700
+and Tom to use something like synthetic data instead.
+
+258
+00:25:50,700 --> 00:25:58,580
+It's a fascinating example, definitely, and synthetic data is data created from scratch
+
+259
+00:25:58,580 --> 00:26:02,540
+by large language models and other techniques.
+
+260
+00:26:02,540 --> 00:26:04,660
+But it's really an unproven technology.
+
+261
+00:26:04,660 --> 00:26:14,460
+It would be really detrimental, I think, to anchor a definition to some technology that
+
+262
+00:26:14,460 --> 00:26:20,140
+is unproven, that is expensive and may not work in all cases.
+
+263
+00:26:20,140 --> 00:26:23,380
+Also this doesn't leave...
+
+264
+00:26:23,380 --> 00:26:30,060
+Yeah, it's unproven and it may not scale.
+
+265
+00:26:30,060 --> 00:26:32,300
+So what if?
+
+266
+00:26:32,300 --> 00:26:42,300
+And the other position that we have read in one of the comments, I think also this was
+
+267
+00:26:42,300 --> 00:26:49,580
+coming from Giulio, is that the whole pipeline must be open source before something can be
+
+268
+00:26:49,580 --> 00:26:52,260
+considered an open source system.
+
+269
+00:26:52,260 --> 00:27:00,220
+And I push back a little bit on this because if the GNU project, when it started and even
+
+270
+00:27:00,220 --> 00:27:12,660
+today, contemplates the option of running open source and free software, however you
+
+271
+00:27:12,660 --> 00:27:17,340
+want to call it, it's the same thing, on top of Windows, for example.
+
+272
+00:27:17,340 --> 00:27:19,540
+You can run...
+
+273
+00:27:19,540 --> 00:27:20,540
+You can...
+
+274
+00:27:20,540 --> 00:27:29,860
+The concept of free software that depends on proprietary libraries because they're part
+
+275
+00:27:29,860 --> 00:27:31,180
+of the system.
+
+276
+00:27:31,180 --> 00:27:40,660
+So the whole concept of complete, pure open source components in a system is not something
+
+277
+00:27:40,660 --> 00:27:44,540
+that exists in nature.
+
+278
+00:27:44,540 --> 00:27:45,540
+We have...
+
+279
+00:27:45,540 --> 00:27:51,580
+We, the communities around the world, have always accepted compromises when that led
+
+280
+00:27:51,580 --> 00:27:54,540
+to having more openness.
+
+281
+00:27:54,540 --> 00:28:05,700
+And I really want to have this clear and taken into consideration when we get into this debate.
+
+282
+00:28:05,700 --> 00:28:09,020
+And so these are the most important points.
+
+283
+00:28:09,020 --> 00:28:13,220
+There are other considerations that we have received.
+
+284
+00:28:13,220 --> 00:28:25,620
+I think, if we don't strictly require datasets, what are the incentives for other corporations
+
+285
+00:28:25,620 --> 00:28:29,740
+to reveal their...
+
+286
+00:28:29,740 --> 00:28:33,980
+To share, to create more open, more common datasets?
+
+287
+00:28:33,980 --> 00:28:35,500
+That is a very good question.
+
+288
+00:28:35,500 --> 00:28:41,900
+And in fact, I think that given the status of the legal status of policies around the
+
+289
+00:28:41,900 --> 00:28:51,820
+world that make the pile or dolma complicated to share is the reason why at the OSI, together
+
+290
+00:28:51,820 --> 00:28:58,300
+with Creative Commons, together with Open Future, we want to have a separate conversation
+
+291
+00:28:58,300 --> 00:29:02,900
+about the issue of data datasets and policies around that.
+
+292
+00:29:02,900 --> 00:29:10,140
+And we're working on a conference this year, sometime in October, to get this conversation
+
+293
+00:29:10,140 --> 00:29:12,620
+started because it's a very complex one.
+
+294
+00:29:12,620 --> 00:29:17,500
+We do recognize that there is an issue with creating datasets and sharing them.
+
+295
+00:29:17,500 --> 00:29:18,500
+And we wanted...
+
+296
+00:29:18,500 --> 00:29:25,620
+But we don't have right now clarity about how to fix this issue, how to create incentives,
+
+297
+00:29:25,620 --> 00:29:35,100
+how to create concepts like copyleft inside between data and training and models.
+
+298
+00:29:35,100 --> 00:29:40,700
+So that, for example, aggregators of large datasets who want to do the right thing, they
+
+299
+00:29:40,700 --> 00:29:49,420
+want to create more open models, they want to share their data in a way that preserves
+
+300
+00:29:49,420 --> 00:29:55,380
+the possibility for society to have access to models that can be controlled and shared
+
+301
+00:29:55,380 --> 00:29:59,380
+by larger groups, not just single vendors.
+
+302
+00:29:59,380 --> 00:30:06,580
+We don't know what the mechanisms are because copyright, which has helped us create copyleft,
+
+303
+00:30:06,580 --> 00:30:11,820
+does not help us cross the boundary between what is data and what is the trained model.
+
+304
+00:30:11,820 --> 00:30:18,820
+We need to think about contract laws, maybe, and maybe even policies like new law that
+
+305
+00:30:18,820 --> 00:30:25,020
+help us tie data to train models.
+
+306
+00:30:25,020 --> 00:30:32,700
+It's a complex topic, and that's why I think we're having such a tremendous amount of discussions
+
+307
+00:30:32,700 --> 00:30:39,700
+over two years of the investigations and then later the co-design process around the open
+
+308
+00:30:39,700 --> 00:30:41,300
+source AI definition.
+
+309
+00:30:41,300 --> 00:30:48,260
+All the hardest conversations have been around this concept of what about the data?
+
+310
+00:30:48,260 --> 00:30:50,260
+And I think we need to...
+
+311
+00:30:50,260 --> 00:30:55,820
+We really need to come to the conclusion that this is a very complex topic and that needs
+
+312
+00:30:55,820 --> 00:30:56,820
+to be...
+
+313
+00:30:56,820 --> 00:31:00,220
+The data issue needs to be taken in a separate trial.
+
+314
+00:31:00,220 --> 00:31:04,900
+And the other thing that I want to say is that the concept of data information, if you
+
+315
+00:31:04,900 --> 00:31:10,540
+read the definition and start from the end, start from the end, what is the intention?
+
+316
+00:31:10,540 --> 00:31:17,020
+The intention is to recreate a substantially equivalent system, whether you are using the
+
+317
+00:31:17,020 --> 00:31:21,700
+same data, exact data, because it's available, or whether you're using similar data because
+
+318
+00:31:21,700 --> 00:31:30,820
+one way or another you find it, but you end up with the same model, same behavior, then
+
+319
+00:31:30,820 --> 00:31:34,060
+that should be enough in the definition.
+
+320
+00:31:34,060 --> 00:31:36,580
+And by the way, so let's look at what...
+
+321
+00:31:36,580 --> 00:31:37,580
+Let's move on.
+
+322
+00:31:37,580 --> 00:31:42,220
+Let's look at what we have done to validate this hypothesis because that's how we've been
+
+323
+00:31:42,220 --> 00:31:43,220
+operating.
+
+324
+00:31:43,220 --> 00:31:44,540
+Let's look at examples.
+
+325
+00:31:44,540 --> 00:31:48,300
+Let's see what's happening out there in the wild.
+
+326
+00:31:48,300 --> 00:31:49,780
+We validated...
+
+327
+00:31:49,780 --> 00:31:51,140
+We went through a few systems.
+
+328
+00:31:51,140 --> 00:31:52,140
+We asked people to...
+
+329
+00:31:52,140 --> 00:31:54,460
+A few, more than...
+
+330
+00:31:54,460 --> 00:31:56,180
+Now we are at 12.
+
+331
+00:31:56,180 --> 00:32:00,500
+So we're trying to look at what happens with these systems.
+
+332
+00:32:00,500 --> 00:32:10,020
+Some we know, they are not passing the bar, like Lama and Mistral and Falcon and Grok.
+
+333
+00:32:10,020 --> 00:32:15,500
+Where does the definition fail?
+
+334
+00:32:15,500 --> 00:32:18,820
+We find that it's hard to find the components, right?
+
+335
+00:32:18,820 --> 00:32:20,860
+With people who don't know about it.
+
+336
+00:32:20,860 --> 00:32:26,060
+So for example, if you look at Grok, Grok is one perfect example.
+
+337
+00:32:26,060 --> 00:32:35,020
+It was developed by XAI, the Elon Musk thing, and they just share the model weights very
+
+338
+00:32:35,020 --> 00:32:36,380
+freely and nothing else.
+
+339
+00:32:36,380 --> 00:32:41,420
+Now if you don't find the other components, is it because they don't exist, which is probably
+
+340
+00:32:41,420 --> 00:32:45,100
+most likely, or is it because you couldn't find it?
+
+341
+00:32:45,100 --> 00:32:49,700
+The other thing is it's hard to understand that licenses sometimes if you don't have...
+
+342
+00:32:49,700 --> 00:32:55,180
+I mean, the volunteers, they may have limited knowledge about the terms of use and terms
+
+343
+00:32:55,180 --> 00:32:57,620
+of distribution.
+
+344
+00:32:57,620 --> 00:33:00,220
+So some of these reviews have been incomplete.
+
+345
+00:33:00,220 --> 00:33:07,820
+But despite this, we ended up, I think that we get a very easy sense.
+
+346
+00:33:07,820 --> 00:33:12,620
+We know that Falcon is missing information about 3M technology.
+
+347
+00:33:12,620 --> 00:33:17,340
+Their licenses have been modified.
+
+348
+00:33:17,340 --> 00:33:20,220
+They're not really compliant with the open source definition.
+
+349
+00:33:20,220 --> 00:33:22,380
+Grok, we know it's opaque.
+
+350
+00:33:22,380 --> 00:33:28,540
+Lama, we know it fails because of a variety of reasons, like lack of transparency, but
+
+351
+00:33:28,540 --> 00:33:31,100
+also it's missing other...
+
+352
+00:33:31,100 --> 00:33:33,020
+The license is not compliant.
+
+353
+00:33:33,020 --> 00:33:37,060
+But we know Alma, for example, they've been doing the right thing, and we expect it to
+
+354
+00:33:37,060 --> 00:33:41,660
+be a positive, passing the bar of open source AI.
+
+355
+00:33:41,660 --> 00:33:44,660
+By the way, they also released the data set.
+
+356
+00:33:44,660 --> 00:33:46,700
+And the similar is for PTA.
+
+357
+00:33:46,700 --> 00:33:50,860
+They're fully transparent, and they released the data set.
+
+358
+00:33:50,860 --> 00:33:55,860
+You can ask for it, and you can get it also.
+
+359
+00:33:55,860 --> 00:34:02,780
+But the issue remains with legal uncertainties around the world.
+
+360
+00:34:02,780 --> 00:34:05,980
+The other, Bloom, we know that we have everything.
+
+361
+00:34:05,980 --> 00:34:11,500
+It's transparent, but it fails because the license it uses for many of its components
+
+362
+00:34:11,500 --> 00:34:14,620
+are imposing restrictions and things like that.
+
+363
+00:34:14,620 --> 00:34:23,580
+So the concept of data information seems to be behaving exactly as expected.
+
+364
+00:34:23,580 --> 00:34:27,220
+And it's showing also that there is a very strong correlation.
+
+365
+00:34:27,220 --> 00:34:32,460
+Granted, it's a small sample, but there is a strong correlation between requiring data
+
+366
+00:34:32,460 --> 00:34:38,220
+information and having access to the data set to caveat those legal issues.
+
+367
+00:34:38,220 --> 00:34:47,300
+So I think it's working, and I'm not convinced that the alternative proposals are positive,
+
+368
+00:34:47,300 --> 00:34:58,700
+because the alternative proposals put PTA and even Olmo outside of the approved licenses.
+
+369
+00:34:58,700 --> 00:35:01,540
+And that is really not an acceptable outcome.
+
+370
+00:35:01,540 --> 00:35:11,020
+We cannot go credibly to either commercial partners, academia, and policymakers and say,
+
+371
+00:35:11,020 --> 00:35:16,140
+"This is the open source AI definition," and not have an answer when they say, "Okay,
+
+372
+00:35:16,140 --> 00:35:18,380
+which one is open source AI?"
+
+373
+00:35:18,380 --> 00:35:26,180
+And we cannot point at any examples, or we can only point at small, trivial academic
+
+374
+00:35:26,180 --> 00:35:30,220
+experiments as examples.
+
+375
+00:35:30,220 --> 00:35:31,900
+It's not going to work.
+
+376
+00:35:31,900 --> 00:35:39,260
+And it's not going to work because the industry and policymakers are already being pushed
+
+377
+00:35:39,260 --> 00:35:44,660
+to look at Lama and Mistral, and they consider those open source.
+
+378
+00:35:44,660 --> 00:35:52,820
+So if we don't come up with a counterproposal quickly, we will have lost an opportunity
+
+379
+00:35:52,820 --> 00:35:54,180
+here.
+
+380
+00:35:54,180 --> 00:35:55,940
+So what's next?
+
+381
+00:35:55,940 --> 00:36:03,260
+I really hope that we resolve these comments and we resolve this conversation around the
+
+382
+00:36:03,260 --> 00:36:11,340
+concept of data information with a release in 0.9, which we get support from organizations
+
+383
+00:36:11,340 --> 00:36:17,300
+that understand the principles behind it and validate it.
+
+384
+00:36:17,300 --> 00:36:26,140
+We started to get some positive feedback this week at a conference in Paris from Lina Gora
+
+385
+00:36:26,140 --> 00:36:33,060
+and publicly announced support for this concept, and others are coming in.
+
+386
+00:36:33,060 --> 00:36:38,740
+And then between July and October, we're going to have a series of release candidates with
+
+387
+00:36:38,740 --> 00:36:41,580
+trying to get more endorsements.
+
+388
+00:36:41,580 --> 00:36:45,260
+So there are two ways for you to help.
+
+389
+00:36:45,260 --> 00:36:53,660
+One is to look, keep on searching for systems that seem to be complying with the definition
+
+390
+00:36:53,660 --> 00:36:59,940
+0.8 or not, like complete, go on with the validation phase.
+
+391
+00:36:59,940 --> 00:37:06,540
+And yeah, and this is the timeline, and these are the things that we are, the places where
+
+392
+00:37:06,540 --> 00:37:12,140
+we're going to be speaking next and presenting and discussing with the community.
+
+393
+00:37:12,140 --> 00:37:15,180
+And as usual, try to join the forums.
+
+394
+00:37:15,180 --> 00:37:20,320
+I know I may have said in the past, also give us feedback through social media channels.
+
+395
+00:37:20,320 --> 00:37:26,940
+If you do that, please tag us because the algorithms on LinkedIn, some people are still
+
+396
+00:37:26,940 --> 00:37:29,240
+using X, et cetera.
+
+397
+00:37:29,240 --> 00:37:31,040
+We miss comments.
+
+398
+00:37:31,040 --> 00:37:32,040
+We miss the discussions.
+
+399
+00:37:32,040 --> 00:37:38,400
+They're very hard to find, and instead, the forums are the perfect place.
+
+400
+00:37:38,400 --> 00:37:46,160
+And of course, join the town halls because it's a time when we can ask live Q&A.
+
+401
+00:37:46,160 --> 00:37:53,040
+And with that, I will stop the speaking and see if there are any questions.
+
+402
+00:37:53,040 --> 00:38:02,480
+Well, I see that there's been quite a jump on the written form.
+
+403
+00:38:02,480 --> 00:38:07,440
+Trying to summarize.
+
+404
+00:38:07,440 --> 00:38:12,280
+Is there, do you want to?
+
+405
+00:38:12,280 --> 00:38:20,600
+Yeah, I think you all have voice rights.
+
+406
+00:38:20,600 --> 00:38:31,320
+You should be able to speak.
+
+407
+00:38:31,320 --> 00:38:39,440
+Do I have a path on the open source AI definition where Facebook's llama goes green on the list?
+
+408
+00:38:39,440 --> 00:38:40,440
+Yeah.
+
+409
+00:38:41,440 --> 00:38:52,400
+They release all of their training information, training data, and we can rebuild something
+
+410
+00:38:52,400 --> 00:38:55,400
+similar like that.
+
+411
+00:38:55,400 --> 00:38:57,400
+Yeah.
+
+412
+00:38:57,400 --> 00:39:01,320
+Yeah, exactly.
+
+413
+00:39:01,320 --> 00:39:07,520
+I got to say, conversations with commercial operators, I think that they tell me that
+
+414
+00:39:07,520 --> 00:39:21,040
+the secret sauce is actually in the training techniques because they seem to, that's where
+
+415
+00:39:21,040 --> 00:39:22,040
+the secret goes.
+
+416
+00:39:22,040 --> 00:39:27,600
+It looks to me, they tell me that that's where their secrets are.
+
+417
+00:39:27,600 --> 00:39:36,400
+How they score high on the leaderboards for benchmarks is how they train, and they don't
+
+418
+00:39:36,400 --> 00:39:40,600
+want to share it.
+
+419
+00:39:40,600 --> 00:39:46,080
+But I spoke with, for example, Lina Gora, they have this project called OpenLLM360,
+
+420
+00:39:46,080 --> 00:39:52,280
+France OpenLLM360, something like that.
+
+421
+00:39:52,280 --> 00:39:57,800
+And they've been training a system from scratch and they are releasing all of their information
+
+422
+00:39:57,800 --> 00:40:02,800
+and data, et cetera, because they want to do the right thing and they want to [inaudible
+
+423
+00:40:02,800 --> 00:40:07,280
+00:10:50] a model that is optimized for the French language.
+
+424
+00:40:07,280 --> 00:40:15,840
+So that other, and then they want to generate that collaboration on top of that.
+
+425
+00:40:15,840 --> 00:40:25,120
+So Honey Sabak comments that if we think the definitions settles on the training data method
+
+426
+00:40:25,120 --> 00:40:29,880
+must be open as well, then we may end up with few or no open source AI models.
+
+427
+00:40:29,880 --> 00:40:31,600
+It's one of the risks.
+
+428
+00:40:31,600 --> 00:40:37,560
+But also I want to point out that there is a little bit more than that.
+
+429
+00:40:37,560 --> 00:40:43,160
+The reason why I want to move on with the conversation, because it's a highlight how
+
+430
+00:40:43,160 --> 00:40:47,920
+complicated this is and how different from software this is.
+
+431
+00:40:47,920 --> 00:40:52,960
+On software, when you modify, you get access to the source code, you modify it and you
+
+432
+00:40:52,960 --> 00:40:58,200
+have to rebuild before you can ship it again.
+
+433
+00:40:58,200 --> 00:41:02,400
+So the concept of modification and studying are like that.
+
+434
+00:41:02,400 --> 00:41:10,160
+You study, you see the source code and you modify, rebuild and ship it.
+
+435
+00:41:10,160 --> 00:41:12,280
+For AI, you don't do this.
+
+436
+00:41:12,280 --> 00:41:21,880
+You can study just for the purpose to see if there are bugs you don't need to rebuild
+
+437
+00:41:21,880 --> 00:41:30,880
+or if there are issues, biases, et cetera, to evaluate a model around AI.
+
+438
+00:41:30,880 --> 00:41:36,280
+But for modifications, you have multiple ways of achieving the same goal without having
+
+439
+00:41:36,280 --> 00:41:44,220
+to retrain, which really is a much more interesting question to me than the debate about data.
+
+440
+00:41:44,220 --> 00:41:53,260
+How do we treat models that are fully disclosed, share their datasets, share the techniques
+
+441
+00:41:53,260 --> 00:42:00,740
+for the training when that training is fine tuning on proprietary models?
+
+442
+00:42:00,740 --> 00:42:12,580
+And I'll say more, that fine tuning is so deep that every layer of the neural network
+
+443
+00:42:12,580 --> 00:42:21,100
+has been rewritten so deeply that none of the behaviors and the benchmarks from the
+
+444
+00:42:21,100 --> 00:42:26,020
+original model apply to the retrained, fine-tuned model.
+
+445
+00:42:26,020 --> 00:42:30,980
+That is a huge question that we need to find an answer for today.
+
+446
+00:42:30,980 --> 00:42:40,140
+And it's been raised on the forum with an example of an AI system developed by Mozilla
+
+447
+00:42:40,140 --> 00:42:49,620
+to write captions for descriptions of images in the PDF.js tool.
+
+448
+00:42:49,620 --> 00:42:53,180
+And they mixed two proprietary models.
+
+449
+00:42:53,180 --> 00:43:04,020
+One is an object detection vision, computer vision model, and one is GPT-2.
+
+450
+00:43:04,020 --> 00:43:08,020
+It's a large language model.
+
+451
+00:43:08,020 --> 00:43:09,540
+We don't know anything about the training.
+
+452
+00:43:09,540 --> 00:43:11,580
+They have biases, etc.
+
+453
+00:43:11,580 --> 00:43:18,460
+Mozilla has fine-tuned these models, assembled them together to achieve a new system, a new
+
+454
+00:43:18,460 --> 00:43:19,460
+behavior.
+
+455
+00:43:19,460 --> 00:43:21,980
+It's that open source.
+
+456
+00:43:21,980 --> 00:43:27,660
+And they have released everything that they have done in a very reproducible fashion.
+
+457
+00:43:27,660 --> 00:43:29,780
+So what are we going to call this?
+
+458
+00:43:29,780 --> 00:43:33,420
+Is this open source AI built on top of non-open models?
+
+459
+00:43:33,420 --> 00:43:34,420
+Yes.
+
+460
+00:43:34,420 --> 00:43:35,420
+Interesting question.
+
+461
+00:43:35,420 --> 00:43:36,420
+Okay.
+
+462
+00:43:36,420 --> 00:43:37,420
+So, let's go back to the slides.
+
+463
+00:43:37,420 --> 00:43:38,420
+So, I'm going to show you a few slides.
+
+464
+00:43:38,420 --> 00:43:39,420
+And I'm going to show you a few examples.
+
+465
+00:43:39,420 --> 00:43:40,420
+So, let's go back to the slides.
+
+466
+00:43:40,420 --> 00:43:41,420
+So, this is the first slide.
+
+467
+00:43:41,420 --> 00:43:42,420
+And this is the second slide.
+
+468
+00:43:42,420 --> 00:43:43,420
+And this is the third slide.
+
+469
+00:43:43,420 --> 00:43:44,420
+And this is the fourth slide.
+
+470
+00:43:44,420 --> 00:43:45,420
+And this is the fifth slide.
+
+471
+00:43:45,420 --> 00:43:46,420
+And this is the sixth slide.
+
+472
+00:43:46,420 --> 00:43:47,420
+And this is the seventh slide.
+
+473
+00:43:47,420 --> 00:43:48,420
+And this is the eighth slide.
+
+474
+00:43:48,420 --> 00:43:49,420
+And this is the ninth slide.
+
+475
+00:43:49,420 --> 00:43:50,420
+And this is the tenth slide.
+
+476
+00:43:50,420 --> 00:43:51,420
+And this is the twelfth slide.
+
+477
+00:43:51,420 --> 00:43:52,420
+And this is the eighth slide.
+
+478
+00:43:52,420 --> 00:43:53,420
+And this is the ninth slide.
+
+479
+00:43:53,420 --> 00:43:54,420
+And this is the twelfth slide.
+
+480
+00:43:54,420 --> 00:43:55,420
+And this is the tenth slide.
+
+481
+00:43:56,420 --> 00:43:57,420
+And this is the eleventh slide.
+
+482
+00:43:57,420 --> 00:43:58,420
+And this is the twelfth slide.
+
+483
+00:43:58,420 --> 00:43:59,420
+And this is the thirteenth slide.
+
+484
+00:43:59,420 --> 00:44:00,420
+And this is the fifteenth slide.
+
+485
+00:44:00,420 --> 00:44:01,420
+And this is the sixteenth slide.
+
+486
+00:44:01,420 --> 00:44:02,420
+And this is the seventeenth slide.
+
+487
+00:44:02,420 --> 00:44:03,420
+And this is the eighteenth slide.
+
+488
+00:44:03,420 --> 00:44:04,420
+And this is the twelfth slide.
+
+489
+00:44:04,420 --> 00:44:05,420
+And this is the seventeenth slide.
+
+490
+00:44:05,420 --> 00:44:06,420
+And this is the twelfth slide.
+
+491
+00:44:06,420 --> 00:44:07,420
+And this is the eighteenth slide.
+
+492
+00:44:07,420 --> 00:44:08,420
+And this is the twelfth slide.
+
+493
+00:44:08,420 --> 00:44:09,420
+And this is the seventeenth slide.
+
+494
+00:44:09,420 --> 00:44:10,420
+And this is the eighteenth slide.
+
+495
+00:44:10,420 --> 00:44:11,420
+And this is the twelfth slide.
+
+496
+00:44:11,420 --> 00:44:12,420
+And this is the eighteenth slide.
+
+497
+00:44:12,420 --> 00:44:13,420
+And this is the twelfth slide.
+
+498
+00:44:13,420 --> 00:44:14,420
+And this is the eighteenth slide.
+
+499
+00:44:14,420 --> 00:44:15,420
+And this is the twelfth slide.
+
+500
+00:44:15,420 --> 00:44:16,420
+And this is the eighteenth slide.
+
+501
+00:44:16,420 --> 00:44:37,420
+And this is the twelfth slide.
+
+502
+00:44:37,420 --> 00:45:03,420
+And this is the eighteenth slide.
+
+503
+00:45:03,420 --> 00:45:08,420
+And this is the twelfth slide.
+
+504
+00:45:08,420 --> 00:45:09,420
+And this is the eighteenth slide.
+
+505
+00:45:09,420 --> 00:45:10,420
+And this is the twelfth slide.
+
+506
+00:45:10,420 --> 00:45:11,420
+And this is the eighteenth slide.
+
+507
+00:45:11,420 --> 00:45:12,420
+And this is the twelfth slide.
+
+508
+00:45:12,420 --> 00:45:13,420
+And this is the eighteenth slide.
+
+509
+00:45:13,420 --> 00:45:14,420
+And this is the twelfth slide.
+
+510
+00:45:15,420 --> 00:45:16,420
+And this is the eighteenth slide.
+
+511
+00:45:16,420 --> 00:45:17,420
+And this is the twelfth slide.
+
+512
+00:45:27,420 --> 00:45:34,420
+And this is the twelfth slide.
+
+513
+00:45:34,420 --> 00:45:35,420
+And this is the twelfth slide.
+

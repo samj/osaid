@@ -1,0 +1,752 @@
+1
+00:00:00,001 --> 00:00:06,320
+The open source AI definition came out at the end of August with a new version
+
+2
+00:00:06,320 --> 00:00:13,240
+009. This is made of three main elements. It defines machine learning, open source
+
+3
+00:00:13,240 --> 00:00:19,840
+AI. The preferred form for making modifications is tied to the concepts of
+
+4
+00:00:19,840 --> 00:00:27,520
+machine learning. Because this is the technology that
+
+5
+00:00:27,520 --> 00:00:35,760
+requires a little bit more thinking because it has
+
+6
+00:00:35,760 --> 00:00:41,880
+this concept of trained models, trained weights and parameters. So the
+
+7
+00:00:41,880 --> 00:00:47,200
+weights are defined as the model weights and parameters made available under
+
+8
+00:00:47,200 --> 00:00:52,160
+open source initiative approved terms. And then there are
+
+9
+00:00:52,160 --> 00:01:01,400
+examples. Here what's important is the fact that we're trying to be vague
+
+10
+00:01:01,400 --> 00:01:08,120
+enough but signal precisely the intention. So the vagueness is because
+
+11
+00:01:08,120 --> 00:01:13,000
+we want to make sure that the text can resist time. It doesn't have to be updated
+
+12
+00:01:13,000 --> 00:01:19,720
+every time a new technology, a new model architecture, a new AI technology or
+
+13
+00:01:19,720 --> 00:01:26,240
+technique gets pushed out and made available. But also we want to use
+
+14
+00:01:26,240 --> 00:01:32,600
+the text so that the intention of the drafters is clear. The examples
+
+15
+00:01:32,600 --> 00:01:38,160
+provided are just part of the definition and they need to be
+
+16
+00:01:38,160 --> 00:01:45,280
+read together to understand it, to evaluate whether that signal, that
+
+17
+00:01:45,280 --> 00:01:51,120
+signaling of intention is clear enough. That should be clear. So from the source
+
+18
+00:01:51,120 --> 00:01:58,000
+code requirements also, this is a space that we know a lot more about.
+
+19
+00:01:58,000 --> 00:02:03,720
+Like what is the source code and how to deal with all the licenses etc.
+
+20
+00:02:03,720 --> 00:02:07,720
+But what's important here is that the requirement to release the source code
+
+21
+00:02:07,720 --> 00:02:14,920
+used to train the system. So one needs to be able, one who releases software
+
+22
+00:02:14,920 --> 00:02:22,560
+needs to be able to understand, one who releases an AI system needs to share all
+
+23
+00:02:22,560 --> 00:02:28,200
+the instructions, details including all the software used for training,
+
+24
+00:02:28,200 --> 00:02:33,280
+for validation, for testing. It's very important because that's the part where
+
+25
+00:02:33,280 --> 00:02:40,920
+collaboration can happen and improvements can happen iteratively.
+
+26
+00:02:40,920 --> 00:02:48,880
+And data information from the data front, the text here hasn't changed yet.
+
+27
+00:02:48,880 --> 00:02:54,040
+Although it's still quite convoluted and complicated, it could be refined. We'll
+
+28
+00:02:54,040 --> 00:03:03,200
+talk about that later. It needs to deal with the fact that laws are
+
+29
+00:03:03,200 --> 00:03:08,960
+complicated. And so this, again, the intention here is to give whoever
+
+30
+00:03:08,960 --> 00:03:16,880
+receives the software enough of the code itself and the datasets or the
+
+31
+00:03:16,880 --> 00:03:23,120
+provenance of the data so that the science can continue. And then also
+
+32
+00:03:23,120 --> 00:03:27,160
+innovation can keep on happening, building on the shoulder of the giants
+
+33
+00:03:27,160 --> 00:03:31,400
+exactly like it happens with the open source software where you don't have to
+
+34
+00:03:31,400 --> 00:03:38,800
+reinvent the wheel. You can build on top of someone else's work. So when
+
+35
+00:03:38,800 --> 00:03:45,320
+we released the version 009 of the open source AI definition, we
+
+36
+00:03:45,320 --> 00:03:55,000
+also released text to explain why the data set is considered, the release of
+
+37
+00:03:55,000 --> 00:04:00,880
+the training dataset is considered a benefit and not a requirement. It's
+
+38
+00:04:00,880 --> 00:04:09,200
+because training data are covered by laws that limit the resharing of the
+
+39
+00:04:09,200 --> 00:04:16,000
+datasets because of privacy rules, but also copyright law and even other
+
+40
+00:04:16,000 --> 00:04:20,480
+legislations like indigenous knowledge is not protected with copyright, it's
+
+41
+00:04:20,480 --> 00:04:28,160
+protected by other rules. And we need to take that diversity of legislation into
+
+42
+00:04:28,160 --> 00:04:33,400
+account and we need to make a difference between open training data, public
+
+43
+00:04:33,400 --> 00:04:39,520
+training data, and private data. So all of these have to be covered in a
+
+44
+00:04:39,520 --> 00:04:44,280
+different way, have to be treated differently because they are
+
+45
+00:04:44,280 --> 00:04:53,440
+different. And so the other thing worth reminding everyone all the time is
+
+46
+00:04:53,440 --> 00:05:00,640
+that the OSI board has set some basic criteria to approve the open
+
+47
+00:05:00,640 --> 00:05:04,800
+source, the results of the co-design process. We presented these slides a
+
+48
+00:05:04,800 --> 00:05:12,240
+couple of weeks ago in China, but the board requires that the
+
+49
+00:05:12,240 --> 00:05:19,800
+definition is supported by a diverse type of stakeholder and by
+
+50
+00:05:19,800 --> 00:05:25,760
+diversity it's listed not only into interest groups like users, developers,
+
+51
+00:05:25,760 --> 00:05:30,960
+deployers, subject of AI, but also geographic distribution. So we don't
+
+52
+00:05:30,960 --> 00:05:36,840
+want to have only Europeans or North Americans or South Americans, etc. We're
+
+53
+00:05:36,840 --> 00:05:43,760
+making an effort to go around the world to disseminate this work
+
+54
+00:05:43,760 --> 00:05:50,680
+and gather approval around the world and this is thanks to a grant from the
+
+55
+00:05:50,680 --> 00:05:55,440
+Alfred P Sloan Foundation. The other requirement is that the definition needs
+
+56
+00:05:55,440 --> 00:06:02,280
+to provide real-life examples. So once approved we need to make sure that
+
+57
+00:06:02,280 --> 00:06:10,160
+we have systems that we can point at and say these are open
+
+58
+00:06:10,160 --> 00:06:16,000
+source AI. And right now comfortably we can say that the
+
+59
+00:06:16,000 --> 00:06:24,160
+complying systems are PTI, the set of models released by
+
+60
+00:06:24,160 --> 00:06:31,680
+Yale AI Institute and LLM 360 and TII also. So non-profit research
+
+61
+00:06:31,680 --> 00:06:36,280
+institutions who have released the large language models and similarly
+
+62
+00:06:36,280 --> 00:06:44,960
+powerful AI systems. And we need to be ready by the October board
+
+63
+00:06:44,960 --> 00:06:52,520
+meeting that will happen on October 27th in North Carolina. So let's go through
+
+64
+00:06:52,520 --> 00:06:57,280
+the relevant comments that we have received this past few days on the
+
+65
+00:06:57,280 --> 00:07:04,360
+forums. We had Alison Randall basically requesting to be more
+
+66
+00:07:04,360 --> 00:07:11,760
+explicit about the requirements. This is a fair request. The text
+
+67
+00:07:11,760 --> 00:07:19,320
+tends to, the text of the definition tends to be more vague, to leave some vague
+
+68
+00:07:19,320 --> 00:07:24,920
+words in there. Like I said before, the intention is to be vague enough but
+
+69
+00:07:24,920 --> 00:07:31,560
+signal clearly the intentions. So it's worth rereading the text to
+
+70
+00:07:31,560 --> 00:07:35,000
+make sure that those intentions are clear. And especially one of the
+
+71
+00:07:35,000 --> 00:07:41,080
+intentions that Alison points out is the requirement to be explicit about
+
+72
+00:07:41,080 --> 00:07:47,760
+allowing, adding requirements the same way that the open source definition, the
+
+73
+00:07:47,760 --> 00:07:52,680
+classic open source definition allows for some requirements that are considered
+
+74
+00:07:52,680 --> 00:07:59,920
+to be good. Like a requirement for copyleft, you know, the persistence of
+
+75
+00:07:59,920 --> 00:08:05,840
+propagating the rights to downstream users is something that needs to be
+
+76
+00:08:05,840 --> 00:08:13,840
+evaluated. Whether the text that exists today allows that or if the text is
+
+77
+00:08:13,840 --> 00:08:20,640
+too vague and doesn't allow for that propagation downstream.
+
+78
+00:08:20,640 --> 00:08:25,200
+Technically, also legally, we need to understand how that can happen but
+
+79
+00:08:25,200 --> 00:08:32,560
+that's a different story most likely. Also be explicit about the fact that if the
+
+80
+00:08:32,560 --> 00:08:39,360
+training is done on public data, so data that actually can be distributed, there
+
+81
+00:08:39,360 --> 00:08:48,360
+are no exclusive IP rights, no natural exclusive IP rights. Like content created
+
+82
+00:08:48,360 --> 00:08:54,440
+by humans are, they always will have, I mean most parts of the world will have
+
+83
+00:08:54,440 --> 00:09:04,760
+copyright or civil rights, due to in European continental and moral rights.
+
+84
+00:09:04,760 --> 00:09:11,840
+But that doesn't mean that, for example, temperatures of the ocean, that
+
+85
+00:09:11,840 --> 00:09:17,640
+kind of data, that information doesn't have any right naturally. So
+
+86
+00:09:17,640 --> 00:09:23,280
+we want to consider that. She also suggests renaming data as source data.
+
+87
+00:09:23,280 --> 00:09:29,880
+This is something that I'm personally skeptical about. I would love to see more
+
+88
+00:09:29,880 --> 00:09:36,320
+people leaving comments on the forum because there is no, I mean, so data
+
+89
+00:09:36,320 --> 00:09:43,960
+is not source. Source is the word that has been traditionally used to
+
+90
+00:09:43,960 --> 00:09:49,160
+signal the source code or the preferred form for making modification to the
+
+91
+00:09:49,160 --> 00:09:54,360
+software. It's also mentioned in the original open source definition as such
+
+92
+00:09:54,360 --> 00:10:02,000
+and data is not the source of the training, training the outputs like
+
+93
+00:10:02,000 --> 00:10:08,520
+the weights and parameters. So I'm less reluctant. I mean it's called
+
+94
+00:10:08,520 --> 00:10:14,440
+training data in literature. So anyway I'd love to hear more comments
+
+95
+00:10:14,440 --> 00:10:22,360
+about this on the forum. And speaking of that concept of source as data, an
+
+96
+00:10:22,360 --> 00:10:27,640
+interesting comment received by a person, Professor Leon, he's a professor at
+
+97
+00:10:27,640 --> 00:10:36,360
+Stanford University. He made a good comment on the document on the
+
+98
+00:10:36,360 --> 00:10:45,000
+text. He's saying that the data is basically the data set is the output of
+
+99
+00:10:45,000 --> 00:10:50,400
+the processing of the original data and he's arguing that it's a lot more
+
+100
+00:10:50,400 --> 00:10:55,560
+important to get access to all the scripts used to build the data set
+
+101
+00:10:55,560 --> 00:11:01,800
+rather than the data set itself because the data set is not very comprehensible
+
+102
+00:11:01,800 --> 00:11:07,760
+without the code. And it's an interesting comment because it
+
+103
+00:11:07,760 --> 00:11:15,120
+really gives you, changes the perception. The data set is more like a
+
+104
+00:11:15,120 --> 00:11:23,920
+binary of the original data. And the source code is actually the code used
+
+105
+00:11:23,920 --> 00:11:31,160
+to create those tokens. So a very interesting comment in there and one
+
+106
+00:11:31,160 --> 00:11:36,800
+that might require also some refining, fine-tuning of the text of the
+
+107
+00:11:36,800 --> 00:11:41,600
+definition. Then we have comments on, we have received comments on hardware
+
+108
+00:11:41,600 --> 00:11:49,160
+considerations from Mariana Taglio and Alison Randall. This is an area, hardware
+
+109
+00:11:49,160 --> 00:11:53,600
+is an area where the open source initiative and open source in general
+
+110
+00:11:53,600 --> 00:12:00,160
+has not considered because it's a completely different layer and
+
+111
+00:12:00,160 --> 00:12:06,760
+can be isolated. Even in AI I think it can be isolated. Adding
+
+112
+00:12:06,760 --> 00:12:10,880
+hardware considerations would make the whole specification, the whole definition
+
+113
+00:12:10,880 --> 00:12:16,440
+a lot more complicated and I'm not sure it's viable. But you know if you think it
+
+114
+00:12:16,440 --> 00:12:22,800
+is, this is your time to leave your comments on the forums on this topic.
+
+115
+00:12:22,800 --> 00:12:31,920
+To me getting detailed aspects like hardware specifications, the
+
+116
+00:12:31,920 --> 00:12:38,200
+carbon footprint and things like that is interesting from the social benefit
+
+117
+00:12:38,200 --> 00:12:45,800
+perspective. But I don't think it really helps with the concept of improving,
+
+118
+00:12:45,800 --> 00:12:53,160
+collaborating, innovate on the AI systems. It's a little
+
+119
+00:12:53,160 --> 00:12:58,760
+bit the considerations about ethical use. They're valuable but they need to be put
+
+120
+00:12:58,760 --> 00:13:04,920
+at a different level, like a legislation level for example. But your comments, I
+
+121
+00:13:04,920 --> 00:13:08,520
+mean please leave your comments in this part if you think they are part of
+
+122
+00:13:08,520 --> 00:13:15,120
+the, if they're important for studying, share, modify and distribute AI
+
+123
+00:13:15,120 --> 00:13:22,560
+systems. And finally just a couple of days ago Carsten Wade made this proposal
+
+124
+00:13:22,560 --> 00:13:29,280
+to map visually the rights to distribute data set. I think it's an interesting
+
+125
+00:13:29,280 --> 00:13:36,880
+representation in a quadrant type of way where if you're
+
+126
+00:13:36,880 --> 00:13:45,040
+building on data, I mean he has this quadrant with two axes. One is on the
+
+127
+00:13:45,040 --> 00:13:50,720
+vertical axe, you have the IP intellectual property rights, present or
+
+128
+00:13:50,720 --> 00:13:58,600
+absent. And then if you want to have an integrity of the
+
+129
+00:13:58,600 --> 00:14:08,080
+pipeline stack, just another axis. So if you're
+
+130
+00:14:08,080 --> 00:14:15,000
+training something on public data, then basically anyone have high integrity
+
+131
+00:14:15,000 --> 00:14:21,880
+then you must release everything including the
+
+132
+00:14:21,880 --> 00:14:30,520
+original data set because basically why shouldn't you? Since there are no, I mean
+
+133
+00:14:30,520 --> 00:14:37,040
+since you should have all the IP rights. But if you're training on
+
+134
+00:14:37,040 --> 00:14:43,800
+private data then it's open source AI minus the data, D minus.
+
+135
+00:14:43,800 --> 00:14:49,480
+I think it's an interesting visual on this. Or if you don't have
+
+136
+00:14:49,480 --> 00:14:57,640
+the, if you choose not to release the data then it's
+
+137
+00:14:57,640 --> 00:15:05,760
+definitely going to be a closed, not open source AI. So let's talk about what's
+
+138
+00:15:05,760 --> 00:15:12,200
+next and that is we're going to be reviewing the text,
+
+139
+00:15:12,200 --> 00:15:18,080
+close some of the comments, most of the comments and release a release
+
+140
+00:15:18,080 --> 00:15:24,000
+candidate, have a release candidate version by probably in the next, within a
+
+141
+00:15:24,000 --> 00:15:28,940
+couple of weeks. So if you have more comments, please do it as soon as
+
+142
+00:15:28,940 --> 00:15:32,960
+possible. Although there will still be time to change after the release
+
+143
+00:15:32,960 --> 00:15:38,920
+candidate. And then if you're ready to endorse the open source AI definition, we
+
+144
+00:15:38,920 --> 00:15:43,760
+are looking for individuals and organizations who can endorse it and
+
+145
+00:15:43,760 --> 00:15:49,920
+that means that your name or your organization affiliation will be
+
+146
+00:15:49,920 --> 00:15:55,760
+appended to the press release and the announcement page of the open source AI
+
+147
+00:15:55,760 --> 00:16:03,280
+definition. So if you want to be part of this release, please email me or Mer,
+
+148
+00:16:03,280 --> 00:16:11,960
+the email address is on the deck. And just to give a timeline, we are
+
+149
+00:16:11,960 --> 00:16:17,720
+in September now, we gave a few talks around the world. We are going to
+
+150
+00:16:17,720 --> 00:16:28,120
+Buenos Aires next week, we Ashland in Oregon this weekend, we've been in
+
+151
+00:16:28,120 --> 00:16:36,400
+Daba and Bangalore to present this definition and we're going to
+
+152
+00:16:36,400 --> 00:16:42,800
+be holding more town halls every week until basically until the end of
+
+153
+00:16:42,800 --> 00:16:48,360
+October for the official launch in North Carolina at All Things Open.
+
+154
+00:16:48,360 --> 00:16:55,600
+We're going to be holding a special data workshop on data
+
+155
+00:16:55,600 --> 00:17:02,320
+in Paris also in October thanks to the Alfred P. Sloan Foundation grant.
+
+156
+00:17:02,320 --> 00:17:10,480
+Alright, so the way to participate is to endorse, so you can email me or
+
+157
+00:17:10,480 --> 00:17:19,200
+Stefano or Mer and you can keep on commenting on the forum. And with that,
+
+158
+00:17:19,200 --> 00:17:27,680
+time for Q&A. So take the floor as you want, open your mic or type
+
+159
+00:17:27,680 --> 00:17:31,360
+questions if you prefer.
+
+160
+00:17:31,360 --> 00:17:46,960
+I can see Ted comment saying not sure why hardware is needed.
+
+161
+00:17:46,960 --> 00:17:54,880
+Yeah, go ahead Ted. Yes, Stefano, thank you for sharing, this is really helpful.
+
+162
+00:17:54,880 --> 00:18:06,240
+Two questions, one is can you share the slides that we can distribute to many
+
+163
+00:18:06,240 --> 00:18:13,120
+people who cannot attend this town hall? Yes, so the session is recorded, I'm
+
+164
+00:18:13,120 --> 00:18:19,600
+going to cut the part without the audio and we're going to be sharing the deck, yes.
+
+165
+00:18:19,600 --> 00:18:26,000
+Okay, so you will share through email? Yeah, all of them are
+
+166
+00:18:26,000 --> 00:18:30,720
+shared on the forum, so I will put the link on where we're going to be
+
+167
+00:18:30,720 --> 00:18:37,880
+putting it so you can subscribe and get that one. But yeah, I can send it to you via email.
+
+168
+00:18:37,880 --> 00:18:48,280
+Okay, and secondly that endorsement, so it's just an email, is there any
+
+169
+00:18:48,280 --> 00:18:58,720
+template or just a simple email that endorses the RC1 unstable version?
+
+170
+00:18:58,720 --> 00:19:05,120
+Just an email saying, hey, I'm interested, my organization is
+
+171
+00:19:05,120 --> 00:19:12,520
+interested in endorsing this and we're going to be putting you in the
+
+172
+00:19:12,520 --> 00:19:19,720
+loop, so every release candidate will make sure that you have it and
+
+173
+00:19:19,720 --> 00:19:25,760
+once we get closer to the press release time, we will ask you formally, this
+
+174
+00:19:25,760 --> 00:19:31,760
+is probably going to be at the beginning of October, for a quote. Okay, can I
+
+175
+00:19:31,760 --> 00:19:42,120
+suggest that we put a link on the relevant website, so that I
+
+176
+00:19:42,120 --> 00:19:50,480
+can propagate or send to whoever is interested in endorsing it.
+
+177
+00:19:50,480 --> 00:19:56,920
+Just one click, one click link, so whatever individual or
+
+178
+00:19:56,920 --> 00:20:02,880
+organizations, we can hit on the quick list of names or organizations and
+
+179
+00:20:02,880 --> 00:20:09,600
+that would be it, instead of just a separate email.
+
+180
+00:20:09,600 --> 00:20:14,280
+Oh no, absolutely, yes, we're thinking about also creating a landing page with
+
+181
+00:20:14,280 --> 00:20:19,280
+the text and the button below that says, yes, I endorse it, name and
+
+182
+00:20:19,280 --> 00:20:24,920
+affiliation. Yeah, okay, all right, that'd be great, thank you, I have no more
+
+183
+00:20:24,920 --> 00:20:33,720
+questions. Thank you. Anyone else, any doubts, ideas?
+
+184
+00:20:33,720 --> 00:20:44,400
+Overall, it looks good to you?
+
+185
+00:20:44,400 --> 00:20:58,200
+All right then, oh, Jay, is someone typing?
+
+186
+00:21:12,480 --> 00:21:18,920
+All right, if there are no more questions, I mean, if you have more questions, you
+
+187
+00:21:18,920 --> 00:21:26,280
+can always email me or ask directly on the forum, really feel free to use all
+
+188
+00:21:26,280 --> 00:21:32,120
+the resources we have. I want to thank everyone and
+

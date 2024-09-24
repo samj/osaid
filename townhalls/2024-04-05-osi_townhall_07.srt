@@ -1,0 +1,796 @@
+1
+00:00:00,001 --> 00:00:02,000
+I almost forgot.
+
+2
+00:00:02,000 --> 00:00:04,000
+All right.
+
+3
+00:00:04,000 --> 00:00:06,000
+Welcome, everyone.
+
+4
+00:00:06,000 --> 00:00:19,000
+This is our public town hall where we explain the status, where we are, and highlight the -- what happened in the past two weeks, and we talk about what's coming in the next near future.
+
+5
+00:00:19,000 --> 00:00:24,000
+So today Mer is going to lead the presentation.
+
+6
+00:00:24,000 --> 00:00:26,000
+So Mer, it's up to you.
+
+7
+00:00:26,000 --> 00:00:28,000
+>> Okay.
+
+8
+00:00:28,000 --> 00:00:29,000
+Thank you.
+
+9
+00:00:29,000 --> 00:00:31,000
+So I think you all know me.
+
+10
+00:00:31,000 --> 00:00:37,000
+I'm the process facilitator for co-designing the open source AI definition.
+
+11
+00:00:37,000 --> 00:00:46,000
+And I think you all have seen this, just that we have some community agreements that we use at all meetings.
+
+12
+00:00:46,000 --> 00:00:51,000
+One mic, one speaker is about not interrupting.
+
+13
+00:00:51,000 --> 00:00:57,000
+Take space, make space just says if you tend to be more quiet, we invite you to speak up.
+
+14
+00:00:57,000 --> 00:01:04,000
+And if you tend to speak up more easily, to give space for others to speak as well.
+
+15
+00:01:04,000 --> 00:01:12,000
+Kindness just reminding us to be gentle with each other because this is quite hard, but we don't have to be.
+
+16
+00:01:12,000 --> 00:01:18,000
+Forward motion is acknowledging that there's so many challenges and obstacles to this work.
+
+17
+00:01:18,000 --> 00:01:22,000
+And just that we can choose for those to stop the process.
+
+18
+00:01:22,000 --> 00:01:31,000
+But rather instead that if we hit a boulder, we note it and we walk around it and come back in the future as needed.
+
+19
+00:01:31,000 --> 00:01:33,000
+And solution seeking is similar.
+
+20
+00:01:33,000 --> 00:01:37,000
+It's just that it's easier to say, oh, this doesn't work, that won't work.
+
+21
+00:01:37,000 --> 00:01:41,000
+And it's more challenging and vulnerable to say, hey, how about this?
+
+22
+00:01:41,000 --> 00:01:42,000
+Could we do it this way?
+
+23
+00:01:42,000 --> 00:01:52,000
+But that we need that kind of, I guess, intellectual energy to make this definition a good one.
+
+24
+00:01:52,000 --> 00:01:57,000
+So, yeah, so this is a slide probably anyone who's been to one of these has seen before.
+
+25
+00:01:57,000 --> 00:02:02,000
+We're creating the version 1.0 of the open source AI definition this year.
+
+26
+00:02:02,000 --> 00:02:05,000
+And this is where we are now.
+
+27
+00:02:05,000 --> 00:02:07,000
+And these are the parts of the definition.
+
+28
+00:02:07,000 --> 00:02:18,000
+Defining an AI system, a preamble about the need for the definition, issues that are out of scope, definitions of the four freedoms, studies, modify and share.
+
+29
+00:02:18,000 --> 00:02:29,000
+And that was the first part of our co-design process at the end of last year was co-designing the specific words that we're using to define those concepts.
+
+30
+00:02:29,000 --> 00:02:33,000
+And that will be shared later in the presentation in case you need a refresher.
+
+31
+00:02:33,000 --> 00:02:38,000
+And what we're doing now is we're working on a draft of the checklist.
+
+32
+00:02:38,000 --> 00:02:47,000
+So what are the required components for an AI system to be considered open by according to OSI?
+
+33
+00:02:47,000 --> 00:02:53,000
+And that summarizes what I've just told you.
+
+34
+00:02:53,000 --> 00:02:55,000
+We're pretty much finished with the rest of it.
+
+35
+00:02:55,000 --> 00:03:01,000
+And we're working on a draft of the checklist.
+
+36
+00:03:01,000 --> 00:03:05,000
+I guess also if you have questions, you can share them in the chat.
+
+37
+00:03:05,000 --> 00:03:14,000
+And I may or may not see them, but Stefano and Nick are there to do so.
+
+38
+00:03:14,000 --> 00:03:20,000
+So, yeah, so this is version 0.0.6, which is the current version of the definition.
+
+39
+00:03:20,000 --> 00:03:31,000
+And you can see at the top the terms, use, study, modify, share, and how we're defining those.
+
+40
+00:03:31,000 --> 00:03:35,000
+That's not new for this version, but it's important content.
+
+41
+00:03:35,000 --> 00:03:43,000
+And the thing that was new with this version is that there was a lot of question, as you can all imagine,
+
+42
+00:03:43,000 --> 00:03:48,000
+about requiring data and what has come out.
+
+43
+00:03:48,000 --> 00:03:56,000
+And this version, and I'll talk about our process, is that we have transparency requirements only.
+
+44
+00:03:56,000 --> 00:04:04,000
+So data sets themselves are not required, but we have transparency requirements in the form of documentation requirements.
+
+45
+00:04:04,000 --> 00:04:08,000
+And I'll go into that.
+
+46
+00:04:08,000 --> 00:04:14,000
+So this is going into our process, how we've been co-designing the definition.
+
+47
+00:04:14,000 --> 00:04:18,000
+We've been doing it through these system review workgroups primarily.
+
+48
+00:04:18,000 --> 00:04:27,000
+And right now the workgroups are still active, and they're creating content for version 7 of 0.0.7,
+
+49
+00:04:27,000 --> 00:04:33,000
+which will be released next Friday.
+
+50
+00:04:33,000 --> 00:04:38,000
+And then this is a reminder of what the workgroups, the focus of them.
+
+51
+00:04:38,000 --> 00:04:45,000
+They're focusing on different AI systems that have varying approaches to openness, to the concept of openness.
+
+52
+00:04:45,000 --> 00:04:54,000
+So we have Pythia, Bloom, Lama2, and OpenCV.
+
+53
+00:04:54,000 --> 00:04:56,000
+And these are the members of those groups.
+
+54
+00:04:56,000 --> 00:05:05,000
+Part of being a member of the group is that you agree to have your name and affiliation shared publicly for the sake of the transparency of the process.
+
+55
+00:05:05,000 --> 00:05:16,000
+And just to also note that these groups reflected also some outreach that we did to have better global representation,
+
+56
+00:05:16,000 --> 00:05:23,000
+particularly of Black, Indigenous, and other people of color, women, and individuals from the global south,
+
+57
+00:05:23,000 --> 00:05:29,000
+because this is going to be a global standard.
+
+58
+00:05:29,000 --> 00:05:35,000
+So this is what we did in phase one at the beginning of the year.
+
+59
+00:05:35,000 --> 00:05:40,000
+In each working group, we had component voting.
+
+60
+00:05:40,000 --> 00:05:51,000
+So we took a list of components from the model openness framework, which is based on a paper by the Linux Foundation and others,
+
+61
+00:05:51,000 --> 00:05:56,000
+and we thought it was a great list of components, generalized components across multiple systems.
+
+62
+00:05:56,000 --> 00:05:59,000
+So we used that as our components list.
+
+63
+00:05:59,000 --> 00:06:13,000
+And we had members of the work groups vote with their initials as to whether they thought that each component was necessary for the system to be studied, used, modified, and shared.
+
+64
+00:06:13,000 --> 00:06:27,000
+So building on that foundation of the principles, which we'd already established, we used that to develop work group recommendations on whether each component should be required.
+
+65
+00:06:27,000 --> 00:06:43,000
+Then, in the example that was from the Lama II group, I then compiled the votes and developed a rubric that made a recommendation on the components based on the number of votes.
+
+66
+00:06:43,000 --> 00:06:51,000
+So we obviously could have had a system where any component that got even one vote, that would mean it was required.
+
+67
+00:06:51,000 --> 00:06:53,000
+We didn't do it that way.
+
+68
+00:06:53,000 --> 00:07:00,000
+We said, let's have a set of minimum requirements for openness.
+
+69
+00:07:00,000 --> 00:07:08,000
+And then the results of that, which ended up being a Likert scale, basically.
+
+70
+00:07:08,000 --> 00:07:20,000
+So there were components that had the most votes and would definitely be required, that might be required, then I think possibly required, unlikely to be required, not required.
+
+71
+00:07:20,000 --> 00:07:34,000
+And then we posted that list in the forum, that recommendations report, and then that list became version 0.0.6.
+
+72
+00:07:34,000 --> 00:07:41,000
+Yeah, and now this is what we're doing now. We're doing phase two, fine tuning the component list.
+
+73
+00:07:41,000 --> 00:07:56,000
+So we have this checklist in 0.0.6, which then I put into a slightly different format, basically adding documentation.
+
+74
+00:07:56,000 --> 00:08:02,000
+So documentation was listed in 0.1.6 textually.
+
+75
+00:08:02,000 --> 00:08:13,000
+But it wasn't in the checklist table. So I put the documentation requirements into a checklist format.
+
+76
+00:08:13,000 --> 00:08:17,000
+And right now the work groups are...
+
+77
+00:08:17,000 --> 00:08:20,000
+I hope you can't hear the pinging in the background.
+
+78
+00:08:20,000 --> 00:08:23,000
+My computer. Hopefully that's just me.
+
+79
+00:08:23,000 --> 00:08:31,000
+So now all the work groups, they have another spreadsheet they're filling out, lucky them. This is the example from Bloom.
+
+80
+00:08:31,000 --> 00:08:38,000
+But they're identifying what is the documentation for each of these required components.
+
+81
+00:08:38,000 --> 00:08:46,000
+And then is it those drop downs, those gray drop downs, I think it's allowed or
+
+82
+00:08:46,000 --> 00:08:49,000
+allowed, not allowed effectively.
+
+83
+00:08:49,000 --> 00:08:56,000
+You know, is use allowed, not allowed, studied, not allowed, not allowed, modification, sharing for each component.
+
+84
+00:08:56,000 --> 00:09:02,000
+And then for 0.0.7, we're also seeking to fill in these blanks, which are in red.
+
+85
+00:09:02,000 --> 00:09:11,000
+So what would be the legal framework for model parameters, including weights, and what would be the legal framework for all these forms of documentation.
+
+86
+00:09:11,000 --> 00:09:18,000
+Stefano, do you want to jump in at any, add anything?
+
+87
+00:09:18,000 --> 00:09:20,000
+No, you're covering all of it.
+
+88
+00:09:20,000 --> 00:09:23,000
+Okay, sounds good. I'll continue then.
+
+89
+00:09:23,000 --> 00:09:27,000
+So, yeah, so these are the document reviewers.
+
+90
+00:09:27,000 --> 00:09:35,000
+Again, we said if you want to be a document reviewer, you need to share your name and affiliation.
+
+91
+00:09:35,000 --> 00:09:43,000
+And here we wanted to be sure that there was at least one unaffiliated reviewer.
+
+92
+00:09:43,000 --> 00:09:49,000
+People that are affiliated are creators or advisors of the systems under review.
+
+93
+00:09:49,000 --> 00:09:53,000
+And they have the most technical knowledge.
+
+94
+00:09:53,000 --> 00:10:02,000
+And yet also have obviously their own set of preferences around how a system might be reviewed.
+
+95
+00:10:02,000 --> 00:10:05,000
+So we also have unaffiliated reviewers.
+
+96
+00:10:05,000 --> 00:10:09,000
+And we are looking good for Lama 2 Bloom and Pythia.
+
+97
+00:10:09,000 --> 00:10:17,000
+We don't have anyone for OpenCV. So it's possible that OpenCV simply won't be reviewed in this phase, which would be sad.
+
+98
+00:10:17,000 --> 00:10:19,000
+But we would love for someone to do it.
+
+99
+00:10:19,000 --> 00:10:24,000
+We've asked on the forum, don't have any takers yet.
+
+100
+00:10:24,000 --> 00:10:26,000
+But so this is a formal call.
+
+101
+00:10:26,000 --> 00:10:36,000
+If you would like to volunteer, chat or message me on the forum, or we would love for this review to happen.
+
+102
+00:10:36,000 --> 00:10:40,000
+But so far we don't have anyone to do it.
+
+103
+00:10:40,000 --> 00:10:44,000
+And yes, talking about representation.
+
+104
+00:10:44,000 --> 00:10:48,000
+So we have two ways of looking at representation.
+
+105
+00:10:48,000 --> 00:10:56,000
+The first way is the way that I was talking about of around identity, not specifically related to open AI.
+
+106
+00:10:56,000 --> 00:11:00,000
+But then the second way we have of looking at representation is relation to open source AI.
+
+107
+00:11:00,000 --> 00:11:09,000
+And so we have six stakeholder groups, system creator, license creator, regulator, licensee, end user and subject.
+
+108
+00:11:09,000 --> 00:11:12,000
+And you can see those descriptions and examples.
+
+109
+00:11:12,000 --> 00:11:27,000
+And right now, the people most involved in this phase are system and license creators and licensees who tend to have that ability to analyze license documents.
+
+110
+00:11:27,000 --> 00:11:30,000
+Other individuals are welcome.
+
+111
+00:11:30,000 --> 00:11:34,000
+And of course, everyone falls into six subjects.
+
+112
+00:11:34,000 --> 00:11:41,000
+So if you're thinking, oh, I don't fit into any other group, trust me, you fall into six subjects of AI.
+
+113
+00:11:41,000 --> 00:11:44,000
+So, yes, we welcome everyone to join.
+
+114
+00:11:44,000 --> 00:11:55,000
+And there will be as we get out of the more technical aspects of the review, it will be easier for people without that technical knowledge to participate.
+
+115
+00:11:55,000 --> 00:11:59,000
+Although they are invited at any point to be involved.
+
+116
+00:11:59,000 --> 00:12:08,000
+And then this is just, again, the way that we're ensuring global inclusion and equity with phrases like this.
+
+117
+00:12:08,000 --> 00:12:19,000
+You know, black, indigenous, Latina and other people of color, women, queer, transgender, non-binary people, people with disabilities, poor and working class backgrounds are encouraged to respond.
+
+118
+00:12:19,000 --> 00:12:31,000
+So just whenever we're sharing about our project, just saying we want you to be involved, even if you're not seeing people like yourself involved yet.
+
+119
+00:12:31,000 --> 00:12:34,000
+And I think that's the end of the slides.
+
+120
+00:12:34,000 --> 00:12:35,000
+Next steps.
+
+121
+00:12:35,000 --> 00:12:36,000
+Ah, yes.
+
+122
+00:12:36,000 --> 00:12:38,000
+So here we are in April.
+
+123
+00:12:38,000 --> 00:12:44,000
+We are going to be releasing Open 0.7 by next Friday.
+
+124
+00:12:44,000 --> 00:12:52,000
+Also next month there is a live workshop at PyCon in Pittsburgh, probably will be the 17th.
+
+125
+00:12:52,000 --> 00:13:02,000
+And that will be the review of -- I guess we'll be turning that into 0.0.8.
+
+126
+00:13:02,000 --> 00:13:11,000
+But it's basically going to be a live opportunity for people to be involved in the next version of the -- yeah.
+
+127
+00:13:11,000 --> 00:13:15,000
+The -- creating the definition.
+
+128
+00:13:15,000 --> 00:13:18,000
+And then we also have these meetings that we have planned.
+
+129
+00:13:18,000 --> 00:13:25,000
+And this purple line is the one that's been confirmed that we will be there.
+
+130
+00:13:25,000 --> 00:13:31,000
+But we are planning and hoping to be at these other events around the world this summer.
+
+131
+00:13:31,000 --> 00:13:34,000
+Do you want to say anything about that, Stefano?
+
+132
+00:13:34,000 --> 00:13:35,000
+>> Yeah.
+
+133
+00:13:35,000 --> 00:13:43,000
+If you go back to the previous slide, there is one thing that we want to highlight also.
+
+134
+00:13:43,000 --> 00:13:48,000
+That we're still targeting reaching release candidate in June.
+
+135
+00:13:48,000 --> 00:13:59,000
+Which means that the workshop at PyCon is going to be very crucial to -- because it's going to be probably the last draft before we go to release candidate.
+
+136
+00:13:59,000 --> 00:14:01,000
+It's going to be very close.
+
+137
+00:14:01,000 --> 00:14:10,000
+Or we're hoping to be -- to have it in shape to be close to a future complete, actually.
+
+138
+00:14:10,000 --> 00:14:13,000
+It should be future complete by May.
+
+139
+00:14:13,000 --> 00:14:18,000
+And cleaned up at a meeting in June.
+
+140
+00:14:18,000 --> 00:14:22,000
+We've been hoping to hold one in person.
+
+141
+00:14:22,000 --> 00:14:33,000
+But we're thinking at the moment, because of opportunities and because of time crunch, it might be an online meeting of a couple of hours.
+
+142
+00:14:33,000 --> 00:14:40,000
+So we're going to be reaching out to the crucial stakeholders that we want invited.
+
+143
+00:14:40,000 --> 00:14:49,000
+And you're welcome to also candidate yourself if you think you may want to join this in June.
+
+144
+00:14:49,000 --> 00:14:52,000
+Just reach out to both me and Mer.
+
+145
+00:14:52,000 --> 00:14:59,000
+We'll be looping you in.
+
+146
+00:14:59,000 --> 00:15:00,000
+>> Okay.
+
+147
+00:15:00,000 --> 00:15:03,000
+Sounds good.
+
+148
+00:15:03,000 --> 00:15:07,000
+So this is just a reminder that we do have this forum.
+
+149
+00:15:07,000 --> 00:15:12,000
+I think everyone here knows that because they probably joined this meeting based on the forum post.
+
+150
+00:15:12,000 --> 00:15:17,000
+But this is our main mechanism of public transparency is the forum.
+
+151
+00:15:17,000 --> 00:15:20,000
+Obviously not everyone can attend these town halls.
+
+152
+00:15:20,000 --> 00:15:23,000
+So please do join.
+
+153
+00:15:23,000 --> 00:15:28,000
+And that's at discuss.opensource.org.
+
+154
+00:15:28,000 --> 00:15:31,000
+And now we have Q&A.
+
+155
+00:15:31,000 --> 00:15:34,000
+So thank you.
+
+156
+00:15:34,000 --> 00:15:42,000
+>> Yeah, thanks, Mer.
+
+157
+00:15:42,000 --> 00:15:49,000
+Does anyone have any curiosity or question or ideas?
+
+158
+00:15:49,000 --> 00:15:52,000
+Have you reviewed the draft?
+
+159
+00:15:52,000 --> 00:16:06,000
+You left the comments on the draft already.
+
+160
+00:16:06,000 --> 00:16:12,000
+>> Yes.
+
+161
+00:16:12,000 --> 00:16:29,000
+Can you share the link to the draft just because I'm sharing my screen?
+
+162
+00:16:29,000 --> 00:16:30,000
+>> Of course.
+
+163
+00:16:31,000 --> 00:16:35,000
+You can comment directly on the HackMD website.
+
+164
+00:16:35,000 --> 00:16:44,000
+Or there are dedicated -- there is a dedicated topic on the forum that I just linked.
+
+165
+00:16:44,000 --> 00:16:46,000
+It's pinned at the top.
+
+166
+00:16:46,000 --> 00:17:00,000
+You can comment generally on the proposal, see what others have been saying already in general on the draft.
+
+167
+00:17:00,000 --> 00:17:01,000
+>> Yeah.
+
+168
+00:17:01,000 --> 00:17:04,000
+And feel free to chat or raise your hands.
+
+169
+00:17:04,000 --> 00:17:14,000
+Whatever you prefer.
+
+170
+00:17:14,000 --> 00:17:28,000
+>> There is -- so on the call for volunteers to review OpenCV, I also want to say that this is a pretty simple task.
+
+171
+00:17:28,000 --> 00:17:32,000
+It doesn't require specific knowledge of AI in general.
+
+172
+00:17:32,000 --> 00:17:45,000
+Of all the systems, I think OpenCV should have pretty much everything available under free and open source license.
+
+173
+00:17:45,000 --> 00:17:49,000
+It should be fairly easy to go through the list of components.
+
+174
+00:17:49,000 --> 00:17:52,000
+There are only eight or ten.
+
+175
+00:17:52,000 --> 00:17:56,000
+And try to find them basically in the OpenCV repository.
+
+176
+00:17:56,000 --> 00:17:58,000
+So it should be fairly easy.
+
+177
+00:17:58,000 --> 00:18:07,000
+And in time, it's a great way to get familiar with the process and what we're doing.
+
+178
+00:18:07,000 --> 00:18:09,000
+And be listed as a contributor, of course.
+
+179
+00:18:09,000 --> 00:18:16,000
+Because we'll be giving recognition.
+
+180
+00:18:16,000 --> 00:18:20,000
+>> So I may be able to jump in on this one.
+
+181
+00:18:20,000 --> 00:18:24,000
+I will talk to Mary next week and see if this is an option.
+
+182
+00:18:24,000 --> 00:18:29,000
+>> I will give you the time and the knowledge to do that.
+
+183
+00:18:29,000 --> 00:18:30,000
+>> That would be great.
+
+184
+00:18:30,000 --> 00:18:32,000
+Yeah, thanks, Ofer.
+
+185
+00:18:32,000 --> 00:18:35,000
+And Ricardo is just commenting, this is great.
+
+186
+00:18:35,000 --> 00:18:38,000
+And saying that he learned about the model openness framework recently.
+
+187
+00:18:38,000 --> 00:18:41,000
+Yeah, it was only just published on ArchiveX.
+
+188
+00:18:41,000 --> 00:18:43,000
+The model openness framework.
+
+189
+00:18:43,000 --> 00:18:44,000
+>> It's pretty new.
+
+190
+00:18:44,000 --> 00:18:46,000
+>> We only work on this for a few months.
+
+191
+00:18:46,000 --> 00:18:54,000
+A couple of months, maybe.
+
+192
+00:18:54,000 --> 00:18:55,000
+>> All right.
+
+193
+00:18:55,000 --> 00:18:59,000
+If there are no more questions, then I think we can close it here.
+
+194
+00:18:59,000 --> 00:19:02,000
+Thanks, everyone, for joining and listening in.
+
+195
+00:19:02,000 --> 00:19:07,000
+We'll be here back again in two weeks at a different time.
+
+196
+00:19:07,000 --> 00:19:13,000
+More compatible with the eastern side of the world.
+
+197
+00:19:13,000 --> 00:19:17,000
+But, you know, keep track of the process and keep leaving your comments.
+
+198
+00:19:17,000 --> 00:19:20,000
+We're going to see you soon.
+
+199
+00:19:20,000 --> 00:19:22,000
+>> Yeah, thanks, everyone.
+

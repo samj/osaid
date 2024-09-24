@@ -1,0 +1,1164 @@
+1
+00:00:00,001 --> 00:00:05,120
+All right.
+
+2
+00:00:05,120 --> 00:00:09,760
+Thanks for joining this panel meeting again.
+
+3
+00:00:09,760 --> 00:00:10,760
+Sorry for my voice.
+
+4
+00:00:10,760 --> 00:00:21,120
+This is the result of a week of conversations in Brussels in very loud environments.
+
+5
+00:00:21,120 --> 00:00:25,520
+I think I stressed out my vocal cords a little bit too much.
+
+6
+00:00:25,520 --> 00:00:32,520
+And I caught the false debug, which is not COVID.
+
+7
+00:00:32,520 --> 00:00:34,820
+Just a little cold.
+
+8
+00:00:34,820 --> 00:00:43,040
+So the purpose of these meetings is to keep the tempo and get live conversations and live
+
+9
+00:00:43,040 --> 00:00:51,040
+updates on the most important things that have happened in the past couple of weeks.
+
+10
+00:00:51,040 --> 00:01:00,640
+And let's remind everyone our principles under which we operate.
+
+11
+00:01:00,640 --> 00:01:04,360
+We try to have -- make sure that one person speaks at a time.
+
+12
+00:01:04,360 --> 00:01:07,000
+There's no crowds around Mike.
+
+13
+00:01:07,000 --> 00:01:11,040
+Try to make space for others.
+
+14
+00:01:11,040 --> 00:01:13,840
+If you tend to be quiet, speak up.
+
+15
+00:01:13,840 --> 00:01:19,600
+You can use the buttons to raise your hands in this meeting, but you can also type if
+
+16
+00:01:19,600 --> 00:01:21,680
+you prefer not to speak up.
+
+17
+00:01:21,680 --> 00:01:23,880
+But please give feedback.
+
+18
+00:01:23,880 --> 00:01:28,640
+This is the best place to have quick interactions.
+
+19
+00:01:28,640 --> 00:01:29,640
+Let's use them.
+
+20
+00:01:29,640 --> 00:01:36,160
+And I don't think we need to be stressing the fact that we want everyone to be nice.
+
+21
+00:01:36,160 --> 00:01:39,320
+And keep in mind, we need to keep moving.
+
+22
+00:01:39,320 --> 00:01:41,480
+We need to finish this process.
+
+23
+00:01:41,480 --> 00:01:47,120
+And if we face an obstacle, we move around it and we should be getting back to it later
+
+24
+00:01:47,120 --> 00:01:52,120
+rather than stop it and admiring how big and insurmountable it is.
+
+25
+00:01:52,120 --> 00:01:53,840
+And we need to focus on solutions.
+
+26
+00:01:53,840 --> 00:01:57,400
+It's a multi-stakeholder, co-design process.
+
+27
+00:01:57,400 --> 00:02:01,560
+It's basically pioneer work for us.
+
+28
+00:02:01,560 --> 00:02:05,600
+And we know there are a lot of things that don't work that can be done better.
+
+29
+00:02:05,600 --> 00:02:11,080
+But we need to focus on what actually works and keep on moving.
+
+30
+00:02:11,080 --> 00:02:18,080
+Are there anything else that we need to take care of?
+
+31
+00:02:18,080 --> 00:02:21,280
+All right.
+
+32
+00:02:21,280 --> 00:02:23,800
+Reminder.
+
+33
+00:02:23,800 --> 00:02:26,440
+I was wondering whether to keep this slide or not.
+
+34
+00:02:26,440 --> 00:02:32,280
+But I think I want to remind everyone that our objective is to have an open source AI
+
+35
+00:02:32,280 --> 00:02:37,280
+definition that is workable, that is good enough by the end of the year.
+
+36
+00:02:37,280 --> 00:02:38,280
+It's really important.
+
+37
+00:02:38,280 --> 00:02:45,560
+And everyone is asking, not only is asking for one, but I think that we really have this
+
+38
+00:02:45,560 --> 00:02:52,120
+responsibility to create, to come to an agreement, to agree on something.
+
+39
+00:02:52,120 --> 00:02:54,640
+And notice the version number 1.0.
+
+40
+00:02:54,640 --> 00:02:58,760
+It's not necessarily going to be the most perfect one.
+
+41
+00:02:58,760 --> 00:03:03,240
+We will always be able to fix it.
+
+42
+00:03:03,240 --> 00:03:06,640
+And a reminder for what we have so far.
+
+43
+00:03:06,640 --> 00:03:13,960
+We have a definition of AI systems in a document, version 5.05.
+
+44
+00:03:13,960 --> 00:03:21,760
+And we have basic preambles for the basic principles of why we need an open source AI.
+
+45
+00:03:21,760 --> 00:03:30,040
+And we may want to have this wording also reviewed and straight up as quickly as possible.
+
+46
+00:03:30,040 --> 00:03:33,760
+Because that's another question that I get asked often.
+
+47
+00:03:33,760 --> 00:03:36,280
+Why do we need open source AI?
+
+48
+00:03:36,280 --> 00:03:37,280
+Why is it important?
+
+49
+00:03:37,280 --> 00:03:46,160
+I refer to this preamble, but I want to make sure that we are quoting that.
+
+50
+00:03:46,160 --> 00:03:49,840
+The other piece is the what's Atascope?
+
+51
+00:03:49,840 --> 00:03:58,080
+And there has been a little bit of discussion around what is Atascope.
+
+52
+00:03:58,080 --> 00:04:03,320
+I encourage you to give feedback on this text, too.
+
+53
+00:04:03,320 --> 00:04:07,400
+Because I don't want to, you know, I want to have it finalized as quickly as possible.
+
+54
+00:04:07,400 --> 00:04:10,520
+I don't think that it's bad, necessarily.
+
+55
+00:04:10,520 --> 00:04:17,440
+But we want to have a conclusion very quickly.
+
+56
+00:04:17,440 --> 00:04:18,440
+Then we have the four freedoms.
+
+57
+00:04:18,440 --> 00:04:21,040
+There isn't much debate around this right now.
+
+58
+00:04:21,040 --> 00:04:24,760
+Although there are a couple of questions that I will highlight later.
+
+59
+00:04:24,760 --> 00:04:30,560
+And what we're working on right now that is missing is this checklist of legal documents.
+
+60
+00:04:30,560 --> 00:04:38,280
+And I give you an update now on this, on the work that we've been doing.
+
+61
+00:04:38,280 --> 00:04:44,640
+So the four freedoms as described here are at the core of the open source definition
+
+62
+00:04:44,640 --> 00:04:45,640
+of AI.
+
+63
+00:04:45,640 --> 00:04:52,360
+And we're at the stage where we need to identify what are the preferred forms to make modifications
+
+64
+00:04:52,360 --> 00:04:54,640
+to an AI system.
+
+65
+00:04:54,640 --> 00:04:59,800
+And in the process, understand what we're going to be is highlighted here.
+
+66
+00:04:59,800 --> 00:05:02,320
+And we're at the stage two.
+
+67
+00:05:02,320 --> 00:05:11,960
+We have a list of components that we have identified thanks to the work done by Linux
+
+68
+00:05:11,960 --> 00:05:21,000
+Foundation AI and Data Commons, Generative AI Commons Working Group.
+
+69
+00:05:21,000 --> 00:05:25,600
+They have provided a list of components for machine learning systems.
+
+70
+00:05:25,600 --> 00:05:33,720
+And we have been using that list of components to identify which of those components are
+
+71
+00:05:33,720 --> 00:05:41,440
+required, they are a must have, in order to be able to use a system, to study a system,
+
+72
+00:05:41,440 --> 00:05:44,040
+modify and share it.
+
+73
+00:05:44,040 --> 00:05:50,000
+And then once we have this list with these matching points, we're going to be progressing
+
+74
+00:05:50,000 --> 00:05:58,240
+on this, on this, on this line, on this timeline, where we're going to be checking whether the
+
+75
+00:05:58,240 --> 00:06:07,880
+components have or fall under which legal frameworks, whether that's exclusive rights,
+
+76
+00:06:07,880 --> 00:06:16,960
+exclusive rights like intellectual property, broad term, copyright, patents, secrets, or
+
+77
+00:06:16,960 --> 00:06:18,920
+what have you.
+
+78
+00:06:18,920 --> 00:06:24,040
+Or if they don't, what kind of legal frameworks they fall under.
+
+79
+00:06:24,040 --> 00:06:29,120
+And then we're going to be looking at the licenses as a next step.
+
+80
+00:06:29,120 --> 00:06:35,880
+And the licenses are legal documents, legal terms, with which they are distributed.
+
+81
+00:06:35,880 --> 00:06:37,800
+We're going to be identifying gaps.
+
+82
+00:06:37,800 --> 00:06:44,840
+And from those gaps, and from the list of legal documents, we're going to make a checklist
+
+83
+00:06:44,840 --> 00:06:52,040
+to evaluate the freedoms in these legal documents.
+
+84
+00:06:52,040 --> 00:07:00,240
+Now we started working with two groups, analyzing specifically Lama 2 and PTI as examples, two
+
+85
+00:07:00,240 --> 00:07:05,720
+examples of generative AI machine learning systems.
+
+86
+00:07:05,720 --> 00:07:14,200
+And the members of these groups are in this list, me and Mer, are almost basically observers
+
+87
+00:07:14,200 --> 00:07:16,360
+and facilitators of the meeting.
+
+88
+00:07:16,360 --> 00:07:20,680
+And we have experts of different, different capabilities.
+
+89
+00:07:20,680 --> 00:07:26,840
+All of these people are working for a company, one way, shape, or form.
+
+90
+00:07:26,840 --> 00:07:31,160
+But they're participating, not representing their company's views.
+
+91
+00:07:31,160 --> 00:07:35,240
+They're representing us, experts.
+
+92
+00:07:35,240 --> 00:07:39,760
+But of course, for transparency, we list their affiliation.
+
+93
+00:07:39,760 --> 00:07:44,240
+So this is the Lama Working Group and PTI Working Group.
+
+94
+00:07:44,240 --> 00:07:50,720
+It's a little bit smaller, but it includes people here from different parts of the world
+
+95
+00:07:50,720 --> 00:07:53,120
+also.
+
+96
+00:07:53,120 --> 00:08:04,400
+So with them, we have gone through, the process has been, we're at the point where we are
+
+97
+00:08:04,400 --> 00:08:06,480
+at this working group report.
+
+98
+00:08:06,480 --> 00:08:09,840
+They need to go through these documents.
+
+99
+00:08:09,840 --> 00:08:10,840
+They're going through these documents.
+
+100
+00:08:10,840 --> 00:08:21,760
+Let me share with you what's happening, what's happening in here.
+
+101
+00:08:21,760 --> 00:08:28,720
+So for, we built this table, you may have seen it in draft five that I published at
+
+102
+00:08:28,720 --> 00:08:30,120
+the beginning of last week.
+
+103
+00:08:30,120 --> 00:08:39,200
+The draft five of the definition of open source CI has this table at the bottom, in which
+
+104
+00:08:39,200 --> 00:08:47,520
+you can see the list of components, and then on each, on the first column.
+
+105
+00:08:47,520 --> 00:08:49,360
+And then there are other four columns.
+
+106
+00:08:49,360 --> 00:08:57,040
+Those four columns have, basically, they're going to be X marks, whether the component
+
+107
+00:08:57,040 --> 00:09:01,240
+on the row is required, so it's mandatory.
+
+108
+00:09:01,240 --> 00:09:09,440
+It must be available to use the system, to use LamaTo, or to study LamaTo, or to modify
+
+109
+00:09:09,440 --> 00:09:12,880
+and share it, LamaTo, so individually.
+
+110
+00:09:12,880 --> 00:09:15,560
+And the components are split into four categories.
+
+111
+00:09:15,560 --> 00:09:22,680
+There is code, and this is what happens, what are the analysis done by the experts in the
+
+112
+00:09:22,680 --> 00:09:25,640
+working group for LamaTo.
+
+113
+00:09:25,640 --> 00:09:32,600
+And it looks like, in order to, the kind of code that we need to, there is pretty much
+
+114
+00:09:32,600 --> 00:09:41,840
+consensus on the kind of code that needs to be available for using LamaTo is the inference
+
+115
+00:09:41,840 --> 00:09:50,400
+code and the libraries, such as the tokenizer and hyperparameter search code, et cetera.
+
+116
+00:09:50,400 --> 00:09:53,760
+So those are required to use, seem to be.
+
+117
+00:09:53,760 --> 00:09:58,320
+In order to study, there is a little bit less participation of this group, like only one
+
+118
+00:09:58,320 --> 00:10:02,920
+person so far has filled in the table.
+
+119
+00:10:02,920 --> 00:10:07,920
+And it looks like training code and data pre-processing code and the other libraries are required
+
+120
+00:10:07,920 --> 00:10:11,360
+to study and to modify.
+
+121
+00:10:11,360 --> 00:10:18,800
+Similarly, there is little participation, but there are some boxes in here.
+
+122
+00:10:18,800 --> 00:10:27,800
+Moving forward on the data front, doesn't look like any of the data is required to use
+
+123
+00:10:27,800 --> 00:10:36,280
+the system, but SC is the initials of StackFano Zacchiroli.
+
+124
+00:10:36,280 --> 00:10:42,160
+He's looked at the, he's left these comments that training data set and other data documentation
+
+125
+00:10:42,160 --> 00:10:45,400
+is required to study.
+
+126
+00:10:45,400 --> 00:10:51,120
+And similarly, testing and validation data set is required to modify the system, but
+
+127
+00:10:51,120 --> 00:10:53,560
+not to use and share.
+
+128
+00:10:53,560 --> 00:11:00,600
+And finally, on the use front, looks like there is pretty much consensus that model
+
+129
+00:11:00,600 --> 00:11:09,840
+parameters is necessary to use it and study, modify, and share.
+
+130
+00:11:09,840 --> 00:11:18,040
+And maybe usage documentation, according to StackFano Zacchiroli, is required to modify.
+
+131
+00:11:18,040 --> 00:11:24,840
+And moving forward, Pithia, this one working group has done a little bit more work and
+
+132
+00:11:24,840 --> 00:11:27,000
+it's a little more comprehensive.
+
+133
+00:11:27,000 --> 00:11:34,920
+You can see that in order to study the data, it looks like there is a lot of boxes checked
+
+134
+00:11:34,920 --> 00:11:40,440
+here, which is very interesting to see.
+
+135
+00:11:40,440 --> 00:11:52,560
+Some data is even necessary, according to Sarah Young, in order to run, to use the system.
+
+136
+00:11:52,560 --> 00:12:02,320
+It's going to be interesting to see, to have for her, the rationale behind this decision.
+
+137
+00:12:02,320 --> 00:12:11,760
+And on the data front, sorry, that was the code front, yeah, okay, so on the code piece.
+
+138
+00:12:11,760 --> 00:12:23,880
+On the data front, some data required to use, but there is a unanimity that, again, a lot
+
+139
+00:12:23,880 --> 00:12:31,000
+of data is required to study, which is also very interesting and needs to be investigated
+
+140
+00:12:31,000 --> 00:12:32,640
+further.
+
+141
+00:12:32,640 --> 00:12:40,720
+And when we build a model for execution and model architecture and parameters seem to
+
+142
+00:12:40,720 --> 00:12:46,600
+be necessary, but also modify and share.
+
+143
+00:12:46,600 --> 00:12:50,400
+So this work is making progress.
+
+144
+00:12:50,400 --> 00:12:57,520
+We are, we have scheduled two more meetings with each of these groups next week, and we're
+
+145
+00:12:57,520 --> 00:13:06,440
+going to drive for completing these cards by Friday, so that we can have two complete
+
+146
+00:13:06,440 --> 00:13:12,080
+analyses and publish them for a wider conversation on the forums.
+
+147
+00:13:12,080 --> 00:13:20,840
+This is going to be a very major milestone for us, and a very good, important result.
+
+148
+00:13:20,840 --> 00:13:28,520
+Now, the forums that we launched, we launched them, was it last week?
+
+149
+00:13:28,520 --> 00:13:35,520
+They already contain a lot of interesting conversations, but I wanted to highlight three
+
+150
+00:13:35,520 --> 00:13:45,640
+of them that I think are very crucial to have some sort of, to have a, to drive towards
+
+151
+00:13:45,640 --> 00:13:52,480
+a conclusion so we can release a T in three weeks, four weeks, we can release a new draft
+
+152
+00:13:52,480 --> 00:13:54,960
+of the definition.
+
+153
+00:13:54,960 --> 00:14:02,080
+And I think that the top and most important one is the conversation around data, and you
+
+154
+00:14:02,080 --> 00:14:03,320
+will see it on the forum.
+
+155
+00:14:03,320 --> 00:14:10,600
+This is one of the ones with the highest amount of comments on it, I think.
+
+156
+00:14:10,600 --> 00:14:19,800
+It's worth keeping an eye out in there, because I think we need to come close to a conclusion
+
+157
+00:14:19,800 --> 00:14:26,880
+very soon, or at least to try to understand what the consensus is, or if there is no consensus,
+
+158
+00:14:26,880 --> 00:14:32,640
+we need to highlight why, and what are the reasons, the main reasons for that lack of
+
+159
+00:14:32,640 --> 00:14:36,360
+consensus, the controversial part.
+
+160
+00:14:36,360 --> 00:14:40,800
+It's very crucial in there.
+
+161
+00:14:40,800 --> 00:14:48,880
+And the other thing, the other conversation we have ongoing is that I think is important,
+
+162
+00:14:48,880 --> 00:14:57,400
+it is the one on the definition of AI system, that right now we've been using the one provided
+
+163
+00:14:57,400 --> 00:15:06,880
+by the organization for economic cooperation and development, the OECD.
+
+164
+00:15:06,880 --> 00:15:16,640
+There are a couple of comments, one by Richard Fontana, but also others, that, arguing that
+
+165
+00:15:16,640 --> 00:15:25,200
+the definition by the OECD is too wide, and too, that covers pretty much everything.
+
+166
+00:15:25,200 --> 00:15:27,920
+Everything digital.
+
+167
+00:15:27,920 --> 00:15:32,000
+And we may want to revise it.
+
+168
+00:15:32,000 --> 00:15:37,200
+So I don't have a strong attachment to that definition, or any other definition, but we
+
+169
+00:15:37,200 --> 00:15:45,240
+need to have a definition of AI system, because the open source AI needs to refer to a system,
+
+170
+00:15:45,240 --> 00:15:50,160
+and not to individual components, or pieces.
+
+171
+00:15:50,160 --> 00:15:54,240
+We need to have a framework of reference that we can tie to.
+
+172
+00:15:54,240 --> 00:16:03,120
+I go back to explaining that the open source definition for software refers to programs.
+
+173
+00:16:03,120 --> 00:16:10,760
+And programs, even though they're not defined either, but pretty much everyone knows what
+
+174
+00:16:10,760 --> 00:16:18,000
+they are, the discipline, and the software, the computer science is old enough that we
+
+175
+00:16:18,000 --> 00:16:20,760
+know a program when we see it.
+
+176
+00:16:20,760 --> 00:16:25,560
+For AI, I don't think we have that luxury yet, and we need to be able, we need to be
+
+177
+00:16:25,560 --> 00:16:28,120
+a little bit more specific.
+
+178
+00:16:28,120 --> 00:16:36,920
+So if anyone knows of different, better, well understood definitions of AI systems that
+
+179
+00:16:36,920 --> 00:16:45,080
+we can use and reuse, so please go and make suggestions on that thread.
+
+180
+00:16:45,080 --> 00:16:51,160
+There is another one that is very interesting to me, at least, and there's a conversation
+
+181
+00:16:51,160 --> 00:17:03,200
+around the meaning of the verb share, because there is an argument being made that the sharing
+
+182
+00:17:03,200 --> 00:17:08,320
+needs to be clarified, that we can share the systems with the same conditions under which
+
+183
+00:17:08,320 --> 00:17:13,080
+we have, under the same legal conditions for which we have received it.
+
+184
+00:17:13,080 --> 00:17:19,720
+I, you know, it's a very quite legally type of question.
+
+185
+00:17:19,720 --> 00:17:27,240
+I'm not exactly sure I understand where that conversation, that question is coming from,
+
+186
+00:17:27,240 --> 00:17:37,480
+but I see people involved in it, and I would recommend someone looks at it and tries to
+
+187
+00:17:37,480 --> 00:17:46,360
+explain or tries to find a converging solution.
+
+188
+00:17:46,360 --> 00:17:48,440
+So what are the next steps?
+
+189
+00:17:48,440 --> 00:17:53,000
+And maybe, let me see, I see a question in here.
+
+190
+00:17:53,000 --> 00:17:57,160
+Nick, the result for Lama2 and PTA, should they be similar?
+
+191
+00:17:57,160 --> 00:18:01,520
+Eventually, yeah, I mean, probably they will not, because they're different people making
+
+192
+00:18:01,520 --> 00:18:02,520
+different evaluations.
+
+193
+00:18:02,520 --> 00:18:09,880
+They should be similar, because they're similar systems, similar architecture, similar things.
+
+194
+00:18:09,880 --> 00:18:14,680
+They should be similar, but if they don't, then that's what the process is going to be
+
+195
+00:18:14,680 --> 00:18:15,680
+like.
+
+196
+00:18:15,680 --> 00:18:19,880
+We're going to have to have a conversation once we have also Bloom, for example, the
+
+197
+00:18:19,880 --> 00:18:27,840
+three of them, we will have to find a way to identify the diversity and why, explain
+
+198
+00:18:27,840 --> 00:18:32,560
+why things are different, and drive towards a conclusion.
+
+199
+00:18:32,560 --> 00:18:40,600
+I think a lot of the work is going to be around explaining exactly what access means.
+
+200
+00:18:40,600 --> 00:18:50,120
+I'm sensing from conversations I've had with multiple people that the concept of access
+
+201
+00:18:50,120 --> 00:18:58,240
+to the data, access to the architecture, access to the documentation is different.
+
+202
+00:18:58,240 --> 00:19:00,240
+Sorry.
+
+203
+00:19:00,240 --> 00:19:06,120
+Sorry for that.
+
+204
+00:19:06,120 --> 00:19:17,200
+All right, so what are we doing next?
+
+205
+00:19:17,200 --> 00:19:25,840
+We started recruiting people, but we need to review this list of components and the
+
+206
+00:19:25,840 --> 00:19:36,560
+checklists that the two working groups on PTA and Lama2 have started, and also we started
+
+207
+00:19:36,560 --> 00:19:46,920
+recruiting people to analyze Bloom OpenCV, and we may even need probably will recruit
+
+208
+00:19:46,920 --> 00:19:52,880
+for more other systems if necessary.
+
+209
+00:19:52,880 --> 00:19:58,200
+But at least we want to look at OpenCV as a curiosity mostly because it's a non-generative
+
+210
+00:19:58,200 --> 00:20:07,000
+AI just to validate that list of components down the line.
+
+211
+00:20:07,000 --> 00:20:12,560
+That's for the next couple of weeks' work.
+
+212
+00:20:12,560 --> 00:20:17,640
+And just reminding everyone, the timeline is here.
+
+213
+00:20:17,640 --> 00:20:21,520
+We have draft five released in February as scheduled.
+
+214
+00:20:21,520 --> 00:20:24,320
+We're going to be releasing 06.
+
+215
+00:20:24,320 --> 00:20:33,280
+We keep on going with these virtual meetings, town halls, and work group activities, trying
+
+216
+00:20:33,280 --> 00:20:40,880
+to speed up things so that we can get in end of May, early June with an in-person meeting
+
+217
+00:20:40,880 --> 00:20:46,480
+that will eventually resolve the last controversies and issue a release candidate.
+
+218
+00:20:46,480 --> 00:20:48,840
+This is a very aggressive timeline.
+
+219
+00:20:48,840 --> 00:20:51,240
+I keep on stressing this out.
+
+220
+00:20:51,240 --> 00:20:58,520
+We need to keep the tempo, and that's why I'm putting so much energy into this.
+
+221
+00:20:58,520 --> 00:21:05,440
+Once we have the release candidate, the idea is to take it in a roadshow around the world.
+
+222
+00:21:05,440 --> 00:21:12,080
+We have found already three partner conferences in different ways in different parts of the
+
+223
+00:21:12,080 --> 00:21:21,040
+world where we can host a presentation and a review of the release candidate.
+
+224
+00:21:21,040 --> 00:21:27,840
+And so we get to number version one in October.
+
+225
+00:21:27,840 --> 00:21:35,480
+The criteria for respectively release candidate and version one is to have representatives
+
+226
+00:21:35,480 --> 00:21:42,000
+from each of the stakeholders to support it, and all of this information is public now
+
+227
+00:21:42,000 --> 00:21:45,640
+on our website.
+
+228
+00:21:45,640 --> 00:21:53,600
+And these are the categories of stakeholders where we would be putting logos in here as
+
+229
+00:21:53,600 --> 00:21:56,600
+we go.
+
+230
+00:21:56,600 --> 00:22:01,800
+And that's the other reminder that I want everyone to keep in mind.
+
+231
+00:22:01,800 --> 00:22:03,360
+It's not going to be perfect.
+
+232
+00:22:03,360 --> 00:22:12,560
+And the board of the OSI is already working on setting up a committee that will be looking
+
+233
+00:22:12,560 --> 00:22:18,440
+into the review and approval of version one when it comes out, because it's going to be
+
+234
+00:22:18,440 --> 00:22:27,560
+the board's purview to review and finally approve the work of the community and take
+
+235
+00:22:27,560 --> 00:22:33,760
+over the maintenance of this definition, because this is going to be the first version, the
+
+236
+00:22:33,760 --> 00:22:42,480
+first definition maintained by the OSI with a version number in it.
+
+237
+00:22:42,480 --> 00:22:49,080
+And yeah, we're working very hard to make sure that we have the funding to support all
+
+238
+00:22:49,080 --> 00:22:50,080
+of this.
+
+239
+00:22:50,080 --> 00:22:51,800
+So but I'm crossing fingers.
+
+240
+00:22:51,800 --> 00:22:54,800
+I think we're going to be okay.
+
+241
+00:22:54,800 --> 00:22:59,800
+And if I run out of funds, I'm going to let you know in advance.
+
+242
+00:22:59,800 --> 00:23:02,040
+And we got the forums.
+
+243
+00:23:02,040 --> 00:23:03,880
+I'm pretty excited about this.
+
+244
+00:23:03,880 --> 00:23:07,680
+So they're easy to sign in.
+
+245
+00:23:07,680 --> 00:23:19,440
+If you have already a member, log in for any of the open source initiatives, websites,
+
+246
+00:23:19,440 --> 00:23:22,880
+and opensource.net, it's going to work seamlessly.
+
+247
+00:23:22,880 --> 00:23:28,840
+If not, you can register, become a free member, or now is also a good time to sign up and
+
+248
+00:23:28,840 --> 00:23:34,800
+become a full member so that you can vote also at the next election that are coming
+
+249
+00:23:34,800 --> 00:23:37,840
+up for the board.
+
+250
+00:23:37,840 --> 00:23:40,600
+And we're also draft 05.
+
+251
+00:23:40,600 --> 00:23:45,160
+Since last time we spoke at this time, it's a new thing.
+
+252
+00:23:45,160 --> 00:23:49,840
+So go and look at the latest draft also.
+
+253
+00:23:49,840 --> 00:23:54,640
+And leave your comments on the you can leave comments directly on the draft, or you can
+
+254
+00:23:54,640 --> 00:23:57,760
+leave comments on the forums if they're more generic.
+
+255
+00:23:57,760 --> 00:24:02,480
+If it's specific for, you know, I want to change this word, I would recommend leave
+
+256
+00:24:02,480 --> 00:24:06,560
+the conversation on the draft.
+
+257
+00:24:06,560 --> 00:24:13,000
+But if it's more generic about and requires larger, more text and stuff like that, like
+
+258
+00:24:13,000 --> 00:24:16,240
+leave it on the forum.
+
+259
+00:24:16,240 --> 00:24:20,480
+And with that, I'm happy to take questions.
+
+260
+00:24:20,480 --> 00:24:25,440
+Victor, public link to LamaTubePT session.
+
+261
+00:24:25,440 --> 00:24:29,560
+No, well, actually not yet.
+
+262
+00:24:29,560 --> 00:24:44,160
+Not yet, because we want to leave the groups to work a little bit more, you know, in peace
+
+263
+00:24:44,160 --> 00:24:51,240
+and without having to be, you know, like under, what is it called?
+
+264
+00:24:51,240 --> 00:24:58,160
+Under, you know, like a aquarium type of thing.
+
+265
+00:24:58,160 --> 00:25:06,720
+We're going to make public everything as soon as the work is done.
+
+266
+00:25:06,720 --> 00:25:15,200
+Matt is that correct as an answer?
+
+267
+00:25:15,200 --> 00:25:19,200
+I cannot hear you.
+
+268
+00:25:19,200 --> 00:25:20,200
+Sorry.
+
+269
+00:25:20,200 --> 00:25:27,520
+I need to enable you.
+
+270
+00:25:27,520 --> 00:25:44,040
+You should be able now to unblock your mic.
+
+271
+00:25:44,040 --> 00:25:45,040
+And now you're muted.
+
+272
+00:25:45,040 --> 00:25:46,040
+You need to unmute yourself.
+
+273
+00:25:46,040 --> 00:25:47,040
+Thank you.
+
+274
+00:25:47,040 --> 00:25:50,720
+It's only been three months, three years of pandemic.
+
+275
+00:25:50,720 --> 00:26:00,080
+Yeah, so the groups themselves, they meet as small groups, but the membership is transparent.
+
+276
+00:26:00,080 --> 00:26:06,280
+And then we report out all the documentation that's being created, which is the summary
+
+277
+00:26:06,280 --> 00:26:11,160
+and also the tables that Stefano shared.
+
+278
+00:26:11,160 --> 00:26:13,840
+And that really is the report.
+
+279
+00:26:13,840 --> 00:26:19,920
+I think we're also planning to make the slides that the groups are working from public, which
+
+280
+00:26:19,920 --> 00:26:22,400
+is effectively the agenda.
+
+281
+00:26:22,400 --> 00:26:30,520
+So that's how we're balancing transparency and also people being able to have a meeting,
+
+282
+00:26:30,520 --> 00:26:31,960
+which I think also has value.
+
+283
+00:26:31,960 --> 00:26:37,960
+So yeah, open to any feedback.
+
+284
+00:26:37,960 --> 00:26:58,200
+Thank you.
+
+285
+00:26:58,200 --> 00:27:00,260
+you
+
+286
+00:28:00,220 --> 00:28:05,220
+you
+
+287
+00:28:10,220 --> 00:28:13,220
+you
+
+288
+00:28:13,220 --> 00:28:18,220
+you
+
+289
+00:28:23,220 --> 00:28:25,280
+you
+
+290
+00:28:25,280 --> 00:28:31,280
+you
+
+291
+00:28:31,280 --> 00:28:33,340
+you
+

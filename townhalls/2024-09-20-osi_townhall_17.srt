@@ -1,0 +1,416 @@
+1
+00:00:00,001 --> 00:00:13,120
+Welcome everyone to our town hall. We're actually going to start having these town halls every week
+
+2
+00:00:13,120 --> 00:00:21,040
+until the OSAID is launched on October 28th. So we'll be seeing more of you. These are the
+
+3
+00:00:21,040 --> 00:00:26,960
+community agreements which you're familiar with if you've been here before. One mic, one speaker,
+
+4
+00:00:26,960 --> 00:00:32,000
+so allow one person to speak at a time, to take space, make space, if you tend to talk more,
+
+5
+00:00:32,000 --> 00:00:37,600
+pause to let others share, if you tend not to share we invite you to speak up and share your
+
+6
+00:00:37,600 --> 00:00:42,880
+opinions, to be kind to each other, just not acknowledging that the work is hard, but we can
+
+7
+00:00:42,880 --> 00:00:47,920
+still be gentle with each other. Obviously hate speech is not permitted in the meeting, that
+
+8
+00:00:47,920 --> 00:00:55,920
+hopefully is not a surprise, that we're trying to move forward, obviously, that obstacles are marked
+
+9
+00:00:55,920 --> 00:01:01,840
+to be discussed, but that we try to continue to make progress even when we find those, oh
+
+10
+00:01:01,840 --> 00:01:10,400
+Nick, I am seeing my whole slide, it's okay, that we seek solutions,
+
+11
+00:01:10,400 --> 00:01:15,840
+just because there are so many ways that this could not work and finding those ways that this
+
+12
+00:01:15,840 --> 00:01:22,160
+can work is needed. Does anyone have any other community agreements that they'd like us to
+
+13
+00:01:22,800 --> 00:01:26,640
+use as we conduct this meeting? You can share it in the chat.
+
+14
+00:01:26,640 --> 00:01:39,760
+Drinking a bubbly water, okay. Thank you Nick. So we're on version 0.0.9 which was released at
+
+15
+00:01:39,760 --> 00:01:45,840
+the end of last month, if you use that QR code you can view it online, I believe this is the
+
+16
+00:01:45,840 --> 00:01:54,080
+HackMD instance with the commenting function, and I'll go through that now. Next. Yeah, so the
+
+17
+00:01:54,080 --> 00:02:02,320
+OpenSource AI definition has two parts in addition to the preamble, it affirms the four freedoms
+
+18
+00:02:02,320 --> 00:02:11,280
+as initially enunciated by the Free Software Foundation, but now applied to AI systems, so
+
+19
+00:02:12,720 --> 00:02:18,800
+grants the freedom to use the system for any purpose without asking permission, to study the
+
+20
+00:02:18,800 --> 00:02:24,240
+system and inspect its components, to modify the system for any purpose, including to change its
+
+21
+00:02:24,240 --> 00:02:30,400
+output, and to share the system again with or without modification and for any purpose.
+
+22
+00:02:30,400 --> 00:02:37,600
+Next. And then the second part of the definition is the preferred form
+
+23
+00:02:38,640 --> 00:02:44,240
+to make modifications, and again this is for machine learning, OpenSource AI system, right,
+
+24
+00:02:44,240 --> 00:02:51,680
+so the technology is part of what defines the preferred form, the particular methodology.
+
+25
+00:02:51,680 --> 00:02:58,800
+So first it requires open weights, so that's model weights and parameters, requires open code,
+
+26
+00:02:58,800 --> 00:03:06,000
+which means source code used to train and run the system, and it requires data information,
+
+27
+00:03:06,000 --> 00:03:10,960
+which is the data set or detailed information about the data used to train the system,
+
+28
+00:03:10,960 --> 00:03:16,560
+and that actually we should change that particular way we're phrasing that,
+
+29
+00:03:16,560 --> 00:03:21,920
+because the detailed information about the data used to train and run the system is required,
+
+30
+00:03:21,920 --> 00:03:31,840
+whether or not a data set is also required. Okay, thank you. So what is next, September and
+
+31
+00:03:31,840 --> 00:03:39,040
+October? We're resolving the comments. We intended to release our RC1 this week. It is still being
+
+32
+00:03:39,040 --> 00:03:44,640
+edited for reasons some of you may have heard the conversation is having with Gerardo, but there's
+
+33
+00:03:44,640 --> 00:03:51,280
+still some edits being made to RC1, the release candidate one. Our goal is that we will launch
+
+34
+00:03:51,280 --> 00:03:58,240
+that next week though, at the Nerdeala conference in Argentina, and then we will have a staple
+
+35
+00:03:58,240 --> 00:04:06,160
+version launched at All Things Open on October 8th, 28th at the end of next month. Next.
+
+36
+00:04:06,160 --> 00:04:13,120
+And also just so you know the requirements that we have internally for this launch,
+
+37
+00:04:13,120 --> 00:04:18,800
+that the board requires that the open source AI definition or OSAID be supported by diverse
+
+38
+00:04:18,800 --> 00:04:28,160
+stakeholders and specifically for stakeholder types, end users, deployers, developers, and
+
+39
+00:04:28,160 --> 00:04:35,920
+subjects. So I think in this slide there are not definitions of that, but we can define that if
+
+40
+00:04:35,920 --> 00:04:42,640
+there's interest, and that that be global representation. Secondly, that there are real
+
+41
+00:04:42,640 --> 00:04:49,280
+life examples of these AI systems, so it is not, the definition does not result in an empty set.
+
+42
+00:04:49,280 --> 00:04:55,680
+And finally, that we are able to complete this process by that
+
+43
+00:04:55,680 --> 00:05:00,400
+deadline that I gave previously of the end of October. Next.
+
+44
+00:05:00,400 --> 00:05:06,480
+So this is just to let you know where we are. We're in September.
+
+45
+00:05:07,600 --> 00:05:14,480
+We have done a lot of, we and actually our partners, have done a lot of sharing
+
+46
+00:05:14,480 --> 00:05:22,000
+the OSAID internationally this month. We had Rahmat, who is a organizational endorser,
+
+47
+00:05:22,000 --> 00:05:28,000
+which I'll talk about later, and co-designer presented the OSAID in Dakar at the Deep Learning
+
+48
+00:05:28,000 --> 00:05:35,760
+in Dhaba. We had Taranima Prabhakar, who's a, I'd say a friend, a friend of the OSAID,
+
+49
+00:05:36,560 --> 00:05:41,920
+and the founder of Taddle, an open source AI system, presented at FOSS India in Bangalore.
+
+50
+00:05:41,920 --> 00:05:47,280
+I presented in the US at Regen AI, Ashland's in the state of Oregon.
+
+51
+00:05:47,280 --> 00:05:55,920
+Stefano presented the OSAID in Vienna at Lung's Foundation Europe, and then I will,
+
+52
+00:05:55,920 --> 00:06:04,720
+inshallah, present in Buenos Aires next week at NERD-ER-LA. And then next week, next month, we
+
+53
+00:06:04,720 --> 00:06:12,560
+will present at All Things Open, which is in Raleigh, and then we have a data workshop, which
+
+54
+00:06:12,560 --> 00:06:20,880
+will, which is a data policy paper that deals with, I would say, data questions emerging from the
+
+55
+00:06:20,880 --> 00:06:24,400
+open source AI definition, but is not specifically working on the definition,
+
+56
+00:06:24,400 --> 00:06:32,080
+and that will generate a white paper. Okay, yes, get involved. So the big ask,
+
+57
+00:06:33,760 --> 00:06:38,720
+do you want to do the ask, Nick, the endorse the OSAID ask, because you did, you did this web form.
+
+58
+00:06:38,720 --> 00:06:47,280
+So do you want to do it, or shall I? Yes, so right now, if you join the website,
+
+59
+00:06:47,280 --> 00:06:55,840
+and if you look under the drafts, there's a form now for endorsements. So if you'd like to join
+
+60
+00:06:55,840 --> 00:07:05,520
+that, and I'll paste the link here as well to the form, you can endorse that either as an individual
+
+61
+00:07:05,520 --> 00:07:15,040
+or as an organization. So let me just drop the link to the form, and it's very simple. You just
+
+62
+00:07:15,040 --> 00:07:24,320
+add your name, your role, your institution, and if you're endorsing this as an individual or
+
+63
+00:07:24,320 --> 00:07:32,800
+as an institution, or both, that's an option as well. You can add your comments, and once we
+
+64
+00:07:32,800 --> 00:07:41,840
+are going to be releasing this, the new release candidates, we'll also showcase some quotes,
+
+65
+00:07:41,840 --> 00:07:49,120
+and if you add a message there, that should appear as well. Thanks so much. Next slide.
+
+66
+00:07:49,120 --> 00:07:57,680
+So this is also just sharing with you the definition, and well, you can go back to that
+
+67
+00:07:58,640 --> 00:08:11,680
+colorful one. Okay, well, they, oh, oh, oh, oh, oh, yeah. So basically, just to say this is a call,
+
+68
+00:08:11,680 --> 00:08:21,280
+another call for public participation, that anyone who is on the web and would like to endorse the
+
+69
+00:08:21,280 --> 00:08:27,840
+OSAID is welcome to do so. We do, as Nick said, have the option for organizations to endorse the
+
+70
+00:08:27,840 --> 00:08:35,600
+OSAID, which is in a more formal process, but also any individual can choose to endorse the OSAID,
+
+71
+00:08:35,600 --> 00:08:44,800
+and what that means is that when we do have our official launch in October, that your name and
+
+72
+00:08:44,800 --> 00:08:50,640
+affiliation will be listed on the landing page as an endorser, kind of like the signature at
+
+73
+00:08:50,640 --> 00:09:03,600
+the end of a document. So, yes, thank you. Next. Hi. So I think that gave, yeah, I think that
+
+74
+00:09:03,600 --> 00:09:08,880
+gave that information that I was just describing. We can put it up in text still, go back. Some
+
+75
+00:09:08,880 --> 00:09:16,160
+people like to read as well as to hear information. Could you go back to that previous slide, Nick?
+
+76
+00:09:19,520 --> 00:09:24,240
+Thank you. Yeah, so this is just affirming that there's individual and organizational,
+
+77
+00:09:24,240 --> 00:09:29,440
+and it's clarifying what endorsement means, which is that your name is going on, it says
+
+78
+00:09:29,440 --> 00:09:35,440
+your press release, but it's a public statement that will be on our website, announcing the OSAID,
+
+79
+00:09:35,440 --> 00:09:40,800
+the web form, and then you can email or DM Nick or I if you have any questions about this,
+
+80
+00:09:40,800 --> 00:09:45,760
+in addition to the Q&A we're about to have. Now we can go on to the final slide.
+
+81
+00:09:46,400 --> 00:09:50,880
+Yep, so that's our request. We would love your endorsement of the OSAID,
+
+82
+00:09:50,880 --> 00:09:59,280
+and to participate in our public forum, which has always been available, and attend weekly town
+
+83
+00:09:59,280 --> 00:10:06,080
+halls are the ways to currently participate in the process, and that QR code is to the forum,
+
+84
+00:10:06,080 --> 00:10:10,720
+I believe. So if you go to the next slide.
+
+85
+00:10:15,280 --> 00:10:21,360
+I will open it up to Q&A, and please, please raise your hand, and I or Nick will call on you,
+
+86
+00:10:21,360 --> 00:10:28,560
+and allowing everyone to have a comment before we have double up on comments from any one person,
+
+87
+00:10:28,560 --> 00:10:33,760
+and you can also text in the chat if you would like to do that instead of speaking aloud.
+
+88
+00:10:33,760 --> 00:10:40,240
+But yeah, I would love to have your comments and questions.
+
+89
+00:10:42,240 --> 00:10:48,240
+All right.
+
+90
+00:10:48,240 --> 00:10:53,920
+All right. Hello, or Nick, are there any comments or questions that you feel might be interesting
+
+91
+00:10:53,920 --> 00:10:59,520
+for us to talk through? Is there anything, anything that I can clarify?
+
+92
+00:10:59,520 --> 00:11:03,120
+I know that you're going to be talking about the OSAID, and I'm going to be talking about
+
+93
+00:11:03,120 --> 00:11:07,520
+the OSAID, and I'm going to be talking about the OSAID, and I'm going to be talking about
+
+94
+00:11:07,520 --> 00:11:12,720
+the OSAID, and I'm going to be talking about the OSAID, and I'm going to be talking about the OSAID,
+
+95
+00:11:12,720 --> 00:11:16,320
+and I'm going to be talking about the OSAID, and I'm going to be talking about the OSAID,
+
+96
+00:11:16,320 --> 00:11:19,680
+and I'm going to be talking about the OSAID, and I'm going to be talking about the OSAID,
+
+97
+00:11:19,680 --> 00:11:22,480
+and I'm going to be talking about the OSAID, and I'm going to be talking about the OSAID,
+
+98
+00:11:25,280 --> 00:11:27,280
+and I'm going to be talking about the OSAID, and I'm going to be talking about the OSAID,
+
+99
+00:11:29,280 --> 00:11:35,040
+and I'm going to be talking about the OSAID, and I'm going to be talking about the OSAID,
+
+100
+00:11:35,040 --> 00:11:37,040
+and I'm going to be talking about the OSAID, and I'm going to be talking about the OSAID,
+
+101
+00:11:47,040 --> 00:12:09,040
+and I'm going to be talking about the OSAID, and I'm going to be talking about the OSAID,
+
+102
+00:12:09,040 --> 00:12:11,040
+and I'm going to be talking about the OSAID, and I'm going to be talking about the OSAID,
+
+103
+00:12:17,040 --> 00:12:19,040
+and I'm going to be talking about the OSAID, and I'm going to be talking about the OSAID.
+
+104
+00:12:19,040 --> 00:12:21,040
+And I'm going to be talking about the OSAID.
+

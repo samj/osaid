@@ -1,0 +1,476 @@
+1
+00:00:00,001 --> 00:00:10,880
+I don't... oh now it's being recorded. Okay. Yeah. Okay. So now we're being recorded.
+
+2
+00:00:10,880 --> 00:00:15,560
+This is the Q&A session for those who are watching the recording. The
+
+3
+00:00:15,560 --> 00:00:23,600
+presentation has already occurred. Yeah. Sounds good. Nick. Nick is commenting. He's
+
+4
+00:00:23,600 --> 00:00:30,180
+going to record the Q&A. I believe Stefano will be in Vienna. I do not know
+
+5
+00:00:30,180 --> 00:00:35,600
+if there will be a workshop or session on the OSAID, but I think Stefano will
+
+6
+00:00:35,600 --> 00:00:42,840
+be in Vienna personally. Yeah. It's not on my official list, but Nick maybe you have
+
+7
+00:00:42,840 --> 00:00:48,760
+some information about that. Oh he will be presenting, but not giving a workshop.
+
+8
+00:00:48,760 --> 00:01:00,200
+Okay. Thanks Nick. All right. Oh okay. Yeah. She and I presented today as I
+
+9
+00:01:00,200 --> 00:01:05,440
+mentioned earlier. I don't know if people in the recording can see the chat, but
+
+10
+00:01:05,440 --> 00:01:09,520
+we're just saying that Stefano is going to present with Annie Lai of the Linux
+
+11
+00:01:09,520 --> 00:01:18,040
+Foundation in Vienna. Yeah. I'll hang out here at least till the half hour to chat
+
+12
+00:01:18,040 --> 00:01:24,600
+with him, but the formal program has ended.
+
+13
+00:01:24,600 --> 00:01:29,640
+And Nick will also hang out.
+
+14
+00:01:29,640 --> 00:01:33,680
+You're welcome.
+
+15
+00:01:44,320 --> 00:01:50,080
+Ah could I share a bit about my presentation in Hong Kong? Yeah. So it was
+
+16
+00:01:50,080 --> 00:01:56,600
+those slides that you all saw. I guess it's not I can go back so it's in the
+
+17
+00:01:56,600 --> 00:02:04,600
+recording, but these are the slides. This is what it what it was called unveiling
+
+18
+00:02:04,600 --> 00:02:08,960
+the future nurturing openness in AI development, which was Annie's creation.
+
+19
+00:02:08,960 --> 00:02:14,880
+And Annie talked about the Linux Foundation generative AI Commons
+
+20
+00:02:14,880 --> 00:02:20,760
+projects, the model openness framework, and the model openness tool. And then I
+
+21
+00:02:20,760 --> 00:02:28,720
+spoke about the OSAID and specifically talked about not only version 0.0.9
+
+22
+00:02:28,720 --> 00:02:35,080
+which you saw, but I also spoke about the co-design process both creating the
+
+23
+00:02:35,080 --> 00:02:41,840
+for freedoms for open source AI and also identifying the required
+
+24
+00:02:41,840 --> 00:02:47,200
+components using our virtual work groups. And that's been covered in past
+
+25
+00:02:47,200 --> 00:02:55,120
+workshops. But that was the that was what I presented in Hong Kong. And then
+
+26
+00:02:55,120 --> 00:02:58,880
+Stefano was also there and so he participated in the Q&A and that was
+
+27
+00:02:58,880 --> 00:03:10,000
+great. What was the questions? I think there was there was a question about AU
+
+28
+00:03:10,000 --> 00:03:16,600
+policy and the feasibility of implementation. And then there was a
+
+29
+00:03:16,600 --> 00:03:24,120
+question in Chinese and Annie fortunately speaks Chinese. And I believe it was
+
+30
+00:03:24,120 --> 00:03:33,280
+about there were two. One was about the legal implications of the definition. And
+
+31
+00:03:33,280 --> 00:03:40,880
+the second question was about just asking for why why use open source AI?
+
+32
+00:03:40,880 --> 00:03:46,320
+Why make a system open source? And so Annie reiterated the benefits of openness
+
+33
+00:03:46,320 --> 00:03:52,440
+for AI. So yeah.
+
+34
+00:03:53,440 --> 00:03:59,520
+Oh, loss of connection.
+
+35
+00:03:59,520 --> 00:04:12,840
+I think I'm still I can still see you chatting. Okay. It said I had lost
+
+36
+00:04:12,840 --> 00:04:16,920
+internet. Okay. Early impressions on the new, so I'm just going to read Martin's
+
+37
+00:04:16,920 --> 00:04:21,480
+comment. My early impressions on the new data requirements in 0.0.9 have been good.
+
+38
+00:04:21,480 --> 00:04:25,920
+Okay. It seems to do the best with a complex situation. We'll keep thinking
+
+39
+00:04:25,920 --> 00:04:32,200
+about any loopholes. Thank you, Martin. That is basically what we have also
+
+40
+00:04:32,200 --> 00:04:39,840
+found is this is a compromise. There are people that wish that the definition
+
+41
+00:04:39,840 --> 00:04:44,840
+were more stringent and there are people that wish it were looser. So there's pull
+
+42
+00:04:44,840 --> 00:04:54,760
+on both ends. But that's probably some symptom of a compromise. So yeah. I'm
+
+43
+00:04:54,760 --> 00:04:57,880
+glad that you're seeing that too.
+
+44
+00:04:57,880 --> 00:05:09,520
+Okay. If training data had been required, how many models would have met that? Yes.
+
+45
+00:05:09,520 --> 00:05:20,800
+So I think there would have been a few. I think Olmo I think might have met it. I
+
+46
+00:05:20,800 --> 00:05:29,360
+think the concern was about the legality of the data that there is a risk of
+
+47
+00:05:29,360 --> 00:05:36,520
+lawsuits or of the data being legally shareable in certain jurisdictions but
+
+48
+00:05:36,520 --> 00:05:52,360
+not others. And that we wanted to have a definition that would have a global
+
+49
+00:05:52,360 --> 00:06:01,840
+could be implemented globally and that systems wouldn't be hung up on or be on
+
+50
+00:06:01,840 --> 00:06:10,040
+possible legal actions. So that is my understanding. And Nick, feel free to
+
+51
+00:06:10,040 --> 00:06:22,240
+yeah there you go. Olmo and Pythia. Yes. Right. Yes. Yes. So there's a nice forum
+
+52
+00:06:22,240 --> 00:06:39,680
+post about yeah I could try to find it that talks about the legal
+
+53
+00:06:39,680 --> 00:06:47,320
+uncertainties of training data and how that could make it helpful to people who
+
+54
+00:06:47,320 --> 00:06:54,200
+want access to AI open source AI systems to simply pull that X factor out of the
+
+55
+00:06:54,200 --> 00:06:56,960
+requirements.
+
+56
+00:06:56,960 --> 00:07:06,000
+See if I can find those.
+
+57
+00:07:23,800 --> 00:07:35,920
+Maybe. I don't think no it's not something that I wrote. I think it was I
+
+58
+00:07:35,920 --> 00:07:48,000
+was something in June. Anyway I was reading it this morning. Oh yes
+
+59
+00:07:48,000 --> 00:07:50,800
+explaining the concept of data information I think it might have been
+
+60
+00:07:50,800 --> 00:07:53,240
+that one.
+
+61
+00:07:57,280 --> 00:08:08,720
+Yeah so yeah this is some someone called Sen Ficon. People can be pseudonymous
+
+62
+00:08:08,720 --> 00:08:17,520
+in the forum but it's just I'll just copy and paste it. It just felt very
+
+63
+00:08:17,520 --> 00:08:26,600
+clear and well written. This is just a part of that person's post. And that's
+
+64
+00:08:26,600 --> 00:08:29,120
+the link.
+
+65
+00:08:29,120 --> 00:08:38,560
+It might be Felix. I don't know. Could be.
+
+66
+00:08:38,560 --> 00:08:53,080
+Oh great. Thank you. Thank you to Felix. I've actually heard about Felix and
+
+67
+00:08:53,080 --> 00:08:58,280
+didn't know that this was what he'd written. But yeah it's very good. Very
+
+68
+00:08:58,280 --> 00:09:07,960
+well put. What else? What are people thinking about? Anyone to chat about?
+
+69
+00:09:15,960 --> 00:09:24,040
+So there are a couple folks. Maybe not both. There's at least one person on the
+
+70
+00:09:24,040 --> 00:09:29,720
+call who is from META but I won't ask them to represent that affiliation
+
+71
+00:09:29,720 --> 00:09:36,840
+unless they want to. But so the answer is yes they're on the call today. And if
+
+72
+00:09:36,840 --> 00:09:39,640
+that person wants to say anything they're welcome to but they don't have
+
+73
+00:09:39,640 --> 00:09:43,160
+to say anything if they don't want to.
+
+74
+00:09:47,480 --> 00:09:59,800
+Mm-hmm yeah for future LLAMA models. Yep. Yep. Do you want to ask? Yeah you can put
+
+75
+00:09:59,800 --> 00:10:07,080
+the question out there and the person can answer or not. I imagine it's
+
+76
+00:10:07,080 --> 00:10:10,680
+something they're discussing internally.
+
+77
+00:10:15,080 --> 00:10:20,120
+Yeah anyone who hasn't asked a question or participated in the chat.
+
+78
+00:10:20,120 --> 00:10:25,560
+Ralph or DB, Gerardo,
+
+79
+00:10:25,560 --> 00:10:29,880
+Toka.
+
+80
+00:10:29,880 --> 00:10:35,800
+Yes Nick that's yeah that's correct. Yeah the current
+
+81
+00:10:35,800 --> 00:10:39,640
+version of LLAMA does not meet those but they could in the future.
+
+82
+00:10:39,640 --> 00:10:43,640
+That would be great.
+
+83
+00:11:04,360 --> 00:11:09,080
+I see Martin is typing. Nick.
+
+84
+00:11:09,080 --> 00:11:15,160
+I guess is everyone else who's still on the call
+
+85
+00:11:15,160 --> 00:11:19,240
+is there anything else that you'd like
+
+86
+00:11:19,240 --> 00:11:23,960
+to me to cover? Anything else you'd like me to talk about?
+
+87
+00:11:23,960 --> 00:11:29,880
+Nick is just writing a clear definition will help organizations
+
+88
+00:11:29,880 --> 00:11:33,400
+to make a choice as to whether they want to release an AI system
+
+89
+00:11:33,400 --> 00:11:40,200
+as an open source AI or not. Okay yeah.
+
+90
+00:11:40,200 --> 00:11:47,960
+Okay Martin is saying hoping if any indications made about
+
+91
+00:11:47,960 --> 00:11:51,960
+if in desiring to conform but it sees not yet and it's obviously
+
+92
+00:11:51,960 --> 00:11:59,000
+fine. Yeah I imagine it's their conversations happening internally.
+
+93
+00:12:01,960 --> 00:12:05,720
+Releasing smaller models that do miss the OSAID.
+
+94
+00:12:05,720 --> 00:12:09,320
+That's one option. Yep.
+
+95
+00:12:09,320 --> 00:12:11,320
+Yep.
+
+96
+00:12:21,000 --> 00:12:24,840
+Yes that's well put. Nick is saying a clear definition will help guide
+
+97
+00:12:24,840 --> 00:12:27,400
+policymakers around the world and that was
+
+98
+00:12:27,400 --> 00:12:31,160
+the reason that we started this in the first place. I actually wasn't even
+
+99
+00:12:31,160 --> 00:12:34,440
+there in the beginning. Nick was there and Stefano was there.
+
+100
+00:12:34,440 --> 00:12:38,760
+The board was there but yeah that was the goal for doing this is to have
+
+101
+00:12:38,760 --> 00:12:43,960
+something clear that policymakers can rely on globally like the
+
+102
+00:12:43,960 --> 00:12:51,400
+open source definition currently. Yes and the EU AI Act is
+
+103
+00:12:51,400 --> 00:12:56,600
+is one clear application of this work.
+
+104
+00:13:00,040 --> 00:13:07,800
+Okay I see people dropping off which is fine. I think I will do a last
+
+105
+00:13:07,800 --> 00:13:12,120
+call for questions or comments.
+
+106
+00:13:12,120 --> 00:13:15,960
+And then
+
+107
+00:13:15,960 --> 00:13:21,960
+okay
+
+108
+00:13:37,960 --> 00:13:44,280
+Oh you posted on the forum. Kitty I'll post on the forum.
+
+109
+00:13:44,280 --> 00:13:53,320
+Okay discussing a forum post.
+
+110
+00:13:53,320 --> 00:14:03,080
+I'm not sure if folks have read it. I would say ideally
+
+111
+00:14:03,080 --> 00:14:09,960
+this is your opportunity to click on that link that Kitty has
+
+112
+00:14:09,960 --> 00:14:14,440
+just shared and take a read and comment
+
+113
+00:14:14,440 --> 00:14:18,680
+on his post. I think that's probably the thing to do.
+
+114
+00:14:18,680 --> 00:14:21,960
+Yes and thank you for participating in the forum.
+
+115
+00:14:21,960 --> 00:14:24,440
+Thank you.
+
+116
+00:14:24,440 --> 00:14:32,840
+All right I think let's call it Nick. Yes beautiful perfect.
+
+117
+00:14:32,840 --> 00:14:36,840
+Yes Nick has just dropped the link to the
+
+118
+00:14:36,840 --> 00:14:43,400
+forum and I guess we can turn off the recording and
+
+119
+00:14:43,400 --> 00:14:48,440
+Nick if you could hang out for a minute I just wanted to ask you something.
+
