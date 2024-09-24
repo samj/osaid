@@ -55,7 +55,6 @@ def read_all_reports(directory):
                 all_reports.append(df)
     
     if not all_reports:
-        print("No valid tables found in the directory.")
         return pd.DataFrame()  # Return an empty DataFrame if no valid tables are found
     
     # Concatenate all DataFrames
@@ -76,3 +75,4 @@ if not df.empty:
     print(f"Data has been saved to {output_csv_path}")
 else:
     print("No data to display.")
+    

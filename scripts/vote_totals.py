@@ -9,6 +9,12 @@ vote_totals = df.groupby(['Category', 'Component'])[['Use', 'Study', 'Modify', '
 # Add a new column for the total votes
 vote_totals['Total'] = vote_totals[['Use', 'Study', 'Modify', 'Share']].sum(axis=1)
 
+# Add a new column for vote category based on total votes
+vote_totals['Vote Category'] = pd.cut(vote_totals['Total'], 
+                                       bins=[-float('inf'), 8, 16, 24, 32, float('inf')], 
+                                       labels=['No', 'Lean No', 'Maybe', 'Lean Yes', 'Yes'], 
+                                       right=False)
+
 # Order by the 'Total' column in descending order
 vote_totals = vote_totals.sort_values(by='Total', ascending=False)
 
