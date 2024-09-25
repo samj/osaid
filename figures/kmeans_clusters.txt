@@ -5,7 +5,7 @@ Ordered names: ['Yes', 'No']
 Ordered colors: ['#a4ea78', '#d1a09b']
 
 Components by cluster for n=2:
-Cluster Yes (Mean: 31.92, Color: #a4ea78):
+Cluster Yes (Mean: 31.92):
   - Other libraries or code artifacts (Mean: 49.00)
   - Inference code (Mean: 43.00)
   - Model parameters (Mean: 42.00)
@@ -19,7 +19,7 @@ Cluster Yes (Mean: 31.92, Color: #a4ea78):
   - Benchmarking data sets (Mean: 22.00)
   - Research paper (Mean: 22.00)
 
-Cluster No (Mean: 9.73, Color: #d1a09b):
+Cluster No (Mean: 9.73):
   - Validation data sets (Mean: 19.00)
   - All other data documentation (Mean: 17.00)
   - Evaluation code (Mean: 17.00)
@@ -43,14 +43,14 @@ Ordered names: ['Yes', 'Maybe', 'No']
 Ordered colors: ['#a4ea78', '#f9f3d1', '#d1a09b']
 
 Components by cluster for n=3:
-Cluster Yes (Mean: 41.20, Color: #a4ea78):
+Cluster Yes (Mean: 41.20):
   - Other libraries or code artifacts (Mean: 49.00)
   - Inference code (Mean: 43.00)
   - Model parameters (Mean: 42.00)
   - Model architecture (Mean: 37.00)
   - Data preprocessing code (Mean: 35.00)
 
-Cluster Maybe (Mean: 23.00, Color: #f9f3d1):
+Cluster Maybe (Mean: 23.00):
   - Supporting tools (Mean: 30.00)
   - Training data sets (Mean: 28.00)
   - Testing data sets (Mean: 27.00)
@@ -62,7 +62,7 @@ Cluster Maybe (Mean: 23.00, Color: #f9f3d1):
   - All other data documentation (Mean: 17.00)
   - Evaluation code (Mean: 17.00)
 
-Cluster No (Mean: 7.75, Color: #d1a09b):
+Cluster No (Mean: 7.75):
   - Model card (Mean: 15.00)
   - Training code (Mean: 13.00)
   - Code used to perform inference for benchmark tests (Mean: 10.00)
@@ -83,19 +83,19 @@ Ordered names: ['Yes', 'Lean Yes', 'Lean No', 'No']
 Ordered colors: ['#a4ea78', '#d6fbc4', '#e8cea3', '#d1a09b']
 
 Components by cluster for n=4:
-Cluster Yes (Mean: 44.67, Color: #a4ea78):
+Cluster Yes (Mean: 44.67):
   - Other libraries or code artifacts (Mean: 49.00)
   - Inference code (Mean: 43.00)
   - Model parameters (Mean: 42.00)
 
-Cluster Lean Yes (Mean: 31.40, Color: #d6fbc4):
+Cluster Lean Yes (Mean: 31.40):
   - Model architecture (Mean: 37.00)
   - Data preprocessing code (Mean: 35.00)
   - Supporting tools (Mean: 30.00)
   - Training data sets (Mean: 28.00)
   - Testing data sets (Mean: 27.00)
 
-Cluster Lean No (Mean: 20.00, Color: #e8cea3):
+Cluster Lean No (Mean: 20.00):
   - Training, validation and testing code (Mean: 25.00)
   - Usage documentation (Mean: 23.00)
   - Benchmarking data sets (Mean: 22.00)
@@ -105,7 +105,7 @@ Cluster Lean No (Mean: 20.00, Color: #e8cea3):
   - Evaluation code (Mean: 17.00)
   - Model card (Mean: 15.00)
 
-Cluster No (Mean: 7.09, Color: #d1a09b):
+Cluster No (Mean: 7.09):
   - Training code (Mean: 13.00)
   - Code used to perform inference for benchmark tests (Mean: 10.00)
   - Sample model outputs (Mean: 8.00)
@@ -125,32 +125,32 @@ Ordered names: ['Yes', 'Lean Yes', 'Maybe', 'Lean No', 'No']
 Ordered colors: ['#a4ea78', '#d6fbc4', '#f9f3d1', '#e8cea3', '#d1a09b']
 
 Components by cluster for n=5:
-Cluster Yes (Mean: 44.67, Color: #a4ea78):
+Cluster Yes (Mean: 44.67):
   - Other libraries or code artifacts (Mean: 49.00)
   - Inference code (Mean: 43.00)
   - Model parameters (Mean: 42.00)
 
-Cluster Lean Yes (Mean: 31.40, Color: #d6fbc4):
+Cluster Lean Yes (Mean: 31.40):
   - Model architecture (Mean: 37.00)
   - Data preprocessing code (Mean: 35.00)
   - Supporting tools (Mean: 30.00)
   - Training data sets (Mean: 28.00)
   - Testing data sets (Mean: 27.00)
 
-Cluster Maybe (Mean: 22.20, Color: #f9f3d1):
+Cluster Maybe (Mean: 22.20):
   - Training, validation and testing code (Mean: 25.00)
   - Usage documentation (Mean: 23.00)
   - Benchmarking data sets (Mean: 22.00)
   - Research paper (Mean: 22.00)
   - Validation data sets (Mean: 19.00)
 
-Cluster Lean No (Mean: 15.50, Color: #e8cea3):
+Cluster Lean No (Mean: 15.50):
   - All other data documentation (Mean: 17.00)
   - Evaluation code (Mean: 17.00)
   - Model card (Mean: 15.00)
   - Training code (Mean: 13.00)
 
-Cluster No (Mean: 6.50, Color: #d1a09b):
+Cluster No (Mean: 6.50):
   - Code used to perform inference for benchmark tests (Mean: 10.00)
   - Sample model outputs (Mean: 8.00)
   - Technical report (Mean: 8.00)
