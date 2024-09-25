@@ -1,0 +1,22 @@
+
+Components by cluster for n=2:
+Cluster No (Mean: 31.92): ['Other libraries or code artifacts', 'Inference code', 'Model parameters', 'Model architecture', 'Data preprocessing code', 'Supporting tools', 'Training data sets', 'Testing data sets', 'Training, validation and testing code', 'Usage documentation', 'Benchmarking data sets', 'Research paper']
+Cluster Yes (Mean: 9.73): ['Validation data sets', 'All other data documentation', 'Evaluation code', 'Model card', 'Training code', 'Code used to perform inference for benchmark tests', 'Sample model outputs', 'Technical report', 'Evaluation data', 'Data card', 'Evaluation results', 'Model metadata', 'Evaluation metrics and results', 'Validation code', 'Test code']
+
+Components by cluster for n=3:
+Cluster Yes (Mean: 41.20): ['Other libraries or code artifacts', 'Inference code', 'Model parameters', 'Model architecture', 'Data preprocessing code']
+Cluster No (Mean: 23.00): ['Supporting tools', 'Training data sets', 'Testing data sets', 'Training, validation and testing code', 'Usage documentation', 'Benchmarking data sets', 'Research paper', 'Validation data sets', 'All other data documentation', 'Evaluation code']
+Cluster Maybe (Mean: 7.75): ['Model card', 'Training code', 'Code used to perform inference for benchmark tests', 'Sample model outputs', 'Technical report', 'Evaluation data', 'Data card', 'Evaluation results', 'Model metadata', 'Evaluation metrics and results', 'Validation code', 'Test code']
+
+Components by cluster for n=4:
+Cluster Lean Yes (Mean: 44.67): ['Other libraries or code artifacts', 'Inference code', 'Model parameters']
+Cluster Yes (Mean: 31.40): ['Model architecture', 'Data preprocessing code', 'Supporting tools', 'Training data sets', 'Testing data sets']
+Cluster No (Mean: 20.00): ['Training, validation and testing code', 'Usage documentation', 'Benchmarking data sets', 'Research paper', 'Validation data sets', 'All other data documentation', 'Evaluation code', 'Model card']
+Cluster Lean No (Mean: 7.09): ['Training code', 'Code used to perform inference for benchmark tests', 'Sample model outputs', 'Technical report', 'Evaluation data', 'Data card', 'Evaluation results', 'Model metadata', 'Evaluation metrics and results', 'Validation code', 'Test code']
+
+Components by cluster for n=5:
+Cluster Maybe (Mean: 44.67): ['Other libraries or code artifacts', 'Inference code', 'Model parameters']
+Cluster Lean Yes (Mean: 31.40): ['Model architecture', 'Data preprocessing code', 'Supporting tools', 'Training data sets', 'Testing data sets']
+Cluster No (Mean: 22.20): ['Training, validation and testing code', 'Usage documentation', 'Benchmarking data sets', 'Research paper', 'Validation data sets']
+Cluster Yes (Mean: 15.50): ['All other data documentation', 'Evaluation code', 'Model card', 'Training code']
+Cluster Lean No (Mean: 6.50): ['Code used to perform inference for benchmark tests', 'Sample model outputs', 'Technical report', 'Evaluation data', 'Data card', 'Evaluation results', 'Model metadata', 'Evaluation metrics and results', 'Validation code', 'Test code']
