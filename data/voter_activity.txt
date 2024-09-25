@@ -1,0 +1,24 @@
+   Expert  Vote Count
+0      JL          55
+1      DM          53
+2      IE          38
+3      DC          36
+4    GCGB          35
+5     JPL          35
+6      SB          31
+7      DB          29
+8      SH          26
+9      PN          26
+11     CO          25
+10     SZ          25
+12     DT          23
+13     EL          19
+14     TM          15
+15     RA          13
+16     JT          11
+17     AS           8
+18     KH           5
+19     DG           5
+20     SM           4
+21   JPLD           1
+22     BG           1
