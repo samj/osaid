@@ -1,22 +1,164 @@
 
+Clustering results for n=2:
+Cluster centers: [31.91666667  9.73333333]
+Ordered names: ['Yes', 'No']
+Ordered colors: ['#a4ea78', '#d1a09b']
+
 Components by cluster for n=2:
-Cluster No (Mean: 31.92): ['Other libraries or code artifacts', 'Inference code', 'Model parameters', 'Model architecture', 'Data preprocessing code', 'Supporting tools', 'Training data sets', 'Testing data sets', 'Training, validation and testing code', 'Usage documentation', 'Benchmarking data sets', 'Research paper']
-Cluster Yes (Mean: 9.73): ['Validation data sets', 'All other data documentation', 'Evaluation code', 'Model card', 'Training code', 'Code used to perform inference for benchmark tests', 'Sample model outputs', 'Technical report', 'Evaluation data', 'Data card', 'Evaluation results', 'Model metadata', 'Evaluation metrics and results', 'Validation code', 'Test code']
+Cluster Yes (Mean: 31.92):
+  - Other libraries or code artifacts (Mean: 49.00)
+  - Inference code (Mean: 43.00)
+  - Model parameters (Mean: 42.00)
+  - Model architecture (Mean: 37.00)
+  - Data preprocessing code (Mean: 35.00)
+  - Supporting tools (Mean: 30.00)
+  - Training data sets (Mean: 28.00)
+  - Testing data sets (Mean: 27.00)
+  - Training, validation and testing code (Mean: 25.00)
+  - Usage documentation (Mean: 23.00)
+  - Benchmarking data sets (Mean: 22.00)
+  - Research paper (Mean: 22.00)
+
+Cluster No (Mean: 9.73):
+  - Validation data sets (Mean: 19.00)
+  - All other data documentation (Mean: 17.00)
+  - Evaluation code (Mean: 17.00)
+  - Model card (Mean: 15.00)
+  - Training code (Mean: 13.00)
+  - Code used to perform inference for benchmark tests (Mean: 10.00)
+  - Sample model outputs (Mean: 8.00)
+  - Technical report (Mean: 8.00)
+  - Data card (Mean: 7.00)
+  - Evaluation data (Mean: 7.00)
+  - Evaluation results (Mean: 6.00)
+  - Model metadata (Mean: 6.00)
+  - Evaluation metrics and results (Mean: 5.00)
+  - Test code (Mean: 4.00)
+  - Validation code (Mean: 4.00)
+
+
+Clustering results for n=3:
+Cluster centers: [23.    7.75 41.2 ]
+Ordered names: ['Yes', 'Maybe', 'No']
+Ordered colors: ['#a4ea78', '#f9f3d1', '#d1a09b']
 
 Components by cluster for n=3:
-Cluster Yes (Mean: 41.20): ['Other libraries or code artifacts', 'Inference code', 'Model parameters', 'Model architecture', 'Data preprocessing code']
-Cluster No (Mean: 23.00): ['Supporting tools', 'Training data sets', 'Testing data sets', 'Training, validation and testing code', 'Usage documentation', 'Benchmarking data sets', 'Research paper', 'Validation data sets', 'All other data documentation', 'Evaluation code']
-Cluster Maybe (Mean: 7.75): ['Model card', 'Training code', 'Code used to perform inference for benchmark tests', 'Sample model outputs', 'Technical report', 'Evaluation data', 'Data card', 'Evaluation results', 'Model metadata', 'Evaluation metrics and results', 'Validation code', 'Test code']
+Cluster Yes (Mean: 41.20):
+  - Other libraries or code artifacts (Mean: 49.00)
+  - Inference code (Mean: 43.00)
+  - Model parameters (Mean: 42.00)
+  - Model architecture (Mean: 37.00)
+  - Data preprocessing code (Mean: 35.00)
+
+Cluster Maybe (Mean: 23.00):
+  - Supporting tools (Mean: 30.00)
+  - Training data sets (Mean: 28.00)
+  - Testing data sets (Mean: 27.00)
+  - Training, validation and testing code (Mean: 25.00)
+  - Usage documentation (Mean: 23.00)
+  - Benchmarking data sets (Mean: 22.00)
+  - Research paper (Mean: 22.00)
+  - Validation data sets (Mean: 19.00)
+  - All other data documentation (Mean: 17.00)
+  - Evaluation code (Mean: 17.00)
+
+Cluster No (Mean: 7.75):
+  - Model card (Mean: 15.00)
+  - Training code (Mean: 13.00)
+  - Code used to perform inference for benchmark tests (Mean: 10.00)
+  - Sample model outputs (Mean: 8.00)
+  - Technical report (Mean: 8.00)
+  - Data card (Mean: 7.00)
+  - Evaluation data (Mean: 7.00)
+  - Evaluation results (Mean: 6.00)
+  - Model metadata (Mean: 6.00)
+  - Evaluation metrics and results (Mean: 5.00)
+  - Test code (Mean: 4.00)
+  - Validation code (Mean: 4.00)
+
+
+Clustering results for n=4:
+Cluster centers: [20.          7.09090909 44.66666667 31.4       ]
+Ordered names: ['Yes', 'Lean Yes', 'Lean No', 'No']
+Ordered colors: ['#a4ea78', '#d6fbc4', '#e8cea3', '#d1a09b']
 
 Components by cluster for n=4:
-Cluster Lean Yes (Mean: 44.67): ['Other libraries or code artifacts', 'Inference code', 'Model parameters']
-Cluster Yes (Mean: 31.40): ['Model architecture', 'Data preprocessing code', 'Supporting tools', 'Training data sets', 'Testing data sets']
-Cluster No (Mean: 20.00): ['Training, validation and testing code', 'Usage documentation', 'Benchmarking data sets', 'Research paper', 'Validation data sets', 'All other data documentation', 'Evaluation code', 'Model card']
-Cluster Lean No (Mean: 7.09): ['Training code', 'Code used to perform inference for benchmark tests', 'Sample model outputs', 'Technical report', 'Evaluation data', 'Data card', 'Evaluation results', 'Model metadata', 'Evaluation metrics and results', 'Validation code', 'Test code']
+Cluster Yes (Mean: 44.67):
+  - Other libraries or code artifacts (Mean: 49.00)
+  - Inference code (Mean: 43.00)
+  - Model parameters (Mean: 42.00)
+
+Cluster Lean Yes (Mean: 31.40):
+  - Model architecture (Mean: 37.00)
+  - Data preprocessing code (Mean: 35.00)
+  - Supporting tools (Mean: 30.00)
+  - Training data sets (Mean: 28.00)
+  - Testing data sets (Mean: 27.00)
+
+Cluster Lean No (Mean: 20.00):
+  - Training, validation and testing code (Mean: 25.00)
+  - Usage documentation (Mean: 23.00)
+  - Benchmarking data sets (Mean: 22.00)
+  - Research paper (Mean: 22.00)
+  - Validation data sets (Mean: 19.00)
+  - All other data documentation (Mean: 17.00)
+  - Evaluation code (Mean: 17.00)
+  - Model card (Mean: 15.00)
+
+Cluster No (Mean: 7.09):
+  - Training code (Mean: 13.00)
+  - Code used to perform inference for benchmark tests (Mean: 10.00)
+  - Sample model outputs (Mean: 8.00)
+  - Technical report (Mean: 8.00)
+  - Data card (Mean: 7.00)
+  - Evaluation data (Mean: 7.00)
+  - Evaluation results (Mean: 6.00)
+  - Model metadata (Mean: 6.00)
+  - Evaluation metrics and results (Mean: 5.00)
+  - Test code (Mean: 4.00)
+  - Validation code (Mean: 4.00)
+
+
+Clustering results for n=5:
+Cluster centers: [22.2         6.5        44.66666667 31.4        15.5       ]
+Ordered names: ['Yes', 'Lean Yes', 'Maybe', 'Lean No', 'No']
+Ordered colors: ['#a4ea78', '#d6fbc4', '#f9f3d1', '#e8cea3', '#d1a09b']
 
 Components by cluster for n=5:
-Cluster Maybe (Mean: 44.67): ['Other libraries or code artifacts', 'Inference code', 'Model parameters']
-Cluster Lean Yes (Mean: 31.40): ['Model architecture', 'Data preprocessing code', 'Supporting tools', 'Training data sets', 'Testing data sets']
-Cluster No (Mean: 22.20): ['Training, validation and testing code', 'Usage documentation', 'Benchmarking data sets', 'Research paper', 'Validation data sets']
-Cluster Yes (Mean: 15.50): ['All other data documentation', 'Evaluation code', 'Model card', 'Training code']
-Cluster Lean No (Mean: 6.50): ['Code used to perform inference for benchmark tests', 'Sample model outputs', 'Technical report', 'Evaluation data', 'Data card', 'Evaluation results', 'Model metadata', 'Evaluation metrics and results', 'Validation code', 'Test code']
+Cluster Yes (Mean: 44.67):
+  - Other libraries or code artifacts (Mean: 49.00)
+  - Inference code (Mean: 43.00)
+  - Model parameters (Mean: 42.00)
+
+Cluster Lean Yes (Mean: 31.40):
+  - Model architecture (Mean: 37.00)
+  - Data preprocessing code (Mean: 35.00)
+  - Supporting tools (Mean: 30.00)
+  - Training data sets (Mean: 28.00)
+  - Testing data sets (Mean: 27.00)
+
+Cluster Maybe (Mean: 22.20):
+  - Training, validation and testing code (Mean: 25.00)
+  - Usage documentation (Mean: 23.00)
+  - Benchmarking data sets (Mean: 22.00)
+  - Research paper (Mean: 22.00)
+  - Validation data sets (Mean: 19.00)
+
+Cluster Lean No (Mean: 15.50):
+  - All other data documentation (Mean: 17.00)
+  - Evaluation code (Mean: 17.00)
+  - Model card (Mean: 15.00)
+  - Training code (Mean: 13.00)
+
+Cluster No (Mean: 6.50):
+  - Code used to perform inference for benchmark tests (Mean: 10.00)
+  - Sample model outputs (Mean: 8.00)
+  - Technical report (Mean: 8.00)
+  - Data card (Mean: 7.00)
+  - Evaluation data (Mean: 7.00)
+  - Evaluation results (Mean: 6.00)
+  - Model metadata (Mean: 6.00)
+  - Evaluation metrics and results (Mean: 5.00)
+  - Test code (Mean: 4.00)
+  - Validation code (Mean: 4.00)
+

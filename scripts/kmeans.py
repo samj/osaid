@@ -38,16 +38,22 @@ os.makedirs('figures', exist_ok=True)
 # Function to assign colors and names based on cluster means
 def assign_colors_and_names(kmeans, colors, names):
     cluster_means = kmeans.cluster_centers_.flatten()
-    sorted_indices = np.argsort(cluster_means)[::-1]  # Sort in descending order
-    return [colors[i] for i in sorted_indices], [names[i] for i in sorted_indices]
+    sorted_indices = np.argsort(cluster_means)
+    ordered_names = [names[len(names)-1-i] for i in range(len(names))]
+    ordered_colors = [colors[names.index(name)] for name in ordered_names]
+    return ordered_colors, ordered_names
 
 # Function to print components by cluster
 def print_components_by_cluster(kmeans, n_clusters, file, ordered_names):
     cluster_means = kmeans.cluster_centers_.flatten()
     sorted_indices = np.argsort(cluster_means)[::-1]
     for i, idx in enumerate(sorted_indices):
-        cluster_components = df[df[f'Cluster_{n_clusters}'] == idx]['Component'].tolist()
-        file.write(f"Cluster {ordered_names[i]} (Mean: {cluster_means[idx]:.2f}): {cluster_components}\n")
+        cluster_components = df[df[f'Cluster_{n_clusters}'] == idx]
+        component_means = cluster_components.groupby('Component')['Total'].mean().sort_values(ascending=False)
+        file.write(f"Cluster {ordered_names[i]} (Mean: {cluster_means[idx]:.2f}):\n")
+        for component, mean in component_means.items():
+            file.write(f"  - {component} (Mean: {mean:.2f})\n")
+        file.write("\n")
 
 # Plotting the results
 plt.figure(figsize=(24, 6))
@@ -58,6 +64,12 @@ with open('figures/kmeans_clusters.txt', 'w') as file:
         selected_names = [vote_category_names[j] for j in indexes]
         ordered_colors, ordered_names = assign_colors_and_names(kmeans, selected_colors, selected_names)
         cluster_labels = kmeans.labels_
+        
+        file.write(f"\nClustering results for n={n_clusters}:\n")
+        file.write(f"Cluster centers: {kmeans.cluster_centers_.flatten()}\n")
+        file.write(f"Ordered names: {ordered_names}\n")
+        file.write(f"Ordered colors: {ordered_colors}\n\n")
+        
         plt.subplot(1, 4, i)
         for j in range(n_clusters):
             cluster_points = total_values[cluster_labels == j]
@@ -69,7 +81,7 @@ with open('figures/kmeans_clusters.txt', 'w') as file:
         plt.legend()
 
         # Print components by cluster
-        file.write(f"\nComponents by cluster for n={n_clusters}:\n")
+        file.write(f"Components by cluster for n={n_clusters}:\n")
         print_components_by_cluster(kmeans, n_clusters, file, ordered_names)
 
 plt.tight_layout()
