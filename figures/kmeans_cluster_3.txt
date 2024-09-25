@@ -1,0 +1,38 @@
+Clustering results for n=3:
+Cluster centers: [23.    7.75 41.2 ]
+Ordered names: ['Yes', 'Maybe', 'No']
+Ordered colors: ['#a4ea78', '#f9f3d1', '#d1a09b']
+
+Components by cluster for n=3:
+Cluster Yes (Mean: 41.20):
+  - Other libraries or code artifacts (Mean: 49.00)
+  - Inference code (Mean: 43.00)
+  - Model parameters (Mean: 42.00)
+  - Model architecture (Mean: 37.00)
+  - Data preprocessing code (Mean: 35.00)
+
+Cluster Maybe (Mean: 23.00):
+  - Supporting tools (Mean: 30.00)
+  - Training data sets (Mean: 28.00)
+  - Testing data sets (Mean: 27.00)
+  - Training, validation and testing code (Mean: 25.00)
+  - Usage documentation (Mean: 23.00)
+  - Benchmarking data sets (Mean: 22.00)
+  - Research paper (Mean: 22.00)
+  - Validation data sets (Mean: 19.00)
+  - All other data documentation (Mean: 17.00)
+  - Evaluation code (Mean: 17.00)
+
+Cluster No (Mean: 7.75):
+  - Model card (Mean: 15.00)
+  - Training code (Mean: 13.00)
+  - Code used to perform inference for benchmark tests (Mean: 10.00)
+  - Sample model outputs (Mean: 8.00)
+  - Technical report (Mean: 8.00)
+  - Data card (Mean: 7.00)
+  - Evaluation data (Mean: 7.00)
+  - Evaluation results (Mean: 6.00)
+  - Model metadata (Mean: 6.00)
+  - Evaluation metrics and results (Mean: 5.00)
+  - Test code (Mean: 4.00)
+  - Validation code (Mean: 4.00)
