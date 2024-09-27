@@ -1,0 +1,1716 @@
+1
+00:00:00,001 --> 00:00:07,000
+All right, thanks everyone for joining this day in the slide access.
+
+2
+00:00:07,000 --> 00:00:12,720
+I'm Stefano Maffulli, I'm the Executive Director of the Open Source Initiative.
+
+3
+00:00:12,720 --> 00:00:18,760
+And a reminder, we've been doing this work thanks to a grant from Alfred Sloan Foundation
+
+4
+00:00:18,760 --> 00:00:25,000
+and a donation from MercatoLibre, which has joined us as sponsors.
+
+5
+00:00:25,000 --> 00:00:32,000
+Okay, so let's go through quickly a little bit of the history of how we got here
+
+6
+00:00:32,000 --> 00:00:37,000
+and what we were doing and why we're doing this.
+
+7
+00:00:37,000 --> 00:00:43,000
+So, why we're defining the Open Source AI now is because
+
+8
+00:00:43,000 --> 00:00:51,000
+these technologies, since the introduction of chat GPTs or the Open AI launches,
+
+9
+00:00:51,000 --> 00:01:00,000
+have significantly, significantly impacted how the IT environment in the software spaces
+
+10
+00:01:00,000 --> 00:01:08,000
+has operated and worked and changed a lot of the fundamentals of our understanding of software
+
+11
+00:01:08,000 --> 00:01:11,000
+and the Open Source definition.
+
+12
+00:01:11,000 --> 00:01:19,000
+At the same time, we've seen an incredibly fast reaction from governments around the world,
+
+13
+00:01:19,000 --> 00:01:28,000
+especially the United States, Europe, but also Japan, China, have started to write laws directly.
+
+14
+00:01:28,000 --> 00:01:35,000
+And some of these laws, especially the AI Act is very explicit, mentions Open Source AI
+
+15
+00:01:35,000 --> 00:01:43,000
+and Open Source systems and models without having a specific understanding of what that means.
+
+16
+00:01:43,000 --> 00:01:50,000
+And the reason for the regulators to do that is to allow for special carve-outs for research and innovation.
+
+17
+00:01:50,000 --> 00:01:55,000
+Like having seen how the Open Source definition worked for software
+
+18
+00:01:55,000 --> 00:02:00,000
+and allowed for a thriving ecosystem that is worth apparently 8.8 trillion,
+
+19
+00:02:00,000 --> 00:02:09,000
+or in any case, it's a huge sum of money, and it's underlying the whole digital infrastructure.
+
+20
+00:02:09,000 --> 00:02:15,000
+So regulators want to keep everything safe, keep society safe, but at the same time,
+
+21
+00:02:15,000 --> 00:02:20,000
+they want to make sure that the risks are reduced.
+
+22
+00:02:20,000 --> 00:02:28,000
+And trying to find that balance revolves around the concept of Open Source AI.
+
+23
+00:02:28,000 --> 00:02:34,000
+And third is this open washing thing that we've seen a lot of companies,
+
+24
+00:02:34,000 --> 00:02:41,000
+and especially one abusing of the term Open Source and calling out meta in this space,
+
+25
+00:02:41,000 --> 00:02:50,000
+for releasing models and releasing artifacts that are not Open Source by any stretch of imagination,
+
+26
+00:02:50,000 --> 00:02:55,000
+especially their licensing in terms of conditions or not.
+
+27
+00:02:55,000 --> 00:03:03,000
+But because there is a lack of clarity, they can claim whatever they want,
+
+28
+00:03:03,000 --> 00:03:14,000
+because there is no easy way to push back and point at a widely agreed upon definition of what Open Source AI actually means.
+
+29
+00:03:14,000 --> 00:03:21,000
+And so we asked them, I mean, this is just to show the Digital Public Goods Alliance
+
+30
+00:03:21,000 --> 00:03:33,000
+have given a little, illustrated what they think the benefits of Open Source AI is in general.
+
+31
+00:03:33,000 --> 00:03:37,000
+So without further ado, let me start from the history.
+
+32
+00:03:37,000 --> 00:03:45,000
+What we've done is that in late 2021, when I joined the OSI,
+
+33
+00:03:45,000 --> 00:03:54,000
+we knew it was immediately after Copilot was launched, and it was immediately clear that the word was not going to be the same with that.
+
+34
+00:03:54,000 --> 00:03:58,000
+So we launched this research that we call Deep Dive AI.
+
+35
+00:03:58,000 --> 00:04:00,000
+We wanted to understand the space.
+
+36
+00:04:00,000 --> 00:04:08,000
+So in 2022 and 2023, we ran, if you want, research endeavor.
+
+37
+00:04:08,000 --> 00:04:11,000
+We interviewed experts. We started to ask them questions.
+
+38
+00:04:11,000 --> 00:04:15,000
+We published them in a form of deep podcast.
+
+39
+00:04:15,000 --> 00:04:20,000
+And I recommend you to listen to it because it's really, if you're new to the space,
+
+40
+00:04:20,000 --> 00:04:28,000
+it gives very good introduction to the legal aspect, the technical aspects, copyright, business and society security.
+
+41
+00:04:28,000 --> 00:04:36,000
+Also, there's an interview with DARPA program manager for AI security, very eye opening.
+
+42
+00:04:36,000 --> 00:04:47,000
+Next year, we've done, I mean, in the same year, we also run four panels with four experts covering business, society, legal and academic views.
+
+43
+00:04:47,000 --> 00:04:55,000
+And we published their report. So if you don't want to listen to the podcast, you don't want to listen to the panel recordings, look at the report.
+
+44
+00:04:55,000 --> 00:05:04,000
+It summarizes the issue. And together with the webinar series, with interviews and presentations from experts from different parts of the world,
+
+45
+00:05:04,000 --> 00:05:16,000
+we knew at the beginning or in the middle of 2023, we knew that the issue that we needed to solve was that of the availability of training data.
+
+46
+00:05:16,000 --> 00:05:24,000
+We knew that that was the problem that we needed to solve in some way, shape or form.
+
+47
+00:05:24,000 --> 00:05:26,000
+Because it was the most controversial one.
+
+48
+00:05:26,000 --> 00:05:34,000
+So we thought about using a co-design method to come up with a solution, a plausible solution.
+
+49
+00:05:34,000 --> 00:05:43,000
+So we went around the world, we asked people questions and we also set up online meetings in order to have more variety.
+
+50
+00:05:43,000 --> 00:05:52,000
+And we asked them a series of three questions. The first one, what you should be, what should the words or use the verbs,
+
+51
+00:05:52,000 --> 00:05:58,000
+use, study, modify, share, mean for in the realm, in the domain of artificial intelligence.
+
+52
+00:05:58,000 --> 00:06:16,000
+And after a few meetings in person and online, it was not too complicated to reproduce the basic principles of the free software definition and port them to the domain of AI.
+
+53
+00:06:16,000 --> 00:06:26,000
+Then we needed to understand how to implement those freedoms. If you want to use, if you want to study an AI system, what do you need?
+
+54
+00:06:26,000 --> 00:06:32,000
+So we collected virtual working groups online to analyze four types of systems.
+
+55
+00:06:32,000 --> 00:06:40,000
+One is Lama, which is completely proprietary. The other one is Bloom, which is very open science, but with a bad license.
+
+56
+00:06:40,000 --> 00:06:53,000
+PTA is a very open science LLM and OpenCV group analyzed the computer vision neural networks, zoo models, models in the zoo.
+
+57
+00:06:53,000 --> 00:07:02,000
+So to, to, to find the analysis, to, to look at it from, from also the angle of something that is not an LLM.
+
+58
+00:07:02,000 --> 00:07:12,000
+And we run some votes, not scientific. I, it was never the intention of being scientific. I've seen conversations on the forum.
+
+59
+00:07:12,000 --> 00:07:20,000
+The idea was to gather a little bit of feedback that will allow us to move on and check an hypothesis.
+
+60
+00:07:20,000 --> 00:07:34,000
+The hypothesis here was given the, that known, it showed that the groups were not unanimous in saying that the training data was always necessary to study and modify, especially for modify.
+
+61
+00:07:34,000 --> 00:07:39,000
+For studying it, it was, that component was a little bit higher.
+
+62
+00:07:39,000 --> 00:07:49,000
+But we have an hypothesis and the hypothesis to solve the problem of data was to see, okay, if we don't require it, what happens?
+
+63
+00:07:49,000 --> 00:08:01,000
+So we asked the third questions. Let's go outside, look at the, look at the world, look at existing systems and check which ones would comply if we don't require strictly the training data.
+
+64
+00:08:01,000 --> 00:08:08,000
+But we require the other components, which is the data processing code and the training code.
+
+65
+00:08:08,000 --> 00:08:19,000
+So we, we threw, we widened the search to more models to, for this validation phase.
+
+66
+00:08:19,000 --> 00:08:35,000
+And in fact, we ended up with the expected results. In other words, none of the systems that we knew were bad, like LLAMA or,
+
+67
+00:08:35,000 --> 00:08:41,000
+or Bloom, for example, we knew that those ones would not pass for different reasons.
+
+68
+00:08:41,000 --> 00:08:47,000
+So that was that signal. It was just a signal that there might be a way to solve the issue.
+
+69
+00:08:47,000 --> 00:08:52,000
+And the result was this, right? We, the definition is structured this way.
+
+70
+00:08:52,000 --> 00:09:00,000
+There is the four freedoms and then the requirements for the preferred form of making modifications to machine learning into these three pieces.
+
+71
+00:09:00,000 --> 00:09:10,000
+You have to have the weights, the parameters need to be available with freedom respecting licenses and legal terms.
+
+72
+00:09:10,000 --> 00:09:18,000
+Software needs to be complete for the training, the training and for the data processing.
+
+73
+00:09:18,000 --> 00:09:26,000
+And then you need a very detailed description of what the data we use for training actually is.
+
+74
+00:09:26,000 --> 00:09:32,000
+So Redmonk put it quite nicely and he called this the AI conundrums, right?
+
+75
+00:09:32,000 --> 00:09:39,000
+And he quotes Giulio Ferraioli here. And this is a very interesting quote.
+
+76
+00:09:39,000 --> 00:09:48,000
+So it says that if we assume that the definition requires full release of datasets, one thing is certain.
+
+77
+00:09:48,000 --> 00:09:53,000
+It would be a definition for which very few existing systems qualify.
+
+78
+00:09:53,000 --> 00:09:59,000
+And also those that qualify are less powerful and limited to specific domains.
+
+79
+00:09:59,000 --> 00:10:08,000
+And then because then the other thing to solve, I mean, the other approach to think about this conundrum is that on the other hand,
+
+80
+00:10:08,000 --> 00:10:16,000
+we have in the free software and open source movement a long history of making exceptions and finding ways to solve the problems
+
+81
+00:10:16,000 --> 00:10:27,000
+in order to have more freedom and more open source software.
+
+82
+00:10:27,000 --> 00:10:40,000
+Now, the other constraints that we have in this whole process is that the board, the OSI board, required three basic pillars, the elements.
+
+83
+00:10:40,000 --> 00:10:46,000
+We want the definition to be supported by diverse stakeholders.
+
+84
+00:10:46,000 --> 00:10:50,000
+That means not only end users, not only developers, but all of them.
+
+85
+00:10:50,000 --> 00:10:55,000
+So end users, developers, deployers of AI, subjects of AI.
+
+86
+00:10:55,000 --> 00:11:06,000
+And they want to have global representation of diverse interests in the list of endorsers and support.
+
+87
+00:11:06,000 --> 00:11:14,000
+They also require, the board also requires that the definition must include relevant examples of AI systems.
+
+88
+00:11:14,000 --> 00:11:18,000
+And this is for a specific tactical reason.
+
+89
+00:11:18,000 --> 00:11:32,000
+The regulators will not consider the open source AI definition as an interesting one or something to follow and imitate if it is not a general one,
+
+90
+00:11:32,000 --> 00:11:39,000
+if it doesn't cover general cases and if it doesn't cover and if it excludes clearly anything.
+
+91
+00:11:39,000 --> 00:11:44,000
+I mean, if it really limited to only small domains.
+
+92
+00:11:44,000 --> 00:11:50,000
+And it needs to be ready by October. And again, the main reason for this is timing.
+
+93
+00:11:50,000 --> 00:11:56,000
+The AI Act is already out there and is already law.
+
+94
+00:11:56,000 --> 00:12:03,000
+And it's already the legislation process, the normative process has already started.
+
+95
+00:12:03,000 --> 00:12:21,000
+This means that there is a hyperactivity in Brussels, but also in D.C. and in California to convince and educate policymakers that open source just means access to open weights, access to the weights.
+
+96
+00:12:21,000 --> 00:12:39,000
+And that's all they need to care about. And maybe a little bit of description of transparency in the form, if you're familiar with that data cards or other formats that are pretty lightweight to describe in metadata sense, the data set used for the training.
+
+97
+00:12:39,000 --> 00:12:49,000
+And which is not sufficient. So there is an urgency to come up with a working definition.
+
+98
+00:12:49,000 --> 00:12:59,000
+OK, so we're working on Release Candidate 1, which has some clarifications and basic concepts.
+
+99
+00:12:59,000 --> 00:13:04,000
+This is just a screenshot. It's not really don't don't refer to it too much.
+
+100
+00:13:04,000 --> 00:13:08,000
+It's going to change between now and when Release Candidate is released.
+
+101
+00:13:08,000 --> 00:13:17,000
+But I wanted to show here the structure of the document to illustrate a major feature that has been here in its intention from the beginning.
+
+102
+00:13:17,000 --> 00:13:25,000
+There are probably two main, two macro parts. The top part includes the basic concept, like what is a definition?
+
+103
+00:13:25,000 --> 00:13:31,000
+What is it that we are defining? Which is it? What is AI? What is an AI system?
+
+104
+00:13:31,000 --> 00:13:45,000
+And we added here, we may add based on feedback from the forum, the machine learning definition so that we have a list of framework reference of the topics that are covered below.
+
+105
+00:13:45,000 --> 00:13:57,000
+Then there is the actual open source AI definition, what it is, right? The preamble, why we want it and what is open source AI, which includes the four freedoms.
+
+106
+00:13:57,000 --> 00:14:14,000
+Now, the four freedoms, as you know, even in the free software world, the free software definition, the freedom to study and the freedom to modify are followed by a sentence that says precondition for this is access to the source code.
+
+107
+00:14:14,000 --> 00:14:28,000
+And further, the source code is defined as the preferred form of making modification to the program, which is later clarified also in other documents, including the licenses, etc.
+
+108
+00:14:28,000 --> 00:14:38,000
+Now, we need a frame here to understand what we're talking about, what we need, what is the preferred form of making modifications to an AI system.
+
+109
+00:14:38,000 --> 00:14:47,000
+And in order to do that, we need to limit the scope. We cannot talk about all of the AI. We need to talk about machine learning in this specific case.
+
+110
+00:14:47,000 --> 00:14:56,000
+It's the most pressing and urgent matter. Let's finish this part. So the second part, now we enter in the second macro part of the definition.
+
+111
+00:14:56,000 --> 00:15:04,000
+This part is one that is most likely to change and evolve in future versions of the definition.
+
+112
+00:15:04,000 --> 00:15:19,000
+So the preferred form of making modifications here lists the three major blocks of an AI system, a machine learning system, which are data piece, the code piece, and the parameters weights and sets conditions for those.
+
+113
+00:15:19,000 --> 00:15:38,000
+And then we added, which is already in 0.9, space for clarifications. These clarifications serve the purpose of clarifying that whether you call, when you want to call and use the term open source,
+
+114
+00:15:38,000 --> 00:15:54,000
+refer to anything that spits an output based on an input, whether you call it an open source AI, an open source AI system, open source model, open source weights, open source model or open source weights.
+
+115
+00:15:54,000 --> 00:16:05,000
+Basically, these are all equivalent terms. You cannot skip the line to some extent and say, well, it's an open source model only.
+
+116
+00:16:05,000 --> 00:16:23,000
+So, you know, the rest of the definition doesn't apply. No, if you want to call it open source model or open source weights, you have to comply with, we have to provide the preferred form of making modifications to that system.
+
+117
+00:16:23,000 --> 00:16:42,000
+Now we're also working on a new FAQ and the new FAQ entry will clarify further the four types of training data that are plausible and possible in this world.
+
+118
+00:16:42,000 --> 00:16:52,000
+And that is clearly, you know, open training data, public training data, obtainable training data and unshareable non-public training data.
+
+119
+00:16:52,000 --> 00:17:02,000
+And we believe that we believe that all of these four types of data can be part of an open source AI.
+
+120
+00:17:02,000 --> 00:17:26,000
+We don't want to limit the open source AI only to open training data or open and public training data, because that would limit the capabilities of open source systems and would limit the domain of open source systems.
+
+121
+00:17:26,000 --> 00:17:41,000
+So open training data typically is something that, you know, you have, you can fairly assume that there is global coverage, global possibility to distribute that data.
+
+122
+00:17:41,000 --> 00:17:49,000
+And that is a collection of facts like time series of wind speed and ocean temperatures.
+
+123
+00:17:49,000 --> 00:17:58,000
+And it may seem safe, but I discovered that when trying to immigrate to China, going to China for a business trip,
+
+124
+00:17:58,000 --> 00:18:21,000
+I noticed that among the reasons for Chinese government to search on entry and exit of the country to search digital devices is for the availability, for the presence of weather information, weather data on the devices.
+
+125
+00:18:21,000 --> 00:18:29,000
+Meaning this means that even that kind of data is not necessarily easy to circulate around the world, like one can assume.
+
+126
+00:18:29,000 --> 00:18:39,000
+Public training data is data that others can download, like, you know, the archive of my blog posts, for example.
+
+127
+00:18:39,000 --> 00:18:46,000
+And this is also this is subject to availability, right? Links go stale and everything like that.
+
+128
+00:18:46,000 --> 00:18:56,000
+But we can work around that with tools like common crawl or Internet archive and software heritage and places like that where they keep, they can keep the archive.
+
+129
+00:18:56,000 --> 00:19:07,000
+But that's the public training data. The obtainable training data is data that you can buy or data that you can, you know, they can be obtained if you ask.
+
+130
+00:19:07,000 --> 00:19:22,000
+Things like the ImageNet data set, for example, and the unshareable non-public training data is private information, that kind of like medical, medical, medical data.
+
+131
+00:19:22,000 --> 00:19:27,000
+This kind of data can never be asked for, can never be distributed.
+
+132
+00:19:27,000 --> 00:19:34,000
+And so we need to be careful, but we want to have open source AI medical systems.
+
+133
+00:19:34,000 --> 00:19:38,000
+So we need to find a way to work around this, this piece.
+
+134
+00:19:38,000 --> 00:19:46,000
+So I can give a very quick overview of where we're thinking that the release candidate might go to explain things a little bit better.
+
+135
+00:19:46,000 --> 00:19:56,000
+So in the data information piece, we're trying to make it clear that the requirements are a must.
+
+136
+00:19:56,000 --> 00:20:01,000
+Like the, we noticed the confusion between the work that we create.
+
+137
+00:20:01,000 --> 00:20:06,000
+So we're probably going to use, suggesting is to use the word build instead.
+
+138
+00:20:06,000 --> 00:20:16,000
+Substantially equivalent systems stays together with, but we are adding the fact that the data information needs to work with the code below.
+
+139
+00:20:16,000 --> 00:20:19,000
+You cannot just say data information alone.
+
+140
+00:20:19,000 --> 00:20:23,000
+You cannot look at data information alone and think that you can be replicating.
+
+141
+00:20:23,000 --> 00:20:38,000
+And this is, if you saw online, there was a comment from Professor Perciviere, who highlighted how much the knowing about the data and knowing how it's been processed is the crucial, crucial piece.
+
+142
+00:20:38,000 --> 00:20:59,000
+And specifies here in particular, if used, so for example, if one uses training data that is publicly available, it needs to be made available.
+
+143
+00:20:59,000 --> 00:21:10,000
+And for the code specification, there is a clarification that the code must be complete.
+
+144
+00:21:10,000 --> 00:21:14,000
+You cannot just say, hey, here's the code. No, I need to be able to run it.
+
+145
+00:21:14,000 --> 00:21:18,000
+I need to be able to run it together with the data information.
+
+146
+00:21:18,000 --> 00:21:22,000
+I need to know I need to get a working data set in some way or form.
+
+147
+00:21:22,000 --> 00:21:29,000
+And there is also one line in addition that we're working on.
+
+148
+00:21:29,000 --> 00:21:33,000
+It's a way to cover all three of these pieces.
+
+149
+00:21:33,000 --> 00:21:44,000
+So code, data and the issue here is that code weights and data.
+
+150
+00:21:44,000 --> 00:21:48,000
+The issue here is that could be contractual terms.
+
+151
+00:21:48,000 --> 00:22:00,000
+And actually, there are like the responsible AI license family has in some of the they show that they played the experiment.
+
+152
+00:22:00,000 --> 00:22:08,000
+And they have a way of in one contract to say, take this model, take this data and use it under these conditions.
+
+153
+00:22:08,000 --> 00:22:20,000
+So what we're trying to say here is that we need to have a we need to give away to people like the groups at the OSI who will be reviewing these contracts.
+
+154
+00:22:20,000 --> 00:22:28,000
+To make sure that we can evaluate the these packages that cover different artifacts,
+
+155
+00:22:28,000 --> 00:22:34,000
+because if you notice the code individually, the elements code parameters and data,
+
+156
+00:22:34,000 --> 00:22:40,000
+they have this provision that says code shall be made available on their OSI approved license.
+
+157
+00:22:40,000 --> 00:22:49,000
+This means that, yes, individually, some elements are covered, you know, they can be covered by this license.
+
+158
+00:22:49,000 --> 00:22:53,000
+But collectively, we don't have a way in this definition. So it was a missing piece.
+
+159
+00:22:53,000 --> 00:22:58,000
+And that's what we're working on on this final line.
+
+160
+00:22:58,000 --> 00:23:10,000
+All right. So these are the groups that we're working with to get endorsements and get different representation and timeline.
+
+161
+00:23:10,000 --> 00:23:25,000
+We're still aiming to get version one ready for all things open in North Carolina in October, the end of the month.
+
+162
+00:23:25,000 --> 00:23:33,000
+So for now, you know, we want to hear your voice. So endorse the concepts embedded in the draft.
+
+163
+00:23:33,000 --> 00:23:40,000
+It's unlikely that they're going to be changing going forward. But the adaptations and clarifications, absolutely.
+
+164
+00:23:40,000 --> 00:23:46,000
+They're coming because the intention is there.
+
+165
+00:23:46,000 --> 00:23:57,000
+The intention is to make sure that we have a clear definition that is white, has white support and preserves the principles of open source.
+
+166
+00:23:57,000 --> 00:24:08,000
+All right. And with that, I think we can go to open the floor for questions.
+
+167
+00:24:08,000 --> 00:24:23,000
+If you have the mic, you can probably open it yourself or you can type.
+
+168
+00:24:23,000 --> 00:24:32,000
+Yeah, so I am here. I've obviously shared a lot of my thoughts on on where we're at.
+
+169
+00:24:32,000 --> 00:24:41,000
+My main concern here is that this is a needs to be a litmus test like the open source definition.
+
+170
+00:24:41,000 --> 00:24:50,000
+And the open source definition has the benefit of being able to approve a license and then have that license self applied to millions of projects.
+
+171
+00:24:50,000 --> 00:24:55,000
+Whereas in this case, we really need to look at every single project.
+
+172
+00:24:55,000 --> 00:25:02,000
+This is getting applied to or somebody needs to look at it, whether it's us or more likely it's going to be the project itself.
+
+173
+00:25:02,000 --> 00:25:21,000
+And so my my suggestion or my my belief is that this doesn't function as a litmus test and that words like sufficiently detailed and if I can tell you, well, I've got a skilled person here and they're going to say, well, it's not skilled enough.
+
+174
+00:25:21,000 --> 00:25:30,000
+We've given you enough information. Right. So there's not there's not going to be a way for us to really tell anybody that there is not a source.
+
+175
+00:25:30,000 --> 00:25:37,000
+I sort of going and trying to implement the thing ourselves based on the information that they've given us.
+
+176
+00:25:37,000 --> 00:25:43,000
+So let's say that they do achieve the certification.
+
+177
+00:25:43,000 --> 00:26:03,000
+They get that they get the mark. Does it protect the four freedoms? And I think it's quite clearly I don't think Steven's done a really good job of saying, get these are the kind of proofs that you would need to show like you need to show me that you can make the same modifications to a machine learning system with fine tuning.
+
+178
+00:26:03,000 --> 00:26:13,000
+Right, we know access to the source data as what you can with access to the source data. I think, you know, as a practitioner, it's clear that that's not the case.
+
+179
+00:26:13,000 --> 00:26:18,000
+I mean, I feel like we need something that people can self apply, which is like the OSD.
+
+180
+00:26:18,000 --> 00:26:35,000
+And so it really needs to be something where you say this is the ingredients. This is the manifest. And maybe it's even an electronic manifest, like a JSON file or something that says these are the scripts, the training script, the training data, maybe optionally.
+
+181
+00:26:35,000 --> 00:26:42,000
+And then with those checkboxes checked, then you get access to the mark, right?
+
+182
+00:26:42,000 --> 00:26:59,000
+So yeah, I mean, I don't think unless somebody sat down and actually like, tried to size the four freedoms on systems that have been through this, like I maintain that it doesn't function as a litmus test.
+
+183
+00:26:59,000 --> 00:27:07,000
+Yeah. All right. So it doesn't function as a litmus test. And that's what we tried in the validation phase.
+
+184
+00:27:07,000 --> 00:27:18,000
+So we said, let's take the, at the time, the definition also had a component called the checklist, which I haven't mentioned.
+
+185
+00:27:18,000 --> 00:27:29,000
+Basically, the checklist is the list of components of AI systems as described in the model openness framework, which is a paper.
+
+186
+00:27:29,000 --> 00:27:45,000
+I don't know if you're familiar with it. It's a paper from the Linux Foundation. That paper lists 16, 18 components and classifies the availability of them is used to classify where they stand in three classes.
+
+187
+00:27:45,000 --> 00:27:54,000
+Open class one is open model class. That's the only way around. Class three is open model class two.
+
+188
+00:27:54,000 --> 00:28:03,000
+Open models, basically just the weights and model cards, some metadata, model card and data card, technical report, then open tooling.
+
+189
+00:28:03,000 --> 00:28:12,000
+If they make available also data pre-processing and some other and some other inference code and some other pieces of code.
+
+190
+00:28:12,000 --> 00:28:21,000
+And then a top class is open science where they provide every everything, every required component, including open training.
+
+191
+00:28:21,000 --> 00:28:27,000
+I mean, the training code and the training and testing data sets.
+
+192
+00:28:27,000 --> 00:28:40,000
+So one way that the validation phase work was to say which of these components are required, then one could go and use the model openness framework and see the availability of these marks.
+
+193
+00:28:40,000 --> 00:28:47,000
+You put zero at this bar, which is between class two and class three and class one, between open tooling and open science.
+
+194
+00:28:47,000 --> 00:28:52,000
+And that could be one way of having that litmus test.
+
+195
+00:28:52,000 --> 00:28:59,000
+What we discovered is what you were saying. It requires the finding.
+
+196
+00:28:59,000 --> 00:29:08,000
+This doesn't work at a glance the same way that open source software and open source license approved open source licenses work.
+
+197
+00:29:08,000 --> 00:29:21,000
+You cannot look at the repository and see if there is a check the license file could check the open source initiative website and say, hap, this is open source approved or not.
+
+198
+00:29:21,000 --> 00:29:25,000
+It's not because there are so many different components with different nature.
+
+199
+00:29:25,000 --> 00:29:31,000
+Some documentation is on a blog post, some code is in GitHub, some or other repositories.
+
+200
+00:29:31,000 --> 00:29:35,000
+Some of the models are on Agnephase or Kaggle.
+
+201
+00:29:35,000 --> 00:29:44,000
+Finding all these pieces for a third party of a viewer is almost impossible or very, very complicated without the collaboration of the original developers.
+
+202
+00:29:44,000 --> 00:29:54,000
+So this is an issue that we are aware of, but it's also an issue that we don't know how to solve today and it could be solved with practice tomorrow.
+
+203
+00:29:54,000 --> 00:30:07,000
+In other words, there might be a space, a place in time where Agnephase maintains a community of experts or I don't know.
+
+204
+00:30:07,000 --> 00:30:27,000
+There is a collaboration effort with universities and in fact we started talking with a few of them to see if they want to have, if they want to help us expand in next year the validation phase and fine tune the key indicators of what an open source AI needs.
+
+205
+00:30:27,000 --> 00:30:31,000
+Because I have a theory in my mind, but it's just a silly theory.
+
+206
+00:30:31,000 --> 00:30:37,000
+If you're not releasing the data processing code and if you're not releasing the training code, you're not open source.
+
+207
+00:30:37,000 --> 00:30:49,000
+It's a very, in my mind so far with the samples that I've seen, it's an easy test, but it's not an easy one to solve.
+
+208
+00:30:49,000 --> 00:30:56,000
+The nature of this animal of AI machine learning is that they are not software, simply.
+
+209
+00:30:56,000 --> 00:31:05,000
+And even when software, there are examples where understanding if it's open source or not is complicated.
+
+210
+00:31:05,000 --> 00:31:12,000
+And there are different ways of interpreting what open source means.
+
+211
+00:31:12,000 --> 00:31:22,000
+In other words, if you look at SQLite, SQLite is an open source database program, but they don't have a community around it.
+
+212
+00:31:22,000 --> 00:31:26,000
+They don't accept patches. They just release the code at their own will.
+
+213
+00:31:26,000 --> 00:31:40,000
+And on the other side of the spectrum, you have ginormous projects like OpenStack or Kubernetes, complex governance, multiple contributors, etc.
+
+214
+00:31:40,000 --> 00:31:43,000
+Different promises to the public.
+
+215
+00:31:43,000 --> 00:31:49,000
+So there is a range in there.
+
+216
+00:31:49,000 --> 00:31:53,000
+I go back to the principles that we want to say here.
+
+217
+00:31:53,000 --> 00:31:59,000
+Do we want to have more open source AI?
+
+218
+00:31:59,000 --> 00:32:11,000
+Do we want to give groups like Eleuther AI and Allen Institute for AI and maybe TII and other groups,
+
+219
+00:32:11,000 --> 00:32:23,000
+do we want to give them a chance to build AI systems that are capable of competing with Lama and Gemma and the likes?
+
+220
+00:32:23,000 --> 00:32:36,000
+Or do we want to stay in a corner where we can only use a limited amount of data and limited amount of kinds of data?
+
+221
+00:32:36,000 --> 00:32:42,000
+And the OSI has never been about...
+
+222
+00:32:42,000 --> 00:33:00,000
+Neither has the Free Software Foundation. It's never been about, let's make a limited copy of Unix because the POSIX standards are proprietaried by ISO and we protest the ISO's approach.
+
+223
+00:33:00,000 --> 00:33:04,000
+Does that make sense, Sam?
+
+224
+00:33:04,000 --> 00:33:09,000
+Yeah. I mean, SQLI, it's open source. It's in the public domain, right?
+
+225
+00:33:09,000 --> 00:33:16,000
+It doesn't have all of the things we'd like to see in an open source project, but I can exercise the full freedoms.
+
+226
+00:33:16,000 --> 00:33:27,000
+And if I have an AI system, which is derived from, and I described like, you know, the kind of toxic dump of data, things like common crawl,
+
+227
+00:33:27,000 --> 00:33:32,000
+at least I can study it and I can modify it.
+
+228
+00:33:32,000 --> 00:33:38,000
+And, you know, it's hosted on Amazon. There's a 501(c)(3) the Common Core Foundation that wraps around it.
+
+229
+00:33:38,000 --> 00:33:45,000
+So you can build a, you know, proposed open source AI on that.
+
+230
+00:33:45,000 --> 00:33:49,000
+And that's data that exists today and the systems built on it that exist today.
+
+231
+00:33:49,000 --> 00:33:53,000
+Now, we may be setting too high a bar by saying it's got to be Creative Commons licensed.
+
+232
+00:33:53,000 --> 00:34:01,000
+And there's a whole lot of reasons about, you know, not just copyrights, but personal rights and other things that prevent you and GDPR and the rest of it.
+
+233
+00:34:01,000 --> 00:34:04,000
+And they handle the complaints about GDPR. They deal with all of that.
+
+234
+00:34:04,000 --> 00:34:08,000
+So I think that maybe we are being a bit too purist.
+
+235
+00:34:08,000 --> 00:34:20,000
+And by being too purist and saying it's got to be CC0 or CC5 or whatever, right, rather than saying, like, it's got to be accessible so that I can enjoy the full freedoms.
+
+236
+00:34:20,000 --> 00:34:24,000
+That would be already a good start.
+
+237
+00:34:24,000 --> 00:34:33,000
+If we don't, right, if we don't say we want to see the data, right, we want things like that, the lung cancer data set to be available, then it'll never be.
+
+238
+00:34:33,000 --> 00:34:35,000
+No one will ever create a data set.
+
+239
+00:34:35,000 --> 00:34:37,000
+I mean, I've just deleted my data from 23andMe.
+
+240
+00:34:37,000 --> 00:34:39,000
+It's been sitting there for 20 years or something.
+
+241
+00:34:39,000 --> 00:34:46,000
+But the reason I put it in was to help advance medical technology, right, and they're good to go private and whatever.
+
+242
+00:34:46,000 --> 00:34:47,000
+So I deleted it.
+
+243
+00:34:47,000 --> 00:34:59,000
+But if there was an open source DNA database, you know, I would probably, a lot of people in that community would contribute to it with a view to finding open source drugs and solutions and things.
+
+244
+00:34:59,000 --> 00:35:04,000
+But if there's no incentive to do that, it's not going to happen.
+
+245
+00:35:04,000 --> 00:35:05,000
+Okay. No, I see.
+
+246
+00:35:05,000 --> 00:35:07,000
+I heard that argument also.
+
+247
+00:35:07,000 --> 00:35:20,000
+And I tend to push back in because I do believe that the open data issue and the incentives to open data are separate and they can run in parallel.
+
+248
+00:35:20,000 --> 00:35:29,000
+I don't think that there is an inherent capability of the open source definition to say to force behavior.
+
+249
+00:35:29,000 --> 00:35:33,000
+It has never happened before.
+
+250
+00:35:33,000 --> 00:35:45,000
+You know, Copyleft has restored what was the Copyleft and Free Software principles have restored what was available before to the research community.
+
+251
+00:35:45,000 --> 00:35:51,000
+Research community was used to distribute software freely without thinking about copyright.
+
+252
+00:35:51,000 --> 00:35:55,000
+And then copyright was applied all of a sudden and that created problems.
+
+253
+00:35:55,000 --> 00:36:01,000
+So it's a free software movement started as a reaction to restore what was happening before.
+
+254
+00:36:01,000 --> 00:36:12,000
+The open data movement needs, there are so many changes in that, so many challenges in that space that it deserves a separate conversation.
+
+255
+00:36:12,000 --> 00:36:28,000
+But going back to the common crawl being the tool that is out there, one conversation I've had with Professor Liang and other experts, builders of AI, they told me one interesting thing.
+
+256
+00:36:28,000 --> 00:36:38,000
+And the common crawl is everything, right? It's the whole web, more or less, we can assume.
+
+257
+00:36:38,000 --> 00:36:46,000
+And the interesting part, though, is not knowing that common crawl has been used, but having access to the data processing code.
+
+258
+00:36:46,000 --> 00:36:56,000
+In other words, how common crawl has been filtered, what decisions have been made to split it up into pieces, the duplicated.
+
+259
+00:36:56,000 --> 00:37:08,000
+And then the other important piece of reproducing or having the freedom to fork meaningfully is to know how the training has been done.
+
+260
+00:37:08,000 --> 00:37:21,000
+One other theory that I've heard about the importance of data set that is the actual data set that is relatively less important than the code used for producing it,
+
+261
+00:37:21,000 --> 00:37:34,000
+is that the tendency is to accumulate more and more data. And we may get to the point where there is going to be only one giant pile of data anyway.
+
+262
+00:37:34,000 --> 00:37:53,000
+But the learning moment and the innovation cycles and the collaboration seems to be most likely to happen on the code front, on the data processing and data training.
+
+263
+00:37:53,000 --> 00:38:01,000
+But that's for the future. I just want to plant it there to say one thing.
+
+264
+00:38:01,000 --> 00:38:11,000
+But the other thing that is today that is more relevant to your argument is that common crawl itself is not guaranteed.
+
+265
+00:38:11,000 --> 00:38:17,000
+You don't have any guarantee that you can distribute it safely around the world.
+
+266
+00:38:17,000 --> 00:38:35,000
+And in fact, if you look at the history of the pile, and the history of Dolma, the two data sets used by Luther AI and the Allen Institute for AI,
+
+267
+00:38:35,000 --> 00:38:43,000
+both of them, they're making decisions to distribute data that for which they don't have any rights to redistribute.
+
+268
+00:38:43,000 --> 00:38:47,000
+And they're also changing the conditions for their distributions. Right?
+
+269
+00:38:47,000 --> 00:39:00,000
+You were saying common crawl, common zeros, 511c3. There is no guarantee that common crawl can be distributed the way it is legally, safely around the world.
+
+270
+00:39:00,000 --> 00:39:05,000
+That's what we're trying to dance around. Data is a different space.
+
+271
+00:39:05,000 --> 00:39:20,000
+We got really lucky that software, there was a decision, a policy decision by IBM and Apple to apply copyright to software and not other different, different exclusive rights.
+
+272
+00:39:20,000 --> 00:39:30,000
+Because copyright is more or less, uniformly more or less uniformly applied worldwide.
+
+273
+00:39:30,000 --> 00:39:38,000
+But I'll give you one last example, just to see how complex and how difficult this conversation is.
+
+274
+00:39:38,000 --> 00:39:42,000
+We say, let's train only on public domain data.
+
+275
+00:39:42,000 --> 00:39:46,000
+That concept of public domain is different around the world.
+
+276
+00:39:46,000 --> 00:39:50,000
+Oh, let's talk in only our first, you know, let's, let's use only fair use.
+
+277
+00:39:50,000 --> 00:40:01,000
+Let's apply the fair use doctrine. That doesn't exist outside of the United States or, and I don't know if there is, I don't know what the situation is in Australia.
+
+278
+00:40:01,000 --> 00:40:07,000
+It definitely the interpretation of the courts will be different for what fair use is.
+
+279
+00:40:07,000 --> 00:40:11,000
+So we can't really rely on what we relied on for software.
+
+280
+00:40:11,000 --> 00:40:20,000
+We just have to change our minds. And this is one of the reasons why we're having a separate conversation and a separate workshop on data.
+
+281
+00:40:20,000 --> 00:40:26,000
+This coming month to just learn a little bit more about the space.
+
+282
+00:40:26,000 --> 00:40:33,000
+We're working with Open Future to produce a white paper on this, on this space.
+
+283
+00:40:33,000 --> 00:40:39,000
+That will serve as a continuation, you know, as a starting point to continue the conversation next year.
+
+284
+00:40:39,000 --> 00:40:45,000
+Because open data has been around for 15 years and as a movement and all.
+
+285
+00:40:45,000 --> 00:40:50,000
+And now they're thinking, you know, my sense is that they've been thinking a little bit by surprise.
+
+286
+00:40:50,000 --> 00:41:03,000
+The because open data has been publishing, you know, release your data, your user data and not much about making it fun, realizing that it was, it would be functional.
+
+287
+00:41:03,000 --> 00:41:11,000
+And that could be used for to transform the behavior of systems.
+
+288
+00:41:11,000 --> 00:41:18,000
+Yeah. Look, I mean, I think that the pragmatically the data is only required a training time.
+
+289
+00:41:18,000 --> 00:41:21,000
+The inference time is 99% of the use cases at inference time.
+
+290
+00:41:21,000 --> 00:41:31,000
+But but as long as you've got access to it one way or another to be able to, whether that means having a team member in the US or running it in the US or whatever it is to to resolve that.
+
+291
+00:41:31,000 --> 00:41:35,000
+And then you model you can you can you can run it wherever you want.
+
+292
+00:41:35,000 --> 00:41:42,000
+My concern is that we have this definition here that that is like, like I said, not like we can't apply it.
+
+293
+00:41:42,000 --> 00:41:47,000
+Right. And we don't have the manpower to apply this to everybody who wants it.
+
+294
+00:41:47,000 --> 00:41:54,000
+So you rely on people self applying it, which is like sufficiently detailed, sufficiently skilled.
+
+295
+00:41:54,000 --> 00:42:03,000
+Anybody can apply it to anything. Right. And so there's not really any way for us to stop that, particularly without trademarks, unless you have a certification trademark and so on.
+
+296
+00:42:03,000 --> 00:42:10,000
+Right. So I feel like, you know, that we're kind of going to learn that the hard way. Right.
+
+297
+00:42:10,000 --> 00:42:15,000
+And then to Tom Cataway's point, right, we can't once the cat's out of the bag, you can't bring it back in again.
+
+298
+00:42:15,000 --> 00:42:19,000
+You can you can start with a high bar and lower the bar.
+
+299
+00:42:19,000 --> 00:42:26,000
+But if you go out with a low bar, you can't raise it later because the standard is already effectively being said.
+
+300
+00:42:26,000 --> 00:42:39,000
+I think we need to measure twice and cut once here. But I feel like, you know, no matter no amount of consensus finding or discussion at this point or based on the history, really, at any point.
+
+301
+00:42:39,000 --> 00:42:43,000
+I mean, we started this conversation, you and I back in March or something.
+
+302
+00:42:43,000 --> 00:42:48,000
+And I see that it's been running, you know, the whole the whole year. It hasn't really got got anywhere.
+
+303
+00:42:48,000 --> 00:43:04,000
+But maybe maybe the thing here is we look at those exceptions you mentioned, like the one you've got on the screen now, the library of what used to be the lesser public, lesser GPO and kind of I'm not super like I'm very impressed with the level of detail.
+
+304
+00:43:04,000 --> 00:43:13,000
+So the cost has got there, but it goes to the intent. Like, you know, when you go and have a dual intent visa, right, what's your intent? You can't really test the intent, not visible.
+
+305
+00:43:13,000 --> 00:43:19,000
+So it really needs to be a thing. Is the data accessible? And if it's accessible, I can exercise the full freedoms.
+
+306
+00:43:19,000 --> 00:43:25,000
+I think we agree on that. What? Okay. In that case, it's not like how sorry.
+
+307
+00:43:25,000 --> 00:43:35,000
+Well, OK, how do you cover the case then for federated learning? The the the the definition tries to be generic.
+
+308
+00:43:35,000 --> 00:43:40,000
+And I agree with you that there is an issue with certification like that. It needs to be solved.
+
+309
+00:43:40,000 --> 00:43:46,000
+But let's put that aside. Let's put that aside. We will solve it. We need the principles now.
+
+310
+00:43:46,000 --> 00:43:58,000
+We need to establish the principles and the principles. I fully agree with all of you. All the requirements for open data, like the building blocks are free code data and weights.
+
+311
+00:43:58,000 --> 00:44:03,000
+All three of them needs to be made available. It's such a no brainer.
+
+312
+00:44:03,000 --> 00:44:09,000
+The problem here is to cover for the different cases of the different kinds of data.
+
+313
+00:44:09,000 --> 00:44:18,000
+That's what we need to we to give a story. We need to have a story for. And the story can only be solved with with this approach.
+
+314
+00:44:18,000 --> 00:44:22,000
+We can only be solved with this approach. We haven't seen another approach.
+
+315
+00:44:22,000 --> 00:44:27,000
+We haven't seen another proposal that covers all of these different types of data.
+
+316
+00:44:27,000 --> 00:44:38,000
+We can go to the politicians. We can go to policymakers and say, look, the the the the right to fork meaningfully for an AI system is
+
+317
+00:44:38,000 --> 00:44:46,000
+if I have access, if we have access to complete and detailed listing of all these kinds of data with links,
+
+318
+00:44:46,000 --> 00:44:54,000
+you know, the URLs, the torrent hashes and all of that to download the publicly available, obtainable and open training data.
+
+319
+00:44:54,000 --> 00:45:01,000
+And in case of nonpublic, very, very detailed description like sample data sets,
+
+320
+00:45:01,000 --> 00:45:12,000
+you know, sample so that we can build a data set with our own private data, like a hospital can say I can recreate the structure of that data set with my own data.
+
+321
+00:45:12,000 --> 00:45:18,000
+And the training code and the data processing code.
+
+322
+00:45:18,000 --> 00:45:26,000
+And the model, right. But I want to have access to I need to be able to the very basic principle that the politician needs to be here.
+
+323
+00:45:26,000 --> 00:45:30,000
+They want to be here. A very simple thing. And the simple thing could be.
+
+324
+00:45:30,000 --> 00:45:37,000
+We need to have training code, training, processing, processing data.
+
+325
+00:45:37,000 --> 00:45:45,000
+And all the instructions to take that and build on top of it, retraining.
+
+326
+00:45:45,000 --> 00:45:51,000
+Without our own data or a different data.
+
+327
+00:45:51,000 --> 00:46:03,000
+Is there a way we can address that kind of batteries included versus lesser or D minus or or whatever the.
+
+328
+00:46:03,000 --> 00:46:08,000
+You know that the minus the block. I mean, that's the approach. I mean, that's what we're striving to get.
+
+329
+00:46:08,000 --> 00:46:13,000
+That's what we're failing to communicate in this in this.
+
+330
+00:46:13,000 --> 00:46:23,000
+It when someone says like you, you and others like for simplicity, you know, grouping all training data must be open.
+
+331
+00:46:23,000 --> 00:46:35,000
+The the conversation stops because there. Yes, in theory, but in practice, there are four kinds of different data.
+
+332
+00:46:35,000 --> 00:46:45,000
+So how do we account with this diversity is the proposed solution is what it's been in draft since 06 to 09.
+
+333
+00:46:45,000 --> 00:46:50,000
+And it is to have that data information piece together with the code requirements.
+
+334
+00:46:50,000 --> 00:46:59,000
+Those two pieces. Need to be made available. Right.
+
+335
+00:46:59,000 --> 00:47:09,000
+But if I can't get the data itself, then I can't even validate that what you say is I can't even validate that data is actually the data that's gone into the model and it hasn't been supplemented.
+
+336
+00:47:09,000 --> 00:47:14,000
+So that's that's the problem of reproducibility. Right. Is that what you're talking about?
+
+337
+00:47:14,000 --> 00:47:21,000
+Reproducing the experience? What I'm saying is anybody can say anything. Anybody can say it's open source and there's nothing I can do to say.
+
+338
+00:47:21,000 --> 00:47:30,000
+We can say that is also not right. But under this, with this, but there's different rules through any claims. Right.
+
+339
+00:47:30,000 --> 00:47:36,000
+Yeah, but those are two different problems. The reproducibility is one thing and recognizes whether it is open source or not.
+
+340
+00:47:36,000 --> 00:47:42,000
+It's a different thing. Reproducibility, even in software, is not a solved problem.
+
+341
+00:47:42,000 --> 00:47:55,000
+For the most complex systems, you don't have a way to match bit to bit the binary to the source code.
+
+342
+00:47:55,000 --> 00:48:03,000
+Yeah. And especially not when you're using like CUDA and stuff.
+
+343
+00:48:03,000 --> 00:48:11,000
+And there's enough randomness in that you're going to get a different binary, but it's going to perform in a substantially similar way.
+
+344
+00:48:11,000 --> 00:48:19,000
+And if you run the open source system, then you should have something that answers the same question the same way.
+
+345
+00:48:19,000 --> 00:48:26,000
+You can study that thing. Right. It should be similar.
+
+346
+00:48:26,000 --> 00:48:34,000
+So we enter into, you know, this is a different space than software. So even in software, we don't have reproducible builds.
+
+347
+00:48:34,000 --> 00:48:50,000
+Or they're not an unsolved problem. Reproducing and rebuilding from scratch a system to make sure that it behaves completely the same is still an unsolved problem and may never be solved for these machine learning, deep learning systems.
+
+348
+00:48:50,000 --> 00:48:59,000
+So aiming for that, it's a mistake. That's the open science level, which has always been a separate thing from open source.
+
+349
+00:48:59,000 --> 00:49:06,000
+Open source is a building block, if you want, for open science. But it's not the same thing.
+
+350
+00:49:06,000 --> 00:49:27,000
+Here, we're trying to, with open source AI, the open source AI definition has different aims to enable transparency, to enable transportedness, to enable open science, to enable safe and lower risks for society, or not to be an obstacle, rather.
+
+351
+00:49:27,000 --> 00:49:41,000
+But these are not the goals. The goal here is to preserve the right to fork, if you want to put it very quickly.
+
+352
+00:49:41,000 --> 00:49:48,000
+Can I fork it? Can I build on top of it? What do I need to do that?
+
+353
+00:49:48,000 --> 00:50:00,000
+Can I reproduce it? Sure. I should not be stopped. I mean, it's a level on top.
+
+354
+00:50:00,000 --> 00:50:13,000
+Yeah, it's a bit the open source versus open weights and discussion. In one case, you're getting the weights, but you can fine tune, but you can't fully exercise the freedoms.
+
+355
+00:50:13,000 --> 00:50:23,000
+But if you have source in the context of preferred form, as in the original training data.
+
+356
+00:50:23,000 --> 00:50:37,000
+So what are your thoughts then on how we got to this decision and the process? And I guess there was voting done and there was a result that was interpreted, I argue misinterpreted.
+
+357
+00:50:37,000 --> 00:50:45,000
+Had that decision have come out a different way, had that have been interpreted differently, had those negative votes not gone in, how would that have been handled?
+
+358
+00:50:45,000 --> 00:50:57,000
+Yeah, no, no, that's a good point. I think Zak raised that issue in the early days as soon as the, Stefano Zacchiroli, as soon as they came out.
+
+359
+00:50:57,000 --> 00:51:05,000
+But that was so that those results were never meant neither to be scientific, nor representative, nor democratic or anything like that.
+
+360
+00:51:05,000 --> 00:51:18,000
+There were, we had, we looked at them and we know this display and we knew that requiring trained data at the time, we didn't have this analysis of this four different kinds of data.
+
+361
+00:51:18,000 --> 00:51:32,000
+We knew that there were cases where data was not distributable. So strictly requiring open data or the full training data set was going to be a limiting factor.
+
+362
+00:51:32,000 --> 00:51:45,000
+So we tested, we decided to test an hypothesis. It was really like a political decision, if you want, which Stefano Zacchiroli also recently reiterated.
+
+363
+00:51:45,000 --> 00:52:00,000
+Let's test it. Let's see what happens if we say no training data, but we replace training data with the detailed information about it and the training code and the data processing code.
+
+364
+00:52:00,000 --> 00:52:11,000
+Let's see what happens and let's test that hypothesis. And that's where we saw the path forward into two following phases, the validation phase.
+
+365
+00:52:11,000 --> 00:52:28,000
+And with the conversations with the partners, like with the, there is a vocal minority, but I guarantee you there is a much larger supporting group that is not visible on the forums because they're overwhelmed.
+
+366
+00:52:28,000 --> 00:52:36,000
+And because they are AI builders, they tend not to have a lot of time, the lawyers, etc. professors.
+
+367
+00:52:36,000 --> 00:52:51,000
+You know, it signaled that experiments gave a signal of a possible solution to the conundrum.
+
+368
+00:52:51,000 --> 00:53:00,000
+Grant, you know, keeping in mind, we're not AI experts. We were looking at what the AI experts in those working groups were saying.
+
+369
+00:53:00,000 --> 00:53:06,000
+And we noticed that there was not such an overwhelming majority of requiring training data.
+
+370
+00:53:06,000 --> 00:53:10,000
+So we test and we knew that requiring it was going to be a problem.
+
+371
+00:53:10,000 --> 00:53:22,000
+So we tested the hypothesis of what if instead we require information, detailed information and the training code.
+
+372
+00:53:22,000 --> 00:53:36,000
+Has anybody actually done, like actually done the kind of proven that the freedoms are are exercisable or it's just been a thought.
+
+373
+00:53:36,000 --> 00:53:39,000
+In what sense? Rebuilt from scratch?
+
+374
+00:53:39,000 --> 00:53:50,000
+Like a practitioner, somebody gone and actually modified one of these systems or studied one of these systems that without.
+
+375
+00:53:50,000 --> 00:53:56,000
+Maybe that's a question I can ask you. Like, why are you using Alpaca for your for your system instead of PTI?
+
+376
+00:53:56,000 --> 00:54:00,000
+PTI is or Olmo.
+
+377
+00:54:00,000 --> 00:54:11,000
+So using. I'm choosing I was looking at your demo, the personal assistant, which is exactly what I had in mind three years ago.
+
+378
+00:54:11,000 --> 00:54:21,000
+Like, my God, we need to find a way for the next operating system to be using these systems and they need to be powerful and capable as much as charge.
+
+379
+00:54:21,000 --> 00:54:29,000
+So how do we do that? And I was watching your demo and I think I saw that you were using Alpaca in it.
+
+380
+00:54:29,000 --> 00:54:32,000
+Which is the llama.
+
+381
+00:54:32,000 --> 00:54:34,000
+Jumbo llama beats Jumbo.
+
+382
+00:54:34,000 --> 00:54:37,000
+So I'm working on the operating system.
+
+383
+00:54:37,000 --> 00:54:46,000
+And the reason I'm taking a break from that to focus on this is because I would like to have the protection of a strong, meaningful open source AI definition.
+
+384
+00:54:46,000 --> 00:54:53,000
+I'm working on the operating system and the demos that you're seeing are applications of the top of the operating system.
+
+385
+00:54:53,000 --> 00:55:05,000
+So like a video chatbot who is standing in for a lecturer and answering questions about quantum physics or assignment deadline or whatever the thing is.
+
+386
+00:55:05,000 --> 00:55:09,000
+I don't I give you the choice. You can run what you want. Right.
+
+387
+00:55:09,000 --> 00:55:16,000
+And the reality is that there are these open source models of few and far between.
+
+388
+00:55:16,000 --> 00:55:19,000
+And my intention would be that there will be more of them.
+
+389
+00:55:19,000 --> 00:55:29,000
+But if we don't kind of set a bar and say this is the bar you need to meet to be an open source, be part of the open source, the Linux of personal AI, if you like.
+
+390
+00:55:29,000 --> 00:55:41,000
+Well, all right. So I can tell you I can share I can share with you what the I can share with you that the systems that now comply in my mind for the definition.
+
+391
+00:55:41,000 --> 00:55:49,000
+I mean, my I mean, based on the results of the analysis are basically four all made by nonprofit organization.
+
+392
+00:55:49,000 --> 00:56:04,000
+So the Lutheran I Allen Institute for AI, TIA Falcon and LLM 360 are these are the four groups that are releasing all of their science.
+
+393
+00:56:04,000 --> 00:56:15,000
+None of the others and companies especially are hard pushing back, not about the data they're pushing back on the data processing code and training code.
+
+394
+00:56:15,000 --> 00:56:30,000
+They don't want to release that. Even the ones who are more generous, like IBM, more generous about their their disclosure of their training, training details and giving the weights and very permissive licenses, etc., etc.
+
+395
+00:56:30,000 --> 00:56:35,000
+They are not releasing the training code and they're not releasing the data processing code.
+
+396
+00:56:35,000 --> 00:56:41,000
+And when I mean my conversations also with VC funders, they always tell me the same thing.
+
+397
+00:56:41,000 --> 00:56:45,000
+That's not going to happen. The companies don't want to release those.
+
+398
+00:56:45,000 --> 00:57:03,000
+So. It's another sign in my mind that this is a good working solution, it covers it gives PTA, it gives the Lutheran AI, it gives it gives a lean Agora, it gives next cloud.
+
+399
+00:57:03,000 --> 00:57:13,000
+You know, these are other open source smaller companies who want to release they're working on open source AI and they want to release more of that.
+
+400
+00:57:13,000 --> 00:57:26,000
+So we want to give them space to create the tools that you can embed in your system and you can ship safely knowing what what we know.
+
+401
+00:57:26,000 --> 00:57:31,000
+All right, we're getting at the top of the hour. I see Giacomo join, raise the hand.
+
+402
+00:57:31,000 --> 00:57:34,000
+Let's go with this question and then I need to go.
+
+403
+00:57:34,000 --> 00:57:56,000
+The question is simple. If the definition does not require the data, neither its distribution nor its availability, which may be a different thing.
+
+404
+00:57:56,000 --> 00:58:02,000
+So we should remove from the prelude.
+
+405
+00:58:02,000 --> 00:58:24,000
+It's the claim that the definition want to grant the right, the freedom to study and the freedom to modify and say that such definition will grant the freedom to fine tune the system because that's what is happening.
+
+406
+00:58:24,000 --> 00:58:46,000
+Also, why I'm pretty sure that the definition that can be used to open wash any black box, we get a lot more traction among several detectors.
+
+407
+00:58:46,000 --> 00:59:08,000
+It's going to also to have to the nature of the open source solution that may actually distribute or at least show how to obtain the training data.
+
+408
+00:59:08,000 --> 00:59:14,000
+So we have.
+
+409
+00:59:14,000 --> 00:59:19,000
+That is all we are here about.
+
+410
+00:59:19,000 --> 00:59:43,000
+We are to grant with the such definition that are the freedom to use the freedom to distribute and the freedom to fine tune or we try to actually grant the freedom that the open source usually say to want to grant and require in a way or another.
+
+411
+00:59:44,000 --> 00:59:53,000
+Now, I think you're bringing up, Giacomo, I can't hear you anymore now.
+
+412
+00:59:53,000 --> 01:00:08,000
+But if I understand you correctly, you're calling for a litmus test, like some saying on the chat that the that litmus test doesn't exist in software either.
+
+413
+01:00:08,000 --> 01:00:13,000
+So, you know, we may pretend it does, but it doesn't.
+
+414
+01:00:13,000 --> 01:00:31,000
+I was talking to Sam before explaining the difference between how complicated it is to evaluate if I can really rebuild fully in a trustful, trustworthy way, any more complex program like the reproducible build issue.
+
+415
+01:00:31,000 --> 01:00:38,000
+So, why is one issue is it or maybe it's a solution.
+
+416
+01:00:38,000 --> 01:00:49,000
+The problem here is that in general, the definition does not grant the freedom that he pretends to in the preamble.
+
+417
+01:00:49,000 --> 01:01:08,000
+We are fine. If it's a speech, we say, OK, we can't grant the right to study and we can't grant the right to modify and we grant that we can grant the right to fine tune our system.
+
+418
+01:01:08,000 --> 01:01:11,000
+So we grant that everybody would happy.
+
+419
+01:01:11,000 --> 01:01:16,000
+We'll be happy. In particular, Facebook.
+
+420
+01:01:16,000 --> 01:01:19,000
+I see what your point is. I see what your point is.
+
+421
+01:01:19,000 --> 01:01:30,000
+I see what your point is. I do think I mean, OK, you have an issue with the fact that it's it's unclear and it's incoherent in that sense.
+
+422
+01:01:30,000 --> 01:01:34,000
+I some. All right.
+
+423
+01:01:34,000 --> 01:01:42,000
+Well, I take it. I think that as a as a comment and unfortunately I need to go, but we can continue the conversation online.
+
+424
+01:01:42,000 --> 01:01:48,000
+One one request for you to just be mindful of the time of others.
+
+425
+01:01:48,000 --> 01:01:55,000
+If you can make smaller posts and less frequent, if you want, because you made your point.
+
+426
+01:01:55,000 --> 01:02:10,000
+I think you've been heard. And and let's try to give space to four others also to participate into the conversation, because if we get if they get overwhelmed, it's going to be a dialogue between two or three people.
+
+427
+01:02:10,000 --> 01:02:15,000
+All right. Thanks very much. Thank you very much.
+
+428
+01:02:15,000 --> 01:02:18,000
+Gotta go. Bye bye.
+
+429
+01:02:18,000 --> 01:02:20,000
+Bye.
+
