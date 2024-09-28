@@ -1,0 +1,776 @@
+Good.
+
+Let's get started.
+
+Thanks everyone for joining this public town hall.
+
+I don't even remember the fifth in the series,
+
+but there's been a while we've tried to be transparent
+
+about the process and what's happening
+
+and give a very quick overview
+
+of what's been happening in the past few months
+
+and look at the latest draft
+
+and have a quick glance at what's coming next
+
+because we're really approaching the last months,
+
+actually the last weeks of the drafting process.
+
+We really are getting close to something that is workable.
+
+Let's start with our community agreements
+
+to remind everyone that we are welcoming a place,
+
+we're also trying to balance with moving forward
+
+and finding converging towards a solution,
+
+leaving the largest building blocking paths,
+
+elements for something that can be fixed in the future.
+
+And we are aiming quickly towards having a definition
+
+for open source AI by the end of the year.
+
+So where do we stand now?
+
+Remember, this is a reminder of what we've been working on.
+
+We have a preamble that sets the objective
+
+of why we're doing this, what are the objectives,
+
+what are the reasons why we want to have a clear definition
+
+of open source AI, why that's necessary.
+
+And we want to also clarify what we think needs to be fixed
+
+and we need to be addressed the issues that AI creates
+
+are to be resolved at a different level,
+
+at the government level, governance level,
+
+deployment levels, and not inside the documents
+
+that are used to distribute and make AI systems available.
+
+Then we have worked quite heavily to define the freedoms,
+
+to define exactly what is open source AI in practice,
+
+what are the identifying elements of when we see it,
+
+we will know that that system is an open source AI.
+
+This top part, before what we call the legal checklist,
+
+this top part is the most important piece
+
+and the most urgent piece that we need to get right
+
+and we need to get it right quickly.
+
+What follows below is the space,
+
+is what we are reviewing and revising at this stage.
+
+The top part looks fairly stable
+
+and I really urge everyone to look at it,
+
+to give it a very solid, deep read,
+
+to see, to highlight possible mistakes,
+
+possible areas of improvement,
+
+because we really need to put this to bed
+
+as quickly as possible.
+
+And since no one has been giving a lot of comments to this
+
+in the past couple of iterations,
+
+I'd love to tell everyone, to remind everyone
+
+that this is very important that we complete the process
+
+and this top part is really, really, really the top,
+
+the most important one.
+
+What comes below is the,
+
+what comes below the legal checklist is,
+
+basically, an operation manual,
+
+or at least recommendations and the initial recommendations
+
+for operators of the,
+
+for the people who would be reviewing AI systems
+
+and evaluate whether they satisfy the definition
+
+about what is open source AI.
+
+And because these are strongly targeting,
+
+this checklist is strongly targeting
+
+machine learning systems,
+
+because those are the systems that introduce new elements
+
+and pose more challenges at the moment.
+
+In the future, it may be different,
+
+but at the moment, machine learning is what is creating
+
+this uncertainties around what is open source,
+
+rather than other systems.
+
+And the main reason is because the AI systems require data
+
+and they produce, machine learning systems require data
+
+and they produce model weights.
+
+And these two elements are fairly new in the software world.
+
+And we haven't really been thinking about how they interact
+
+with the open source definition.
+
+This whole exercise of finding the open source AI definition
+
+revolves around these disruption, if you want,
+
+this disturbance in the understanding
+
+of what open source means.
+
+And that's what we are analyzing.
+
+This checklist is the piece that we are using
+
+to evaluate whether a system is open source or not,
+
+the response to the open source definition for AI or not.
+
+So what we've been doing, we started in the fall
+
+and we found these principles with co-design workshops
+
+that we run in multiple parts of the world,
+
+like in October in Raleigh, North Carolina,
+
+then we went to Monterey.
+
+We went to Alisabeba with the United Nations
+
+Digital Public Goods Alliance to run another workshop.
+
+And the result of these conversations,
+
+also we had conversations online,
+
+came out, produced this Four Freedoms for AI,
+
+which is basically the four freedom for free software,
+
+adapted and reviewed and purposed for AI systems,
+
+thinking about the definition of AI system.
+
+Then we focused on understanding the required components
+
+that one needs to have for a machine learning system
+
+in order to exercise those freedoms.
+
+So what do you actually need in order to have access
+
+to these systems?
+
+So we had, again, more workshops in person in San Jose,
+
+and then we run virtual work groups online
+
+to analyze four specific systems,
+
+Lama2, Bloom, PTI, and OpenCV.
+
+And you will see a variety of elements in here.
+
+You see Lama2, it's a commercial project
+
+and distributed with legal terms
+
+that include restrictions,
+
+and the Open Source Initiative has already called Lama2
+
+not an open source system.
+
+But it's relevant to have the analysis.
+
+We looked at Bloom because it's an open science project.
+
+It's very open in terms of it distributes
+
+a lot of its components,
+
+and it's very complete from the science perspective.
+
+Also, we know that it's been shared with our license
+
+and with legal terms that prevent some uses.
+
+PTI is another open science project,
+
+and it's very permissive.
+
+And OpenCV is similarly an open source project
+
+with lots of openness and lots of open components
+
+made available, but it's non-generative.
+
+So it's a computer vision, machine learning,
+
+machine learning system.
+
+So adding a little bit of variety.
+
+We asked for volunteers and we reached out to volunteers
+
+to have the most, the widest possible diversity
+
+in different levels and different stages.
+
+We invited experts from like the developers
+
+and technical experts of each of these groups.
+
+And we included others.
+
+Like we invited Davide Testugine and Jonathan Torres
+
+from Meta into the LAMA working group explicitly
+
+because they are experts.
+
+And if someone couldn't find a component,
+
+we could ask the experts to go look for them
+
+and to tell us whether those were available or not.
+
+And that's the reason why they're here together with,
+
+for example, Stella Biderman from PTI.
+
+And we worked also, we aligned our work.
+
+We started with the model openness framework
+
+that is produced by Matt White, Ibrahim, Adad
+
+and others from the Linux Foundation and other researchers
+
+who they have analyzed machine learning
+
+and they grouped the required, the components
+
+that go into producing, distributing a system.
+
+And we based on that list of components,
+
+we asked the volunteers in the working groups
+
+to go look and see which of these components
+
+you think is required to study,
+
+which one is required to use the system,
+
+which one is required to share and modify.
+
+And they voted for each of these components.
+
+Then we composed and weighted all those results,
+
+all those votes.
+
+And we came up with a recommendation summary
+
+of what is required and what is less necessary
+
+or gathered less votes from the working groups.
+
+And that has produced the latest,
+
+no, that has produced a list of components
+
+for which we needed to go look at the legal documents.
+
+So we had the required components,
+
+we grouped them into three main areas for code,
+
+for what we call model, and then for data
+
+because the votes didn't reach a very high threshold
+
+for the votes of the working groups
+
+didn't reach a very high threshold
+
+to require the original training dataset.
+
+And because of other practical considerations,
+
+we substituted the information,
+
+we built a proxy for the access,
+
+having access to the original training dataset.
+
+We replaced it with requirements for data transparency.
+
+Like we wanna have the maximum amount
+
+of transparency on the data.
+
+And we wanna have also the tools
+
+instead of the actual dataset,
+
+the tools to build compatible data datasets.
+
+So we want to have the code
+
+that went into building that dataset as an alternative.
+
+And now with that list of the required components,
+
+we went and looked at the legal frameworks
+
+for each of these components.
+
+And we ended up with having basically everything
+
+we discovered basically that everything,
+
+all the required components,
+
+they fall under copyright quite clearly
+
+except one of the components.
+
+So everything that is code,
+
+so in this slide, you can see everything
+
+that is in the pre-training, I mean, the code section,
+
+in the data transparency section,
+
+that's documentation basically.
+
+And in model architecture,
+
+those are all distributed as code
+
+that is written by a human,
+
+falls squarely under copyright
+
+and maybe patent law eventually.
+
+But it's something that we are very familiar with.
+
+It's an environment that we understand very well.
+
+It's an environment where we have, it's a legal framework.
+
+These are legal frameworks for which we have licenses
+
+and clear understanding of what those means.
+
+But for the model parameters,
+
+and these include, for example,
+
+the weights and the biases.
+
+For model parameters, we don't have a universal understanding
+
+around the world of what these fall under,
+
+what kind of laws they fall under.
+
+So we have to be a bit more careful evaluating
+
+what are the terms that we want to apply here
+
+and how we want to have,
+
+evaluate the legal terms
+
+under which model parameters are distributed.
+
+So I mentioned that we worked a lot
+
+to get global representation in this process,
+
+because ultimately we want,
+
+we have engaged with,
+
+we have identified these groups of stakeholders,
+
+like system creator, license creators, regulators,
+
+licensees, end users, and subject.
+
+And we have tried to engage with as many as possible.
+
+With the most involved ones in the current phase
+
+have been the licensees and system creators
+
+and license creators,
+
+so lawyers and integrators and developers.
+
+And we are expanding our reach now at this stage
+
+to end users, subjects, and regulators.
+
+And as a proxy for regulators,
+
+we're gonna be engaging with civil society
+
+who talks to regulators, lawmakers around the world.
+
+And so we have closed that phase,
+
+so we have now the next steps,
+
+what's happening in the next steps.
+
+We're getting ready to release the next draft, draft 08.
+
+I'm actually at a conference this week
+
+where I gathered a lot of feedback
+
+and may be able to release at 08 before May,
+
+and maybe go into Pittsburgh at the PyCon
+
+with an even higher version number,
+
+even more clearly towards a release candidate with a 0.1.
+
+So skipping that level
+
+and going into minor release numbering.
+
+And like a feature complete,
+
+but with close to be a release candidate in June.
+
+Between in June, we'll hold in-person or online.
+
+This is getting into a territory
+
+where we'd love to have it in person,
+
+but we also would love to have different people
+
+from different parts of the world.
+
+And so it's probably most likely gonna be online
+
+instead of in-person, but we'll see what happens.
+
+In any case, in June, we wanna have a group
+
+of important relevant stakeholders
+
+who have been involved into the drafting process
+
+to meet and release the release candidate number one.
+
+And during the summer months between July
+
+and the end of October,
+
+we have a plan to go through a worldwide roadshow
+
+to demonstrate, to illustrate, to advocate for,
+
+and gather in different parts of the world
+
+and gather more sustained to support
+
+and endorsement from different groups and organizations
+
+so that at the end of the October in Raleigh
+
+at All Things Open,
+
+the OSI board can review the draft with the comments
+
+and release the stable version at the end of the month.
+
+And this is our plan.
+
+I think we're getting very close to the finish line
+
+and it's really exciting.
+
+If you haven't been involved until now,
+
+I really, really, really, really encourage you
+
+to go to the online forums
+
+where we have healthy, deep conversations.
+
+Keep coming to these down-home meetings,
+
+ask questions, and stay engaged
+
+because we are making history right now.
+
+We are writing a definition that we hope will remove,
+
+that we want people to use to remove uncertainties
+
+and doubts from the market.
+
+People are releasing more models.
+
+They're using the open source moniker.
+
+They are confusing regulators
+
+and legislators around the world.
+
+And we need to provide certainties.
+
+We need to provide a stable view
+
+of what open source AI means
+
+so that regulation can come in
+
+and encourage innovation without causing harm,
+
+without spreading more disinformation
+
+and providing a positive environment.
+
+So with that, I'm gonna take a pause.
+
+And if you have any questions, I'm happy to respond.
+
+Any curiosities?
+
+- Yeah, I just have a question.
+
+So again, you may have touched based on it,
+
+but I was not sure it was clear.
+
+You do not touch at all on the data used for training
+
+except getting some form of transparency.
+
+Do I get it right?
+
+- Yes, that is correct.
+
+This is a, it's really,
+
+we started to work on a frequently asked question document
+
+because it's becoming recurrent now
+
+as more people are becoming aware of the process.
+
+The data issue has been,
+
+we have debated it at the very beginning
+
+and it's been really confusing.
+
+It's been really, it's been going around in circles.
+
+Like the very big issue with data
+
+is that if we require the original dataset
+
+to be distributed together with the model weights
+
+and parameters and the rest of the code,
+
+we will automatically exclude from the pool
+
+of possible AI systems.
+
+We will exclude systems that don't have data
+
+where the data is not available, right?
+
+Like federated learning,
+
+federated learning or privacy preserving,
+
+training mechanisms, all of those, for example,
+
+will not be part of the open source AI ecosystem
+
+because there is no data.
+
+The other reason is that many times
+
+you have the right to download, for example,
+
+information from a website
+
+in order to do data mining on it,
+
+but you don't have the right to redistribute it further.
+
+So also in these cases,
+
+you got a model parameters
+
+that you can definitely use.
+
+You have instructions to rebuild that dataset,
+
+but you cannot really have the original dataset
+
+because it's illegal to distribute it.
+
+And so to obviate for these issues,
+
+it's much easier and probably also more relevant
+
+to have access instead as a proxy to the tooling,
+
+to the filtering and to the instructions
+
+on how the dataset was built as a minimum.
+
+Again, these are default requirement.
+
+Nothing really prevents from something like
+
+Starcoder or other systems
+
+that have been built with open science in mind
+
+and have been very careful.
+
+Like Luther AI is working on the pile
+
+to a new dataset that is more,
+
+since they became more concerned
+
+about the copyright status of the input,
+
+the training datasets,
+
+they're rebuilding the pile,
+
+excluding all the possible sources of lawsuits
+
+and DMCA takedowns.
+
+So nothing excludes from building datasets
+
+that are relevant and important
+
+and can be distributed further,
+
+but that would make the open source AI,
+
+would put the, having that as a harder requirement,
+
+would put the open source AI at a disadvantage
+
+compared to the commercial proprietary systems
+
+where they basically don't even disclose
+
+the list of the data.
+
+Yeah.
+
+- That makes sense.
+
+Thanks a lot.
+
+So that's indeed very clear.
+
+- Absolutely.
+
+- Thank you.
+
+- Absolutely.
+
+All right.
+
+If there are no more questions,
+
+then I will close it here.
+
+And again, please go to the forums
+
+and there is a long thread about data
+
+where you can see the past conversation
+
+on this very hot topic.
+
+And yeah, we can continue there,
+
+or we can also move on to the other big issue,
+
+which is defining and understanding a little bit better,
+
+gathering more comments on the legal status
+
+of the model parameters and understand,
+
+get more suggestions on how we should treat them.
+
+Thanks everyone for joining and talk to you soon.
+
+In two weeks, we'll redo this.
+
+Bye.
+

@@ -1,0 +1,582 @@
+All right.
+
+Thanks for joining this panel meeting again.
+
+Sorry for my voice.
+
+This is the result of a week of conversations in Brussels in very loud environments.
+
+I think I stressed out my vocal cords a little bit too much.
+
+And I caught the false debug, which is not COVID.
+
+Just a little cold.
+
+So the purpose of these meetings is to keep the tempo and get live conversations and live
+
+updates on the most important things that have happened in the past couple of weeks.
+
+And let's remind everyone our principles under which we operate.
+
+We try to have -- make sure that one person speaks at a time.
+
+There's no crowds around Mike.
+
+Try to make space for others.
+
+If you tend to be quiet, speak up.
+
+You can use the buttons to raise your hands in this meeting, but you can also type if
+
+you prefer not to speak up.
+
+But please give feedback.
+
+This is the best place to have quick interactions.
+
+Let's use them.
+
+And I don't think we need to be stressing the fact that we want everyone to be nice.
+
+And keep in mind, we need to keep moving.
+
+We need to finish this process.
+
+And if we face an obstacle, we move around it and we should be getting back to it later
+
+rather than stop it and admiring how big and insurmountable it is.
+
+And we need to focus on solutions.
+
+It's a multi-stakeholder, co-design process.
+
+It's basically pioneer work for us.
+
+And we know there are a lot of things that don't work that can be done better.
+
+But we need to focus on what actually works and keep on moving.
+
+Are there anything else that we need to take care of?
+
+All right.
+
+Reminder.
+
+I was wondering whether to keep this slide or not.
+
+But I think I want to remind everyone that our objective is to have an open source AI
+
+definition that is workable, that is good enough by the end of the year.
+
+It's really important.
+
+And everyone is asking, not only is asking for one, but I think that we really have this
+
+responsibility to create, to come to an agreement, to agree on something.
+
+And notice the version number 1.0.
+
+It's not necessarily going to be the most perfect one.
+
+We will always be able to fix it.
+
+And a reminder for what we have so far.
+
+We have a definition of AI systems in a document, version 5.05.
+
+And we have basic preambles for the basic principles of why we need an open source AI.
+
+And we may want to have this wording also reviewed and straight up as quickly as possible.
+
+Because that's another question that I get asked often.
+
+Why do we need open source AI?
+
+Why is it important?
+
+I refer to this preamble, but I want to make sure that we are quoting that.
+
+The other piece is the what's Atascope?
+
+And there has been a little bit of discussion around what is Atascope.
+
+I encourage you to give feedback on this text, too.
+
+Because I don't want to, you know, I want to have it finalized as quickly as possible.
+
+I don't think that it's bad, necessarily.
+
+But we want to have a conclusion very quickly.
+
+Then we have the four freedoms.
+
+There isn't much debate around this right now.
+
+Although there are a couple of questions that I will highlight later.
+
+And what we're working on right now that is missing is this checklist of legal documents.
+
+And I give you an update now on this, on the work that we've been doing.
+
+So the four freedoms as described here are at the core of the open source definition
+
+of AI.
+
+And we're at the stage where we need to identify what are the preferred forms to make modifications
+
+to an AI system.
+
+And in the process, understand what we're going to be is highlighted here.
+
+And we're at the stage two.
+
+We have a list of components that we have identified thanks to the work done by Linux
+
+Foundation AI and Data Commons, Generative AI Commons Working Group.
+
+They have provided a list of components for machine learning systems.
+
+And we have been using that list of components to identify which of those components are
+
+required, they are a must have, in order to be able to use a system, to study a system,
+
+modify and share it.
+
+And then once we have this list with these matching points, we're going to be progressing
+
+on this, on this, on this line, on this timeline, where we're going to be checking whether the
+
+components have or fall under which legal frameworks, whether that's exclusive rights,
+
+exclusive rights like intellectual property, broad term, copyright, patents, secrets, or
+
+what have you.
+
+Or if they don't, what kind of legal frameworks they fall under.
+
+And then we're going to be looking at the licenses as a next step.
+
+And the licenses are legal documents, legal terms, with which they are distributed.
+
+We're going to be identifying gaps.
+
+And from those gaps, and from the list of legal documents, we're going to make a checklist
+
+to evaluate the freedoms in these legal documents.
+
+Now we started working with two groups, analyzing specifically Lama 2 and PTI as examples, two
+
+examples of generative AI machine learning systems.
+
+And the members of these groups are in this list, me and Mer, are almost basically observers
+
+and facilitators of the meeting.
+
+And we have experts of different, different capabilities.
+
+All of these people are working for a company, one way, shape, or form.
+
+But they're participating, not representing their company's views.
+
+They're representing us, experts.
+
+But of course, for transparency, we list their affiliation.
+
+So this is the Lama Working Group and PTI Working Group.
+
+It's a little bit smaller, but it includes people here from different parts of the world
+
+also.
+
+So with them, we have gone through, the process has been, we're at the point where we are
+
+at this working group report.
+
+They need to go through these documents.
+
+They're going through these documents.
+
+Let me share with you what's happening, what's happening in here.
+
+So for, we built this table, you may have seen it in draft five that I published at
+
+the beginning of last week.
+
+The draft five of the definition of open source CI has this table at the bottom, in which
+
+you can see the list of components, and then on each, on the first column.
+
+And then there are other four columns.
+
+Those four columns have, basically, they're going to be X marks, whether the component
+
+on the row is required, so it's mandatory.
+
+It must be available to use the system, to use LamaTo, or to study LamaTo, or to modify
+
+and share it, LamaTo, so individually.
+
+And the components are split into four categories.
+
+There is code, and this is what happens, what are the analysis done by the experts in the
+
+working group for LamaTo.
+
+And it looks like, in order to, the kind of code that we need to, there is pretty much
+
+consensus on the kind of code that needs to be available for using LamaTo is the inference
+
+code and the libraries, such as the tokenizer and hyperparameter search code, et cetera.
+
+So those are required to use, seem to be.
+
+In order to study, there is a little bit less participation of this group, like only one
+
+person so far has filled in the table.
+
+And it looks like training code and data pre-processing code and the other libraries are required
+
+to study and to modify.
+
+Similarly, there is little participation, but there are some boxes in here.
+
+Moving forward on the data front, doesn't look like any of the data is required to use
+
+the system, but SC is the initials of StackFano Zacchiroli.
+
+He's looked at the, he's left these comments that training data set and other data documentation
+
+is required to study.
+
+And similarly, testing and validation data set is required to modify the system, but
+
+not to use and share.
+
+And finally, on the use front, looks like there is pretty much consensus that model
+
+parameters is necessary to use it and study, modify, and share.
+
+And maybe usage documentation, according to StackFano Zacchiroli, is required to modify.
+
+And moving forward, Pithia, this one working group has done a little bit more work and
+
+it's a little more comprehensive.
+
+You can see that in order to study the data, it looks like there is a lot of boxes checked
+
+here, which is very interesting to see.
+
+Some data is even necessary, according to Sarah Young, in order to run, to use the system.
+
+It's going to be interesting to see, to have for her, the rationale behind this decision.
+
+And on the data front, sorry, that was the code front, yeah, okay, so on the code piece.
+
+On the data front, some data required to use, but there is a unanimity that, again, a lot
+
+of data is required to study, which is also very interesting and needs to be investigated
+
+further.
+
+And when we build a model for execution and model architecture and parameters seem to
+
+be necessary, but also modify and share.
+
+So this work is making progress.
+
+We are, we have scheduled two more meetings with each of these groups next week, and we're
+
+going to drive for completing these cards by Friday, so that we can have two complete
+
+analyses and publish them for a wider conversation on the forums.
+
+This is going to be a very major milestone for us, and a very good, important result.
+
+Now, the forums that we launched, we launched them, was it last week?
+
+They already contain a lot of interesting conversations, but I wanted to highlight three
+
+of them that I think are very crucial to have some sort of, to have a, to drive towards
+
+a conclusion so we can release a T in three weeks, four weeks, we can release a new draft
+
+of the definition.
+
+And I think that the top and most important one is the conversation around data, and you
+
+will see it on the forum.
+
+This is one of the ones with the highest amount of comments on it, I think.
+
+It's worth keeping an eye out in there, because I think we need to come close to a conclusion
+
+very soon, or at least to try to understand what the consensus is, or if there is no consensus,
+
+we need to highlight why, and what are the reasons, the main reasons for that lack of
+
+consensus, the controversial part.
+
+It's very crucial in there.
+
+And the other thing, the other conversation we have ongoing is that I think is important,
+
+it is the one on the definition of AI system, that right now we've been using the one provided
+
+by the organization for economic cooperation and development, the OECD.
+
+There are a couple of comments, one by Richard Fontana, but also others, that, arguing that
+
+the definition by the OECD is too wide, and too, that covers pretty much everything.
+
+Everything digital.
+
+And we may want to revise it.
+
+So I don't have a strong attachment to that definition, or any other definition, but we
+
+need to have a definition of AI system, because the open source AI needs to refer to a system,
+
+and not to individual components, or pieces.
+
+We need to have a framework of reference that we can tie to.
+
+I go back to explaining that the open source definition for software refers to programs.
+
+And programs, even though they're not defined either, but pretty much everyone knows what
+
+they are, the discipline, and the software, the computer science is old enough that we
+
+know a program when we see it.
+
+For AI, I don't think we have that luxury yet, and we need to be able, we need to be
+
+a little bit more specific.
+
+So if anyone knows of different, better, well understood definitions of AI systems that
+
+we can use and reuse, so please go and make suggestions on that thread.
+
+There is another one that is very interesting to me, at least, and there's a conversation
+
+around the meaning of the verb share, because there is an argument being made that the sharing
+
+needs to be clarified, that we can share the systems with the same conditions under which
+
+we have, under the same legal conditions for which we have received it.
+
+I, you know, it's a very quite legally type of question.
+
+I'm not exactly sure I understand where that conversation, that question is coming from,
+
+but I see people involved in it, and I would recommend someone looks at it and tries to
+
+explain or tries to find a converging solution.
+
+So what are the next steps?
+
+And maybe, let me see, I see a question in here.
+
+Nick, the result for Lama2 and PTA, should they be similar?
+
+Eventually, yeah, I mean, probably they will not, because they're different people making
+
+different evaluations.
+
+They should be similar, because they're similar systems, similar architecture, similar things.
+
+They should be similar, but if they don't, then that's what the process is going to be
+
+like.
+
+We're going to have to have a conversation once we have also Bloom, for example, the
+
+three of them, we will have to find a way to identify the diversity and why, explain
+
+why things are different, and drive towards a conclusion.
+
+I think a lot of the work is going to be around explaining exactly what access means.
+
+I'm sensing from conversations I've had with multiple people that the concept of access
+
+to the data, access to the architecture, access to the documentation is different.
+
+Sorry.
+
+Sorry for that.
+
+All right, so what are we doing next?
+
+We started recruiting people, but we need to review this list of components and the
+
+checklists that the two working groups on PTA and Lama2 have started, and also we started
+
+recruiting people to analyze Bloom OpenCV, and we may even need probably will recruit
+
+for more other systems if necessary.
+
+But at least we want to look at OpenCV as a curiosity mostly because it's a non-generative
+
+AI just to validate that list of components down the line.
+
+That's for the next couple of weeks' work.
+
+And just reminding everyone, the timeline is here.
+
+We have draft five released in February as scheduled.
+
+We're going to be releasing 06.
+
+We keep on going with these virtual meetings, town halls, and work group activities, trying
+
+to speed up things so that we can get in end of May, early June with an in-person meeting
+
+that will eventually resolve the last controversies and issue a release candidate.
+
+This is a very aggressive timeline.
+
+I keep on stressing this out.
+
+We need to keep the tempo, and that's why I'm putting so much energy into this.
+
+Once we have the release candidate, the idea is to take it in a roadshow around the world.
+
+We have found already three partner conferences in different ways in different parts of the
+
+world where we can host a presentation and a review of the release candidate.
+
+And so we get to number version one in October.
+
+The criteria for respectively release candidate and version one is to have representatives
+
+from each of the stakeholders to support it, and all of this information is public now
+
+on our website.
+
+And these are the categories of stakeholders where we would be putting logos in here as
+
+we go.
+
+And that's the other reminder that I want everyone to keep in mind.
+
+It's not going to be perfect.
+
+And the board of the OSI is already working on setting up a committee that will be looking
+
+into the review and approval of version one when it comes out, because it's going to be
+
+the board's purview to review and finally approve the work of the community and take
+
+over the maintenance of this definition, because this is going to be the first version, the
+
+first definition maintained by the OSI with a version number in it.
+
+And yeah, we're working very hard to make sure that we have the funding to support all
+
+of this.
+
+So but I'm crossing fingers.
+
+I think we're going to be okay.
+
+And if I run out of funds, I'm going to let you know in advance.
+
+And we got the forums.
+
+I'm pretty excited about this.
+
+So they're easy to sign in.
+
+If you have already a member, log in for any of the open source initiatives, websites,
+
+and opensource.net, it's going to work seamlessly.
+
+If not, you can register, become a free member, or now is also a good time to sign up and
+
+become a full member so that you can vote also at the next election that are coming
+
+up for the board.
+
+And we're also draft 05.
+
+Since last time we spoke at this time, it's a new thing.
+
+So go and look at the latest draft also.
+
+And leave your comments on the you can leave comments directly on the draft, or you can
+
+leave comments on the forums if they're more generic.
+
+If it's specific for, you know, I want to change this word, I would recommend leave
+
+the conversation on the draft.
+
+But if it's more generic about and requires larger, more text and stuff like that, like
+
+leave it on the forum.
+
+And with that, I'm happy to take questions.
+
+Victor, public link to LamaTubePT session.
+
+No, well, actually not yet.
+
+Not yet, because we want to leave the groups to work a little bit more, you know, in peace
+
+and without having to be, you know, like under, what is it called?
+
+Under, you know, like a aquarium type of thing.
+
+We're going to make public everything as soon as the work is done.
+
+Matt is that correct as an answer?
+
+I cannot hear you.
+
+Sorry.
+
+I need to enable you.
+
+You should be able now to unblock your mic.
+
+And now you're muted.
+
+You need to unmute yourself.
+
+Thank you.
+
+It's only been three months, three years of pandemic.
+
+Yeah, so the groups themselves, they meet as small groups, but the membership is transparent.
+
+And then we report out all the documentation that's being created, which is the summary
+
+and also the tables that Stefano shared.
+
+And that really is the report.
+
+I think we're also planning to make the slides that the groups are working from public, which
+
+is effectively the agenda.
+
+So that's how we're balancing transparency and also people being able to have a meeting,
+
+which I think also has value.
+
+So yeah, open to any feedback.
+
+Thank you.
+
+you
+
+you
+
+you
+
+you
+
+you
+
+you
+
+you
+

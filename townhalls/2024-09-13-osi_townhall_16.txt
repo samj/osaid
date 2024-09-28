@@ -1,0 +1,376 @@
+The open source AI definition came out at the end of August with a new version
+
+009. This is made of three main elements. It defines machine learning, open source
+
+AI. The preferred form for making modifications is tied to the concepts of
+
+machine learning. Because this is the technology that
+
+requires a little bit more thinking because it has
+
+this concept of trained models, trained weights and parameters. So the
+
+weights are defined as the model weights and parameters made available under
+
+open source initiative approved terms. And then there are
+
+examples. Here what's important is the fact that we're trying to be vague
+
+enough but signal precisely the intention. So the vagueness is because
+
+we want to make sure that the text can resist time. It doesn't have to be updated
+
+every time a new technology, a new model architecture, a new AI technology or
+
+technique gets pushed out and made available. But also we want to use
+
+the text so that the intention of the drafters is clear. The examples
+
+provided are just part of the definition and they need to be
+
+read together to understand it, to evaluate whether that signal, that
+
+signaling of intention is clear enough. That should be clear. So from the source
+
+code requirements also, this is a space that we know a lot more about.
+
+Like what is the source code and how to deal with all the licenses etc.
+
+But what's important here is that the requirement to release the source code
+
+used to train the system. So one needs to be able, one who releases software
+
+needs to be able to understand, one who releases an AI system needs to share all
+
+the instructions, details including all the software used for training,
+
+for validation, for testing. It's very important because that's the part where
+
+collaboration can happen and improvements can happen iteratively.
+
+And data information from the data front, the text here hasn't changed yet.
+
+Although it's still quite convoluted and complicated, it could be refined. We'll
+
+talk about that later. It needs to deal with the fact that laws are
+
+complicated. And so this, again, the intention here is to give whoever
+
+receives the software enough of the code itself and the datasets or the
+
+provenance of the data so that the science can continue. And then also
+
+innovation can keep on happening, building on the shoulder of the giants
+
+exactly like it happens with the open source software where you don't have to
+
+reinvent the wheel. You can build on top of someone else's work. So when
+
+we released the version 009 of the open source AI definition, we
+
+also released text to explain why the data set is considered, the release of
+
+the training dataset is considered a benefit and not a requirement. It's
+
+because training data are covered by laws that limit the resharing of the
+
+datasets because of privacy rules, but also copyright law and even other
+
+legislations like indigenous knowledge is not protected with copyright, it's
+
+protected by other rules. And we need to take that diversity of legislation into
+
+account and we need to make a difference between open training data, public
+
+training data, and private data. So all of these have to be covered in a
+
+different way, have to be treated differently because they are
+
+different. And so the other thing worth reminding everyone all the time is
+
+that the OSI board has set some basic criteria to approve the open
+
+source, the results of the co-design process. We presented these slides a
+
+couple of weeks ago in China, but the board requires that the
+
+definition is supported by a diverse type of stakeholder and by
+
+diversity it's listed not only into interest groups like users, developers,
+
+deployers, subject of AI, but also geographic distribution. So we don't
+
+want to have only Europeans or North Americans or South Americans, etc. We're
+
+making an effort to go around the world to disseminate this work
+
+and gather approval around the world and this is thanks to a grant from the
+
+Alfred P Sloan Foundation. The other requirement is that the definition needs
+
+to provide real-life examples. So once approved we need to make sure that
+
+we have systems that we can point at and say these are open
+
+source AI. And right now comfortably we can say that the
+
+complying systems are PTI, the set of models released by
+
+Yale AI Institute and LLM 360 and TII also. So non-profit research
+
+institutions who have released the large language models and similarly
+
+powerful AI systems. And we need to be ready by the October board
+
+meeting that will happen on October 27th in North Carolina. So let's go through
+
+the relevant comments that we have received this past few days on the
+
+forums. We had Alison Randall basically requesting to be more
+
+explicit about the requirements. This is a fair request. The text
+
+tends to, the text of the definition tends to be more vague, to leave some vague
+
+words in there. Like I said before, the intention is to be vague enough but
+
+signal clearly the intentions. So it's worth rereading the text to
+
+make sure that those intentions are clear. And especially one of the
+
+intentions that Alison points out is the requirement to be explicit about
+
+allowing, adding requirements the same way that the open source definition, the
+
+classic open source definition allows for some requirements that are considered
+
+to be good. Like a requirement for copyleft, you know, the persistence of
+
+propagating the rights to downstream users is something that needs to be
+
+evaluated. Whether the text that exists today allows that or if the text is
+
+too vague and doesn't allow for that propagation downstream.
+
+Technically, also legally, we need to understand how that can happen but
+
+that's a different story most likely. Also be explicit about the fact that if the
+
+training is done on public data, so data that actually can be distributed, there
+
+are no exclusive IP rights, no natural exclusive IP rights. Like content created
+
+by humans are, they always will have, I mean most parts of the world will have
+
+copyright or civil rights, due to in European continental and moral rights.
+
+But that doesn't mean that, for example, temperatures of the ocean, that
+
+kind of data, that information doesn't have any right naturally. So
+
+we want to consider that. She also suggests renaming data as source data.
+
+This is something that I'm personally skeptical about. I would love to see more
+
+people leaving comments on the forum because there is no, I mean, so data
+
+is not source. Source is the word that has been traditionally used to
+
+signal the source code or the preferred form for making modification to the
+
+software. It's also mentioned in the original open source definition as such
+
+and data is not the source of the training, training the outputs like
+
+the weights and parameters. So I'm less reluctant. I mean it's called
+
+training data in literature. So anyway I'd love to hear more comments
+
+about this on the forum. And speaking of that concept of source as data, an
+
+interesting comment received by a person, Professor Leon, he's a professor at
+
+Stanford University. He made a good comment on the document on the
+
+text. He's saying that the data is basically the data set is the output of
+
+the processing of the original data and he's arguing that it's a lot more
+
+important to get access to all the scripts used to build the data set
+
+rather than the data set itself because the data set is not very comprehensible
+
+without the code. And it's an interesting comment because it
+
+really gives you, changes the perception. The data set is more like a
+
+binary of the original data. And the source code is actually the code used
+
+to create those tokens. So a very interesting comment in there and one
+
+that might require also some refining, fine-tuning of the text of the
+
+definition. Then we have comments on, we have received comments on hardware
+
+considerations from Mariana Taglio and Alison Randall. This is an area, hardware
+
+is an area where the open source initiative and open source in general
+
+has not considered because it's a completely different layer and
+
+can be isolated. Even in AI I think it can be isolated. Adding
+
+hardware considerations would make the whole specification, the whole definition
+
+a lot more complicated and I'm not sure it's viable. But you know if you think it
+
+is, this is your time to leave your comments on the forums on this topic.
+
+To me getting detailed aspects like hardware specifications, the
+
+carbon footprint and things like that is interesting from the social benefit
+
+perspective. But I don't think it really helps with the concept of improving,
+
+collaborating, innovate on the AI systems. It's a little
+
+bit the considerations about ethical use. They're valuable but they need to be put
+
+at a different level, like a legislation level for example. But your comments, I
+
+mean please leave your comments in this part if you think they are part of
+
+the, if they're important for studying, share, modify and distribute AI
+
+systems. And finally just a couple of days ago Carsten Wade made this proposal
+
+to map visually the rights to distribute data set. I think it's an interesting
+
+representation in a quadrant type of way where if you're
+
+building on data, I mean he has this quadrant with two axes. One is on the
+
+vertical axe, you have the IP intellectual property rights, present or
+
+absent. And then if you want to have an integrity of the
+
+pipeline stack, just another axis. So if you're
+
+training something on public data, then basically anyone have high integrity
+
+then you must release everything including the
+
+original data set because basically why shouldn't you? Since there are no, I mean
+
+since you should have all the IP rights. But if you're training on
+
+private data then it's open source AI minus the data, D minus.
+
+I think it's an interesting visual on this. Or if you don't have
+
+the, if you choose not to release the data then it's
+
+definitely going to be a closed, not open source AI. So let's talk about what's
+
+next and that is we're going to be reviewing the text,
+
+close some of the comments, most of the comments and release a release
+
+candidate, have a release candidate version by probably in the next, within a
+
+couple of weeks. So if you have more comments, please do it as soon as
+
+possible. Although there will still be time to change after the release
+
+candidate. And then if you're ready to endorse the open source AI definition, we
+
+are looking for individuals and organizations who can endorse it and
+
+that means that your name or your organization affiliation will be
+
+appended to the press release and the announcement page of the open source AI
+
+definition. So if you want to be part of this release, please email me or Mer,
+
+the email address is on the deck. And just to give a timeline, we are
+
+in September now, we gave a few talks around the world. We are going to
+
+Buenos Aires next week, we Ashland in Oregon this weekend, we've been in
+
+Daba and Bangalore to present this definition and we're going to
+
+be holding more town halls every week until basically until the end of
+
+October for the official launch in North Carolina at All Things Open.
+
+We're going to be holding a special data workshop on data
+
+in Paris also in October thanks to the Alfred P. Sloan Foundation grant.
+
+Alright, so the way to participate is to endorse, so you can email me or
+
+Stefano or Mer and you can keep on commenting on the forum. And with that,
+
+time for Q&A. So take the floor as you want, open your mic or type
+
+questions if you prefer.
+
+I can see Ted comment saying not sure why hardware is needed.
+
+Yeah, go ahead Ted. Yes, Stefano, thank you for sharing, this is really helpful.
+
+Two questions, one is can you share the slides that we can distribute to many
+
+people who cannot attend this town hall? Yes, so the session is recorded, I'm
+
+going to cut the part without the audio and we're going to be sharing the deck, yes.
+
+Okay, so you will share through email? Yeah, all of them are
+
+shared on the forum, so I will put the link on where we're going to be
+
+putting it so you can subscribe and get that one. But yeah, I can send it to you via email.
+
+Okay, and secondly that endorsement, so it's just an email, is there any
+
+template or just a simple email that endorses the RC1 unstable version?
+
+Just an email saying, hey, I'm interested, my organization is
+
+interested in endorsing this and we're going to be putting you in the
+
+loop, so every release candidate will make sure that you have it and
+
+once we get closer to the press release time, we will ask you formally, this
+
+is probably going to be at the beginning of October, for a quote. Okay, can I
+
+suggest that we put a link on the relevant website, so that I
+
+can propagate or send to whoever is interested in endorsing it.
+
+Just one click, one click link, so whatever individual or
+
+organizations, we can hit on the quick list of names or organizations and
+
+that would be it, instead of just a separate email.
+
+Oh no, absolutely, yes, we're thinking about also creating a landing page with
+
+the text and the button below that says, yes, I endorse it, name and
+
+affiliation. Yeah, okay, all right, that'd be great, thank you, I have no more
+
+questions. Thank you. Anyone else, any doubts, ideas?
+
+Overall, it looks good to you?
+
+All right then, oh, Jay, is someone typing?
+
+All right, if there are no more questions, I mean, if you have more questions, you
+
+can always email me or ask directly on the forum, really feel free to use all
+
+the resources we have. I want to thank everyone and
+

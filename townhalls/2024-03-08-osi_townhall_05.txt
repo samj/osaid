@@ -1,0 +1,1162 @@
+Yeah, let's go with it.
+
+All right.
+
+Okay, welcome everyone.
+
+So you are attending the online public town hall for the open source AI definition on
+
+March 8th, 2024.
+
+My name is Mare Joyce.
+
+My pronouns are she and her, and I'm the process facilitator for creating this definition as
+
+a multi-stakeholder co-design process.
+
+Okay, so these are community agreements.
+
+Some of you have already seen them.
+
+I'll go over them briefly.
+
+So one mic, one speaker, allowing one person to speak at a time, no interrupting.
+
+Take space, make space if you tend to speak up.
+
+Allow space for others to speak.
+
+If you tend not to speak, we do invite you to share.
+
+Kindness, just remembering that the work is hard, but we don't have to be, and to just
+
+be gentle with each other and curious.
+
+And of course, hate speech and insults are not permitted in the spaces that we host.
+
+Forward motion just means that we focus on what's possible and that we note obstacles
+
+and then we route around them and move forward and come back when needed, but that we don't
+
+let complexity stop our project from moving forward.
+
+Solution seeking is connected to that.
+
+So we just, we know that suggesting new ideas and options is vulnerable, but it is crucial.
+
+And this is how we resolve those complexities that we just mentioned.
+
+And are there any other norms that you would like to see in this meeting?
+
+If you have any, you can type them in the chat.
+
+I also realized that there's a transparency norm that we should add here, just to say
+
+that this will be posted publicly, this video will be posted publicly.
+
+Okay.
+
+Looks like we don't have any other comments.
+
+I will continue.
+
+So yes, our objective for 2024 is to release version 1.0 of the open source AI definition.
+
+And this is what the definition looks like.
+
+We define AI system.
+
+There is a preamble that basically makes an argument for why this definition is necessary.
+
+There are certain out of scope issues.
+
+The URL is up at the top.
+
+If you'd like to see the document.
+
+And there are the four freedoms, which I will go into in greater detail.
+
+And then there's this license checklist, which is looking at specifically which components
+
+of an AI system must be open in order for the system to be called open according to
+
+this definition.
+
+These are the freedoms.
+
+These were coming from earlier documents in the open source movement, but were verified
+
+and drafted specifically for this purpose by co-design workshops at the end of 2023.
+
+So using the system for any purpose without having to ask for permission, studying how
+
+the system works and inspecting its components, modifying the system to change its recommendations
+
+and predictions and to adapt it to your needs and sharing the system with or without modification
+
+for any purpose are the overarching requirements of an open source AI system.
+
+And now what we're going to talk about is the most recent work we've been doing, which
+
+is recommendations of working groups that have been looking at AI systems to develop
+
+this list of required components.
+
+So this is what we're up to with systems review, which is also called track one of our project.
+
+We're not going too deeply into different tracks, but for those of you who have that
+
+context, this is track one of three.
+
+So what we have completed is that we analyzed a sample of AI systems to identify precisely
+
+required components for study, use, modification and sharing.
+
+And what we are going to do next is for each component of these systems, check their availability
+
+and the conditions for use and distribution.
+
+So legal documents and licenses, because that is the mechanism by which OSI verifies a piece
+
+of technology is open source or not is through licenses and legal documents.
+
+Then we will generalize the findings and complete a checklist for OSI license committee, get
+
+endorsement from major stakeholders.
+
+And that will be called that's release candidate one, which will proceed version 1.0, which
+
+of course we will refine and rough dates are RC1 is June and then version 1.0 is October.
+
+And anything to add to the slide, Stefano?
+
+No, this to me looks complete.
+
+It's more about if anyone has any comments so far, I mean, you can use the chat and keep
+
+on adding comments.
+
+Yeah.
+
+Okay.
+
+Sounds good.
+
+Okay.
+
+So these are the four systems that we developed work groups around and this is why we chose
+
+them.
+
+We wanted to have a diversity of approaches.
+
+So we looked at Pythia, an open science project with a permissive license, Bloom, another
+
+open science project with lots of details with release, but with a restrictive license.
+
+And I'm sure all these descriptions could be, might be different for different people,
+
+but this is how we were looking at the systems.
+
+Lama2, obviously a commercial project with a restrictive license, OpenCV, an open source
+
+project with ML components, but let's have generative AI.
+
+And so these were the work group members having public membership as part of the transparency
+
+commitment we have just so that you know, who are the people that are making these recommendations?
+
+Cause these are particularly empowered stakeholders in determining what the components of the
+
+definition will be.
+
+And we did additional outreach to have a better, particularly racial and geographic representation.
+
+So you can take a look at that later, I guess.
+
+We do have posted on the forum, all these, this information as well.
+
+And what the, what the members of the working groups did, this might be information that
+
+some of you have already heard, but I'll go through it for those who are new, is that
+
+they voted on, we took a list of components from a forthcoming paper.
+
+Can we, can we name the paper yet Stefano?
+
+Cause it is forthcoming.
+
+We can name it.
+
+Yes.
+
+Okay.
+
+Excellent.
+
+Okay.
+
+So it's called the Model Openness Framework.
+
+It's being, it was written primarily by researchers connected to the Linux Foundation, although
+
+with other collaborators as well, it's going to be released on ArchiveX, I think imminently,
+
+maybe even today or tomorrow.
+
+Anyway, they came up with this really nice generalized list of AI system components.
+
+And so we use their list and then we created this voting system.
+
+Do you think this component is necessary to use, study, modify, share, and then members
+
+of the working groups with their initials.
+
+So again, there's transparency who's saying that what is required voted.
+
+And this is just a screenshot of a slide from the LAMA working group.
+
+And yeah, if you have any questions, just put them in the chat.
+
+And if I don't see them, Stefano will see them.
+
+And then we compiled all the votes across all the working groups.
+
+And I developed a rubric for basically picking a vote total and turning it into a recommendation
+
+for a requirement.
+
+And I think, do I have a zoom in on that?
+
+I do not have a zoom in on that.
+
+So if you look at the upper, I don't know which corner it is, upper left or right, but
+
+you see this part of the slide, for me, it's the upper right, which says legend.
+
+And it's basically based on the mean number of votes, something that was more than two
+
+times the mean was an automatic yes, this is required on down to likely yes, maybe lean
+
+no and then no for less than, okay, between I think 0.5 and zero or zero less than 0.5
+
+and zero.
+
+Yeah.
+
+So you can kind of see through this color coding how each component ranked, you can
+
+see there's a few here that are yeses, like training validation and testing code and inference
+
+code.
+
+And then many lean no's, for example, data set.
+
+And then we looked at multiple different data sets.
+
+So that was different from the model openness framework.
+
+They just had data set, but we thought that's such an important part of the system that
+
+we broke it out into multiple different types of data set to really get as much input as
+
+possible on whether that should be required.
+
+And then this is the result of the voting of that applying the rubric to the votes was
+
+that the required elements were and are training validation and testing code, inference code,
+
+model architecture, model parameters, which includes weights, supporting libraries and
+
+tools which includes things like tokenizers and hyperparameter search if used.
+
+And then down through a likely required data processing code, maybe the data sets as you
+
+saw not likely elements like the model card, not required data card, sample model, technical
+
+report.
+
+And then what is new from I think some of you have been in previous meetings is that
+
+we have for version 6.0 made this distinction.
+
+So the required components, we took everything that was required plus likely required.
+
+So the data pre-processing code and those are the required components.
+
+And then everything else is optional.
+
+So there's nothing that we're saying don't include this, but everything else is listed
+
+as appreciated, but not required.
+
+And I think let's see what's next.
+
+I feel like this might be a good place to pause.
+
+Maybe we do this.
+
+Do you want to pause here for questions, Stefano, or do you want to go into this greater detail
+
+about version 6.0 and then pause?
+
+Yeah, let's wait and see if anyone has any questions so far.
+
+We can definitely take a break.
+
+Yeah.
+
+So any kind of questions or thoughts on how we got here and where we are?
+
+Okay.
+
+Thank you.
+
+I'm muted basically, everyone.
+
+If anyone wants to jump, they can use voice or if you feel more comfortable, you can type.
+
+Yeah.
+
+And there's a raise hand function at the bottom like in Zoom as well.
+
+Yep.
+
+I don't see many questions.
+
+Maybe we can just...
+
+Obastium has a question.
+
+Go ahead.
+
+Yeah.
+
+Hi.
+
+Thanks for the summary.
+
+I was just wondering if you had any priority in each column, like is data processing code
+
+more important than training validation?
+
+I guess on the left, everything is at the same level, but maybe on the right, some things
+
+are more optional than others or is it something that has not been discussed?
+
+Hasn't been discussed, frankly.
+
+And yes, they're all required.
+
+It's a yes or no.
+
+Yeah, it's a yes or no.
+
+Yeah, we can have a conversation about that.
+
+Yeah.
+
+Because...
+
+Oh, let me just before those double questions, let me get another question from the next
+
+person, Bastien, and come back to you.
+
+Unless...
+
+Is that okay?
+
+Sure.
+
+No problem.
+
+Yes.
+
+Okay.
+
+Thanks.
+
+All right.
+
+Jacob?
+
+Yeah.
+
+You guys can hear me, right?
+
+Correct.
+
+Yep.
+
+Okay, cool.
+
+Yeah, sure.
+
+So I guess one question I had is if some of the reasoning around decisions that were made
+
+within these groups is available.
+
+I'd just be curious, particularly on the datasets portion.
+
+I guess my intuition is that if something is open source, we should be able to verify
+
+its legality completely.
+
+And without access to the datasets or in some way, then that may be a lot more difficult.
+
+I'm not saying complete access to the datasets.
+
+But some access may be worthwhile.
+
+Go ahead, Stef.
+
+Yeah.
+
+I can give an argument.
+
+So the question of legality may not be appropriate for the open source definition.
+
+It's a separate conversation.
+
+But I do believe, and there were conversations inside the group about that understanding
+
+of the datasets.
+
+And in fact, one of the reasons why you see there the required components, the data pre-processing
+
+code is that many of the groups had debated about which of the -- what's necessary, what
+
+level of understanding do you need to have in order to be able to feel safe about using
+
+a model or have enough information, the transparency requirements that look like they're going
+
+to be mandated by law anyway, at least in Europe, and other information about provenance
+
+and assessing risk in deployments, bias calculation, and all of those things.
+
+So the conversation went -- this is the -- it's the torn issue, access to the datasets, what
+
+is necessary, what is required, what level of depth do you need to have access to it.
+
+And it's something that we're probably going to keep continuing debating.
+
+What seemed clear to me is that the original dataset, having access to it completely and
+
+fully in a way that you can download it, et cetera, and retrain with the purpose of retraining
+
+or rebuilding from scratch a model that you have received, it's a requirement that is
+
+not strictly necessary.
+
+At least there was pretty much -- pretty good agreement on that front.
+
+>> Thank you.
+
+And I see you have a raised hand again, Jacob.
+
+I'm just going to go to another question, and we can come back to you.
+
+So Shala asks -- yeah, exactly.
+
+No, thank you.
+
+So Shala asks, did any of the systems reviewed meet the required components?
+
+So let me go back to the -- yeah.
+
+So it wasn't that we were trying to evaluate whether any system had all of its components
+
+required.
+
+It was more of a comparison.
+
+And no, there was no system where all the components were considered to be required.
+
+But the ones that are required are simply the ones on this list under the lime green
+
+required title.
+
+And those are the ones that then we moved into this binary distinction of required and
+
+not, which will appear in definition 0.0.6.
+
+And feel free to raise your hand or ask a follow-up question in case I didn't ask.
+
+Okay.
+
+Bastien needs to go.
+
+Okay.
+
+Thank you for coming, Bastien.
+
+I see -- Jacob, did you want to ask another question?
+
+>> I want to complete the answer.
+
+I want to add something else for Shala.
+
+This analysis, this -- you know, the response also will come after the next phase.
+
+We're going to be reviewing the systems and see if they have available the required components
+
+and what conditions they're available.
+
+What can we do with those components?
+
+>> Okay.
+
+Yeah, I see what you're asking, Shala.
+
+Thank you for clarifying that, Stefano.
+
+I see Justin is typing.
+
+But Jacob already has his hand up.
+
+So yes, ask your question, Jacob.
+
+>> I should have written it down.
+
+I apologize.
+
+I had a thought.
+
+It's gone now.
+
+I'll bring it up if I remember it.
+
+>> No problem.
+
+No problem.
+
+I'm going to -- let's move on to the next slide.
+
+Because that one adds this extra information about requirements around the training method.
+
+And then we can continue to take questions.
+
+What do you think, Stefano?
+
+So I think this is where you will start presenting, I think.
+
+>> I was looking at the -- we can answer Justin.
+
+>> Okay.
+
+Let's do that.
+
+>> He admitted -- no, no.
+
+He admitted that it's outside of this.
+
+>> Okay.
+
+Great.
+
+>> So this is the text that is now in the draft of -- in the draft version 6.
+
+006.
+
+Which is going to go live on Monday.
+
+So it's basically completed.
+
+And the narrative in here is to have a piece of text inside the definition of that section
+
+of what is open source AI.
+
+Where we describe what we actually need in order to exercise those four freedoms.
+
+To use study, share, modify.
+
+And that's where the text that I was talking about before, the sufficiently detailed information
+
+of how the system was trained, and the components basically that the groups have said that they
+
+require.
+
+Here they are described in a more verbose way, more of a narrative rather than bullet
+
+points talking about quoting, mentioning specifically components that are referenced in a separate
+
+paper by -- or maintained by another organization.
+
+So this is more about describing in a more -- in a fairly precise fashion the list of
+
+components that require components that came out of the working group.
+
+And here you can see, like, you need to have detailed information of how the system was
+
+trained.
+
+Providence of the data, the scope and characteristics.
+
+Some of these wording also comes from the EU AI Act in terms of requirements of transparency.
+
+So I tried to use the words included in that legislation so that thinking that it's sufficiently
+
+-- it's been reviewed.
+
+It's been debated.
+
+It's been agreed upon by the -- at least by the European regulators.
+
+And negotiated heavily.
+
+So I'm assuming it's quite fine-tuned to represent transparency requirements in a fairly
+
+detailed way.
+
+So at least it's a good way to start the conversation for us.
+
+And then in terms of code, pieces that are about the preprocessing data, the code used
+
+for the training validation, and the supporting libraries.
+
+And the model parameters, the weights, which should also include the checkpoints for the
+
+intermediate stages of the training.
+
+As well as the finalized one.
+
+So this is what's in -- you will see on Monday on draft six as it gets published.
+
+You want to go on to the next one?
+
+Because this is the other thing that will be clear.
+
+Spelled out.
+
+Like the precondition that we need to focus on, like a very, very high-level necessary
+
+thing, necessary feature that needs to be made available is to have the preferred form
+
+to make modifications to the system.
+
+And that, for machine learning, the examples that we have studied, they give us the list
+
+of components.
+
+This sentence here is a form to make the open source AI definition a little bit more flexible
+
+and adaptable to other technologies should they change next year or two years from now.
+
+At least in the short term.
+
+Give us a little bit more flexibility.
+
+And that's what we're going to do.
+
+So the next step is -- the very immediate next step is to finalize the -- hit the release
+
+button and go live with version six of the draft on Monday.
+
+And then we're going to start the second step in track one, which is to review each of the
+
+systems that we have already analyzed.
+
+Maybe add some more.
+
+I'm not against adding more at this stage.
+
+Because we need to look at the required components that we think are necessary.
+
+The working groups have identified as necessary.
+
+Make a list.
+
+And for each of the components, put the URLs, you know, where can I get them?
+
+Where can I get it?
+
+If it's not available, then mark it as unavailable.
+
+And if we can get them, under what conditions?
+
+So we're going to find out -- I can already say we know.
+
+For Lama 2, we know that in order to download the model weights, you will have to -- you
+
+will have to sign up on a website.
+
+You need to give in your details.
+
+You need to ask for permission.
+
+And you need to sign an agreement by doing so.
+
+And that agreement has specifications of what you can and cannot do.
+
+And we'll log all of that information in a place.
+
+And we'll analyze them in step three.
+
+PTR will have different things, et cetera, et cetera.
+
+Oh, in fact, yes.
+
+I put together -- there is a slide with -- go ahead.
+
+Go to the next one.
+
+Yes.
+
+That's the -- that's what the next table, the next working groups will do.
+
+It's basically go through the list of required components, put the URL, and match the legal
+
+framework.
+
+Now, you will see that here we're talking mostly about code.
+
+And there is one line.
+
+So for the code parts, it's going to be easy to say that all the code made available needs
+
+to be formally using an OSI-approved license.
+
+And I don't think it's going to be that complicated, that part.
+
+The model parameters instead.
+
+That part is most likely going to raise a conversation around what legal frameworks
+
+go around the parameters.
+
+Those are -- there is still some, from what I hear from the legal communities, the lawyers
+
+have diverging opinions whether parameters are copyrightable.
+
+And if they're not copyrightable, what kind of other -- if there is any other exclusive
+
+in property regimes or not.
+
+And therefore, what kind of contracts -- the validity of the contracts or terms of use
+
+and other legal tools.
+
+Whether -- you know, which ones are better or valid, et cetera.
+
+So it's going to spin off an interesting legal conversation.
+
+>> Sorry.
+
+I clicked early.
+
+I didn't want to raise my hand before you were done.
+
+>> No, you're good.
+
+Go.
+
+>> Okay.
+
+So the first question I have, which is what I meant to ask earlier, was what constitutes
+
+data preprocessing versus a new dataset?
+
+Like is it -- if it's done internally to the company that is making the model, that's when
+
+it's data preprocessing?
+
+Or -- yeah, I guess basically how are we differentiating between those?
+
+>> No, let me look at the paper.
+
+The paper, it will go live later today.
+
+And definitely on Monday.
+
+But my memory serves me right.
+
+The data preprocessing is the tooling that is used to do things like cleaning up, formatting
+
+the data, and tokenizing, you know, doing the -- all the preparation work that goes
+
+into prepare the data to be fed into -- for data ingestion, for example.
+
+>> Right.
+
+>> Feature engineering, you know, data, yeah, all of that code.
+
+>> Right.
+
+Oh, I guess there's a follow-up.
+
+But I'll pause if you want to go to someone else.
+
+>> What do you mean?
+
+There's overlap?
+
+>> Sorry, Mer, I couldn't hear you.
+
+>> Yeah, you can -- yeah, let's -- yeah, good facilitation practice.
+
+Let me go to Mo and then we can come back to this.
+
+Mo says model architecture is defined in the code.
+
+It overlaps with the training and validation and testing code.
+
+Is model architecture really an independent component that can be analyzed individually?
+
+Do you want to -- >> Once we can -- yeah, I think that once
+
+we can point at the paper that so far we've been using generously through pre-preview,
+
+we can have a better understanding of these technical overlaps, et cetera.
+
+>> Yeah, the delineation between different components.
+
+So yeah, part of this paper is that there's often multi-paragraph definitions of each
+
+of these components.
+
+So yeah, I think that's the best place to go for that.
+
+Jacob, did you want to ask a follow-up?
+
+>> Yeah.
+
+So I guess then at least how I'm thinking about this data pre-processing and I will
+
+be like be open -- I'm coming at this from an adversarial perspective intentionally because
+
+I feel like that will be done, I guess.
+
+And so basically my thought is if we don't have to know -- like if a third party can
+
+do the pre-processing, not in terms of tokenization necessarily, but more of like sifting the
+
+data and can create a new dataset that is proprietary and then you use that, that's
+
+a way to obfuscate your data usage.
+
+And so maybe that's not relevant here.
+
+Maybe that goes too much into legality, but that's just sort of how I'm thinking about
+
+it and I'm curious to hear what your response is.
+
+>> It seems like it's covered by the first bullet.
+
+Isn't a lot of that concern covered by the first bullet?
+
+There's just so much documentation about data that's required?
+
+Or what do you think, Stefano?
+
+>> If I understand correctly, the question or the concern, it's about replicating the
+
+dataset with different setups, different things in it.
+
+Or different way of reorganizing, reshuffling the same -- using the pre-processing code
+
+means that you have a way to rebuild -- it doesn't mean that you have access to the original
+
+data.
+
+You can -- you have a way to extrapolate, you have those transparency requirements that
+
+make you -- that give you some sort of better understanding for how you would have to build
+
+your own dataset for your own training if you want to do -- if you want to rebuild from
+
+scratch or if you want to build from -- not rebuild from scratch, build from scratch something
+
+else that looks or behaves similar to what you have received.
+
+In other words, I don't think that the scenario that you're describing is a scenario that
+
+necessarily is part of this conversation.
+
+>> Gotcha.
+
+Okay.
+
+Let's go on and see what else comes up.
+
+>> Yeah, because I think some of these questions can be -- yeah, can be described also in what
+
+we're doing.
+
+Another thing -- another of the things that we're doing next and partially I can talk
+
+about here the roadshow that now it's not detailed here, but you can see on the timeline
+
+we have these three tracks, the green, the white, and the light blue that we're following
+
+in parallel.
+
+And in June we're going to have the release candidate.
+
+Once that release candidate happens, we'll have meetings in different parts of the world
+
+and we're organizing them to show the release candidate to gain more visibility across different
+
+communities and different practitioners, different stakeholders in order to get to release candidate
+
+to version 1 in October.
+
+During these meetings, we're going to spin off a conversation about data because there
+
+is a strong requirement for good quality data sets and an increased amount of awareness
+
+in the practice of building data sets that are valid, respectful, trustworthy, you know,
+
+they are clean, they're transparent, they're fair in how -- what they represent, et cetera.
+
+And there is very few of these.
+
+There are very few data sets that are large enough, that are good enough -- that are good
+
+in that term.
+
+And what's becoming more clear to me also is that the data community hasn't been -- needs
+
+to also -- to have these conversations.
+
+So we're going to be partnering with organizations that are more into that data space and we're
+
+going to be helping supporting conversations around data in parallel or, you know, as a
+
+spin off of this project.
+
+>> Jacob, go ahead.
+
+>> Yeah, sorry.
+
+Last one.
+
+You touched on this just now, but I guess one thing that I've been thinking about a
+
+lot is how do we -- or I guess OSI maybe -- take back the term?
+
+Because I feel like it's been falsely attributed to systems that are pretty clearly not open
+
+source by this definition.
+
+And like you said, you're going to go and, you know, talk with more people and have those
+
+meetings.
+
+But, yeah, just curious what your thoughts are about that.
+
+>> Yeah, this is a known issue, unfortunately.
+
+Yes, exactly.
+
+Having a definition helps to take back the term.
+
+And having people, enough people who support it and are willing to say we're going to use
+
+it.
+
+This is what we mean when we say open source AI.
+
+And they're going to be multiplying the idea.
+
+You know, they're going to go -- so I'll tell you an anecdote.
+
+I was in -- I was at a meeting last week with a lot of friends of open in general.
+
+And there was a lot of pushback.
+
+Common shared pushback against Meta's use of the open source AI name to identify, to
+
+talk about Lama.
+
+Lama2 specifically.
+
+So it's -- many others will be joining in our effort to clarify the public what that
+
+means.
+
+And it's a little bit the same work that -- the same way that it happens with the open source
+
+software.
+
+Like lots of -- there is people -- some people still complain and say, well, but I mean something
+
+else.
+
+But there is always a very large pushback of supporters of the open source definition who
+
+say, no, it's -- you may have all the opinions you want, but open source is defined by the
+
+open source initiative.
+
+And it's maintained by the open source initiative.
+
+And that brings the cloud up.
+
+Yeah, so that's a big thing.
+
+This doesn't end with version 1.
+
+We know that we will have -- most likely it's going to be -- it's going to have to be maintained
+
+and improved and reviewed.
+
+So the board of the OSI is already at work to think about the -- how we're going to be
+
+maintaining -- we're going to be maintaining this definition.
+
+Which is very different from what the open source definition for software is.
+
+Right?
+
+We're trying to have -- so someone was asking before I saw the meetings and -- oh, it was
+
+Justin.
+
+Yeah, we're talking about meetings, et cetera.
+
+And how to participate.
+
+So we're trying to have everything public.
+
+So that no one gets surprised when at the end we come up with the definition.
+
+We're having this sequence of town halls every two weeks at different times so that we can
+
+accommodate multiple time zones.
+
+We have discussions on the forums.
+
+We do publish on the blog every week a summary of what's happening on the forums.
+
+So there are multiple ways to get involved.
+
+To stay aware and to give comments during this process.
+
+We'll publish the roadshow.
+
+Also the roadshow meetings are going to be in different parts of the world.
+
+We have partnered with existing conferences.
+
+In order to gather people who are already being at a place.
+
+Already going to that place.
+
+So we're going to be in -- at the -- well, we'll publish it next week.
+
+Or the week after.
+
+But I can say that we're going to touch every continent starting from June.
+
+Starting from June until October.
+
+So we're going to be in Africa in June.
+
+We're going to be in September.
+
+We're going to be in Hong Kong.
+
+Europe, Paris, North America, Mexico.
+
+I don't remember when.
+
+So there's many, many opportunities to meet in person.
+
+And we're raising also funds and disclosing this.
+
+By the hope is that we're going to have also travel grants for people who want to participate.
+
+And they can apply and get to some of these meetings.
+
+So hopefully we'll be able to have a very good roadshow.
+
+And gather a lot of support.
+
+And if not, we're going to keep on going next year also.
+
+Multiple opportunities.
+
+>> Thank you, Sam, for offering to host us in Toronto.
+
+Okay.
+
+Yes.
+
+And thank you for your comment, Jacob.
+
+Okay.
+
+Let's see what else we have in the deck.
+
+Oh!
+
+Q&A.
+
+>> I haven't really started.
+
+So yeah.
+
+That's the end of our deck.
+
+So we do have more time in the meeting.
+
+If anyone else has a question.
+
+And this would be a great time if you're someone who often doesn't ask a question in a meeting.
+
+Please do.
+
+We really invite you to.
+
+And if you prefer to put it in the chat rather than to speak publicly, then that is also
+
+most available to you.
+
+>> All right.
+
+Jacob, thank you for sharing the information.
+
+You're welcome to join the forums if you're not already.
+
+They're easy to use.
+
+And should be smooth.
+
+And once you're a you can become a free member of the OSI to join the forums.
+
+It's very easy.
+
+>> Yes.
+
+I joined earlier this week.
+
+I had some troubles with logging in.
+
+But I got that fixed.
+
+So...
+
+>> Cheers.
+
+>> Thank you, guys.
+
+>> Thank you.
+
+>> Bye.
+
+>> See.
+
+Just in typing.
+
+But I'll wait.
+
+But I can stop the recording at this point.
+
+I think.
+
+Okay.
+
+So...
+
+I'm going to stop the recording.
+

@@ -1,0 +1,858 @@
+All right, thanks everyone for joining this day in the slide access.
+
+I'm Stefano Maffulli, I'm the Executive Director of the Open Source Initiative.
+
+And a reminder, we've been doing this work thanks to a grant from Alfred Sloan Foundation
+
+and a donation from MercatoLibre, which has joined us as sponsors.
+
+Okay, so let's go through quickly a little bit of the history of how we got here
+
+and what we were doing and why we're doing this.
+
+So, why we're defining the Open Source AI now is because
+
+these technologies, since the introduction of chat GPTs or the Open AI launches,
+
+have significantly, significantly impacted how the IT environment in the software spaces
+
+has operated and worked and changed a lot of the fundamentals of our understanding of software
+
+and the Open Source definition.
+
+At the same time, we've seen an incredibly fast reaction from governments around the world,
+
+especially the United States, Europe, but also Japan, China, have started to write laws directly.
+
+And some of these laws, especially the AI Act is very explicit, mentions Open Source AI
+
+and Open Source systems and models without having a specific understanding of what that means.
+
+And the reason for the regulators to do that is to allow for special carve-outs for research and innovation.
+
+Like having seen how the Open Source definition worked for software
+
+and allowed for a thriving ecosystem that is worth apparently 8.8 trillion,
+
+or in any case, it's a huge sum of money, and it's underlying the whole digital infrastructure.
+
+So regulators want to keep everything safe, keep society safe, but at the same time,
+
+they want to make sure that the risks are reduced.
+
+And trying to find that balance revolves around the concept of Open Source AI.
+
+And third is this open washing thing that we've seen a lot of companies,
+
+and especially one abusing of the term Open Source and calling out meta in this space,
+
+for releasing models and releasing artifacts that are not Open Source by any stretch of imagination,
+
+especially their licensing in terms of conditions or not.
+
+But because there is a lack of clarity, they can claim whatever they want,
+
+because there is no easy way to push back and point at a widely agreed upon definition of what Open Source AI actually means.
+
+And so we asked them, I mean, this is just to show the Digital Public Goods Alliance
+
+have given a little, illustrated what they think the benefits of Open Source AI is in general.
+
+So without further ado, let me start from the history.
+
+What we've done is that in late 2021, when I joined the OSI,
+
+we knew it was immediately after Copilot was launched, and it was immediately clear that the word was not going to be the same with that.
+
+So we launched this research that we call Deep Dive AI.
+
+We wanted to understand the space.
+
+So in 2022 and 2023, we ran, if you want, research endeavor.
+
+We interviewed experts. We started to ask them questions.
+
+We published them in a form of deep podcast.
+
+And I recommend you to listen to it because it's really, if you're new to the space,
+
+it gives very good introduction to the legal aspect, the technical aspects, copyright, business and society security.
+
+Also, there's an interview with DARPA program manager for AI security, very eye opening.
+
+Next year, we've done, I mean, in the same year, we also run four panels with four experts covering business, society, legal and academic views.
+
+And we published their report. So if you don't want to listen to the podcast, you don't want to listen to the panel recordings, look at the report.
+
+It summarizes the issue. And together with the webinar series, with interviews and presentations from experts from different parts of the world,
+
+we knew at the beginning or in the middle of 2023, we knew that the issue that we needed to solve was that of the availability of training data.
+
+We knew that that was the problem that we needed to solve in some way, shape or form.
+
+Because it was the most controversial one.
+
+So we thought about using a co-design method to come up with a solution, a plausible solution.
+
+So we went around the world, we asked people questions and we also set up online meetings in order to have more variety.
+
+And we asked them a series of three questions. The first one, what you should be, what should the words or use the verbs,
+
+use, study, modify, share, mean for in the realm, in the domain of artificial intelligence.
+
+And after a few meetings in person and online, it was not too complicated to reproduce the basic principles of the free software definition and port them to the domain of AI.
+
+Then we needed to understand how to implement those freedoms. If you want to use, if you want to study an AI system, what do you need?
+
+So we collected virtual working groups online to analyze four types of systems.
+
+One is Lama, which is completely proprietary. The other one is Bloom, which is very open science, but with a bad license.
+
+PTA is a very open science LLM and OpenCV group analyzed the computer vision neural networks, zoo models, models in the zoo.
+
+So to, to, to find the analysis, to, to look at it from, from also the angle of something that is not an LLM.
+
+And we run some votes, not scientific. I, it was never the intention of being scientific. I've seen conversations on the forum.
+
+The idea was to gather a little bit of feedback that will allow us to move on and check an hypothesis.
+
+The hypothesis here was given the, that known, it showed that the groups were not unanimous in saying that the training data was always necessary to study and modify, especially for modify.
+
+For studying it, it was, that component was a little bit higher.
+
+But we have an hypothesis and the hypothesis to solve the problem of data was to see, okay, if we don't require it, what happens?
+
+So we asked the third questions. Let's go outside, look at the, look at the world, look at existing systems and check which ones would comply if we don't require strictly the training data.
+
+But we require the other components, which is the data processing code and the training code.
+
+So we, we threw, we widened the search to more models to, for this validation phase.
+
+And in fact, we ended up with the expected results. In other words, none of the systems that we knew were bad, like LLAMA or,
+
+or Bloom, for example, we knew that those ones would not pass for different reasons.
+
+So that was that signal. It was just a signal that there might be a way to solve the issue.
+
+And the result was this, right? We, the definition is structured this way.
+
+There is the four freedoms and then the requirements for the preferred form of making modifications to machine learning into these three pieces.
+
+You have to have the weights, the parameters need to be available with freedom respecting licenses and legal terms.
+
+Software needs to be complete for the training, the training and for the data processing.
+
+And then you need a very detailed description of what the data we use for training actually is.
+
+So Redmonk put it quite nicely and he called this the AI conundrums, right?
+
+And he quotes Giulio Ferraioli here. And this is a very interesting quote.
+
+So it says that if we assume that the definition requires full release of datasets, one thing is certain.
+
+It would be a definition for which very few existing systems qualify.
+
+And also those that qualify are less powerful and limited to specific domains.
+
+And then because then the other thing to solve, I mean, the other approach to think about this conundrum is that on the other hand,
+
+we have in the free software and open source movement a long history of making exceptions and finding ways to solve the problems
+
+in order to have more freedom and more open source software.
+
+Now, the other constraints that we have in this whole process is that the board, the OSI board, required three basic pillars, the elements.
+
+We want the definition to be supported by diverse stakeholders.
+
+That means not only end users, not only developers, but all of them.
+
+So end users, developers, deployers of AI, subjects of AI.
+
+And they want to have global representation of diverse interests in the list of endorsers and support.
+
+They also require, the board also requires that the definition must include relevant examples of AI systems.
+
+And this is for a specific tactical reason.
+
+The regulators will not consider the open source AI definition as an interesting one or something to follow and imitate if it is not a general one,
+
+if it doesn't cover general cases and if it doesn't cover and if it excludes clearly anything.
+
+I mean, if it really limited to only small domains.
+
+And it needs to be ready by October. And again, the main reason for this is timing.
+
+The AI Act is already out there and is already law.
+
+And it's already the legislation process, the normative process has already started.
+
+This means that there is a hyperactivity in Brussels, but also in D.C. and in California to convince and educate policymakers that open source just means access to open weights, access to the weights.
+
+And that's all they need to care about. And maybe a little bit of description of transparency in the form, if you're familiar with that data cards or other formats that are pretty lightweight to describe in metadata sense, the data set used for the training.
+
+And which is not sufficient. So there is an urgency to come up with a working definition.
+
+OK, so we're working on Release Candidate 1, which has some clarifications and basic concepts.
+
+This is just a screenshot. It's not really don't don't refer to it too much.
+
+It's going to change between now and when Release Candidate is released.
+
+But I wanted to show here the structure of the document to illustrate a major feature that has been here in its intention from the beginning.
+
+There are probably two main, two macro parts. The top part includes the basic concept, like what is a definition?
+
+What is it that we are defining? Which is it? What is AI? What is an AI system?
+
+And we added here, we may add based on feedback from the forum, the machine learning definition so that we have a list of framework reference of the topics that are covered below.
+
+Then there is the actual open source AI definition, what it is, right? The preamble, why we want it and what is open source AI, which includes the four freedoms.
+
+Now, the four freedoms, as you know, even in the free software world, the free software definition, the freedom to study and the freedom to modify are followed by a sentence that says precondition for this is access to the source code.
+
+And further, the source code is defined as the preferred form of making modification to the program, which is later clarified also in other documents, including the licenses, etc.
+
+Now, we need a frame here to understand what we're talking about, what we need, what is the preferred form of making modifications to an AI system.
+
+And in order to do that, we need to limit the scope. We cannot talk about all of the AI. We need to talk about machine learning in this specific case.
+
+It's the most pressing and urgent matter. Let's finish this part. So the second part, now we enter in the second macro part of the definition.
+
+This part is one that is most likely to change and evolve in future versions of the definition.
+
+So the preferred form of making modifications here lists the three major blocks of an AI system, a machine learning system, which are data piece, the code piece, and the parameters weights and sets conditions for those.
+
+And then we added, which is already in 0.9, space for clarifications. These clarifications serve the purpose of clarifying that whether you call, when you want to call and use the term open source,
+
+refer to anything that spits an output based on an input, whether you call it an open source AI, an open source AI system, open source model, open source weights, open source model or open source weights.
+
+Basically, these are all equivalent terms. You cannot skip the line to some extent and say, well, it's an open source model only.
+
+So, you know, the rest of the definition doesn't apply. No, if you want to call it open source model or open source weights, you have to comply with, we have to provide the preferred form of making modifications to that system.
+
+Now we're also working on a new FAQ and the new FAQ entry will clarify further the four types of training data that are plausible and possible in this world.
+
+And that is clearly, you know, open training data, public training data, obtainable training data and unshareable non-public training data.
+
+And we believe that we believe that all of these four types of data can be part of an open source AI.
+
+We don't want to limit the open source AI only to open training data or open and public training data, because that would limit the capabilities of open source systems and would limit the domain of open source systems.
+
+So open training data typically is something that, you know, you have, you can fairly assume that there is global coverage, global possibility to distribute that data.
+
+And that is a collection of facts like time series of wind speed and ocean temperatures.
+
+And it may seem safe, but I discovered that when trying to immigrate to China, going to China for a business trip,
+
+I noticed that among the reasons for Chinese government to search on entry and exit of the country to search digital devices is for the availability, for the presence of weather information, weather data on the devices.
+
+Meaning this means that even that kind of data is not necessarily easy to circulate around the world, like one can assume.
+
+Public training data is data that others can download, like, you know, the archive of my blog posts, for example.
+
+And this is also this is subject to availability, right? Links go stale and everything like that.
+
+But we can work around that with tools like common crawl or Internet archive and software heritage and places like that where they keep, they can keep the archive.
+
+But that's the public training data. The obtainable training data is data that you can buy or data that you can, you know, they can be obtained if you ask.
+
+Things like the ImageNet data set, for example, and the unshareable non-public training data is private information, that kind of like medical, medical, medical data.
+
+This kind of data can never be asked for, can never be distributed.
+
+And so we need to be careful, but we want to have open source AI medical systems.
+
+So we need to find a way to work around this, this piece.
+
+So I can give a very quick overview of where we're thinking that the release candidate might go to explain things a little bit better.
+
+So in the data information piece, we're trying to make it clear that the requirements are a must.
+
+Like the, we noticed the confusion between the work that we create.
+
+So we're probably going to use, suggesting is to use the word build instead.
+
+Substantially equivalent systems stays together with, but we are adding the fact that the data information needs to work with the code below.
+
+You cannot just say data information alone.
+
+You cannot look at data information alone and think that you can be replicating.
+
+And this is, if you saw online, there was a comment from Professor Perciviere, who highlighted how much the knowing about the data and knowing how it's been processed is the crucial, crucial piece.
+
+And specifies here in particular, if used, so for example, if one uses training data that is publicly available, it needs to be made available.
+
+And for the code specification, there is a clarification that the code must be complete.
+
+You cannot just say, hey, here's the code. No, I need to be able to run it.
+
+I need to be able to run it together with the data information.
+
+I need to know I need to get a working data set in some way or form.
+
+And there is also one line in addition that we're working on.
+
+It's a way to cover all three of these pieces.
+
+So code, data and the issue here is that code weights and data.
+
+The issue here is that could be contractual terms.
+
+And actually, there are like the responsible AI license family has in some of the they show that they played the experiment.
+
+And they have a way of in one contract to say, take this model, take this data and use it under these conditions.
+
+So what we're trying to say here is that we need to have a we need to give away to people like the groups at the OSI who will be reviewing these contracts.
+
+To make sure that we can evaluate the these packages that cover different artifacts,
+
+because if you notice the code individually, the elements code parameters and data,
+
+they have this provision that says code shall be made available on their OSI approved license.
+
+This means that, yes, individually, some elements are covered, you know, they can be covered by this license.
+
+But collectively, we don't have a way in this definition. So it was a missing piece.
+
+And that's what we're working on on this final line.
+
+All right. So these are the groups that we're working with to get endorsements and get different representation and timeline.
+
+We're still aiming to get version one ready for all things open in North Carolina in October, the end of the month.
+
+So for now, you know, we want to hear your voice. So endorse the concepts embedded in the draft.
+
+It's unlikely that they're going to be changing going forward. But the adaptations and clarifications, absolutely.
+
+They're coming because the intention is there.
+
+The intention is to make sure that we have a clear definition that is white, has white support and preserves the principles of open source.
+
+All right. And with that, I think we can go to open the floor for questions.
+
+If you have the mic, you can probably open it yourself or you can type.
+
+Yeah, so I am here. I've obviously shared a lot of my thoughts on on where we're at.
+
+My main concern here is that this is a needs to be a litmus test like the open source definition.
+
+And the open source definition has the benefit of being able to approve a license and then have that license self applied to millions of projects.
+
+Whereas in this case, we really need to look at every single project.
+
+This is getting applied to or somebody needs to look at it, whether it's us or more likely it's going to be the project itself.
+
+And so my my suggestion or my my belief is that this doesn't function as a litmus test and that words like sufficiently detailed and if I can tell you, well, I've got a skilled person here and they're going to say, well, it's not skilled enough.
+
+We've given you enough information. Right. So there's not there's not going to be a way for us to really tell anybody that there is not a source.
+
+I sort of going and trying to implement the thing ourselves based on the information that they've given us.
+
+So let's say that they do achieve the certification.
+
+They get that they get the mark. Does it protect the four freedoms? And I think it's quite clearly I don't think Steven's done a really good job of saying, get these are the kind of proofs that you would need to show like you need to show me that you can make the same modifications to a machine learning system with fine tuning.
+
+Right, we know access to the source data as what you can with access to the source data. I think, you know, as a practitioner, it's clear that that's not the case.
+
+I mean, I feel like we need something that people can self apply, which is like the OSD.
+
+And so it really needs to be something where you say this is the ingredients. This is the manifest. And maybe it's even an electronic manifest, like a JSON file or something that says these are the scripts, the training script, the training data, maybe optionally.
+
+And then with those checkboxes checked, then you get access to the mark, right?
+
+So yeah, I mean, I don't think unless somebody sat down and actually like, tried to size the four freedoms on systems that have been through this, like I maintain that it doesn't function as a litmus test.
+
+Yeah. All right. So it doesn't function as a litmus test. And that's what we tried in the validation phase.
+
+So we said, let's take the, at the time, the definition also had a component called the checklist, which I haven't mentioned.
+
+Basically, the checklist is the list of components of AI systems as described in the model openness framework, which is a paper.
+
+I don't know if you're familiar with it. It's a paper from the Linux Foundation. That paper lists 16, 18 components and classifies the availability of them is used to classify where they stand in three classes.
+
+Open class one is open model class. That's the only way around. Class three is open model class two.
+
+Open models, basically just the weights and model cards, some metadata, model card and data card, technical report, then open tooling.
+
+If they make available also data pre-processing and some other and some other inference code and some other pieces of code.
+
+And then a top class is open science where they provide every everything, every required component, including open training.
+
+I mean, the training code and the training and testing data sets.
+
+So one way that the validation phase work was to say which of these components are required, then one could go and use the model openness framework and see the availability of these marks.
+
+You put zero at this bar, which is between class two and class three and class one, between open tooling and open science.
+
+And that could be one way of having that litmus test.
+
+What we discovered is what you were saying. It requires the finding.
+
+This doesn't work at a glance the same way that open source software and open source license approved open source licenses work.
+
+You cannot look at the repository and see if there is a check the license file could check the open source initiative website and say, hap, this is open source approved or not.
+
+It's not because there are so many different components with different nature.
+
+Some documentation is on a blog post, some code is in GitHub, some or other repositories.
+
+Some of the models are on Agnephase or Kaggle.
+
+Finding all these pieces for a third party of a viewer is almost impossible or very, very complicated without the collaboration of the original developers.
+
+So this is an issue that we are aware of, but it's also an issue that we don't know how to solve today and it could be solved with practice tomorrow.
+
+In other words, there might be a space, a place in time where Agnephase maintains a community of experts or I don't know.
+
+There is a collaboration effort with universities and in fact we started talking with a few of them to see if they want to have, if they want to help us expand in next year the validation phase and fine tune the key indicators of what an open source AI needs.
+
+Because I have a theory in my mind, but it's just a silly theory.
+
+If you're not releasing the data processing code and if you're not releasing the training code, you're not open source.
+
+It's a very, in my mind so far with the samples that I've seen, it's an easy test, but it's not an easy one to solve.
+
+The nature of this animal of AI machine learning is that they are not software, simply.
+
+And even when software, there are examples where understanding if it's open source or not is complicated.
+
+And there are different ways of interpreting what open source means.
+
+In other words, if you look at SQLite, SQLite is an open source database program, but they don't have a community around it.
+
+They don't accept patches. They just release the code at their own will.
+
+And on the other side of the spectrum, you have ginormous projects like OpenStack or Kubernetes, complex governance, multiple contributors, etc.
+
+Different promises to the public.
+
+So there is a range in there.
+
+I go back to the principles that we want to say here.
+
+Do we want to have more open source AI?
+
+Do we want to give groups like Eleuther AI and Allen Institute for AI and maybe TII and other groups,
+
+do we want to give them a chance to build AI systems that are capable of competing with Lama and Gemma and the likes?
+
+Or do we want to stay in a corner where we can only use a limited amount of data and limited amount of kinds of data?
+
+And the OSI has never been about...
+
+Neither has the Free Software Foundation. It's never been about, let's make a limited copy of Unix because the POSIX standards are proprietaried by ISO and we protest the ISO's approach.
+
+Does that make sense, Sam?
+
+Yeah. I mean, SQLI, it's open source. It's in the public domain, right?
+
+It doesn't have all of the things we'd like to see in an open source project, but I can exercise the full freedoms.
+
+And if I have an AI system, which is derived from, and I described like, you know, the kind of toxic dump of data, things like common crawl,
+
+at least I can study it and I can modify it.
+
+And, you know, it's hosted on Amazon. There's a 501(c)(3) the Common Core Foundation that wraps around it.
+
+So you can build a, you know, proposed open source AI on that.
+
+And that's data that exists today and the systems built on it that exist today.
+
+Now, we may be setting too high a bar by saying it's got to be Creative Commons licensed.
+
+And there's a whole lot of reasons about, you know, not just copyrights, but personal rights and other things that prevent you and GDPR and the rest of it.
+
+And they handle the complaints about GDPR. They deal with all of that.
+
+So I think that maybe we are being a bit too purist.
+
+And by being too purist and saying it's got to be CC0 or CC5 or whatever, right, rather than saying, like, it's got to be accessible so that I can enjoy the full freedoms.
+
+That would be already a good start.
+
+If we don't, right, if we don't say we want to see the data, right, we want things like that, the lung cancer data set to be available, then it'll never be.
+
+No one will ever create a data set.
+
+I mean, I've just deleted my data from 23andMe.
+
+It's been sitting there for 20 years or something.
+
+But the reason I put it in was to help advance medical technology, right, and they're good to go private and whatever.
+
+So I deleted it.
+
+But if there was an open source DNA database, you know, I would probably, a lot of people in that community would contribute to it with a view to finding open source drugs and solutions and things.
+
+But if there's no incentive to do that, it's not going to happen.
+
+Okay. No, I see.
+
+I heard that argument also.
+
+And I tend to push back in because I do believe that the open data issue and the incentives to open data are separate and they can run in parallel.
+
+I don't think that there is an inherent capability of the open source definition to say to force behavior.
+
+It has never happened before.
+
+You know, Copyleft has restored what was the Copyleft and Free Software principles have restored what was available before to the research community.
+
+Research community was used to distribute software freely without thinking about copyright.
+
+And then copyright was applied all of a sudden and that created problems.
+
+So it's a free software movement started as a reaction to restore what was happening before.
+
+The open data movement needs, there are so many changes in that, so many challenges in that space that it deserves a separate conversation.
+
+But going back to the common crawl being the tool that is out there, one conversation I've had with Professor Liang and other experts, builders of AI, they told me one interesting thing.
+
+And the common crawl is everything, right? It's the whole web, more or less, we can assume.
+
+And the interesting part, though, is not knowing that common crawl has been used, but having access to the data processing code.
+
+In other words, how common crawl has been filtered, what decisions have been made to split it up into pieces, the duplicated.
+
+And then the other important piece of reproducing or having the freedom to fork meaningfully is to know how the training has been done.
+
+One other theory that I've heard about the importance of data set that is the actual data set that is relatively less important than the code used for producing it,
+
+is that the tendency is to accumulate more and more data. And we may get to the point where there is going to be only one giant pile of data anyway.
+
+But the learning moment and the innovation cycles and the collaboration seems to be most likely to happen on the code front, on the data processing and data training.
+
+But that's for the future. I just want to plant it there to say one thing.
+
+But the other thing that is today that is more relevant to your argument is that common crawl itself is not guaranteed.
+
+You don't have any guarantee that you can distribute it safely around the world.
+
+And in fact, if you look at the history of the pile, and the history of Dolma, the two data sets used by Luther AI and the Allen Institute for AI,
+
+both of them, they're making decisions to distribute data that for which they don't have any rights to redistribute.
+
+And they're also changing the conditions for their distributions. Right?
+
+You were saying common crawl, common zeros, 511c3. There is no guarantee that common crawl can be distributed the way it is legally, safely around the world.
+
+That's what we're trying to dance around. Data is a different space.
+
+We got really lucky that software, there was a decision, a policy decision by IBM and Apple to apply copyright to software and not other different, different exclusive rights.
+
+Because copyright is more or less, uniformly more or less uniformly applied worldwide.
+
+But I'll give you one last example, just to see how complex and how difficult this conversation is.
+
+We say, let's train only on public domain data.
+
+That concept of public domain is different around the world.
+
+Oh, let's talk in only our first, you know, let's, let's use only fair use.
+
+Let's apply the fair use doctrine. That doesn't exist outside of the United States or, and I don't know if there is, I don't know what the situation is in Australia.
+
+It definitely the interpretation of the courts will be different for what fair use is.
+
+So we can't really rely on what we relied on for software.
+
+We just have to change our minds. And this is one of the reasons why we're having a separate conversation and a separate workshop on data.
+
+This coming month to just learn a little bit more about the space.
+
+We're working with Open Future to produce a white paper on this, on this space.
+
+That will serve as a continuation, you know, as a starting point to continue the conversation next year.
+
+Because open data has been around for 15 years and as a movement and all.
+
+And now they're thinking, you know, my sense is that they've been thinking a little bit by surprise.
+
+The because open data has been publishing, you know, release your data, your user data and not much about making it fun, realizing that it was, it would be functional.
+
+And that could be used for to transform the behavior of systems.
+
+Yeah. Look, I mean, I think that the pragmatically the data is only required a training time.
+
+The inference time is 99% of the use cases at inference time.
+
+But but as long as you've got access to it one way or another to be able to, whether that means having a team member in the US or running it in the US or whatever it is to to resolve that.
+
+And then you model you can you can you can run it wherever you want.
+
+My concern is that we have this definition here that that is like, like I said, not like we can't apply it.
+
+Right. And we don't have the manpower to apply this to everybody who wants it.
+
+So you rely on people self applying it, which is like sufficiently detailed, sufficiently skilled.
+
+Anybody can apply it to anything. Right. And so there's not really any way for us to stop that, particularly without trademarks, unless you have a certification trademark and so on.
+
+Right. So I feel like, you know, that we're kind of going to learn that the hard way. Right.
+
+And then to Tom Cataway's point, right, we can't once the cat's out of the bag, you can't bring it back in again.
+
+You can you can start with a high bar and lower the bar.
+
+But if you go out with a low bar, you can't raise it later because the standard is already effectively being said.
+
+I think we need to measure twice and cut once here. But I feel like, you know, no matter no amount of consensus finding or discussion at this point or based on the history, really, at any point.
+
+I mean, we started this conversation, you and I back in March or something.
+
+And I see that it's been running, you know, the whole the whole year. It hasn't really got got anywhere.
+
+But maybe maybe the thing here is we look at those exceptions you mentioned, like the one you've got on the screen now, the library of what used to be the lesser public, lesser GPO and kind of I'm not super like I'm very impressed with the level of detail.
+
+So the cost has got there, but it goes to the intent. Like, you know, when you go and have a dual intent visa, right, what's your intent? You can't really test the intent, not visible.
+
+So it really needs to be a thing. Is the data accessible? And if it's accessible, I can exercise the full freedoms.
+
+I think we agree on that. What? Okay. In that case, it's not like how sorry.
+
+Well, OK, how do you cover the case then for federated learning? The the the the definition tries to be generic.
+
+And I agree with you that there is an issue with certification like that. It needs to be solved.
+
+But let's put that aside. Let's put that aside. We will solve it. We need the principles now.
+
+We need to establish the principles and the principles. I fully agree with all of you. All the requirements for open data, like the building blocks are free code data and weights.
+
+All three of them needs to be made available. It's such a no brainer.
+
+The problem here is to cover for the different cases of the different kinds of data.
+
+That's what we need to we to give a story. We need to have a story for. And the story can only be solved with with this approach.
+
+We can only be solved with this approach. We haven't seen another approach.
+
+We haven't seen another proposal that covers all of these different types of data.
+
+We can go to the politicians. We can go to policymakers and say, look, the the the the right to fork meaningfully for an AI system is
+
+if I have access, if we have access to complete and detailed listing of all these kinds of data with links,
+
+you know, the URLs, the torrent hashes and all of that to download the publicly available, obtainable and open training data.
+
+And in case of nonpublic, very, very detailed description like sample data sets,
+
+you know, sample so that we can build a data set with our own private data, like a hospital can say I can recreate the structure of that data set with my own data.
+
+And the training code and the data processing code.
+
+And the model, right. But I want to have access to I need to be able to the very basic principle that the politician needs to be here.
+
+They want to be here. A very simple thing. And the simple thing could be.
+
+We need to have training code, training, processing, processing data.
+
+And all the instructions to take that and build on top of it, retraining.
+
+Without our own data or a different data.
+
+Is there a way we can address that kind of batteries included versus lesser or D minus or or whatever the.
+
+You know that the minus the block. I mean, that's the approach. I mean, that's what we're striving to get.
+
+That's what we're failing to communicate in this in this.
+
+It when someone says like you, you and others like for simplicity, you know, grouping all training data must be open.
+
+The the conversation stops because there. Yes, in theory, but in practice, there are four kinds of different data.
+
+So how do we account with this diversity is the proposed solution is what it's been in draft since 06 to 09.
+
+And it is to have that data information piece together with the code requirements.
+
+Those two pieces. Need to be made available. Right.
+
+But if I can't get the data itself, then I can't even validate that what you say is I can't even validate that data is actually the data that's gone into the model and it hasn't been supplemented.
+
+So that's that's the problem of reproducibility. Right. Is that what you're talking about?
+
+Reproducing the experience? What I'm saying is anybody can say anything. Anybody can say it's open source and there's nothing I can do to say.
+
+We can say that is also not right. But under this, with this, but there's different rules through any claims. Right.
+
+Yeah, but those are two different problems. The reproducibility is one thing and recognizes whether it is open source or not.
+
+It's a different thing. Reproducibility, even in software, is not a solved problem.
+
+For the most complex systems, you don't have a way to match bit to bit the binary to the source code.
+
+Yeah. And especially not when you're using like CUDA and stuff.
+
+And there's enough randomness in that you're going to get a different binary, but it's going to perform in a substantially similar way.
+
+And if you run the open source system, then you should have something that answers the same question the same way.
+
+You can study that thing. Right. It should be similar.
+
+So we enter into, you know, this is a different space than software. So even in software, we don't have reproducible builds.
+
+Or they're not an unsolved problem. Reproducing and rebuilding from scratch a system to make sure that it behaves completely the same is still an unsolved problem and may never be solved for these machine learning, deep learning systems.
+
+So aiming for that, it's a mistake. That's the open science level, which has always been a separate thing from open source.
+
+Open source is a building block, if you want, for open science. But it's not the same thing.
+
+Here, we're trying to, with open source AI, the open source AI definition has different aims to enable transparency, to enable transportedness, to enable open science, to enable safe and lower risks for society, or not to be an obstacle, rather.
+
+But these are not the goals. The goal here is to preserve the right to fork, if you want to put it very quickly.
+
+Can I fork it? Can I build on top of it? What do I need to do that?
+
+Can I reproduce it? Sure. I should not be stopped. I mean, it's a level on top.
+
+Yeah, it's a bit the open source versus open weights and discussion. In one case, you're getting the weights, but you can fine tune, but you can't fully exercise the freedoms.
+
+But if you have source in the context of preferred form, as in the original training data.
+
+So what are your thoughts then on how we got to this decision and the process? And I guess there was voting done and there was a result that was interpreted, I argue misinterpreted.
+
+Had that decision have come out a different way, had that have been interpreted differently, had those negative votes not gone in, how would that have been handled?
+
+Yeah, no, no, that's a good point. I think Zak raised that issue in the early days as soon as the, Stefano Zacchiroli, as soon as they came out.
+
+But that was so that those results were never meant neither to be scientific, nor representative, nor democratic or anything like that.
+
+There were, we had, we looked at them and we know this display and we knew that requiring trained data at the time, we didn't have this analysis of this four different kinds of data.
+
+We knew that there were cases where data was not distributable. So strictly requiring open data or the full training data set was going to be a limiting factor.
+
+So we tested, we decided to test an hypothesis. It was really like a political decision, if you want, which Stefano Zacchiroli also recently reiterated.
+
+Let's test it. Let's see what happens if we say no training data, but we replace training data with the detailed information about it and the training code and the data processing code.
+
+Let's see what happens and let's test that hypothesis. And that's where we saw the path forward into two following phases, the validation phase.
+
+And with the conversations with the partners, like with the, there is a vocal minority, but I guarantee you there is a much larger supporting group that is not visible on the forums because they're overwhelmed.
+
+And because they are AI builders, they tend not to have a lot of time, the lawyers, etc. professors.
+
+You know, it signaled that experiments gave a signal of a possible solution to the conundrum.
+
+Grant, you know, keeping in mind, we're not AI experts. We were looking at what the AI experts in those working groups were saying.
+
+And we noticed that there was not such an overwhelming majority of requiring training data.
+
+So we test and we knew that requiring it was going to be a problem.
+
+So we tested the hypothesis of what if instead we require information, detailed information and the training code.
+
+Has anybody actually done, like actually done the kind of proven that the freedoms are are exercisable or it's just been a thought.
+
+In what sense? Rebuilt from scratch?
+
+Like a practitioner, somebody gone and actually modified one of these systems or studied one of these systems that without.
+
+Maybe that's a question I can ask you. Like, why are you using Alpaca for your for your system instead of PTI?
+
+PTI is or Olmo.
+
+So using. I'm choosing I was looking at your demo, the personal assistant, which is exactly what I had in mind three years ago.
+
+Like, my God, we need to find a way for the next operating system to be using these systems and they need to be powerful and capable as much as charge.
+
+So how do we do that? And I was watching your demo and I think I saw that you were using Alpaca in it.
+
+Which is the llama.
+
+Jumbo llama beats Jumbo.
+
+So I'm working on the operating system.
+
+And the reason I'm taking a break from that to focus on this is because I would like to have the protection of a strong, meaningful open source AI definition.
+
+I'm working on the operating system and the demos that you're seeing are applications of the top of the operating system.
+
+So like a video chatbot who is standing in for a lecturer and answering questions about quantum physics or assignment deadline or whatever the thing is.
+
+I don't I give you the choice. You can run what you want. Right.
+
+And the reality is that there are these open source models of few and far between.
+
+And my intention would be that there will be more of them.
+
+But if we don't kind of set a bar and say this is the bar you need to meet to be an open source, be part of the open source, the Linux of personal AI, if you like.
+
+Well, all right. So I can tell you I can share I can share with you what the I can share with you that the systems that now comply in my mind for the definition.
+
+I mean, my I mean, based on the results of the analysis are basically four all made by nonprofit organization.
+
+So the Lutheran I Allen Institute for AI, TIA Falcon and LLM 360 are these are the four groups that are releasing all of their science.
+
+None of the others and companies especially are hard pushing back, not about the data they're pushing back on the data processing code and training code.
+
+They don't want to release that. Even the ones who are more generous, like IBM, more generous about their their disclosure of their training, training details and giving the weights and very permissive licenses, etc., etc.
+
+They are not releasing the training code and they're not releasing the data processing code.
+
+And when I mean my conversations also with VC funders, they always tell me the same thing.
+
+That's not going to happen. The companies don't want to release those.
+
+So. It's another sign in my mind that this is a good working solution, it covers it gives PTA, it gives the Lutheran AI, it gives it gives a lean Agora, it gives next cloud.
+
+You know, these are other open source smaller companies who want to release they're working on open source AI and they want to release more of that.
+
+So we want to give them space to create the tools that you can embed in your system and you can ship safely knowing what what we know.
+
+All right, we're getting at the top of the hour. I see Giacomo join, raise the hand.
+
+Let's go with this question and then I need to go.
+
+The question is simple. If the definition does not require the data, neither its distribution nor its availability, which may be a different thing.
+
+So we should remove from the prelude.
+
+It's the claim that the definition want to grant the right, the freedom to study and the freedom to modify and say that such definition will grant the freedom to fine tune the system because that's what is happening.
+
+Also, why I'm pretty sure that the definition that can be used to open wash any black box, we get a lot more traction among several detectors.
+
+It's going to also to have to the nature of the open source solution that may actually distribute or at least show how to obtain the training data.
+
+So we have.
+
+That is all we are here about.
+
+We are to grant with the such definition that are the freedom to use the freedom to distribute and the freedom to fine tune or we try to actually grant the freedom that the open source usually say to want to grant and require in a way or another.
+
+Now, I think you're bringing up, Giacomo, I can't hear you anymore now.
+
+But if I understand you correctly, you're calling for a litmus test, like some saying on the chat that the that litmus test doesn't exist in software either.
+
+So, you know, we may pretend it does, but it doesn't.
+
+I was talking to Sam before explaining the difference between how complicated it is to evaluate if I can really rebuild fully in a trustful, trustworthy way, any more complex program like the reproducible build issue.
+
+So, why is one issue is it or maybe it's a solution.
+
+The problem here is that in general, the definition does not grant the freedom that he pretends to in the preamble.
+
+We are fine. If it's a speech, we say, OK, we can't grant the right to study and we can't grant the right to modify and we grant that we can grant the right to fine tune our system.
+
+So we grant that everybody would happy.
+
+We'll be happy. In particular, Facebook.
+
+I see what your point is. I see what your point is.
+
+I see what your point is. I do think I mean, OK, you have an issue with the fact that it's it's unclear and it's incoherent in that sense.
+
+I some. All right.
+
+Well, I take it. I think that as a as a comment and unfortunately I need to go, but we can continue the conversation online.
+
+One one request for you to just be mindful of the time of others.
+
+If you can make smaller posts and less frequent, if you want, because you made your point.
+
+I think you've been heard. And and let's try to give space to four others also to participate into the conversation, because if we get if they get overwhelmed, it's going to be a dialogue between two or three people.
+
+All right. Thanks very much. Thank you very much.
+
+Gotta go. Bye bye.
+
+Bye.
+

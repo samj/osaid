@@ -1,0 +1,352 @@
+All right, everyone, welcome to this, I don't know how many we've done of this already,
+
+public town hall to get an update on the process to define open source AI.
+
+As you all know, this is a long and hard process.
+
+The agreements that we have in here, I like to remind everyone, and especially I'm fond
+
+of the fact that we're moving forward.
+
+We must be keep going and we must reach a conclusion.
+
+And if we find something that is blocking the conversation, we take notes, we try to
+
+move on, we'll get back to it later.
+
+And we want to find a solution which is really relevant for delivering something on time
+
+and reaching agreements.
+
+This is what we set for our objective, and I'd like to remind this.
+
+We want to get to a workable, usable, agreed upon definition of open source AI.
+
+This is absolutely the goal and objective.
+
+And I got to say that I'm getting more comfortable that we're reaching a conclusion.
+
+And in fact, in...
+
+Okay, got a wrong slide here.
+
+Okay.
+
+And my system is really slow.
+
+Okay.
+
+So here's the status on the structure of the definition, which many of you have already
+
+seen.
+
+It's made of a definition of AI system at the beginning, the preamble where we set the
+
+rules, we set the principles, actually, the principles that we want and why we want to
+
+have a definition, what value and what advantages we think that's going to bring to the world
+
+or to the ecosystem in general.
+
+We also set clear out of scope, and so the boundaries of what's in scope for a definition,
+
+what's left out.
+
+And finally, the four freedoms, which are the basic understanding, the most succinct
+
+way of communicating what is an open source AI.
+
+And below that, we're going to be...
+
+We're working on defining the legal terms, and we'll talk about the draft six, which
+
+was released at the beginning of the month.
+
+And I think it is going to give us a clear understanding.
+
+So what I want to say here is that it looks like very few comments are coming in on the
+
+top parts of the document, like the draft, preamble, out of scope, AI system definition,
+
+and for freedom seem to be fairly set, especially the first three.
+
+The fourth, maybe some small details, but it looks like these parts of the document
+
+look done.
+
+I really encourage you all to reread also the top part.
+
+Don't get fixated on what's working on.
+
+The more...
+
+I'd love to get a sense of what's happening, and if really we can consider the top parts
+
+complete, and if they're going to be...
+
+So that we avoid having surprises at the last minute.
+
+Now on the legal check terms, I mean, legal terms, the checklist, let's talk about what's
+
+in draft six, which is very, very new.
+
+The four freedoms haven't been changed at all.
+
+What's added in draft zero six is the statement of the precondition.
+
+What is that you need to exercise the freedom?
+
+What is the fact, the statement that you need access to the preferred form to make modifications
+
+to the system?
+
+This is a sentence that is quite well understood in the realm of software.
+
+We know because of practice, because it's been defined in various licenses, that access
+
+to the preferred form to make modifications to a program, software program, you need to
+
+have access not only to the source code, but also documentation on how to rebuild it, and
+
+the tools and scripts to build.
+
+So you need to have the compilation, for example, the make files and other pieces.
+
+The GPLD3, for example, has a very detailed list of what's necessary to make modifications
+
+to the program.
+
+Now for machine learning systems, and we focus on machine learning here because as an example
+
+of what an AI system needs in order to have the preferred form to make modifications,
+
+you need three things.
+
+Well, three sets of things, three categories of things.
+
+Let's start from the bottom.
+
+On the model front, we need model parameters, including the weights.
+
+And maybe in some cases, we may need checkpoints for the stages of training.
+
+And that's for the model requirement.
+
+Then there is software that we need.
+
+And the software that we need is software used for pre-processing the data, the software
+
+used for training, validation, testing, and supporting libraries for the execution, like
+
+the tokenizers, the search code, if there are the hyperparameter search code, if there
+
+is one.
+
+Then we need to know how to run inference on it.
+
+And we need to have the model architecture, which is also a piece of code, usually.
+
+Now at the top, data, and I have highlighted it, is the sufficient detailed information
+
+of how the system was trained.
+
+So this is not access, being able to download the full dataset as it was used for training.
+
+But it's enough information to understand what went, from the transparency perspective,
+
+what went into building that dataset, how it's been trained, how it's been collected,
+
+who collected it, the procedures for labeling, if there was any reinforcement training, human
+
+feedback, non-human feedback, rags, what have you, all of the methodologies that went into
+
+building that dataset.
+
+So this is something that many people have highlighted as still an area of contention.
+
+And I'm fully aware of the fact that data is the most controversial part of the open
+
+source of AI in general, and open source AI specifically, even more, because there are
+
+so many open questions.
+
+Now this is one of the boulders that I have highlighted at the beginning.
+
+We know that this is an issue, but we've been going around for over a year, and we can't
+
+figure it out.
+
+So let's move on.
+
+Let's finish this investigation phase.
+
+Let's get to a complete draft using these assumptions, that we don't need access to
+
+the full dataset, and see what happens.
+
+See what we end up with.
+
+Once we go back, we can revisit this decision, if it really looks like we have reached a
+
+wrong or counterintuitive or counterproductive, or maybe it's decent and good enough that
+
+we can work with it.
+
+Now the data transparency requirements, this is something that we will need to elaborate
+
+on in this new phase.
+
+But let's see, because the wording that I've used in this draft are mostly taken from the
+
+draft of the EU, European Union's AI Act, which, and these requirements have been already
+
+criticized for not being clear enough, or not being extensive enough.
+
+So I'm going to be on the data front.
+
+We are going to be working closely with Creative Commons and Open Future, rather, to elaborate
+
+a little bit more, to understand more the issue of data, and the issue of data governance,
+
+as this is a sophisticated and complicated topic.
+
+And all right, so phase two, which has started, is to look at the AI systems that we have
+
+investigated in the phase one, which are Bloom, Lama2, Pythia, OpenCV.
+
+And I'm open to add more, but the reason for this phase is to go through the list of required
+
+components, the ones that in the draft 06 are required to exercise the four freedoms,
+
+find them, find the preprocessing code for Lama2, preprocessing code for Pythia, training
+
+and validation code for OpenCV, inference code, what do we use for inference on Bloom,
+
+and find it, check the conditions under which they're made available, which I am not calling
+
+them licenses, because in some cases, these are not copyright, especially model parameters.
+
+It's not clear whether they're copyrighted or not.
+
+So licenses for everything that is code, licenses for everything that there is documentation,
+
+but we need to find all these resources and see how they are distributed, under which
+
+legal frameworks and legal documentation, legal contracts or terms of use, what have
+
+you.
+
+We need to find them, we need to document them, because once we've completed this for
+
+at least the four systems that I have highlighted, then we're going to go into looking at the
+
+legal documents and write analysis, legal analysis on these.
+
+So we're going to look at the Lama license, or the Lama terms of use, the Bloom rail frameworks
+
+for distribution, use, etc. of Bloom, etc.
+
+We're going to look at the Apache 2 license that is used by OpenCV, if I remember correctly,
+
+in some of the pieces of OpenCV, and see how the language of the Apache license matches
+
+the intention and how compatible it is with the digital artifact, the model weights, the
+
+model parameters, etc.
+
+That will give us the...
+
+Once we finish this, and I'm hoping, aiming to finish this towards the end of May, we
+
+should have the complete, we should reach a complete, feature complete list of elements
+
+for a knowledge, have enough knowledge to be able to say, "Okay, this is what we think
+
+open source AI looks like."
+
+It needs to come with these components, the components need to be made available with
+
+these, need to give out these freedoms, they need to allow these things.
+
+And most likely, it's going to be a checklist, very similar.
+
+Well, we'll see what...
+
+The principles are going to be very similar to what we have in the open source definition
+
+now, most likely.
+
+So those are the steps that we have in mind.
+
+And in terms of timeline, I think that we are still on time.
+
+I still think that we're going to be able to have a meeting in June.
+
+We're still discussing at this point, we're getting a little bit too close to June to
+
+have an in-person meeting, but I have started to think that we might have, in order to...
+
+We might have a virtual meeting, but hold on, we're still...
+
+There are a lot of opportunities, a lot of trips that we can take.
+
+We may have, instead of a one big meeting, we may have multiple ones at different times
+
+around the time of June, because there are so many events where we're really committed
+
+to go to, and we're going to be meeting many of the stakeholders at these events in Paris,
+
+at PyCon in Pittsburgh.
+
+And there's a meeting in Africa also at the beginning of June.
+
+So we might be able to distribute this stakeholder meeting and the issue of a release candidate
+
+around the month of June, rather than one big event.
+
+But in any case, October is still the release of version one, stable version, whatever we're
+
+going to call it.
+
+And we'll add all things open.
+
+So keep that in mind.
+
+And yeah, these are the dates that I mentioned we already have in mind, committed.
+
+So we're thinking about this roadshow, once we have a release candidate feature complete
+
+definition.
+
+The idea is to go through to these events and show the other meetings in this, but these
+
+are the main ones, the top ones with the organizers.
+
+We're partnering with the organizers so that we can have maximum exposure and we can use
+
+the feedback between June, late May to October.
+
+And of course, you're more than welcome to continue to come online, like we're being
+
+super transparent.
+
+We have these working that are set up to do the analysis, the early drafts of the analysis,
+
+and then publish them on the forums where we are hoping to get more comments and feed
+
+into the machine.
+
+So no one is really surprised at the end when the definition is announced.
+
+Easy to use as forums powered by open source discourse.
+
+So fun and also mobile friendly.
+
+All right.
+
+With that, I'm happy to get any questions if there is any.
+
+And if not, we can continue the conversation online.
+
+All right.
+

@@ -1,0 +1,1026 @@
+All right, folks, thanks for joining this town hall.
+
+We meet every two weeks, try to keep up to date the community about the evolution of
+
+the draft and summarizing the conversations that we've been having on the forums and in
+
+conferences like the conference that I just presented at here in Paris, in Cologne, Paris,
+
+in a hotel.
+
+So hopefully the network gods support us to go through this recording.
+
+Just the community agreement, remember that we're trying, the one that I'm really focused
+
+on and love the most is the forward motion, the fact that we are trying to understand
+
+where the problems are and if we don't find an immediate solution, still we've marked
+
+the spot, we move around, we'll get back to it because we do have to find a solution.
+
+We do have a tremendous amount of pressure from all over the place, from politicians,
+
+policymakers and from the industry, from academia, from the nonprofit and civil society to provide
+
+some sort of guidance of what open source AI really means since everyone is using this
+
+term.
+
+And reminding that this is our objective to have by the end of the year a workable definition,
+
+something that is acceptable even though it may not be the most perfect test thing that
+
+we can imagine because the world is moving very rapidly and things might change in the
+
+future.
+
+So we need to find ways to provide solid principles that maybe will not change but allow for some
+
+parts to be adapted.
+
+We'll talk about some of the topics that emerged last week.
+
+So the current version of the definition is still draft 008 and this was released a little
+
+bit over a month ago at this point and it's made of some parts and parts that have received
+
+very little comments in the past months are the preamble which is the place where we define
+
+what we're talking about which is we decided to adopt the definition of an AI system provided
+
+by the Organization for Economic Collaboration and Development or ECD.
+
+It seems to be a widely accepted definition so we're going to use that as a reference.
+
+Maybe it's worth going back and remind people at this stage that the reason why we have
+
+a definition of an AI system is because we needed to have an anchor for the conversation.
+
+In the free software definition, the free software definition refers to the program
+
+and everyone understands what the program is or at least there is a very small margin
+
+for error or misinterpretations.
+
+But when it comes to AI there are misinterpretations and that's why there is a definition and these
+
+definitions are also stated in law like the AI Act mentions, defines an AI system in a
+
+very similar way to the OECD text.
+
+So that's what we have.
+
+And then we have in the preamble the reason why we are working on and the reason why we
+
+want the definition of open source AI which is a very short summary of the intention to
+
+give users the same rights that they have in software, the same independence, control
+
+of the technology to enable permissionless innovation and collaboration.
+
+Now the concept of user is also not defined in the free software space and this is an
+
+area that has received some comments.
+
+We want to be explicit and I think I'm working on a draft 0.9 and that will specify, will
+
+contain a suggestion for what the recipients of the rights should be.
+
+And draft 0.09 will probably mention the fact that we want end users, so anyone who is interacting
+
+with the system, putting input and receiving outputs and also developers and deployers
+
+of AI systems needs to be able to enjoy those freedoms.
+
+Now below this part have not received a lot of comments so they seem to be fairly stable
+
+to me.
+
+The one part that is new in draft 0.08 is the concept of preferred form to make modifications.
+
+That is something that is described in the free software definition as access to the
+
+source code that is necessary for the actions of study the software and modify the software.
+
+Now to study an AI system and to modify an AI system it's necessary to define what the
+
+preferred form to make modification is and that's where there is a new section in 0.08
+
+that says what the preferred form to make modification is.
+
+I'll go into the details later.
+
+And finally the bottom part is a legal checklist.
+
+This is what I refer to as it's based on a paper from the Linux Foundation called the
+
+Model Openness Framework.
+
+You will see often referred to with the acronym MOF.
+
+And this lists components of machine learning systems and in generic terms but they're defined
+
+in the paper.
+
+We use this as an ideal checklist that a future certifier or reviewer of AI systems might
+
+use as a reference to say if this component is available under licenses or terms or legal
+
+terms that allow the same grant, the same freedoms of the open source definition, the
+
+original one, then if the required components are available under those acceptable conditions
+
+then the AI system is an open source AI.
+
+If not, most likely it's not.
+
+Okay, so let's go a little bit into the details.
+
+The key feedback that we have received is around what is required and what is optional.
+
+So the pieces of optional components, I mean required
+
+components are the biggest conversation is about data.
+
+The original datasets are seen, some people have seen the training dataset into the optional
+
+components and I believe they may have jumped to conclusions because the, well I'll talk
+
+about it, but these are replaced with data information.
+
+So let's skip through.
+
+The other required components that I want to draw your attention on is the fact that
+
+the data processing and like one of the components is actually required and data processing and
+
+labeling techniques and all the disclosures about how the dataset has been built are part
+
+of the draft.
+
+And I'll go into more details later.
+
+So there is a very lots of confusion around this part of the definition and we need to
+
+spend a little bit more time to discuss.
+
+Other minor requests are comments that we have received that are around the fact that
+
+the legal requirements are described as available with terms like available under OSD, the original
+
+open source definition, OSD compliant terms or OSD conformant terms.
+
+Quick explanation of what this means.
+
+The data information, I mean the concept here in data information like training methodologies,
+
+et cetera, training, training scope, the data, the scope of the data, where the sources,
+
+et cetera, are in documentation are probably going to be in the form of documentation.
+
+The documentation uses different licenses and different agreements for sharing and distributing
+
+for distribution.
+
+However, the OSI has reviewed licenses that are not specifically targeting software.
+
+So we don't have a way to say right now, we don't have a list of OSI approved licenses
+
+for documentation.
+
+So we know what they look like and they conform, they comply with the open source definition.
+
+In other words, they allow for no discrimination of use, no discrimination of people, no field
+
+of use, strict restrictions, ability of preferred form to make modification to the text, like
+
+the source code of the documentation, et cetera.
+
+So like you don't distribute a PDF encrypted as documentation.
+
+That's not acceptable.
+
+So that's what these words say.
+
+And for the model parameters, we do talk about the OSD conformant.
+
+So we use a different term because most likely model parameters don't fall.
+
+Actually it's quite clear at this point, they don't fall into copyright law.
+
+So using the word licenses and license approved, OSI approved, OSI compliant terms is not really
+
+useful.
+
+We need to be using a different framework and it's probably going to be more in the
+
+contract law, at least that's what many of the lawyers that I talk to seem to think.
+
+And that's, you know, OSD conformant means you still need to give us access to the, give
+
+us the possibility to share, modify, give out free, without asking for permissions,
+
+et cetera.
+
+So it's a word that it will be more explicit in draft 09.
+
+There will be a description in that lawyers can interpret more clearly.
+
+So let's get into the concept of data information.
+
+And maybe I need to take a little bit of a step back.
+
+The intention of the definition is to provide in the upper part, so above the checklist,
+
+what we call the checklist, in the upper part of the document, the stated intentions and
+
+sort of a general, unmutable, general purpose reference point that can resist the test of
+
+time.
+
+That's why we have principles in the preamble.
+
+The definition of open source AI is synthetic in the four freedoms.
+
+The definition of preferred form to make modifications to a machine learning system is because machine
+
+learning is the place where we have the challenges today of recognizing the new artifacts in
+
+these AI, modern AI systems.
+
+And so when we get into the preferred form to make modifications, we were looking for,
+
+we were pushing the community to find a way to describe in generic terms, the intention.
+
+And the intention is to have the possibility to recreate from scratch.
+
+If I receive an AI system that I like and I wanted to give it to others, I need to be
+
+able to have all the instructions and all the tools and all the data to recreate a substantially
+
+equivalent system.
+
+Because that's important.
+
+That's one of the fundamental principles of open source has always been to be able to
+
+have the instructions and be able to share those with others.
+
+Now during the review process and during the co-design process, we asked volunteers to
+
+evaluate existing systems and to rank the importance of some of the components.
+
+And during that phase, a recommendation came out when they voted that many people voted
+
+much higher the availability of the details about how the datasets were built rather than
+
+the actual datasets.
+
+So that gave us our suggestion that maybe it was worth testing the waters and understand
+
+a little bit better what the issue around data is.
+
+From the high level perspective, when approaching the problem, we realized, I mean, all of us
+
+have had the same impression, data, the pipeline to build an AI system starts with data that
+
+gets filtered, mangled, assembled, tokenized into a dataset.
+
+The dataset gets fed into the training machine.
+
+Training is an iterative process.
+
+Data comes in at different stages.
+
+All of this is complicated but should be described and made available.
+
+And after the training is done, you get the parameters.
+
+And with the parameters, you load them into an inference engine.
+
+And that is what responds to, well, and you put an UI on top that gives you input and
+
+outputs like think of chat GPT or other systems like that.
+
+When you look from the distance at this whole pipeline, the intuition is that the whole
+
+pipeline needs to be made available.
+
+That whole pipeline is what you need to modify the preferred form to make modifications to
+
+the system.
+
+Now, when you start to zoom in, that's where the problem arises.
+
+So when I started looking into one of these systems that in my mind were the two systems
+
+that are the most open, the most freely licensed, freely made available, and that one is called
+
+Pythia from the nonprofit called Eleuther AI.
+
+The other one is from the research institute, ALEN AI Institute.
+
+And Pythia has been trained on a dataset called the pile.
+
+The pile is fully described.
+
+There is that community working on it.
+
+All the tools that have been used to assemble the pile, filter the pile, train Pythia using
+
+the pile and all that, they're all released with open source licenses.
+
+Now the pile has been an object of a takedown request for alleged copyright infringement
+
+in the United States.
+
+And since then, the original distributor of the pile has stopped distributing it.
+
+Now you can still ask the Eleuther AI group to get the dataset, but the legal status of
+
+the distribution of the pile is in jeopardy, or at least it's unclear in the United States.
+
+But as discussions on the forum have revealed, the pile is perfectly legal in Japan.
+
+And because it's distributed by a nonprofit and it's distributed for nonprofit uses,
+
+maybe it's also legal in Europe, because Europe has reformed its copyright act a few years
+
+ago and they have included an explicit exception for nonprofit text and data mining, which
+
+is what the pile does.
+
+So this raises a question, like what happens when you have...
+
+Well, Dolma is in a similar situation.
+
+Initially it was released with a license that doesn't obey, it's not compliant with the
+
+open source definition.
+
+It is imposing restrictions and permissions that needed to be asked to the island institute
+
+before it could be used.
+
+And then they changed the license.
+
+So initially it would be not an open source dataset or an open dataset.
+
+It has become an open dataset now with the change of license.
+
+But upon looking at more closely, it contains probably the same issues that the pile has.
+
+So someone could sue or request Dolma to be taken down for copyright infringement in the
+
+United States.
+
+So there are these legal issues around copyright, the fact that datasets can be open at a certain
+
+point in time and not open at a later stage or vice versa.
+
+And the legality of the distribution of this dataset may change over time and changes over
+
+geographies.
+
+So calling an open...
+
+Anchoring the definition of open source AI to something that can change so quickly and
+
+can change over time is challenging in many ways.
+
+And there is another issue that is more technical.
+
+There are ways to train systems without actually creating a dataset.
+
+And one of these is called federated learning.
+
+And in federated learning, each provider of datasets is more common.
+
+It's common or, you know, yeah, it's common.
+
+It's used with privacy preserving techniques.
+
+If you have data that is owned by a different entity and they don't want to share it with
+
+others, they don't want to create a pool for different reasons.
+
+If they cannot create a pool because law, like privacy laws for medical records, for
+
+example, doesn't allow hospitals to share data of their patients, then what they can
+
+do is to set up training engines inside their own data centers.
+
+And these training engines collaborate remotely in a privacy preserving way, training a model
+
+without the data actually ever leaving their data centers.
+
+So this technique creates models, parameters, but doesn't create datasets.
+
+So when we were keeping this in mind, then we thought, OK, so this is a challenge and
+
+we need to find another way to approach it.
+
+And that's where we came up with the definition of data information.
+
+Data information is, I didn't put this in the slides, but data information is described
+
+in the draft, which I encourage everyone to look at.
+
+The draft says that data information is, the intention here is to recreate an equivalent
+
+system.
+
+And the text says sufficiently detailed information about the data used to train the system.
+
+So that, and this is the very important part, it's not just the information about this data
+
+used to train the system, but the objective here needs to be taken into consideration
+
+so that a skilled person can recreate a substantially equivalent system using the same or similar
+
+data.
+
+And this concept of the same or similar is important.
+
+And I'll give you one example.
+
+Let's say you have received a model that the original developer trained on Reddit.
+
+This was an example brought up by Tom Callaway's bot from the AWS team, who doesn't agree with
+
+the concept of data information.
+
+And he said, what if someone trained on Reddit, but licensed the data from the Reddit corporations,
+
+let's say for $100 million.
+
+So you receive now, they have disclosed the data information, and they have given you
+
+all the code, the source code used to train and run the system.
+
+Now what about the, does that qualify, would that qualify as an open source AI?
+
+Now, my answer to that, looking at the concept of data information, I want to be able, to
+
+give an answer, I need to be able to know if I can build a substantially equivalent
+
+system using the same or similar data.
+
+So the same data would require me to enter into $100 million agreement with Reddit corporation.
+
+But if you think about it, while thinking about it, I know that a data set called Common
+
+Crawl contains the Reddit data already, despite the fact that Reddit tries to remove, to have
+
+Common Crawl remove that data.
+
+But that's a different story.
+
+So Common Crawl has the Reddit data.
+
+So before I can answer to the question, whether something trained on Reddit licensed data,
+
+I need to extract, try to extract the Reddit data from Common Crawl, run the training.
+
+If the model that I find, that I obtained at the end of the training, using the same
+
+code from the people who have given it to me initially, if I get something that behaves
+
+the same way, then I would say it's an open source AI.
+
+If the original training data set from Reddit contains some really special source that makes
+
+it impossible to replicate, then it would not be an open source AI.
+
+And so I leave it at that.
+
+I want to make clear that the intention at this stage of the definition, the preferred
+
+form to make modifications to the system, is written in generic terms to accommodate
+
+the fact that sometimes data sets don't exist and sometimes data sets cannot be distributed
+
+or they can be distributed, but only in some geographies and only at different times.
+
+So it's been written by lawyers and you can recognize in there some concepts like the
+
+concept of the word skilled person, which is a term of art.
+
+And it's meant to be a generic application of the principles of open source.
+
+Now we have received also on the forums there have been proposals from Giulio Ferraglioli
+
+and Tom to use something like synthetic data instead.
+
+It's a fascinating example, definitely, and synthetic data is data created from scratch
+
+by large language models and other techniques.
+
+But it's really an unproven technology.
+
+It would be really detrimental, I think, to anchor a definition to some technology that
+
+is unproven, that is expensive and may not work in all cases.
+
+Also this doesn't leave...
+
+Yeah, it's unproven and it may not scale.
+
+So what if?
+
+And the other position that we have read in one of the comments, I think also this was
+
+coming from Giulio, is that the whole pipeline must be open source before something can be
+
+considered an open source system.
+
+And I push back a little bit on this because if the GNU project, when it started and even
+
+today, contemplates the option of running open source and free software, however you
+
+want to call it, it's the same thing, on top of Windows, for example.
+
+You can run...
+
+You can...
+
+The concept of free software that depends on proprietary libraries because they're part
+
+of the system.
+
+So the whole concept of complete, pure open source components in a system is not something
+
+that exists in nature.
+
+We have...
+
+We, the communities around the world, have always accepted compromises when that led
+
+to having more openness.
+
+And I really want to have this clear and taken into consideration when we get into this debate.
+
+And so these are the most important points.
+
+There are other considerations that we have received.
+
+I think, if we don't strictly require datasets, what are the incentives for other corporations
+
+to reveal their...
+
+To share, to create more open, more common datasets?
+
+That is a very good question.
+
+And in fact, I think that given the status of the legal status of policies around the
+
+world that make the pile or dolma complicated to share is the reason why at the OSI, together
+
+with Creative Commons, together with Open Future, we want to have a separate conversation
+
+about the issue of data datasets and policies around that.
+
+And we're working on a conference this year, sometime in October, to get this conversation
+
+started because it's a very complex one.
+
+We do recognize that there is an issue with creating datasets and sharing them.
+
+And we wanted...
+
+But we don't have right now clarity about how to fix this issue, how to create incentives,
+
+how to create concepts like copyleft inside between data and training and models.
+
+So that, for example, aggregators of large datasets who want to do the right thing, they
+
+want to create more open models, they want to share their data in a way that preserves
+
+the possibility for society to have access to models that can be controlled and shared
+
+by larger groups, not just single vendors.
+
+We don't know what the mechanisms are because copyright, which has helped us create copyleft,
+
+does not help us cross the boundary between what is data and what is the trained model.
+
+We need to think about contract laws, maybe, and maybe even policies like new law that
+
+help us tie data to train models.
+
+It's a complex topic, and that's why I think we're having such a tremendous amount of discussions
+
+over two years of the investigations and then later the co-design process around the open
+
+source AI definition.
+
+All the hardest conversations have been around this concept of what about the data?
+
+And I think we need to...
+
+We really need to come to the conclusion that this is a very complex topic and that needs
+
+to be...
+
+The data issue needs to be taken in a separate trial.
+
+And the other thing that I want to say is that the concept of data information, if you
+
+read the definition and start from the end, start from the end, what is the intention?
+
+The intention is to recreate a substantially equivalent system, whether you are using the
+
+same data, exact data, because it's available, or whether you're using similar data because
+
+one way or another you find it, but you end up with the same model, same behavior, then
+
+that should be enough in the definition.
+
+And by the way, so let's look at what...
+
+Let's move on.
+
+Let's look at what we have done to validate this hypothesis because that's how we've been
+
+operating.
+
+Let's look at examples.
+
+Let's see what's happening out there in the wild.
+
+We validated...
+
+We went through a few systems.
+
+We asked people to...
+
+A few, more than...
+
+Now we are at 12.
+
+So we're trying to look at what happens with these systems.
+
+Some we know, they are not passing the bar, like Lama and Mistral and Falcon and Grok.
+
+Where does the definition fail?
+
+We find that it's hard to find the components, right?
+
+With people who don't know about it.
+
+So for example, if you look at Grok, Grok is one perfect example.
+
+It was developed by XAI, the Elon Musk thing, and they just share the model weights very
+
+freely and nothing else.
+
+Now if you don't find the other components, is it because they don't exist, which is probably
+
+most likely, or is it because you couldn't find it?
+
+The other thing is it's hard to understand that licenses sometimes if you don't have...
+
+I mean, the volunteers, they may have limited knowledge about the terms of use and terms
+
+of distribution.
+
+So some of these reviews have been incomplete.
+
+But despite this, we ended up, I think that we get a very easy sense.
+
+We know that Falcon is missing information about 3M technology.
+
+Their licenses have been modified.
+
+They're not really compliant with the open source definition.
+
+Grok, we know it's opaque.
+
+Lama, we know it fails because of a variety of reasons, like lack of transparency, but
+
+also it's missing other...
+
+The license is not compliant.
+
+But we know Alma, for example, they've been doing the right thing, and we expect it to
+
+be a positive, passing the bar of open source AI.
+
+By the way, they also released the data set.
+
+And the similar is for PTA.
+
+They're fully transparent, and they released the data set.
+
+You can ask for it, and you can get it also.
+
+But the issue remains with legal uncertainties around the world.
+
+The other, Bloom, we know that we have everything.
+
+It's transparent, but it fails because the license it uses for many of its components
+
+are imposing restrictions and things like that.
+
+So the concept of data information seems to be behaving exactly as expected.
+
+And it's showing also that there is a very strong correlation.
+
+Granted, it's a small sample, but there is a strong correlation between requiring data
+
+information and having access to the data set to caveat those legal issues.
+
+So I think it's working, and I'm not convinced that the alternative proposals are positive,
+
+because the alternative proposals put PTA and even Olmo outside of the approved licenses.
+
+And that is really not an acceptable outcome.
+
+We cannot go credibly to either commercial partners, academia, and policymakers and say,
+
+"This is the open source AI definition," and not have an answer when they say, "Okay,
+
+which one is open source AI?"
+
+And we cannot point at any examples, or we can only point at small, trivial academic
+
+experiments as examples.
+
+It's not going to work.
+
+And it's not going to work because the industry and policymakers are already being pushed
+
+to look at Lama and Mistral, and they consider those open source.
+
+So if we don't come up with a counterproposal quickly, we will have lost an opportunity
+
+here.
+
+So what's next?
+
+I really hope that we resolve these comments and we resolve this conversation around the
+
+concept of data information with a release in 0.9, which we get support from organizations
+
+that understand the principles behind it and validate it.
+
+We started to get some positive feedback this week at a conference in Paris from Lina Gora
+
+and publicly announced support for this concept, and others are coming in.
+
+And then between July and October, we're going to have a series of release candidates with
+
+trying to get more endorsements.
+
+So there are two ways for you to help.
+
+One is to look, keep on searching for systems that seem to be complying with the definition
+
+0.8 or not, like complete, go on with the validation phase.
+
+And yeah, and this is the timeline, and these are the things that we are, the places where
+
+we're going to be speaking next and presenting and discussing with the community.
+
+And as usual, try to join the forums.
+
+I know I may have said in the past, also give us feedback through social media channels.
+
+If you do that, please tag us because the algorithms on LinkedIn, some people are still
+
+using X, et cetera.
+
+We miss comments.
+
+We miss the discussions.
+
+They're very hard to find, and instead, the forums are the perfect place.
+
+And of course, join the town halls because it's a time when we can ask live Q&A.
+
+And with that, I will stop the speaking and see if there are any questions.
+
+Well, I see that there's been quite a jump on the written form.
+
+Trying to summarize.
+
+Is there, do you want to?
+
+Yeah, I think you all have voice rights.
+
+You should be able to speak.
+
+Do I have a path on the open source AI definition where Facebook's llama goes green on the list?
+
+Yeah.
+
+They release all of their training information, training data, and we can rebuild something
+
+similar like that.
+
+Yeah.
+
+Yeah, exactly.
+
+I got to say, conversations with commercial operators, I think that they tell me that
+
+the secret sauce is actually in the training techniques because they seem to, that's where
+
+the secret goes.
+
+It looks to me, they tell me that that's where their secrets are.
+
+How they score high on the leaderboards for benchmarks is how they train, and they don't
+
+want to share it.
+
+But I spoke with, for example, Lina Gora, they have this project called OpenLLM360,
+
+France OpenLLM360, something like that.
+
+And they've been training a system from scratch and they are releasing all of their information
+
+and data, et cetera, because they want to do the right thing and they want to [inaudible
+
+00:10:50] a model that is optimized for the French language.
+
+So that other, and then they want to generate that collaboration on top of that.
+
+So Honey Sabak comments that if we think the definitions settles on the training data method
+
+must be open as well, then we may end up with few or no open source AI models.
+
+It's one of the risks.
+
+But also I want to point out that there is a little bit more than that.
+
+The reason why I want to move on with the conversation, because it's a highlight how
+
+complicated this is and how different from software this is.
+
+On software, when you modify, you get access to the source code, you modify it and you
+
+have to rebuild before you can ship it again.
+
+So the concept of modification and studying are like that.
+
+You study, you see the source code and you modify, rebuild and ship it.
+
+For AI, you don't do this.
+
+You can study just for the purpose to see if there are bugs you don't need to rebuild
+
+or if there are issues, biases, et cetera, to evaluate a model around AI.
+
+But for modifications, you have multiple ways of achieving the same goal without having
+
+to retrain, which really is a much more interesting question to me than the debate about data.
+
+How do we treat models that are fully disclosed, share their datasets, share the techniques
+
+for the training when that training is fine tuning on proprietary models?
+
+And I'll say more, that fine tuning is so deep that every layer of the neural network
+
+has been rewritten so deeply that none of the behaviors and the benchmarks from the
+
+original model apply to the retrained, fine-tuned model.
+
+That is a huge question that we need to find an answer for today.
+
+And it's been raised on the forum with an example of an AI system developed by Mozilla
+
+to write captions for descriptions of images in the PDF.js tool.
+
+And they mixed two proprietary models.
+
+One is an object detection vision, computer vision model, and one is GPT-2.
+
+It's a large language model.
+
+We don't know anything about the training.
+
+They have biases, etc.
+
+Mozilla has fine-tuned these models, assembled them together to achieve a new system, a new
+
+behavior.
+
+It's that open source.
+
+And they have released everything that they have done in a very reproducible fashion.
+
+So what are we going to call this?
+
+Is this open source AI built on top of non-open models?
+
+Yes.
+
+Interesting question.
+
+Okay.
+
+So, let's go back to the slides.
+
+So, I'm going to show you a few slides.
+
+And I'm going to show you a few examples.
+
+So, let's go back to the slides.
+
+So, this is the first slide.
+
+And this is the second slide.
+
+And this is the third slide.
+
+And this is the fourth slide.
+
+And this is the fifth slide.
+
+And this is the sixth slide.
+
+And this is the seventh slide.
+
+And this is the eighth slide.
+
+And this is the ninth slide.
+
+And this is the tenth slide.
+
+And this is the twelfth slide.
+
+And this is the eighth slide.
+
+And this is the ninth slide.
+
+And this is the twelfth slide.
+
+And this is the tenth slide.
+
+And this is the eleventh slide.
+
+And this is the twelfth slide.
+
+And this is the thirteenth slide.
+
+And this is the fifteenth slide.
+
+And this is the sixteenth slide.
+
+And this is the seventeenth slide.
+
+And this is the eighteenth slide.
+
+And this is the twelfth slide.
+
+And this is the seventeenth slide.
+
+And this is the twelfth slide.
+
+And this is the eighteenth slide.
+
+And this is the twelfth slide.
+
+And this is the seventeenth slide.
+
+And this is the eighteenth slide.
+
+And this is the twelfth slide.
+
+And this is the eighteenth slide.
+
+And this is the twelfth slide.
+
+And this is the eighteenth slide.
+
+And this is the twelfth slide.
+
+And this is the eighteenth slide.
+
+And this is the twelfth slide.
+
+And this is the eighteenth slide.
+
+And this is the twelfth slide.
+
+And this is the eighteenth slide.
+
+And this is the twelfth slide.
+
+And this is the eighteenth slide.
+
+And this is the twelfth slide.
+
+And this is the eighteenth slide.
+
+And this is the twelfth slide.
+
+And this is the eighteenth slide.
+
+And this is the twelfth slide.
+
+And this is the twelfth slide.
+
+And this is the twelfth slide.
+

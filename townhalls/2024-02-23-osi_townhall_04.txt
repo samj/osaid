@@ -1,0 +1,476 @@
+Welcome to the fourth Town Hall. The scope of this Town Hall is to get people the chance
+
+to interact live with the process, ask questions, and get regular updates on what's happening
+
+and what's hot. So for the live meeting, just a few ground rules. We want to be giving space
+
+and being nice, listening to questions, but also make sure that people can ask questions
+
+and feel empowered to do so. But we also want to make sure that we're moving forward. We're
+
+not getting stuck debating forever. We need to make decisions and keep on going. And let's
+
+remind everyone that the objective for 2024 is to have a working open source AI definition.
+
+And by working, I mean it must be something that has endorsements from different groups
+
+and can be put in practice and allows for open source AI systems and components to exist.
+
+It's not something that is theoretical pie in the sky. We love it, but nobody can use
+
+it in practice. What we're working on is to have a definition that is made up of a few
+
+pieces. We have pretty decent understanding of all the pieces in here, minus some wordsmithing
+
+and clarifications, but the basic piece that we're still working on is the license or legal
+
+documents checklist at the bottom. So what happens, we have clarified that what is open
+
+source AI is basically something, it's referred to AI system. And the reason for it is that
+
+it gives us an anchor. It gives us a way to clarify what we're talking about, what freedoms
+
+we want to use. And it helps us run, drive the conversation around what do I need in
+
+order to use an AI system? What am I actually using? What is it that I want to study? What
+
+is it that I want to modify? What is it that I want to share? What kind of practical outputs
+
+or practical elements, examples I want to get out of this freedom, out of this verb?
+
+And so we've been running this exercise with four groups that have been split into analyzing
+
+four systems, Lama2, Bloom, BFIA, and OpenCV. Three of them, the first three are generative
+
+AI systems and OpenCV is non-generative. It's a computer vision program, computer vision
+
+framework, set of libraries with different algorithms. And some of the algorithms that
+
+OpenCV uses are neural networks and so machine learning based systems. And we wanted to see
+
+with a little bit of differentiation, if the requirements are different for non-generative
+
+AI systems so far. So you see the people who have volunteered to analyze the systems and
+
+there is a lot of diversity here, geographic representation from all over the place, from
+
+all places in the continent. There is academia represented, there are industry players, there
+
+is civil society interest in here too, and government organizations like the ITU. You
+
+can see a lot of diversity here. I'm really happy to see the involvement of the very wide
+
+breadth of people volunteering their time to contribute to this effort. I kept saying
+
+this from the beginning, this is not the effort defining something new like open source AI,
+
+having a new definition. The Open Source Initiative is not the work of a genius in a basement
+
+that comes out with a secret text. This is the work of a community that puts their brilliant
+
+minds together and drives towards consensus, drives towards a shared understanding of what
+
+open source AI means. That's what's going to make this valuable.
+
+So the summary, so these groups have been looking at the list of components that have
+
+been produced by a list of components, generically described in a working paper that is almost
+
+ready for publication by the Linux Foundation AI and Data Generative AI Commons Working
+
+Group or initiative inside the Linux Foundation AI and Data Foundation. They have produced
+
+a list of components that they want to use as a reference for judging the projects that
+
+are going to be hosted by the Linux Foundation. We've taken that same list of components,
+
+we passed it to the working groups, and each of them have been looking at the list of working
+
+groups and have been answering the question, what do I need in order to, which component
+
+is necessary, which component is required to train, to study, or to run a system or
+
+modify and share it? And a summary, very quick high-level view,
+
+is what are required are the training and evaluation and testing code, there is a requirement
+
+for inference code, model architecture, model parameters, and supporting libraries and tools.
+
+That looks like there's pretty good consensus. And then a few other things are on the likely
+
+required, maybe required, are data pre-processing code, data sets, and usage documentation.
+
+And then on the right-hand side, you see what's likely not to be required.
+
+We have asked the group to vote for each component. We compiled the votes into one document that
+
+I will show, and we split the results. This is an example of the table that the working
+
+group has been using as a reference. They've been filling in their initials in the cells.
+
+For each row, there is the component, and on the column side, there is yes or no. Is
+
+it required for using? Is it required to study, et cetera?
+
+Then we compiled, we're compiling the exercises. It's going to be done today, completed today.
+
+We're compiling this spreadsheet with the sum of the votes for each of the components,
+
+and we're going to grade it with a very simple algorithm. Basically, a yes if the median
+
+is higher than two votes, et cetera. I mean, yes, is the median higher? It's a yes. It's
+
+lower? It's a no. Pretty simple. This is what it's going to look like, and we're going to
+
+share this as the exercise completes today. I'm going to summarize and make it public
+
+next week on the forums.
+
+So, code, we can see what's required. As I mentioned, inference code is mostly likely
+
+on the data front. This is the interesting part. A lot of the groups are leaning on the
+
+maybe or maybe not. Maybe not. This is an important result and something that we'll
+
+have to spend a little bit of time debating as soon as the exercise finishes. My sense
+
+is that this is the crucial. We knew from the beginning that the conversations around
+
+data are crucial. Some of the live interactions that I've had with people in the working group
+
+have been along. I've been sort of describing what the highlighting, I've been highlighting
+
+to me the fact that definitely data is often, if not always, necessary, but the level of
+
+access is different in the mind of the practitioners. In other words, for example, during one of
+
+the conversations with one of the working groups, one of the questions from a volunteer
+
+was what level of depth do we want to organize or do we want to understand the verb study?
+
+So how deep do I want to be able to study a system? Because there is a very radical
+
+difference between studying a system because I need to write a PhD dissertation or if I
+
+need to study and understand it enough so that I can evaluate, for example, its transparency
+
+according to the regulation from the AI Act or a slightly different level of understanding.
+
+What level do I need to have if I want to only understand enough so that I can modify,
+
+retrain, improve, fine-tune a system? That, in my mind, means diving deeper with other
+
+conversations with some of these working groups has been highlighting how the level of access
+
+to the original dataset is also something that we need to clarify and we have an opportunity
+
+to clarify. How much do we need the dataset in full, like all the terabytes or petabytes
+
+of the original dataset or in some cases, some people have argued that it's enough to
+
+have a very good detailed description of what went into the dataset, maybe a randomized
+
+sample of the data inside the dataset. It could be sufficient to study, to modify, etc.
+
+This is a conversation that we'll have to dive deeper in the next iteration.
+
+The last thing that I want to say around the data issue is that a lot of the debates are
+
+also on the availability of data in general. Many of the practitioners that I talked to
+
+highlighted how not having access to data in general is a problem. The uncertainties
+
+around the regulations for text and data mining and the privacy laws and the very different
+
+implications of the copyright issues that have been raised in the United States and
+
+other places, they're all putting obstacles and this lack of clarity is blocking a lot
+
+of the freedoms that we want to unblock instead.
+
+I've been discussing with the people of the Open Future in Europe and we're starting to
+
+think about opening another separate conversation around data governance. This is something
+
+that might happen in the very near future where the data conversation will probably
+
+be spun off or another parallel conversation will start to talk about the availability
+
+of data.
+
+Moving on for the model recommendation, no surprise here, we know that we need to have
+
+the model architecture and the model parameters and unsure about the model metadata and model
+
+card. This is probably because there is not a lot of clarity over what those components
+
+actually mean because the paper from the Linux Foundation is fairly new still. The communities
+
+need more time to digest and understand what each individual component is.
+
+The other interesting thing is the groups have many, many people have voted yes on the
+
+supporting libraries and tools. That's because depending on how the supporting tools are
+
+described and the Linux Foundation has described them quite well in detail, they include in
+
+here things like hyperparameters, search code and tokenizers that most people consider necessary
+
+in order to interact, for example, with the system.
+
+This is the summary. This is where we are. It's interesting to see how we got very close
+
+to the framework from the research paper on openness in AI from this group and the group
+
+Liesenfeld and Dingelman. This is it. We're going to be ending the vote on the working
+
+group today. We're going to wrap it up and summarize the exercise.
+
+One thing that is quite becoming clear is that we're really focusing on machine learning
+
+right now. This is something that we expected when we started at the very beginning of the
+
+process that we were actually, this definition of open source AI is very close to, I mean
+
+very close. Right now, it's being driven by machine learning. We're going to be talking
+
+mostly about this. I'm not sure exactly how we're going to be dealing with this slight
+
+change, but it may be necessary to clarify this in the definitional documents. I still
+
+don't know exactly how to deal with this. Because there was a conversation months ago
+
+and so many people have argued that what we want to have is a definition for AI in general
+
+and not machine learning specifically. This is something that will be brought up again
+
+and we'll have that conversation. Then there is one highlight that there is an interesting
+
+question from the forum, very thought provoking from Richard Fontana. He's been driving the
+
+conversation around whether we need a definition that refers to open source, I mean to AI systems
+
+and not to its individual components. He makes a very compelling argument and I encourage
+
+you all to check on the forum and see the debate because one of my highlighting here
+
+is only one of the questions that Fontana raises. It is one of his latest messages.
+
+He's talking about whether the terminology may have the effect of narrowing or interacting
+
+in weird ways with the open source definition, the one that refers to software. My current
+
+line of thinking is that the definition of AI system is something that we have to introduce
+
+at the beginning because the conversation that we were having was going around in circles
+
+because we were talking about things like, "Oh, but what do I need to exercise the freedom
+
+to use a model?" People were thinking about data, were thinking about our components.
+
+It was really not clear. There was no clarity in there. As soon as we introduced the concept
+
+of AI system, then everything started to drive and to be more aligned. Now that we got into
+
+the deeper parts of the debate, we're starting to get a much clearer understanding of what
+
+is necessary to use and to study and run and what kind of components we're talking about.
+
+This is being formalized by the industry groups inside the Linux Foundation. There are other
+
+groups that are working in a similar fashion on listed components for machine learning
+
+systems. It's becoming more clear, that whole aspect. I'm not too married to any of these
+
+ideas. I do want to clarify and answer the question to Fontana.
+
+I believe that every single component – now that we have identified every single component,
+
+each of the components will have its own terms of use and terms of services. Some are going
+
+to be software code and those will be distributed and will be available with licenses like any
+
+other piece of software that we are very used to. Other components like model parameters,
+
+etc., they will be covered by other law and other legal frameworks. I don't think that
+
+there is going to be much of an interaction between the open source AI definition and
+
+the open source software definition. There's going to be interaction, but there's going
+
+to be a clear separation between one and the other. I don't think that there's going to
+
+be any complication in here. We'll have the list of components and we'll have the legal
+
+frameworks understood for each of the components. We will have a way to read and interpret each
+
+of the individual components' legal documents that go with them. We'll be able to generally
+
+understand the freedoms that we must have for each of the components.
+
+One thing that is interesting, though, is that we also are going to generate – we
+
+will need to have some sort of dependency graph. For example, a component that is like
+
+the model parameters. The model parameters will have a dependency on maybe on the tokenizer
+
+because otherwise you're not going to need it. So, model component, model parameter,
+
+and tokenizer will have to come and be shipped together in order to be used. That's why we
+
+need a definition for a system, in my mind. You cannot say the component itself is free
+
+or an open source like the model itself because the model itself is not going to be usable
+
+without this tokenizer, for example. That's where I think we're going to be heading
+
+towards, this dependency graph and the bundles that are necessary in order to have an open
+
+source AI. That's why we need a definition of a system because we need to have some way
+
+of anchoring that conversation. But we may not need it and just reference to the graph.
+
+We'll see where we end up with.
+
+That's for the next step. Today, the final vote. Then, next week, early March, we're
+
+going to be releasing a new version. We're still on time, in my mind, to get to June
+
+with a release candidate. The criteria, to repeat, the release candidate will need to
+
+have the support of at least two representatives for each of these stakeholder groups that
+
+we have invited to the conversation. Version 1 will have to be supported and endorsed by
+
+at least double as such or at least five representatives for each stakeholder group. We will be announcing
+
+it in late October. That's the deadline.
+
+Between the release candidate and version 1, we're planning a worldwide tour to show
+
+the release candidate and host small workshops to iterate with other stakeholders around
+
+the world. We're fundraising for this. Stay tuned and we'll show details probably next
+
+week or the week after.
+
+I think we're getting much closer to have a full list of stakeholders yet. It's always
+
+good if you have friends or contacts that you think should be involved and should be
+
+following this. Mostly, we're looking for end users and subject category and in some
+
+ways also regulators, although not necessarily government employees or policy makers because
+
+they're not going to be able to freely give feedback. But organizations that work very
+
+closely like lobbying organizations that work very closely with policy makers, they'd be
+
+very useful to have a read into the definition as it's being drafted so that they can help
+
+us understand what the regulators are concerned about.
+
+We create a definition or we come up with a definition that is not illegal out of the
+
+gate. Let's put it that way. Either illegal or impossible to implement in many parts of
+
+the world because it clashes with regulation.
+
+And a reminder that we'll probably have to keep an eye on the evolution of the world
+
+and keep an eye on the definition that we come up with so that we can adapt it in case
+
+there are changes in the technological landscape that will force us to create either another
+
+checklist separate. Like if we're now focusing on machine learning, maybe there's going to
+
+be some new technology or some variation of machine learning that we require to review
+
+the list of components. And at that point, we will have to adjust or add a new checklist
+
+to the bottom of our definition of AI. So we will need to keep on working.
+
+And with that, my encouragement for you is to join the conversation in the forum. We're
+
+making an effort to start publishing weekly also a summary of the forums on our blog to
+
+make sure that everyone has an opportunity to stay on top even though their inboxes get
+
+full. And a reminder to everyone that on opensource.org/deepdive, you will find a link to the drafts and the
+
+drafts themselves are – you can comment on them directly.
+
+So with that, I'm open to opening the floor for questions and answers from you. I can
+
+bring up your mic so you can speak up or you can type it however you want to talk.
+
+I believe Isabel is writing a question. Let's wait for that.
+
+In the meantime, it's very good that we're seeing these types of discussions. And I find
+
+it particularly interesting that we're actually discussing what's the meaning of each one
+
+of those verbs, right? What's use, what's study, what's modify, and what's share? I
+
+see a lot of discussions there in the forum around those verbs. And in particular for
+
+study, it really does depend on how deep it's study, what's the meaning of study. And I
+
+was looking back here at the free software definition and I'm just going to read through
+
+this, the freedom, what, right? So the freedom to study how the problem works and change
+
+it so it does not – it does your computing as you wish.
+
+So it's clear here that the idea behind this is just study how the problem works and to
+
+modify. If you really want something deep, like to study to really understand that, it
+
+becomes clear that you need more than just access to the code. You have to have a lot
+
+of documentation to understand the idea behind that. And the same applies to data. You have
+
+to have not just the data should be open, but also how the data was created. How was
+
+it filtered? So in a way, it becomes impractical. And the open source definition and open source
+
+software has always been pragmatic, right? That's one of the key ideas behind open source
+
+definition. And so having a study so deep like that, perhaps it might become impractical
+
+to actually apply that. So that's what I wanted to share here.
+
+Yeah, that's a good point. I've been rereading the classic documents myself and realizing
+
+that that's the spirit. It's very, very practical. The freedom to study, all the descriptions
+
+inside the Kino Manifesto, the benefits are for scientific progress. And it talks about
+
+the schools will not have to waste too much in order to acquire software and for teaching
+
+and let the students understand what's happening. So there are multiple facets that are useful
+
+to go back and read.
+
+All right. So if there are no more questions...
+
+Isabel.
+
+Okay, go ahead.
+
+Yeah, so Isabel doesn't have a question, but she actually shared exactly those discussions
+
+around the verbs use and share. And thank you, Isabel, for sharing that.
+
+Wonderful. Yes, thank you. So today we're going to start with publishing a forum wrap-up
+
+on our blog. And we're going to be publishing the recording as usual and the slide deck
+
+for this town hall. All right, everyone, thank you for joining. And we'll see you in two weeks
+
+at a later time. So that is compatible, more compatible with the United States and West
+
+Coast in general. And we'll keep on hammering on this. We'll have a new definition, new draft
+
+at the next meeting. Thank you.
+

@@ -1,0 +1,238 @@
+I don't... oh now it's being recorded. Okay. Yeah. Okay. So now we're being recorded.
+
+This is the Q&A session for those who are watching the recording. The
+
+presentation has already occurred. Yeah. Sounds good. Nick. Nick is commenting. He's
+
+going to record the Q&A. I believe Stefano will be in Vienna. I do not know
+
+if there will be a workshop or session on the OSAID, but I think Stefano will
+
+be in Vienna personally. Yeah. It's not on my official list, but Nick maybe you have
+
+some information about that. Oh he will be presenting, but not giving a workshop.
+
+Okay. Thanks Nick. All right. Oh okay. Yeah. She and I presented today as I
+
+mentioned earlier. I don't know if people in the recording can see the chat, but
+
+we're just saying that Stefano is going to present with Annie Lai of the Linux
+
+Foundation in Vienna. Yeah. I'll hang out here at least till the half hour to chat
+
+with him, but the formal program has ended.
+
+And Nick will also hang out.
+
+You're welcome.
+
+Ah could I share a bit about my presentation in Hong Kong? Yeah. So it was
+
+those slides that you all saw. I guess it's not I can go back so it's in the
+
+recording, but these are the slides. This is what it what it was called unveiling
+
+the future nurturing openness in AI development, which was Annie's creation.
+
+And Annie talked about the Linux Foundation generative AI Commons
+
+projects, the model openness framework, and the model openness tool. And then I
+
+spoke about the OSAID and specifically talked about not only version 0.0.9
+
+which you saw, but I also spoke about the co-design process both creating the
+
+for freedoms for open source AI and also identifying the required
+
+components using our virtual work groups. And that's been covered in past
+
+workshops. But that was the that was what I presented in Hong Kong. And then
+
+Stefano was also there and so he participated in the Q&A and that was
+
+great. What was the questions? I think there was there was a question about AU
+
+policy and the feasibility of implementation. And then there was a
+
+question in Chinese and Annie fortunately speaks Chinese. And I believe it was
+
+about there were two. One was about the legal implications of the definition. And
+
+the second question was about just asking for why why use open source AI?
+
+Why make a system open source? And so Annie reiterated the benefits of openness
+
+for AI. So yeah.
+
+Oh, loss of connection.
+
+I think I'm still I can still see you chatting. Okay. It said I had lost
+
+internet. Okay. Early impressions on the new, so I'm just going to read Martin's
+
+comment. My early impressions on the new data requirements in 0.0.9 have been good.
+
+Okay. It seems to do the best with a complex situation. We'll keep thinking
+
+about any loopholes. Thank you, Martin. That is basically what we have also
+
+found is this is a compromise. There are people that wish that the definition
+
+were more stringent and there are people that wish it were looser. So there's pull
+
+on both ends. But that's probably some symptom of a compromise. So yeah. I'm
+
+glad that you're seeing that too.
+
+Okay. If training data had been required, how many models would have met that? Yes.
+
+So I think there would have been a few. I think Olmo I think might have met it. I
+
+think the concern was about the legality of the data that there is a risk of
+
+lawsuits or of the data being legally shareable in certain jurisdictions but
+
+not others. And that we wanted to have a definition that would have a global
+
+could be implemented globally and that systems wouldn't be hung up on or be on
+
+possible legal actions. So that is my understanding. And Nick, feel free to
+
+yeah there you go. Olmo and Pythia. Yes. Right. Yes. Yes. So there's a nice forum
+
+post about yeah I could try to find it that talks about the legal
+
+uncertainties of training data and how that could make it helpful to people who
+
+want access to AI open source AI systems to simply pull that X factor out of the
+
+requirements.
+
+See if I can find those.
+
+Maybe. I don't think no it's not something that I wrote. I think it was I
+
+was something in June. Anyway I was reading it this morning. Oh yes
+
+explaining the concept of data information I think it might have been
+
+that one.
+
+Yeah so yeah this is some someone called Sen Ficon. People can be pseudonymous
+
+in the forum but it's just I'll just copy and paste it. It just felt very
+
+clear and well written. This is just a part of that person's post. And that's
+
+the link.
+
+It might be Felix. I don't know. Could be.
+
+Oh great. Thank you. Thank you to Felix. I've actually heard about Felix and
+
+didn't know that this was what he'd written. But yeah it's very good. Very
+
+well put. What else? What are people thinking about? Anyone to chat about?
+
+So there are a couple folks. Maybe not both. There's at least one person on the
+
+call who is from META but I won't ask them to represent that affiliation
+
+unless they want to. But so the answer is yes they're on the call today. And if
+
+that person wants to say anything they're welcome to but they don't have
+
+to say anything if they don't want to.
+
+Mm-hmm yeah for future LLAMA models. Yep. Yep. Do you want to ask? Yeah you can put
+
+the question out there and the person can answer or not. I imagine it's
+
+something they're discussing internally.
+
+Yeah anyone who hasn't asked a question or participated in the chat.
+
+Ralph or DB, Gerardo,
+
+Toka.
+
+Yes Nick that's yeah that's correct. Yeah the current
+
+version of LLAMA does not meet those but they could in the future.
+
+That would be great.
+
+I see Martin is typing. Nick.
+
+I guess is everyone else who's still on the call
+
+is there anything else that you'd like
+
+to me to cover? Anything else you'd like me to talk about?
+
+Nick is just writing a clear definition will help organizations
+
+to make a choice as to whether they want to release an AI system
+
+as an open source AI or not. Okay yeah.
+
+Okay Martin is saying hoping if any indications made about
+
+if in desiring to conform but it sees not yet and it's obviously
+
+fine. Yeah I imagine it's their conversations happening internally.
+
+Releasing smaller models that do miss the OSAID.
+
+That's one option. Yep.
+
+Yep.
+
+Yes that's well put. Nick is saying a clear definition will help guide
+
+policymakers around the world and that was
+
+the reason that we started this in the first place. I actually wasn't even
+
+there in the beginning. Nick was there and Stefano was there.
+
+The board was there but yeah that was the goal for doing this is to have
+
+something clear that policymakers can rely on globally like the
+
+open source definition currently. Yes and the EU AI Act is
+
+is one clear application of this work.
+
+Okay I see people dropping off which is fine. I think I will do a last
+
+call for questions or comments.
+
+And then
+
+okay
+
+Oh you posted on the forum. Kitty I'll post on the forum.
+
+Okay discussing a forum post.
+
+I'm not sure if folks have read it. I would say ideally
+
+this is your opportunity to click on that link that Kitty has
+
+just shared and take a read and comment
+
+on his post. I think that's probably the thing to do.
+
+Yes and thank you for participating in the forum.
+
+Thank you.
+
+All right I think let's call it Nick. Yes beautiful perfect.
+
+Yes Nick has just dropped the link to the
+
+forum and I guess we can turn off the recording and
+
+Nick if you could hang out for a minute I just wanted to ask you something.
+

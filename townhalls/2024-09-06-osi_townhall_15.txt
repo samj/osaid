@@ -1,0 +1,1356 @@
+Let's start recording our session and get started.
+
+Welcome, everyone.
+
+This is our new format--
+
+well, slightly new format in the sense
+
+that we're going to be doing these town halls now weekly,
+
+going into the session, going into the final stretch
+
+before we have the open source AI definition reviewed
+
+and approved by the board at the end of October.
+
+At the board meeting that we have scheduled then.
+
+So a quick reminder of our rules of engagement,
+
+our community agreements that we call them.
+
+This is our rules.
+
+We want to have--
+
+making sure that there are no overlaps
+
+and people keep space for speaking and listening.
+
+So take space if you are shy and tend not to speak.
+
+But also, if you tend to speak a lot, take a break.
+
+Consider others and ask questions.
+
+Give space for others to come in and give their own things.
+
+Be kind.
+
+And the ones that I look always with in mind
+
+is the think about the fact that we want to continue moving.
+
+We can't stop discussing for too long.
+
+We need to notice the places where
+
+we have disagreement or difficult, complicated issues.
+
+Maybe put a note in there and get back to this later.
+
+And always look for solutions.
+
+Listing the problems is OK to start the conversation,
+
+but moving on.
+
+And so let's review for-- this is the first time
+
+we do this at this time of the week.
+
+So you may have not seen the new version that
+
+was released a couple of weeks ago, version 0.9.
+
+We have presented it in--
+
+I mean, we were in China with Mayor Joyce when this came out.
+
+And basically, the principles haven't changed between 0.8
+
+and 0.9.
+
+The principles are that we want to have-- for an open source
+
+AI, we want to have three kind of components
+
+that can be grouped into three buckets.
+
+The weights, the parameters, the architecture,
+
+anything that is related to what we
+
+call the model in machine learning
+
+needs to be made available under--
+
+needs to be made available.
+
+We'll talk about the conditions for openness or availability.
+
+The open-- the code used to train the system
+
+needs to be made available also.
+
+And also, you need to have a way to run the model,
+
+run the AI system.
+
+And then you need the data.
+
+Everyone understands and agrees on the fact
+
+that the data is where the parameters, the weights come
+
+from.
+
+And you need the data.
+
+And the coalition, the group that
+
+has discussed for many months how to solve the--
+
+how to pass the big boulder of data
+
+being many things in different legislations of the world
+
+came with the description of the data, the requirement
+
+the data has sufficiently detailed information
+
+about the data used to train the system.
+
+And that includes either the data set itself,
+
+when it's possible and legally plausible to distribute safely,
+
+or in alternative--
+
+and also-- not in alternative, but also--
+
+also the code with the full instructions
+
+on how to replicate that data set.
+
+And that includes the scripts to download the original data
+
+and content, the code to run all the interesting--
+
+all the interesting manipulation to go from the raw data
+
+to the training data set.
+
+And so the definition itself has the text
+
+of what is required in a paragraph titled,
+
+what is the preferred form to make modifications
+
+for a machine learning system?
+
+And describes the weights and gives some high level examples.
+
+These are not-- this is not text that is strictly correct,
+
+always--
+
+always the-- always valid for every possible--
+
+very strictly prescriptive about every possible system,
+
+every possible kind of technology
+
+that we can see today or available in the future.
+
+These are examples that are useful to interpret
+
+the actual meaning of the words above.
+
+So for the model weights parameters,
+
+that might include the checkpoints, for example,
+
+if the training in the system is a large language model,
+
+for example.
+
+From the code perspective, it's the source code
+
+used to train the system.
+
+And this includes all the pre-processing code,
+
+the training, the validation, the testing,
+
+how it's been done, the supporting libraries,
+
+and all of that code software.
+
+And this, obviously, need to be made available
+
+with open source AI approved licenses.
+
+And for the data--
+
+for the database, again, there is a-- this
+
+is a little bit more worthy.
+
+The intention here is that the open source AI,
+
+the developers of open source AI,
+
+must be sharing with others all the instructions
+
+and all the knowledge that they have on how they built.
+
+That's the intention.
+
+The intention is to make sure that open source
+
+AI carries the same meaning and the same practical values
+
+that the open source software definition carries.
+
+You need to be able to understand--
+
+you need to be able to understand
+
+how the system's been built, its intention, et cetera.
+
+And you need to be able to learn from them,
+
+from the original developers, and build on top of them
+
+without having to reinvent the wheel or try to guess.
+
+Maybe this thing has been done this way,
+
+so I can improve it by doing this other thing.
+
+No, it's building on top.
+
+And this is where the--
+
+building on top of what others have built,
+
+one of the basic tenets of open source.
+
+But we do have spent--
+
+I mean, the community, and together with the--
+
+also with the board.
+
+And we have reviewed a lot of the comments
+
+that we have received in the past.
+
+And we have clarified also that we do have--
+
+there is a-- we do have-- we do care about data.
+
+We do care about the availability of the training
+
+data.
+
+We do know that the training data
+
+is valuable to understand and study the AI systems.
+
+And we also want to acknowledge that there
+
+is different kind of data.
+
+There is data that computers share,
+
+and that would be--
+
+make sense to always have open in terms of openly accessible
+
+and as open data, following the definition of-- maintained
+
+by the Open Knowledge Foundation.
+
+But there is also training data that is simply public,
+
+cannot be redistributed.
+
+And that is basically the whole of the whole internet.
+
+And where you have the right to crawl and build indexes on it.
+
+This is one of the basic rights that Google
+
+has had as a search engine for forever, since its existence.
+
+And we need to continue to acknowledge the fact
+
+that while search engines can crawl the internet,
+
+they don't have the right to redistribute
+
+what they have crawled.
+
+But they have the right to offer the public
+
+some new and transformative activity, actions,
+
+and services.
+
+So this is the same thing.
+
+This is the concept of public training data
+
+that is publicly available.
+
+And then there is private data, which is another category
+
+of data for which you may have the right to train on,
+
+but you don't have the right to redistribute.
+
+And so a reminder that we are working
+
+within the constraints of the policies
+
+that the board has set as criteria to have a definition.
+
+The board wanted to have--
+
+would ask us to work with the community
+
+to understand, to have a definition that
+
+is supported by a large coalition of individuals,
+
+organizations, and groups with globally representative--
+
+so a sample that is representative
+
+of global communities, but also represent
+
+various different interests.
+
+We're not just representing the interest of research
+
+and academia of individual developers,
+
+or large corporations, small corporations,
+
+European corporations, or governments
+
+from other parts of the country.
+
+But it's the whole--
+
+we try to be as global and diverse as possible.
+
+The other constraints that the board set for us
+
+is that we need to provide real-life examples.
+
+You can't really have a definition
+
+that defines theoretical models, theoretical systems that
+
+don't have any application in practice.
+
+It would be not acceptable by the board.
+
+And we also wanted to set a deadline,
+
+because it's a hard deadline, because otherwise--
+
+because the world needs this definition soon.
+
+And it's better to have something
+
+that is done rather than perfect.
+
+So what's next?
+
+In the next few months, we are working
+
+to really solve the comments as they come,
+
+and maybe release in the next weeks, couple of weeks,
+
+release candidate version.
+
+And then get a quick feedback with the top organizations,
+
+groups that have worked in the process
+
+to gain their endorsements, gather the last comments,
+
+and march towards a stable version for all things
+
+open on October 27.
+
+So we are seeking now--
+
+we're at the stage where we are seeking the comments
+
+from individuals and organizational endorsements
+
+for--
+
+comments and endorsements for the draft.
+
+So if you have--
+
+if you're ready to say, yeah, we're
+
+ready to endorse these principles,
+
+just send us an email.
+
+And you can email me or you can email Claire.
+
+I've been assisting our project.
+
+You can get in touch with Nick.
+
+You can even go public on the forum already as you prefer.
+
+We want to have--
+
+we need to start moving.
+
+We are already at the first week of September,
+
+and we have only six weeks of time
+
+basically left before we finish the process.
+
+And yeah, we've covered a lot of space, a lot of time
+
+over the months.
+
+We've been traveling quite a bit.
+
+We're trying to be presenting in many parts of the world,
+
+presenting and discussing with the community
+
+to make sure that there are the least amount of surprises
+
+by the time we issue the version, version 1,
+
+stable version in all things open.
+
+I can also give you a preview.
+
+You see here in October, there is--
+
+we have two events scheduled.
+
+One is the all things open launch,
+
+but also there is a workshop that we're
+
+organizing for around specifically about the issue
+
+to discuss and understand better the space of data governance
+
+distribution, et cetera.
+
+We'll have more details this coming week made available.
+
+And this is all thanks-- all the travel and all the--
+
+and the workshop that we're organizing in Paris
+
+is thanks to a grant, a large grant given to us
+
+by the Alfred P. Sloan Foundation.
+
+So how to participate?
+
+You can definitely still email me or Mer,
+
+the preferred for the endorsements.
+
+You can also send public comments
+
+on discuss.opensource.org.
+
+Can definitely signal that you appreciate
+
+the stewardship and the role of the Open Source
+
+Initiative in driving this process
+
+by becoming an OSI member.
+
+You can also donate as you become a member.
+
+And you can join these downloads that--
+
+realize this slide needs to be updated.
+
+Coming-- there's-- there being--
+
+there being-- they're opening now weekly at alternating time.
+
+One week is going to be at this time.
+
+One other week is going to be at 9 AM Central European time
+
+so that the Asian community can join.
+
+And now-- yeah, now we've got time for Q&A.
+
+So a comment from YouTube, an open AI
+
+should prove that its training data is all legally licensed
+
+open source data.
+
+Right, so this is a very interesting question
+
+because it's a frequently asked question, actually.
+
+And so it's been debated for many months.
+
+The short answer is that legally licensed open source data is--
+
+is a-- is a big--
+
+is a big-- is a different--
+
+is a different set of what you think it might be.
+
+And we may want to qualify.
+
+So think about the fact that Google Books, for example,
+
+has built a product built on legally--
+
+legally acquired books, scanned, and done object character
+
+recognition on it, and created a transformative work,
+
+and was sued.
+
+And then they won the lawsuit.
+
+Makes me-- makes us think that the concept of training data
+
+legally licensed open source data
+
+is something that needs to be--
+
+needs to be clarified.
+
+So it's a gut reaction that we all go towards.
+
+But we need to think about the consequences.
+
+It's a big-- it's a big topic.
+
+And that's why we're hosting that conference in Paris also.
+
+So Joshua.
+
+Hello.
+
+This is Joshua.
+
+So in the latest draft, I've been
+
+spending most of my time really trying
+
+to think through reading the definition
+
+from different viewpoints of users, especially
+
+a developer viewpoint.
+
+And so I've been really digging in and thinking about
+
+if I'm using Protobuf or TensorFlow
+
+or these other common frameworks and formats for AI models, what
+
+my world view looks like.
+
+And one thing that really stands out to me
+
+is that generally speaking, we're
+
+gravitating towards these binary formats as what
+
+we understand as the model.
+
+And this is different than the abstract kind of approach
+
+to thinking about what an AI model is in general.
+
+It's, in a sense, broader than the AI model,
+
+which is more narrow, which is counterintuitive.
+
+You would think it would be just the opposite.
+
+And the reason why it's somewhat broader
+
+is because these binary formats allow
+
+you to do a lot of things that go perhaps
+
+beyond what you would normally think of as part of the AI
+
+model.
+
+But when you need to identify in your code base what
+
+is the model, you point to that file.
+
+That's the model.
+
+And so I think that there's going
+
+to be some gap between a lot of people's
+
+intuitive understanding of what the model is
+
+and what the intent of the model is by OS in this definition.
+
+I think it would be helpful to put a little bit more
+
+in the definition.
+
+In the online feedback forum for the latest definition,
+
+I added some comments specifically around this idea
+
+that you should be encouraging you
+
+to be explicit about saying that you should not
+
+use the AI model as a way to pass through, say,
+
+binary blobs or object code.
+
+And the reason why I sort of came to that conclusion
+
+is because I was looking at real examples
+
+where people were using things like Protobuf and other--
+
+in TensorFlow and using variables that just
+
+store data effectively as part of their training.
+
+So they're just storing verbatim blobs of information
+
+that are then used as part of the program.
+
+But it's that interaction, but it's stored in the model
+
+from their perspective, from the user's perspective,
+
+and in the documentation.
+
+So I think it would be helpful to have a little bit more
+
+nuance in the definition to clarify that a trained model is
+
+not the same as merely storing files that can then be reused,
+
+that it should be about a little bit more detail around that,
+
+just to help abuse of the open source AI definition.
+
+I think-- yeah.
+
+So I'm not sure I understand exactly--
+
+in fact, I was emailing you to have a conversation
+
+to clarify what you actually meant.
+
+And I'm glad you came for this and explained it via voice.
+
+So I'm still a little bit puzzled
+
+by the technical details here.
+
+But the general principle of the definition
+
+is that it must resist as much as possible the test of time.
+
+And it needs to set high-level principles at this stage.
+
+If you want to have a mental map to frame the intention here,
+
+the open source AI definition file,
+
+the way you see it linked in the chat,
+
+is the page that the FSF, the Free Software Foundation,
+
+hosts and calls what is free software.
+
+It's the basic principles that we
+
+want to have represented in a view of the world, what
+
+needs to be achieved.
+
+That page has gone through multiple iterations.
+
+Like, if you go below and you read it,
+
+the initial freedoms were three, and then a fourth was added.
+
+And wording has been changed on that page to clarify.
+
+But the principles, what is free software, those three,
+
+and then letter four freedoms have pretty much
+
+remained the same.
+
+What has changed and has evolved and derived from that
+
+is the open source definition, which
+
+is a sort of a checklist to evaluate,
+
+in practical forms, software packages used by--
+
+in order to be included in the FTP servers at the Debian
+
+project first, and then became the open source definition
+
+that are currently used, those 10 principles,
+
+to evaluate the licenses and legal documents.
+
+We want-- we're trying to do the same thing here.
+
+The open source AI definition is what is free software page.
+
+And then the new split document, the checklist,
+
+is more of those 10 points practical interpretation
+
+of, in practice, of what will have
+
+to happen for an AI system to be judged, evaluated,
+
+to be respecting the original intention written
+
+in the definition.
+
+So what I would recommend is that we
+
+spend a little bit more time, collectively,
+
+to think about the interpretation.
+
+Instead of making the first document longer,
+
+we could be spending a little bit more time
+
+to refine and review the-- and we
+
+have more time with another set deadline
+
+to finish the checklist.
+
+Make that document a little bit more rich.
+
+Bentley?
+
+Yeah, I noticed this definition doesn't
+
+mention content generated by models
+
+under an open source license.
+
+This might be much a bigger question,
+
+but is there a plan to address the content generated
+
+by an open source model, how that will be licensed,
+
+or is that part of a much bigger discussion?
+
+That's a good question.
+
+So the jury's still out of what are the legal ramifications
+
+for that part.
+
+But definitely, the definition does not
+
+touch that the same way that, more or less,
+
+the open source software definition
+
+doesn't say whether you can use a C compiler to build
+
+malware or other things like that.
+
+It's a separate-- it would be a separate conversation.
+
+There might be legal documents that
+
+say you cannot use this model, this AI system,
+
+to create--
+
+to infringe on someone else's copyright
+
+or to invent things that have already been invented
+
+or do other things.
+
+But that's something that will have to be evaluated
+
+by the legal community.
+
+[AUDIO OUT]
+
+- I have a question.
+
+Can you hear me, Stefano?
+
+- Yes.
+
+- By way of introduction, I'm a tech attorney.
+
+I've been practicing for 15 years.
+
+And for better or for worse, I've
+
+done a lot of work in the open source space.
+
+The one question I had is, at the top of the call,
+
+you went through the definition.
+
+And you explained that there are three parts to the definition.
+
+Is it fair to state that the first two
+
+parts of that definition have not generated
+
+any controversy versus the third?
+
+- Yeah.
+
+Well, not completely true.
+
+So the first two parts, meaning the model weights
+
+and parameters, and the second part--
+
+- And the source code.
+
+- --the source code of--
+
+so there has been debate.
+
+And there will continue to be a little bit.
+
+In the legal community, I believe
+
+that the legal nature of the weights parameters
+
+is still being debated.
+
+Some legislations may not consider those subject
+
+to any exclusive right.
+
+And whether they should be considered
+
+under any IP law or other exclusive rights
+
+is to be debated.
+
+It's not ferocious debate, but it's an intellectually
+
+stimulating one.
+
+And on the code front, on the source code front,
+
+there is debate over whether the training code should
+
+be strictly required or not.
+
+And there is a little bit of a push and pull.
+
+I've heard rumors about that requirement,
+
+strict requirement, as being a little bit too limiting.
+
+Too limiting.
+
+- Got it.
+
+But just to clarify, the third component of the definition,
+
+with respect to the training data,
+
+is the most controversial.
+
+Is that correct?
+
+- Yeah.
+
+Correct, yes.
+
+Because, yes, instinctively, all of us,
+
+at the beginning of the process, everyone had the same thought.
+
+Data is where the weights come from.
+
+Some people use the term source, which is confusing.
+
+It's not source code in the same way.
+
+But it's where it comes from.
+
+If without the data, you don't have the models.
+
+You don't have the parameters.
+
+And therefore, given that requirement,
+
+all of the pipe, the whole pipeline
+
+needs to be open and open source.
+
+But data is not source code.
+
+It doesn't fall under the same easy, air quotes,
+
+legal framework.
+
+It's a whole different beast.
+
+And realizing that became the big boulder
+
+that we had to navigate around, find a way to navigate around.
+
+- Got it.
+
+Thank you.
+
+That's very helpful, Stefano.
+
+And I apologize.
+
+I have read a bunch of the comments on the various versions.
+
+But obviously, I don't have the full history here.
+
+And nobody knows this stuff better than yourself.
+
+Did OSI, at any point, consider using different words
+
+to describe models that would fit within this definition
+
+rather than open source as a way to resolve
+
+the complaints from various members of the community?
+
+Was that considered as an option?
+
+- That is a very awesome question.
+
+That is a very awesome question.
+
+It was one of the very first questions,
+
+is what we're going to call this thing.
+
+And yeah, I'm on the left.
+
+But yes, unfortunately, though, our hand
+
+was forced by the fact that open source AI, as a term,
+
+was already being used.
+
+And even abused by some players.
+
+And I can be public about it, because I've
+
+been public about it.
+
+Meta is one of the abusers of the term.
+
+They keep on using, referring to open source AI.
+
+So in order to safeguard open source, the term itself,
+
+we don't have another choice but to call it open source AI
+
+and work around it.
+
+- Thank you.
+
+That's very helpful context.
+
+That's all I have.
+
+- Yeah.
+
+I see Joshua typing.
+
+Are there any other questions from the Mozilla group or YouTube?
+
+Josh, I see you typing.
+
+Feel free to grab the mic.
+
+- Thanks.
+
+Yeah, it was just sort of a follow up.
+
+My point is that, in principle, we
+
+know that when training a model, that we
+
+know that when training a model, that it gets trained on code
+
+at times.
+
+Some of the data is code.
+
+Some of the data is object code.
+
+We know this because GitHub and other things
+
+are often used as the training data.
+
+And we know that models sometimes make use of just
+
+verbatim storage.
+
+Instead of taking the data and trying to learn something
+
+from it, sometimes you just save blobs of data in your model.
+
+All major models, model formats, TensorFlow, and so forth,
+
+have facilities for doing exactly that function.
+
+TensorFlow Save Models has a bunch of things.
+
+Protobuf has options.
+
+And I don't think, in principle, that is not what you're saying.
+
+You're not saying that training can be taking data,
+
+like an object code blob, storing it in the model.
+
+And then when you build your AI system and you use the model,
+
+copy that data, load it into an executable area of memory,
+
+and run it.
+
+Now, if I'm building consumer electronics, though,
+
+and I'm sending updates using my model, which
+
+is going to be an increasingly common paradigm, given
+
+the fact that we have just huge amounts of AI hardware being
+
+put out there, then it would be an attractive thing for me
+
+to update my platform via that AI model.
+
+And some of the things I'll put in there are, yes,
+
+they're technically trained.
+
+They're trained to say, here's a lookup table of what
+
+should be executed when the system initializes,
+
+the AI system.
+
+And I think it would be good to just draw a bright line
+
+and say, no, you can't just say that--
+
+you can't just move something technically
+
+into what is the model and get around these principles
+
+that we're making clear.
+
+And that's the same thing as if you
+
+were to move that code elsewhere in your AI model.
+
+I see your point.
+
+I see your point.
+
+Now, it's more clear.
+
+But I would recommend that we go back
+
+to the reason why we put, at the beginning of the document,
+
+the definition of what is an AI system.
+
+Maybe that helps.
+
+Because if we go back to the definition, what is the AI
+
+system that we are defining in this work, in this document?
+
+The AI system is anything that, for implicit objectives,
+
+given an input spits out an output.
+
+So whatever you call that, whether you package it
+
+in a binary that loads a blob and executes
+
+a virtual machine that executes something else,
+
+if what we're calling here is what we're defining
+
+and what we need the corresponding--
+
+the preferred form to make modification of
+
+is whatever that system is, however it's packaged,
+
+however it's shipped, whatever it ships.
+
+So when we go into the implementation,
+
+some reviewer who wants to--
+
+someone like, I don't know, the Linux Foundation
+
+wants to--
+
+may want to have a requirement some day,
+
+maybe will have a requirement that says,
+
+we only accept AI systems in our projects that are open source
+
+AI following the definition of DOSI.
+
+Then they will have a standard set for specifically
+
+that technology, the same way that they have the model
+
+openness framework now for the generative AI models.
+
+And in that place, they can put all of the requirements
+
+specifically for that technology to say,
+
+nope, that loading of that binary
+
+here is not a good thing.
+
+It's basically a workaround.
+
+It's not acceptable.
+
+Or we'll have to wait and see.
+
+I mean, another way, another approach that we could have
+
+is to wait and see what--
+
+if this threat that you have in mind
+
+is actually going to show up.
+
+It's not just a theoretical threat.
+
+If it will be showing up, we're thinking one of the tasks
+
+that we have to do by the launch is to really come up
+
+with suggest recommendations on how we're going to be
+
+monitoring the efficacy, the adoption of the open source AI
+
+definition, the availability of other--
+
+availability and reviewing of the existence of open source
+
+AI systems besides the initial ones that we have identified,
+
+which, by the way, are the ones released by the Eleuther AI,
+
+Alen AI Institute, LLM 360, and most likely,
+
+DII, we're working to understand those better.
+
+So those are the ones that pass the open source AI definition
+
+right now.
+
+Thank you.
+
+I see.
+
+Yeah.
+
+Ben?
+
+So when a company modifies an open source AI model
+
+for commercial use, at what point
+
+does the modification become a derivative work subject
+
+to the original license?
+
+And would existing legal tests around open source licensing
+
+be sufficient to determine the AI model modifications
+
+and the derivative work aspect of it?
+
+Or do you foresee a whole new level of legal guidance
+
+needed with regards to these type of things?
+
+Yeah, that's a very good question.
+
+Frankly, lots of it depends on what the models themselves
+
+are considered under laws.
+
+Because right now, yeah, it all depends
+
+on what contracts get built around them
+
+and how those propagate between--
+
+all the rights propagate between this new artifact,
+
+the trained weights, trained parameters, to derivatives.
+
+Yeah.
+
+Not easy.
+
+So there is a conversation now happening on the license
+
+review mailing list, which is the community of volunteers
+
+who've been reviewing licenses, software licenses.
+
+And they've been asked to consider
+
+how to handle licenses and other legal documents that
+
+are not covering software, so the traditional space.
+
+So if you're interested in joining that conversation,
+
+I would highly recommend to join the license-review mailing
+
+list.
+
+I see a question from Peter.
+
+Other non-profits in OSI ecosystems,
+
+like GNOME, Alliance Foundation, Physotek Foundation, et cetera,
+
+have any of them attempted to independently define
+
+open-source AI or provided input to OSI about OSI's definition?
+
+Oh, Peter, yeah, this is a great question
+
+because it allows us to explain a little bit more
+
+what the process has been.
+
+So this is not OSI's definition, the same way
+
+that the open-source definition is not OSI's definition.
+
+We merely maintain it for the community.
+
+So we have worked from the very beginning with Linux Foundation
+
+and FSF and others, reached out to them
+
+and asked them to contribute to the definition.
+
+This definition is not written by us.
+
+It's written by a process held by a co-design process.
+
+It's a process designed to work with the people affected
+
+by the decision, not for them.
+
+So yes, all of these organizations
+
+mentioned, plus many others-- Creative Commons, Eleuthera
+
+AI, Mozilla Foundation, many other groups
+
+that have participated to the list.
+
+And we have somewhere on the website,
+
+opensource.org/deepdive, we have a list of the groups
+
+that have been-- and the volunteers that
+
+have been included.
+
+, All right.
+
+Are there any more questions?
+
+[AUDIO OUT]
+
+OK, then.
+
+I'm going to call it a day, call it a week.
+
+Thanks, everyone.
+
+This has been very useful, very interesting for me.
+
+I hope it's been informative for you, too.
+
+And I would like Nick is saying on the chat,
+
+our discussions continue on our forum,
+
+discuss.opensource.org.
+
+And the license review working group is available.
+
+Peter, stay on the chat here.
+
+I will send you the link where to join it.
+
+It's old school, meaningless.
+
+Thank you, everyone.
+

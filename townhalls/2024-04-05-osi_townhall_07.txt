@@ -1,0 +1,398 @@
+I almost forgot.
+
+All right.
+
+Welcome, everyone.
+
+This is our public town hall where we explain the status, where we are, and highlight the -- what happened in the past two weeks, and we talk about what's coming in the next near future.
+
+So today Mer is going to lead the presentation.
+
+So Mer, it's up to you.
+
+>> Okay.
+
+Thank you.
+
+So I think you all know me.
+
+I'm the process facilitator for co-designing the open source AI definition.
+
+And I think you all have seen this, just that we have some community agreements that we use at all meetings.
+
+One mic, one speaker is about not interrupting.
+
+Take space, make space just says if you tend to be more quiet, we invite you to speak up.
+
+And if you tend to speak up more easily, to give space for others to speak as well.
+
+Kindness just reminding us to be gentle with each other because this is quite hard, but we don't have to be.
+
+Forward motion is acknowledging that there's so many challenges and obstacles to this work.
+
+And just that we can choose for those to stop the process.
+
+But rather instead that if we hit a boulder, we note it and we walk around it and come back in the future as needed.
+
+And solution seeking is similar.
+
+It's just that it's easier to say, oh, this doesn't work, that won't work.
+
+And it's more challenging and vulnerable to say, hey, how about this?
+
+Could we do it this way?
+
+But that we need that kind of, I guess, intellectual energy to make this definition a good one.
+
+So, yeah, so this is a slide probably anyone who's been to one of these has seen before.
+
+We're creating the version 1.0 of the open source AI definition this year.
+
+And this is where we are now.
+
+And these are the parts of the definition.
+
+Defining an AI system, a preamble about the need for the definition, issues that are out of scope, definitions of the four freedoms, studies, modify and share.
+
+And that was the first part of our co-design process at the end of last year was co-designing the specific words that we're using to define those concepts.
+
+And that will be shared later in the presentation in case you need a refresher.
+
+And what we're doing now is we're working on a draft of the checklist.
+
+So what are the required components for an AI system to be considered open by according to OSI?
+
+And that summarizes what I've just told you.
+
+We're pretty much finished with the rest of it.
+
+And we're working on a draft of the checklist.
+
+I guess also if you have questions, you can share them in the chat.
+
+And I may or may not see them, but Stefano and Nick are there to do so.
+
+So, yeah, so this is version 0.0.6, which is the current version of the definition.
+
+And you can see at the top the terms, use, study, modify, share, and how we're defining those.
+
+That's not new for this version, but it's important content.
+
+And the thing that was new with this version is that there was a lot of question, as you can all imagine,
+
+about requiring data and what has come out.
+
+And this version, and I'll talk about our process, is that we have transparency requirements only.
+
+So data sets themselves are not required, but we have transparency requirements in the form of documentation requirements.
+
+And I'll go into that.
+
+So this is going into our process, how we've been co-designing the definition.
+
+We've been doing it through these system review workgroups primarily.
+
+And right now the workgroups are still active, and they're creating content for version 7 of 0.0.7,
+
+which will be released next Friday.
+
+And then this is a reminder of what the workgroups, the focus of them.
+
+They're focusing on different AI systems that have varying approaches to openness, to the concept of openness.
+
+So we have Pythia, Bloom, Lama2, and OpenCV.
+
+And these are the members of those groups.
+
+Part of being a member of the group is that you agree to have your name and affiliation shared publicly for the sake of the transparency of the process.
+
+And just to also note that these groups reflected also some outreach that we did to have better global representation,
+
+particularly of Black, Indigenous, and other people of color, women, and individuals from the global south,
+
+because this is going to be a global standard.
+
+So this is what we did in phase one at the beginning of the year.
+
+In each working group, we had component voting.
+
+So we took a list of components from the model openness framework, which is based on a paper by the Linux Foundation and others,
+
+and we thought it was a great list of components, generalized components across multiple systems.
+
+So we used that as our components list.
+
+And we had members of the work groups vote with their initials as to whether they thought that each component was necessary for the system to be studied, used, modified, and shared.
+
+So building on that foundation of the principles, which we'd already established, we used that to develop work group recommendations on whether each component should be required.
+
+Then, in the example that was from the Lama II group, I then compiled the votes and developed a rubric that made a recommendation on the components based on the number of votes.
+
+So we obviously could have had a system where any component that got even one vote, that would mean it was required.
+
+We didn't do it that way.
+
+We said, let's have a set of minimum requirements for openness.
+
+And then the results of that, which ended up being a Likert scale, basically.
+
+So there were components that had the most votes and would definitely be required, that might be required, then I think possibly required, unlikely to be required, not required.
+
+And then we posted that list in the forum, that recommendations report, and then that list became version 0.0.6.
+
+Yeah, and now this is what we're doing now. We're doing phase two, fine tuning the component list.
+
+So we have this checklist in 0.0.6, which then I put into a slightly different format, basically adding documentation.
+
+So documentation was listed in 0.1.6 textually.
+
+But it wasn't in the checklist table. So I put the documentation requirements into a checklist format.
+
+And right now the work groups are...
+
+I hope you can't hear the pinging in the background.
+
+My computer. Hopefully that's just me.
+
+So now all the work groups, they have another spreadsheet they're filling out, lucky them. This is the example from Bloom.
+
+But they're identifying what is the documentation for each of these required components.
+
+And then is it those drop downs, those gray drop downs, I think it's allowed or
+
+allowed, not allowed effectively.
+
+You know, is use allowed, not allowed, studied, not allowed, not allowed, modification, sharing for each component.
+
+And then for 0.0.7, we're also seeking to fill in these blanks, which are in red.
+
+So what would be the legal framework for model parameters, including weights, and what would be the legal framework for all these forms of documentation.
+
+Stefano, do you want to jump in at any, add anything?
+
+No, you're covering all of it.
+
+Okay, sounds good. I'll continue then.
+
+So, yeah, so these are the document reviewers.
+
+Again, we said if you want to be a document reviewer, you need to share your name and affiliation.
+
+And here we wanted to be sure that there was at least one unaffiliated reviewer.
+
+People that are affiliated are creators or advisors of the systems under review.
+
+And they have the most technical knowledge.
+
+And yet also have obviously their own set of preferences around how a system might be reviewed.
+
+So we also have unaffiliated reviewers.
+
+And we are looking good for Lama 2 Bloom and Pythia.
+
+We don't have anyone for OpenCV. So it's possible that OpenCV simply won't be reviewed in this phase, which would be sad.
+
+But we would love for someone to do it.
+
+We've asked on the forum, don't have any takers yet.
+
+But so this is a formal call.
+
+If you would like to volunteer, chat or message me on the forum, or we would love for this review to happen.
+
+But so far we don't have anyone to do it.
+
+And yes, talking about representation.
+
+So we have two ways of looking at representation.
+
+The first way is the way that I was talking about of around identity, not specifically related to open AI.
+
+But then the second way we have of looking at representation is relation to open source AI.
+
+And so we have six stakeholder groups, system creator, license creator, regulator, licensee, end user and subject.
+
+And you can see those descriptions and examples.
+
+And right now, the people most involved in this phase are system and license creators and licensees who tend to have that ability to analyze license documents.
+
+Other individuals are welcome.
+
+And of course, everyone falls into six subjects.
+
+So if you're thinking, oh, I don't fit into any other group, trust me, you fall into six subjects of AI.
+
+So, yes, we welcome everyone to join.
+
+And there will be as we get out of the more technical aspects of the review, it will be easier for people without that technical knowledge to participate.
+
+Although they are invited at any point to be involved.
+
+And then this is just, again, the way that we're ensuring global inclusion and equity with phrases like this.
+
+You know, black, indigenous, Latina and other people of color, women, queer, transgender, non-binary people, people with disabilities, poor and working class backgrounds are encouraged to respond.
+
+So just whenever we're sharing about our project, just saying we want you to be involved, even if you're not seeing people like yourself involved yet.
+
+And I think that's the end of the slides.
+
+Next steps.
+
+Ah, yes.
+
+So here we are in April.
+
+We are going to be releasing Open 0.7 by next Friday.
+
+Also next month there is a live workshop at PyCon in Pittsburgh, probably will be the 17th.
+
+And that will be the review of -- I guess we'll be turning that into 0.0.8.
+
+But it's basically going to be a live opportunity for people to be involved in the next version of the -- yeah.
+
+The -- creating the definition.
+
+And then we also have these meetings that we have planned.
+
+And this purple line is the one that's been confirmed that we will be there.
+
+But we are planning and hoping to be at these other events around the world this summer.
+
+Do you want to say anything about that, Stefano?
+
+>> Yeah.
+
+If you go back to the previous slide, there is one thing that we want to highlight also.
+
+That we're still targeting reaching release candidate in June.
+
+Which means that the workshop at PyCon is going to be very crucial to -- because it's going to be probably the last draft before we go to release candidate.
+
+It's going to be very close.
+
+Or we're hoping to be -- to have it in shape to be close to a future complete, actually.
+
+It should be future complete by May.
+
+And cleaned up at a meeting in June.
+
+We've been hoping to hold one in person.
+
+But we're thinking at the moment, because of opportunities and because of time crunch, it might be an online meeting of a couple of hours.
+
+So we're going to be reaching out to the crucial stakeholders that we want invited.
+
+And you're welcome to also candidate yourself if you think you may want to join this in June.
+
+Just reach out to both me and Mer.
+
+We'll be looping you in.
+
+>> Okay.
+
+Sounds good.
+
+So this is just a reminder that we do have this forum.
+
+I think everyone here knows that because they probably joined this meeting based on the forum post.
+
+But this is our main mechanism of public transparency is the forum.
+
+Obviously not everyone can attend these town halls.
+
+So please do join.
+
+And that's at discuss.opensource.org.
+
+And now we have Q&A.
+
+So thank you.
+
+>> Yeah, thanks, Mer.
+
+Does anyone have any curiosity or question or ideas?
+
+Have you reviewed the draft?
+
+You left the comments on the draft already.
+
+>> Yes.
+
+Can you share the link to the draft just because I'm sharing my screen?
+
+>> Of course.
+
+You can comment directly on the HackMD website.
+
+Or there are dedicated -- there is a dedicated topic on the forum that I just linked.
+
+It's pinned at the top.
+
+You can comment generally on the proposal, see what others have been saying already in general on the draft.
+
+>> Yeah.
+
+And feel free to chat or raise your hands.
+
+Whatever you prefer.
+
+>> There is -- so on the call for volunteers to review OpenCV, I also want to say that this is a pretty simple task.
+
+It doesn't require specific knowledge of AI in general.
+
+Of all the systems, I think OpenCV should have pretty much everything available under free and open source license.
+
+It should be fairly easy to go through the list of components.
+
+There are only eight or ten.
+
+And try to find them basically in the OpenCV repository.
+
+So it should be fairly easy.
+
+And in time, it's a great way to get familiar with the process and what we're doing.
+
+And be listed as a contributor, of course.
+
+Because we'll be giving recognition.
+
+>> So I may be able to jump in on this one.
+
+I will talk to Mary next week and see if this is an option.
+
+>> I will give you the time and the knowledge to do that.
+
+>> That would be great.
+
+Yeah, thanks, Ofer.
+
+And Ricardo is just commenting, this is great.
+
+And saying that he learned about the model openness framework recently.
+
+Yeah, it was only just published on ArchiveX.
+
+The model openness framework.
+
+>> It's pretty new.
+
+>> We only work on this for a few months.
+
+A couple of months, maybe.
+
+>> All right.
+
+If there are no more questions, then I think we can close it here.
+
+Thanks, everyone, for joining and listening in.
+
+We'll be here back again in two weeks at a different time.
+
+More compatible with the eastern side of the world.
+
+But, you know, keep track of the process and keep leaving your comments.
+
+We're going to see you soon.
+
+>> Yeah, thanks, everyone.
+

@@ -1,0 +1,454 @@
+to start the recording. Thank you. Yes. So welcome everyone to our biweekly town hall
+
+for the open source AI definition process. And you can hear I've got a little bit of
+
+a sore throat, but I'll hopefully be able to make it through. I will start. So these
+
+are our community agreements that we have at every meeting. Some of you may have already
+
+seen these. One mic, one speaker is about non-interrupting. Also when we get to the
+
+Q&A, if you have multiple questions, please ask your question and then pause and let at
+
+least one other person ask their own question before you ask a second question. Take space,
+
+make space is a similar spirit. You know, just to invite others to share space with
+
+us. And that some feel more shy and some feel more extroverted and everyone's voice matters.
+
+Kindness is just that the work is hard, but we don't have to be. And just to remind ourselves
+
+to be gentle and curious with each other, even when we disagree. Forward motion means
+
+focusing on what's possible and not letting obstacles prevent the process from moving
+
+forward. Similarly, solution seeking, just this work is very complex and it's vulnerable
+
+to suggest a solution, but that is how we move forward. And anything else that people
+
+would like to add to our community agreements for this meeting? You can say it in the chat
+
+if you want. Okay. I'll continue. So yes, we are creating an open source AI definition
+
+this year. And the current version is still 0.0.8. That's been the case for about a month.
+
+And these are the pieces of it. Maybe Nick could drop the link to the HackMD page into
+
+the chat because this is very hard to read. It just shows you the parts kind of as a map.
+
+So we have a preamble. We have the four freedoms, studies, modify, and share as applied to AI.
+
+And then we have the it's not circled, but we have preferred form for data information,
+
+code and model. There's some description there. And then the current version also has a legal
+
+thank you, Nick, has a legal checklist of what the licenses would be on the specific
+
+components that would be required in those three categories of data information, code
+
+and model. And what we're working on is versions. Yes. And we're open to comments. That's right.
+
+And you can actually comment on that document. HackMD is a commenting platform. So what we're
+
+working on right now is 0.0.9. And there will be some changes, a few changes. So in the
+
+preamble, we are clarifying that recipients of the freedoms are developers, players, and
+
+end users. So those freedoms of study, use, modification, and sharing. We are crediting
+
+the Free Software Foundation for initially developing these four freedoms because crediting
+
+people is a good thing to do. And so we're adding that in. And you can see in this larger
+
+box how those freedoms are enumerated or described. The language should not be surprising to anyone.
+
+And we did develop these four freedoms in a series of co-design workshops at the end
+
+of last year. Also in the four freedoms, we are going to, in 0.0.9, underline that the
+
+components must be free from encumbrance. That prevents any of those three user types,
+
+developer, deployer, or end user from exercising the freedoms. So just underlining that, yes,
+
+the four freedoms must be respected. And also if you're a little confused, you're not seeing
+
+0.0.9 in these images. You're seeing 0.0.8. But I'm just indicating where the changes
+
+will be. Also in preferred form, we are going to add
+
+definitions which will be just a phrase, not a sentence, for the terms OSD compliant, which
+
+is a requirement of data information, and OSD conformant, which is a requirement of
+
+model parameters so that the legal requirements are clear. And the code components just need
+
+to be licensed under an OSI approved license. So that's very straightforward. The code or
+
+software can exist under those licenses. And the licensing and legal requirements are slightly
+
+different for those other types of components. And so we're going to define what these terms
+
+mean, compliant and conformant, the next version. And then, oh, someone unmuted themselves.
+
+Please just stand by until the Q&A. If you have a question that you'd like to ask before
+
+the Q&A, you can drop it in the chat. Okay. So the checklist. The checklist, we are in
+
+the next version going to actually move it into a separate document. We realized that
+
+in trying to create the definition and also to operationalize the definition in the same
+
+process was a bit like jogging and juggling at the same time. And so we thought, let's
+
+just focus on the definition. Let's basically the definition will stop at preferred form.
+
+And then obviously operationalization of the definition is quite important. And that is
+
+the checklist. And we're just going to separate those documents and also those processes.
+
+One change that you will see in the checklist in version 9, and I guess we'll figure out
+
+how to label the versions of these documents as well. But if you're not, we will figure
+
+that out. It will be updated so that all the components are from the model openness framework.
+
+So right now, if you look on the left, the data information components are coming from
+
+the EU AI Act. So training methodologies and techniques, training, data scope and characteristics,
+
+training data providence, etc. Those are not coming from the model openness framework,
+
+which is a list of components from the Linux Foundation. It's coming from the EU AI Act.
+
+And we just because of all the great work that the Linux Foundation is doing to create
+
+an online compendium of AI systems and the openness of their components, we really want
+
+to be able to rely on that for our own definition. And so we are going to use their component
+
+list exclusively in our in our checklist. And I'll just read Stefano's comment, the
+
+data information piece is going to look the same in 0.0.9. Oh, not because it's decided,
+
+but because the topic is still being discussed. Okay, got it. So okay, so we're not yet. So
+
+eventually, we will be transitioning over to model openness framework components. That's
+
+not happening in 0.0.9. Thank you for the clarification. Okay, system validation. It's
+
+pretty much the same as last time. So thank you to Arctic and LLM 360 for helping to identify
+
+documentation, we found that it's really crucial to have creators help out with identifying
+
+the legal documents describing the rights and permissions associated with the components
+
+of their systems. So this screenshot of the progress and validation based on the process
+
+of the review, which is being done by volunteers. And also the the results of that review so
+
+far have not have not changed since last time. And yeah, we just find that we do need creators
+
+to help provide documentation in order to to know whether a system would meet the requirements
+
+of the open source AI definition. And Stefano's typing. I'll just wait for that if it's on
+
+validation. Okay, pause. I'll read I'll read the comments if it comes up. Okay, so what's
+
+next June, which we're almost at the end of through October, we do we want to obviously
+
+complete the validation phase resolve comments and release versions 0.7.9. And then cut the
+
+release candidate with sufficient endorsement, organizational endorsement. Okay, just keep
+
+going. And this is our timeline, we had to update our timeline, because it ended at June,
+
+I believe. And now we have to think through to the end of the project in October. So we
+
+will be at hospitals for good in New York, both the UN event and the side event. We will
+
+this is in July, I'll be doing a virtual event for sustain Africa. And this is to share the
+
+OSAID and also to get further feedback. Let me pause and read what Stefano is writing.
+
+The 0.0.9 draft includes a lot of small changes accumulated over two months since the release
+
+of the previous draft, but all the pieces of 0.0.9 can still change based on community
+
+feedback. Okay, that makes sense. Okay, so August, we'll be in Hong Kong for AI dev. And
+
+September. Gosh, let's see if I can pronounce this correctly with my cold. Merdeala. Okay,
+
+that's pretty good. And Buenos Aires. And then October, we will be launching the stable
+
+version of the definition at all things open in Raleigh in the US. And then we will also
+
+be doing a data workshop in Europe, in a city TBD. And the focus of that workshop, it will
+
+be to write a policy paper to try to resolve some of these challenges with the sharing
+
+of data sets. Yeah. Yeah. And as Stefano is saying, nothing is set in stone yet. Okay.
+
+So yes, and actually, you've actually already seen most of these. Yep. The different events
+
+that we're going to and when they are. So how to participate in this process. We do
+
+share updates on the process and opportunities for volunteering also discuss issues of you
+
+know, disagreement and difference of opinion on the public forum, which is discussed on
+
+open source.org, which you can join for free, you do have to sign up just to prevent spam.
+
+And then we have these bi weekly town halls, both for the this is one for the Europe, North
+
+America and our Americas time zone. And then we have a second one. That is Europe, Africa
+
+and Asia. So we cycle back between those two times. And then yes, if you would like to
+
+volunteer a validation, particularly I think about volunteering we need at this point is
+
+if you are the creator of a an AI system and would like to, you know, show that it is open
+
+according to the definition that we have now, that that would be the most valuable type
+
+of volunteer just because those are those are the those individuals that have this documentation
+
+information most at hand. Yes, there's also a blog that we update and I can share that
+
+and their summaries are shared every Monday on the blog. And yes, we highly recommend
+
+the weekly summaries. So yeah, we will now do a Q&A. And what you can do is, I think,
+
+raise, raise your hand and you can come off mute or you can just ask in the chat and I'll
+
+read it like I've been doing throughout the meeting up to you. Love to hear your thoughts.
+
+And for all those who who are not as familiar with our organization, Stefano, whose shots
+
+I was reading is the executive director of the OSI. So if anyone was wondering why, why
+
+is she reading aloud all these comments from this one participant? That is why he can't
+
+participate live today. But that's why I was reading his comments. So yeah, I will just
+
+be shy for a bit. Yeah, don't be shy. Yeah, don't be shy. You can actually click on the
+
+microphone and speak or you can just chat as well. It's OK. Yes. OK. Oh, you're welcome,
+
+Stefano. Yeah, thank you so much for coming. OK, yeah, go ahead, Gerardo, you can unmute
+
+yourself. Hi. Yes. What's your question? I've been participating in several standard committees
+
+on IEEE about the ethical use of AI and several AI definitions, and I'm finding that most
+
+of the people I met there have not yet, do not yet know about this initiative and I'm
+
+changing that. But I've been wondering if we don't need to push this discussion a little
+
+bit forward with the scientific community, especially with certain researchers that are
+
+dealing with this on several bases. I think I've covered most of the AI ethics discussions
+
+that are occurring, but it seems to me there's more going on that probably we should be a
+
+part of. OK, yeah, I may not be the person to respond to that. My primary role is or
+
+my role is running the co-design process of the definition itself within OSI. But Stefano's
+
+typing, but that sounds very, does sound very useful. And thank you for bringing those experiences
+
+you had in other organization and standards making processes here. That's very, very helpful
+
+to us. Gerardo, so we're working with several researchers and several organizations as well
+
+and we would love if you have contacts with other researchers with whom we could work
+
+with, that would be splendid. I just would like to highlight something because you mentioned
+
+ethics, right? So even though, yes, ethics is really important for us, we want to see
+
+open source AI being used for good, right? For the benefit of humanity. But ethics, as
+
+the open source AI definition is concerned, is out of scope. It doesn't mean it doesn't
+
+matter. It does matter that open source AI is used for the good, but it's just something
+
+out of scope. I'm not sure if that clarifies your question.
+
+Well, it's more on the way that for most of the discussions we are having, some of them
+
+are about the age of tools and so on. There is a need for those groups to know a little
+
+bit of the strains that we want to impose on these AI models to be labeled open source.
+
+Because it's something, when you're talking about the ethics of using AI, that also brings
+
+in the fact that the open source approach is more ethical in the terms of the way things
+
+are constructed, in terms of the transparency, the sharing of knowledge. And one of the concerns
+
+most of all of these groups are in is the issue of explainability. And probably that's
+
+something else, but probably something that we should be addressing. The explainability
+
+becomes easier when something is really transparent and clear and open source, more or less forces
+
+you into this. And so it's more the other way around. It's not that this issue depends
+
+on them. It's more that they, that's my part, they have to be aware of all of this.
+
+That's a very good point. In fact, we are in touch with a few researchers around explainable
+
+AI. And it's really, really interesting. So happy to connect with you. Thank you.
+
+Thank you. Thank you. Does anyone else have a different question? Thank you, Gerardo and
+
+Rick.
+
+Hello, Anastasia. So I see a comment about how the data information piece is going to
+
+stay the same in 0.9. Is that talking about how you're not going to change how you address
+
+the topic of data and the availability of information about the data? And I guess I'm
+
+curious about the general thinking since open data may not always be realistic, but it is
+
+this potentially important piece. So I'm curious about the focus or lack of focus on open data.
+
+I guess just in general.
+
+Yeah, I would actually, Stefano, if you want to chat or come off mute, I would love for
+
+you to answer that since it seems like you I mean, Stefano is is the leader on that particular
+
+element of this. If he is on the chat. He is. Oh, but he is not. I see his. So I'm I
+
+in the absence of Stefano, who made a correction on something in my slide. So obviously he
+
+has information I don't. I actually can't give anything other than what he just said.
+
+So there's two pieces of information shared. One one is that data information will not
+
+change from output. Oh, Stefano is coming back on. Stefano, we were wondering if you
+
+could answer. OK, I would still just love for you to answer Anastasia's question.
+
+Did you want her to ask again? Did you hear it? OK, I know all he knows. OK, so then I'll
+
+just continue. So there's two pieces of information shared once that data information will not
+
+change from 0.0.8, the link to which Nick shared and also that the checklist will conform
+
+to the MOF. So the way that I take that to mean. Is that.
+
+Stefano, do you want to do you want to speak? I don't know if you're maybe you're not
+
+know that you can speak. OK, it won't change only because the discussion is not complete.
+
+OK, OK, OK, can't speak. OK, yes. So there will be there will be a shift to the components
+
+coming from the model openness framework or MOF. And there may be I guess there may be
+
+other changes as well, because Stefano is saying the discussion is not complete.
+
+So maybe I can, Ximing, mirror. So there has been a lot of discussions around the data
+
+information and I'll share a blog post as well that Stef wrote, which is very interesting
+
+and also point a discussion topic that we have here. This is something that we're receiving
+
+a lot of feedback and hearing the working group members also participated in those discussions
+
+and to try to understand the role of data and data information. And this is actually
+
+a crucial point of the open source CI definition. So let me just drop some links here and we
+
+look forward to hearing more feedback on the discussion forum.
+
+OK, thank you. And Stefano has just written, we may even remove the text altogether and
+
+put a placeholder instead. And thank you, Nick, for that explainer link to the explainer
+
+post on data information. I I'm sorry if that wasn't satisfying, Anastasia. That is that
+
+is the level of response that I think we can give to you right now. But thank you for asking
+
+the question. Does anyone else have a question? Yes, Gerardo, go ahead.
+
+Just one more probably comes from the model we are working with, but I have an issue with
+
+defining codes that trains and codes that trains a model and code that uses a model
+
+of the same thing. And I think we should be splitting those and make it so that it's more
+
+explicit to say that both parts are to be open source, first of all, because they are
+
+probably not the same thing and and that most of the "open" AI things usually have that
+
+second part of the code open and open source, the thing that uses the model to generate
+
+stuff. But they keep close the code that was used to generate the model. And I think it
+
+may be important to split and make it explicit that both parts are considered codes and they
+
+are and they have to be open license and open source for the whole thing to be open source.
+
+And something I haven't yet seen and why it's defined here as just one thing, but usually
+
+it can become those two codes can be developed separately by different people on different
+
+teams. And there could be, let us say, the temptation to license to open license one
+
+and not the other.
+
+Okay, so regarding the three kind of categories of AI systems, we have data information, code
+
+and model, we are basically trying to have as few categories as possible that were still
+
+descriptive of the different types. And obviously, there were other types of categorization we
+
+could have used. That one seems pretty solid. In terms of the types of code, we are using
+
+this maybe, maybe you're aware of this, and maybe not. This list of types of code components
+
+or artifacts used to create AI systems, or used in AI systems from this model openness
+
+framework that was developed by a group of researchers and practitioners at and affiliated
+
+with the Linux Foundation. And we so as not to invent the wheel, because there's so much
+
+that we are doing ourselves, we said, How can we rely on the brilliance of others. And
+
+so we are using those code components. So we are we are not going to, I believe, change
+
+those components as listed in this document. And maybe Nick could even share a link to
+
+that it's a white paper is where those components live. Now, I think the Linux Foundation is
+
+also spinning up some websites and landing pages. But as of now, I know that they that
+
+you can find those in the white paper. So we are we're, we will just rely on that work
+
+that they've done. Let's maybe take one more question. And then Yeah, you're welcome to
+
+order. And then we'll call it a day. And Stefan, I was just saying we all care about open data.
+
+And we're very concerned about the issue of accessing data suitable to train an AI, which
+
+is true. Yep, absolutely. So, um, okay. Any, any other question from someone? I would say
+
+another question from someone who hasn't asked one yet. And I'll just keep reading what Stefan
+
+was saying, because he would be presenting with me if he were available. So he's saying
+
+we're also planning a conference specifically on this topic, which is that event in October,
+
+in in Europe in the city TBD is that comments or workshop on data, the issue of data and
+
+AI, which is such a substantial one. Um, okay, I'm not seeing any questions. Thank you. Thank
+
+you to everyone who came and who did ask a question that was really useful. Yeah, thank
+
+you, Gerardo. Thumbs up. Yeah, so I think we can turn off the recording. And thank you
+
+everyone for coming and have a have a wonderful weekend and do find us
+

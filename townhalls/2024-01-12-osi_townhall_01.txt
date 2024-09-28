@@ -1,0 +1,742 @@
+All right, here I am.
+
+Let's start the recording and welcome everyone.
+
+Maybe we can wait a couple of minutes and give a little bit of time for others to join.
+
+Okay.
+
+Okay.
+
+All right.
+
+All right.
+
+Let's get it started so we can use most of the time and we can also collect feedback.
+
+So I'll try to get enough time for people to ask me questions and I'm here available.
+
+Let's get started with some very quick community agreements.
+
+Let's make sure that we have give time for people to speak and if you're the kind of
+
+person who usually stays quiet, speak up, feel free to really grab time and write down.
+
+Use the hand button if you want to get attention or write down your comment, but please, we
+
+want to be able to, we want to hear from you.
+
+Be nice and don't have to remind people that this is a safe space and we don't have to
+
+we have to be gentle and we need to keep on moving.
+
+Also if we face obstacles, we move around and we will get back to it and we want to
+
+focus on solutions.
+
+This is a process that is complicated and it's also quite pioneer if you want.
+
+We don't have that history outside the organization of running this co-design process with multiple
+
+stakeholders across the world and there are a lot of things that we know don't work and
+
+can be done better, but we also need to keep on working because time is on us.
+
+Is there anything else that you think we need to cover in this agreement?
+
+All right.
+
+Okay.
+
+So give a recap to the people who have just started following this work.
+
+We started a discussion to define the definition of open source AI and this is a definition
+
+that is coming from a wide conversation with stakeholders from different sides of society
+
+for a very wide different groups and the objective that we have is to talk to multiple experts
+
+in various fields and disciplines around the world.
+
+We will not be able to have some genius coming out of the basement with a definition.
+
+It's unlikely for this to happen, so this needs to be a global conversation and we're
+
+helping.
+
+We hear as the open source initiative as facilitator, convener of conversations for an open source
+
+AI definition to come out of consensus from different stakeholders and the document that
+
+we're trying to draft looks is made of three parts.
+
+My computer is getting really slow.
+
+Okay.
+
+It's made of three parts.
+
+There is a definition of AI system and a preamble at the top and the preamble contains the basic
+
+principles of why we need open source AI.
+
+And there is a section also with issues that are out of scope to clarify what's not covered
+
+in this AI definition.
+
+Then we have the shortest possible answer to the question, what is open source AI?
+
+And they look a lot like the four freedoms for software that many of us have been accustomed
+
+to see.
+
+And then the rest of it is a checklist to evaluate legal documents that are used to
+
+grant the four freedoms above to the AI system.
+
+And we got to the point where we had plenty of conversation in the second half of last
+
+year, 2023, with a variety of people to have the bones, the bare bones of the definition
+
+of AI systems, the preamble, the out of scope and the four freedoms.
+
+And we're missing this checklist of legal documents at the end.
+
+Yes, I will explain the checklist in more details.
+
+So probably it's worth having a very quick overview of how we are proceeding.
+
+We're basically retracing the history of open source, compressing those 25, 30 years of
+
+history in a few months so that we can get to the open source AI definition.
+
+We're tracing the steps following this sequence.
+
+We're going from a software when it came out, there was a legal framework that was applied
+
+to it.
+
+And a community established itself around the principles of the GNU manifesto.
+
+And it started writing new software, the GNU operating system and sharing that was shared
+
+with legal agreements, legal documents that were granting rights rather than removing
+
+them.
+
+So that's the sequence that we're trying to re-trace.
+
+From understanding the new artifacts, these new AI systems, how they're working and which
+
+legal frameworks apply to them, what are the principles that we want to have applied for
+
+granting freedoms, and then we're going to look at legal documents to grant the rights
+
+rather than remove them.
+
+There is one interesting principle that is written inside the GNU manifesto, and that's
+
+the golden rule that is, it's written, we can reuse it easily to apply to the AI system.
+
+So if I like an AI system, I must be free to share it with other people.
+
+That's the basic principle that we want to embed that we're looking for now.
+
+And so far, what we've learned is that we really need to define open source AI in general,
+
+not just focus on machine learning or whatever is new and exciting in this generative AI
+
+space of the past year and a half.
+
+So the other thing that we have learned is we need a definition of AI system.
+
+And we found that the one provided by the Organization for Economic Development is quite
+
+well accepted.
+
+It's embedded in many legislations around the world and so far can be a valid starting
+
+point.
+
+And at least to get the conversation started, we can improve it later.
+
+And this system definition has this concept of it basically, you can read it, it was very
+
+in November, it was updated by the OECD.
+
+And the other thing that is important that we have learned is that we've established
+
+that for AI developers, we want practitioners that academia users of AI, we want them to
+
+have the same benefits of open source, which is the autonomy, the transparency, the fact
+
+that they have an agency, there is agency for the user.
+
+But we also noticed that policymakers and academia and maybe the developers themselves,
+
+developers of AI systems, they seem to be focusing more or concerned about transparency,
+
+explainability and other objectives.
+
+They're not thinking about open as a value.
+
+So we need to work to match the expectations of these two groups and make sure that open
+
+source AI helps ease the concerns of policymakers and academia.
+
+In other words, it does not block for example, transparent or trustworthy.
+
+We cannot have an open source AI that will never be transparent, will never be explainable
+
+or fair, because otherwise, there will never be an open source AI that can be adopted or
+
+that can be even legal if we look at some of the draft legislation that is flying around
+
+the world.
+
+So the next question that we asked ourselves in a small group is, what basic freedoms
+
+do we need in order to share AI systems?
+
+And the next, the sub question is, what is the preferred form to make modifications to
+
+an AI system?
+
+So the basic freedoms we have started by looking at the definition, the free software
+
+definition and tweaked the language during a few meetings in person.
+
+And we took the language to a point where it seems fair that we can have a more public
+
+conversation.
+
+And this is the current draft of the open source AI definition written down and you
+
+can see it's nothing too controversial or too complicated.
+
+We need to be able to use the system for any purpose without having to ask for permission.
+
+And it's quite important because that permissionless is what enabled open source, the open source
+
+world, the open source ecosystem to thrive.
+
+We need to be able to study, we need to be able to modify and give it to others for any
+
+purpose and without having to ask for permission again.
+
+Now the next big question in order to get a complete draft is, what is the preferred
+
+form to make modifications to an AI system?
+
+And that's what we need to do.
+
+This is the next big exercise that we need to do.
+
+We need to get the specification.
+
+So how are we going to be proceeding on this?
+
+We need to start by identifying the technical legal specifications of what is made, what
+
+an AI system is made of.
+
+What are the components that go into it?
+
+And what are these, the components that are, which of these components are necessary to
+
+use, to study, to share, modify such systems?
+
+Once we have that list of components that we need for each of those different four verbs,
+
+for freedoms, then we look at the legal frameworks that are for those.
+
+And from the legal frameworks, we can evaluate the legal elements, the legal documents that
+
+accompany them.
+
+Matching, for example, if one component is under copyright or intellectual property in
+
+general regime, then we can say the license, we can evaluate the license and see if that
+
+grants the freedoms.
+
+So after we repeat this exercise for more groups, then we'll have a better understanding.
+
+We can create that checklist.
+
+So here's the, how we're going to proceed.
+
+And we're going to proceed by evaluating a few examples, very specific elements, very
+
+specific systems like BTR or Lama2 or Bloom, and we'll split into small groups.
+
+And we're going to ask the questions one by one.
+
+What do I need to give input and get an output?
+
+So that's the use or and modify, et cetera.
+
+So for example, if we want to give one by one, let's look at PTA.
+
+What do I need in order to get an output from PTA?
+
+Then probably we'll need weights, inference code, for example, in this one as elements
+
+and components.
+
+Like then why is PTA giving an input gives one output?
+
+This is what we need to know.
+
+We probably need to know the architecture, what went into building the dataset, maybe
+
+access to the dataset itself and calculate the biases, et cetera.
+
+Then moving on, how do we modify and get a different output from PTA?
+
+They're big question.
+
+And finally, what we need in order to share it, you know, what share the original version
+
+or the modified version?
+
+So we'll need to run this exercise for more than one of these systems and write, get those
+
+components in general, analyze the legal frameworks, analyze the legal documents, and write up
+
+a summary.
+
+And that's going to be our-- most likely, it's going to be our basic components of the
+
+checklist that we have at the end of the document draft definition.
+
+In terms of timeline, we need to work-- we need to activate, like, at least-- we need
+
+to move very fast because everyone is-- there is already enough confusion on the market
+
+and many groups that are talking about open source AI without having a big-- without having
+
+a shared understanding of what that means.
+
+And we want to get with version 1 in October of this year.
+
+So towards the end of the year.
+
+And this means that we should be really having a release candidate around the beginning of
+
+the summer.
+
+In order to get to that, we need to have monthly release cadence of drafts and a constant
+
+public review of our work with these town halls that we're going to be running-- that
+
+are going to be running every two weeks at different time zones.
+
+And the important piece here is that-- so we're going to create working groups and we're
+
+going to create working groups to analyze these AI components.
+
+And we're going to be releasing new drafts as we go.
+
+Monthly with a monthly cadence.
+
+Hopefully by the end of May, early June, we'll have an in-presence meeting.
+
+We want to have enough support from different stakeholders.
+
+And I'm going to talk about that.
+
+What do we expect for the release candidate?
+
+Is to have at least a draft that is completed in all its parts.
+
+And support from at least two organizations, two groups for each of the stakeholders in
+
+that we have-- in the groups that we have identified that I will show in a second.
+
+And for version one, it's basically a larger group of support.
+
+So more stakeholders that support and endorse the definition.
+
+And we have identified six categories of stakeholders.
+
+The system creators, the ones who are going to be creating AI systems and they will need
+
+to-- so the ones that will create the AI systems.
+
+And the license creators, the ones who write the legal documents to apply to the AI system
+
+of components.
+
+The regulators, we want to have at least-- going to want to have conversations with regulators
+
+to get their feedback.
+
+If they may not be able to give us endorsements, but at least we want to hear what their thoughts.
+
+We're going to have early exposure to that.
+
+Then we have licensees, the ones who seek to study, modify, share an open source AI
+
+system.
+
+So it's engineers or developers, researchers.
+
+On the last two categories, it's where we probably need most help is end users.
+
+So the ones who, one, need to consume the system output, but are not necessarily interested
+
+in studying or modifying or sharing the system.
+
+And then the final group is the subjects, those who are affected by the effects of the
+
+system outputs, whether they are upstream or downstream.
+
+We use this to indicate, for example, prospective homeowners whose mortgage application is evaluated
+
+by a bank through an AI.
+
+That's a downstream subject.
+
+Or for example, photographers who find their image in a training data set.
+
+That's like content creators.
+
+Those are upstream subjects.
+
+We want to be talking to these organizations, too.
+
+And we want to have their feedback.
+
+And maybe and hopefully also they're endorsing the definition at the end.
+
+One thing also that I want to say is that this doesn't end, this process will probably
+
+not end with version 1, because this is going to be the first definition of open source
+
+that has a version number attached.
+
+So we'll need to have by the end of the year, once we announce version 1, we'll need to
+
+have in place rules for maintenance and review of this definition.
+
+We're probably going to need to maintain and update it, given how quickly the technical
+
+landscape changes, we will have to adapt.
+
+So our immediate next step is we want to have the process make it more public.
+
+Until now, we worked with a private drafting group that has been helping.
+
+And now we got to the point where we feel there is plenty of momentum on one hand and
+
+plenty of shared understanding of where we stand and what are the roadblocks, the biggest
+
+ones.
+
+So we want to have public discussion forums.
+
+We're starting today with this public biweekly town halls.
+
+And this will open up also to more opportunity for more opportunities to volunteer and help
+
+out.
+
+We'll be updating our project landing page, the opensource.org/deepdive.
+
+We need more stakeholders to get involved and we're raising funds.
+
+And we're also setting up the OSI board to review and approve version 1 once it comes
+
+out.
+
+And the drafts are being published.
+
+They're already public and they're already public also the comments.
+
+You can go to deepdive/drafts and you'll find a list of the published drafts and you can
+
+join the conversation in there.
+
+And with that, I want to open up to questions from you.
+
+I see that there is a little bit of a discussion here already.
+
+Do I have domain experts?
+
+Yes.
+
+So some domain experts have already volunteered.
+
+I'm talking to basically friends.
+
+Like there is one of the developer advocates and outreach advocates at Intel.
+
+He's a personal friend.
+
+I'm going to talk to him next week.
+
+The people at Luther AI have made themselves available to help out to analyze Pythia.
+
+And I'm reaching out to developers at Meta to get an explanation of Lama, Lama 2.
+
+And I'm happy to talk to more people.
+
+I have other people who have also volunteered to help.
+
+And we got expertise also inside the board to help out.
+
+To review, to run those reviews.
+
+The topic of content creators and the New York Times with their lawsuit.
+
+Yes, the legal team, the legal experts inside the board are already aware of that.
+
+They're following it.
+
+And I'm pushing the board and the board itself.
+
+People inside the board are getting more expertise and getting ready to even write opinions eventually
+
+on those topics.
+
+It's really interesting to see what's happening in the content on the content creators front
+
+and those legal issues.
+
+Any more curiosities?
+
+Maybe I can spend more time to talk about that checklist idea.
+
+The idea is to get it is to get the completion of that document of the open source AI definition
+
+needs to have something that resembles that can help that can help the license committee
+
+or the AI committee that will be formed.
+
+Some committee inside the open source initiative to evaluate the legal documents that are coming
+
+together with an AI system.
+
+So that an AI system can be judged whether it's open source or not.
+
+Whether it grants the four freedoms that it's supposed to grant.
+
+That is the checklist basically.
+
+Yes.
+
+Daniel.
+
+The question about the getting the discussion people from the global south and not just
+
+the United States and Europe.
+
+Absolutely.
+
+It was one of the eye opening conversations I've had with one of the meetings we had last
+
+year was in Africa, Ethiopia with the digital public goods alliance.
+
+Members meeting, members summit, private event with the DPGA members.
+
+It was really eye opening.
+
+So we are absolutely open to that.
+
+And more than happy.
+
+Like one of the call for actions, one of the things where you can help is to put us in
+
+touch with the people who can participate to these meetings.
+
+And workshops.
+
+So I'm happy to follow up with you, Daniel.
+
+Yes.
+
+Amanda.
+
+Good idea.
+
+Yes.
+
+We'll publish the agenda as we go forward.
+
+Ian or John, I don't know how to pronounce your name.
+
+Probably so.
+
+That's one of the things that we need to understand.
+
+What kind of so access to training data is probably unavoidable.
+
+The question is what kind of access?
+
+What level of access?
+
+The full on training data set?
+
+Or is it sufficient to have a detailed description of what went into it?
+
+Or something else?
+
+That's what we absolutely that's probably one of the most important, most difficult
+
+questions to ask.
+
+And most delicate conversation also.
+
+That's why we need to look at the individual specific.
+
+We try to have this conversation in generic terms.
+
+And having the conversation in generic terms ended up generating a lot of yes, but.
+
+Or yeah, but in this case, maybe if.
+
+You know, lots of uncertainties.
+
+We need to be specific.
+
+Let's look at specifically what's happening individually with PTA, with Lama 2, with FIDO,
+
+with one of these with OpenCV components, like OpenCV algorithms.
+
+Let's have a look at specifically what these need.
+
+And then we generalize.
+
+SBOMS with yeah, of course, like again, with the expert, with someone who has been modifying
+
+Lama 2.
+
+For example, this is one of the questions I asked one of the one of the friend of mine
+
+who's been working with and modifying Lama 2.
+
+Let's have a chat.
+
+What do you what do you actually need in order to modify the behavior of the Lama 2?
+
+For example, that's the exercise we need to do.
+
+Responsible data.
+
+Okay.
+
+Amanda, can you send me?
+
+Yeah, I'll save that.
+
+And I will if you have people who you know who will be I'd be happy to talk to them.
+
+I see other people typing.
+
+Did I answer your question?
+
+Okay.
+
+Thank you.
+
+Yes, links to slides.
+
+I got to publish them.
+
+So the next steps I mentioned, one is to we're going to be creating these these these forums,
+
+public forums where we can we can have conversations more more openly.
+
+And let me pull it back.
+
+And and run the exercise.
+
+I have scheduled meetings next week.
+
+As we as we get more as we run these exercises, analyzing PTA and analyzing Lama 2, building
+
+that list of elements of components and getting through the the the analysis of the legal
+
+frameworks and and and their legal things like let me get back to the slide where it
+
+shows.
+
+Yeah, this is the exercise that we need to do.
+
+This one.
+
+We need to go through this pipeline as quickly as possible.
+
+And once it's completed, we'll have version five, draft five.
+
+And from then on, we'll keep on iterating with with more online meetings and we'll try
+
+to be more more visible, more transparent from now on.
+
+Everything will be public.
+
+And if you follow us on Mastodon and and on LinkedIn, you get the updates.
+
+But as soon as hopefully end of next week, we'll have the public forum, if not the beginning
+
+of the week after.
+
+By the end of the month, for sure, we'll have the public forums that you can sign up and
+
+have discussions and conversations and get updates.
+
+All right.
+
+Are there any more questions or doubts?
+
+Yes, we should.
+
+We should be studying also applications not based on machine learning or deep learning.
+
+Yes, Jean Pierre.
+
+You have any specific suggestions, recommendations for one example that we or two examples that
+
+we we need to look at?
+
+Claire, the best link is open source.org/deepdive.
+
+But that page is in the process of being updated.
+
+Diane, yes, ML Commons is looped in with this initiative and as is the Linux Foundation,
+
+Linux Foundation groups.
+
+That's another thing that we should be we could be doing is to publish all the organizations
+
+that have been participating so far, following the development so far.
+
+I offer.
+
+Okay.
+
+I think we can also do voice.
+
+Voice questions.
+
+If anyone has.
+
+Yeah, we'll share it as a PDF, don't worry about it.
+
+All right, folks, if there are no more questions, I'm gonna close the recording and
+
+we'll make available the recording and a slide deck.
+
+And I'm gonna be available again in two weeks, similar content.
+
+We're gonna alternate the times so that instead of being in the afternoons in
+
+Europe time, we're gonna be in the morning in Europe time.
+
+So we're gonna try to follow to get the Asia Pacific
+
+audience to follow, an opportunity to follow.
+
+So thanks everyone, enjoy your weekend.
+

@@ -1,0 +1,1026 @@
+>> Hello, everyone.
+
+>> Hi, welcome.
+
+>> Do you want to take it now?
+
+>> I will.
+
+>> It's becoming a tradition that we tag team on this one.
+
+>> Yeah.
+
+Teamwork.
+
+>> So, yes, welcome to the online public town hall for the
+
+open source AI definition for May 3rd.
+
+We always go through our community agreements.
+
+Those who have been here before are familiar, but just to
+
+remember one mic, one speaker, take space, make space.
+
+So if you ask a question, wait for others to ask before you
+
+ask another one.
+
+If you don't want to ask a question, pause and let others
+
+take a chance to speak.
+
+And if you don't usually speak in a public venue, we invite
+
+you to say what's on your mind.
+
+Kindness, just that we -- the work is hard, but that we be
+
+gentle with each other.
+
+And obviously hate speech is not permitted in this space.
+
+Forward motion.
+
+We start by focusing on what's possible.
+
+And we note obstacles and come back to them, but we reroute
+
+around them and do what is possible in the moment.
+
+We seek solutions.
+
+And we know that that is vulnerable, but it is crucial and
+
+that we are all needed in this work.
+
+And are there any other -- any other community agreements that
+
+we have for this meeting today?
+
+Okay.
+
+So -- playing with my windows one moment.
+
+Okay.
+
+There we go.
+
+Okay.
+
+So, yes, as you all know, our objective for 2024 is to have a
+
+stable version of the open source AI definition and that is
+
+still scheduled for October.
+
+Where are we now?
+
+We have a couple slides that are similar to our last meeting,
+
+but the last meeting was in a different time zone, so I'm
+
+hoping this won't be redundant for anyone.
+
+We are on version 0.0.8, which is feature complete.
+
+It's our feature complete version.
+
+So we have the preamble, the four freedoms, which have been
+
+here for a while.
+
+And then we now have a checklist, legal checklist for
+
+required and optional components that has the required legal
+
+checklist for every single component.
+
+So that has been the new content for this version.
+
+And very briefly, how did we get here?
+
+I see there's chat, and I will trust Stefano and Nick to pause
+
+me if I need to attend to that.
+
+So we started with the four freedoms in the fall of 2023.
+
+I know some of you are actually part of this process.
+
+And this was study, use, modify, and share.
+
+What should these open source principles mean for AI?
+
+And so we had in-person co-design workshops.
+
+We had one at All Things Open.
+
+We had one at Linux Foundation Member Summit.
+
+We had one at the Digital Public Goods Alliance member meeting
+
+in Addis Ababa.
+
+And from that, we came up with the definitions of the four
+
+freedoms for AI.
+
+So these are in 0.0.8.
+
+And they should not surprise anyone, but we've now formalized
+
+them for this technological context.
+
+So we have use the system for any purpose without asking permission,
+
+study the system and inspect its components, modify for any purpose,
+
+and then also to use with or without modification, again,
+
+for any purpose.
+
+I actually will pause for comments at this point.
+
+Let's see.
+
+Yep.
+
+Oh, I see.
+
+Great.
+
+So in the winter, we asked this very big question.
+
+What components must be open in order for an AI system to be used,
+
+studied, modified, and shared, of which there are many,
+
+many different opinions and many, many valid opinions?
+
+And we started doing this, again, by having in-person workshops.
+
+We were at AI Dev in December in San Jose.
+
+And then we got some really good feedback,
+
+which is that working in person only is exclusionary because not
+
+everyone can be in the room.
+
+And so we shifted into virtual work groups in January of this year.
+
+And we also decided to have our work groups focus on specific AI
+
+systems self-described as open so that we could get specific in all
+
+these different questions and debates around open-source AI.
+
+And we're basically looking for systems that represent a diversity of
+
+approaches to AI openness.
+
+And we chose Wama2, Bloom, Pythia, and OpenCV.
+
+And then we recruited members for these groups.
+
+And we were very concerned about having global representation.
+
+So we conducted specific outreach to Black, Indigenous,
+
+and other people of color, particularly women and individuals
+
+from the global South.
+
+And part of being a member of the work group is to have your name and
+
+affiliation shared publicly for the sake of transparency.
+
+And over 50% of work group participants are people of color.
+
+And you can see them here.
+
+And, again, the deck will be available on the website.
+
+So the first thing that the work groups did is they selected the required
+
+components.
+
+So we started with the model openness framework,
+
+which was created by Matt White and colleagues at Linux Foundation.
+
+And you can see those components from that paper on the left,
+
+things like data pre-processing code, training code, evaluation code.
+
+And then there's also model and data components as well that aren't shown.
+
+And then we had work group members vote, initialed vote.
+
+So that's a public vote of is this component required to use or study or
+
+modify or share the system as a whole.
+
+And then I, and this is also public,
+
+created a Likert scale based on the number of votes per component.
+
+And we came up with certain components that were, yes,
+
+this definitely should be required down to no,
+
+there really aren't many votes saying that this should be required.
+
+And then that, that results of that Likert scale, the required, likely,
+
+maybe, probably not, not required,
+
+but into a public forum post for further feedback.
+
+And that became version 0.0.6 of the definition.
+
+So that is the first version of the definition where we actually said,
+
+these are the components that we think should be required for something to be
+
+open source.
+
+And what we just finished early spring was a second activity of the work
+
+groups,
+
+which is to look at the legal documents for these required components and see
+
+are the,
+
+are there legal documents in these systems that are associated with these
+
+components as described?
+
+So we had the required components, which are, there's code components.
+
+As you can see a couple of model components and then a number of data
+
+information or in this earlier version,
+
+data documentation components.
+
+And then we asked volunteers to find links to the documents or licenses that
+
+reference the rights to access and use those components.
+
+And then to evaluate, to look through the document and say,
+
+is use restricted or allowed is modification restricted or allowed is sharing
+
+restricted or allowed for all these different components.
+
+And these are the, so, and this is just a zoom in on the result,
+
+which is 0.0.8. As you saw in the beginning, we have,
+
+we are calling it data information now.
+
+And so data sets are not required,
+
+but information about training and methodologies, scope,
+
+and characteristics provenance labeling procedures,
+
+if used and cleaning methodology is required.
+
+And then we have code components, data, pre-processing code,
+
+training, validation, and testing inference and supporting libraries and
+
+tools. And then two model components, architecture and parameters.
+
+And you can see on the right,
+
+the legal frameworks that we're using for each and then a longer list of
+
+optional components.
+
+This is basically the remainder of the model openness framework components
+
+because obviously we want as many components as possible to be open,
+
+but these are not required. So then, so basically all these data sets,
+
+we say we would love if they're available,
+
+but they are not required to for the system to be called open according to
+
+our definition, additional code elements model.
+
+I see for some reason, I didn't put a highlight on model,
+
+but you can see it in there and other, which is for example,
+
+a research paper or a technical report.
+
+And then just again,
+
+that it's very important that we have a representative process.
+
+It's a global definition. And so this requires global consultation and we
+
+have various stakeholder groups that we're,
+
+that as part of our outreach,
+
+particularly as we move into the next phases of the project and I can go back
+
+to this if people are interested in it,
+
+most involved in the current phase are system creators and licensed creators
+
+and licensees. So people seeking to study, use, modify, and share the system.
+
+And then to increase, I guess, identity-based diversity.
+
+We, I'm using phrases like this one that are specifically inviting,
+
+for example, Black, Indigenous, Latina, other people of color, women,
+
+you can read that paragraph.
+
+And then we also do outreach,
+
+specific outreach to bring underrepresented groups into the process.
+
+So next steps, spring through fall.
+
+So now through October, basically. Right now we're doing definition validation.
+
+So we are seeking volunteers to review. It says one to three.
+
+This is not accurate anymore because now we've decided that we want to do about
+
+10 systems total. So it's actually about six additional systems.
+
+Using that same procedure as of the spreadsheet.
+
+So finding the legal document and doing the analysis of each component,
+
+according to these definitions of study, use, modify, and share.
+
+And we're hoping to have that complete by the 20th.
+
+So in about two and a half weeks.
+
+And these are the systems that we're currently looking for to review.
+
+And we have at least one volunteer for everything except Arctic,
+
+Snowflake Arctic, which is a new addition.
+
+But additional volunteers are welcome on all systems. It's a big task.
+
+So I'm sure that Casey and Mark and Victor and Jan and Racine would love to
+
+have a pal to share that review task with.
+
+And you can email me if you're interested in that,
+
+being a volunteer on any of those systems.
+
+Again, to test the definition against the documentation available for these
+
+systems, the legal documents and licenses.
+
+And our timeline for the rest of the year, we did just release 0.0.8.
+
+We may do a 0.0.9, depending on if there are changes that come back,
+
+major changes that come back from this definition validation activity we're
+
+currently engaged in.
+
+We will have a virtual launch event associated with the release of RC1 in
+
+June, and that date will be TBD.
+
+We had been thinking of doing something in person, and then we thought
+
+inclusion, this is a very important event.
+
+We want as many people to be able to participate as possible.
+
+So we decided to do virtual.
+
+And then we will have a stable version released in October,
+
+and that will be in person.
+
+That will be at All Things Open in North Carolina.
+
+And we have additional virtual and in-person meetings where we'll be
+
+sharing and seeking feedback on, I guess, RC1, release candidate 1.
+
+You can see where we'll be.
+
+And some events, you can see we have the month but not the date.
+
+So we're still working on certain details of this road show.
+
+So, yes, we would love for you to be on the public forum discussed at
+
+opensource.org, and I think that's the QR code.
+
+We'll take you to that site, which you can join for free or become a
+
+paid member.
+
+And we have these biweekly town halls, which you're at right now, so you
+
+know about those.
+
+And then if you're interested in volunteering for definition validation,
+
+you can email me or you can direct message me on the -- on that discussed
+
+platform.
+
+So thank you.
+
+And, yes, Stefano, do you have anything to say before we do the Q&A?
+
+>> I don't know.
+
+Maybe we can share the news.
+
+Shall we?
+
+>> Oh, yes, Stefano.
+
+>> Well, you know, we got -- we have received a grant from the Sloan
+
+Foundation.
+
+So we'll be doing a lot of the -- we're well positioned to have a lot of
+
+participation, a lot of those travel, a lot of those trips to those events
+
+will be supported by this program.
+
+Maybe you can go back.
+
+I had something also I wanted to mention.
+
+Go to slide 28.
+
+I don't know why I remembered this in my head.
+
+I said -- mental note that I wanted to say something here.
+
+Oh, yes.
+
+So here you can see how the legal frameworks in the column legal
+
+frameworks, we have the legal frameworks, the legal frameworks, the
+
+legal frameworks, we have -- we talk about data information available
+
+under OSD compliant license.
+
+And when you look at the code, like inference or data preprocessing, you
+
+see that the legal framework is available under OSI approved license.
+
+And then if you look at the model -- oh, no, yes.
+
+Parameters -- oh, it's cut.
+
+Available under OSD -- parameter says OSD conformant terms.
+
+I think it's interesting here because code, we know that is licensed -- I
+
+mean, we know the licenses, we know the legal frameworks, we know it's
+
+copyright mostly, there is some patent issue, but we've been using OSI
+
+approved license for a long time.
+
+So straightforward, we don't have any problem.
+
+Judging whether the code component are suitable, are available under the
+
+open source principles.
+
+For data information, which is mostly documentation, it's a little bit
+
+fuzzy, but still we can debate -- we know we can identify -- there is no
+
+definition of open documentation.
+
+But I think we can easily identify licenses that give us the possibility
+
+to read the documentation, modify, and redistribute to others.
+
+So that's why we're using the term OSD compliant license.
+
+Although there is a question whether we should use OSD compliant or OSD
+
+compatible.
+
+So compatible with the open source definition or compliant with the open
+
+source definition.
+
+So it's a little bit of a debate and it's ongoing on the forum.
+
+I encourage you to go find the thread and vote.
+
+There is actually a little poll in there.
+
+But the model parameters is interesting because model parameters don't seem
+
+to fall under copyright law.
+
+And there is discussion whether any other exclusive rights apply in
+
+different jurisdictions.
+
+So it's different between like Europe, United States, China, UK.
+
+There is still a little bit of a debate.
+
+So that's why we're using a more generic term that says OSD conformant.
+
+So we want to have -- leave the flexibility to interpret how the
+
+principles or how these parameters are distributed.
+
+Until the dust settles on the legal point of view.
+
+These are the questions -- these are the points that I think will have
+
+to be clarified in the next few weeks during the validation process
+
+among other things.
+
+So if you have opinions, if you know someone who might have opinions,
+
+now is the time to go and check the document.
+
+Because the definition, the draft 08, 008 is feature complete.
+
+It has all the elements that we want.
+
+And if no one really objects or if there are no strong pushback, I think
+
+it's going to be -- the release candidate is going to look very similar
+
+to what we have now.
+
+So any questions, I'm happy to -- me and Mer here are happy to answer.
+
+>> A question on the GDPR.
+
+I can read it.
+
+Shall I read it for the recording or Jan, do you want to come off mute?
+
+>> Yeah, go ahead.
+
+>> I can unmute.
+
+So there's been questions about like when it's -- a model is generating
+
+results that someone is saying, oh, this isn't -- I want to remove this
+
+from this.
+
+From your results according to GDPR.
+
+Wouldn't it be very nice to also have a possibility to do it?
+
+Because if you just have the model, you cannot really remove it.
+
+Because you have to remove it from the training data and then retrain to
+
+get a new thing.
+
+>> Yeah.
+
+I -- yes.
+
+But that is such a big question in fact.
+
+And I'm really curious to see what the results of the lawsuit that just
+
+happened against open AI.
+
+Granted that is a closed, opaque, we don't know what's happening inside
+
+there.
+
+The fact that the source data is not required is because it's exactly for
+
+this reason.
+
+So if there is private information in the source data sets, those -- that
+
+data set cannot be distributed legally.
+
+So that's why we want to know what's going in there.
+
+You know, we went into the training data set.
+
+We want to know exactly how it was filtered.
+
+You know, the duplication, all that thing.
+
+That's why there is a requirement on data preprocessing in the code
+
+section.
+
+Because that's what it means.
+
+You should -- you know, sometimes it's very valuable also to know exactly
+
+how to have the exact same instruments that went into the training.
+
+Building the data set for the training so that one can retrain the model
+
+and/or readjust the parameters with their own data.
+
+Or similar data.
+
+In fact, the exact spelling of the data information requirement is -- says
+
+it needs to be sufficiently detailed information about the data used to
+
+train the system so that a skilled person can recreate a substantially
+
+equivalent system using the same or similar data.
+
+We hope that this solves the problem.
+
+And if -- honestly, yes, if there is GDPR data inside the data set and the
+
+model itself has it, then you should be able to rebuild the -- with your own
+
+data without it.
+
+And maybe that model itself is illegal, right?
+
+In some legislation.
+
+So there is a higher standard that applies here.
+
+>> Thanks.
+
+Any other questions?
+
+You can chat or take yourself off mute.
+
+If anyone has any other questions or thoughts.
+
+>> I can come back on and just ask a little bit of a background question
+
+here because I missed a couple of town halls.
+
+So what is the idea of not requiring the training data in full and just have
+
+the opaque model?
+
+Because that sort of seems to me to be counterintuitive to the spirit of the
+
+open source definition.
+
+And I understand for the legality, but one can also say, well, all open
+
+source models should be legal.
+
+Is that the only thing or is there something more as well?
+
+>> No, I think there is something more.
+
+So many -- the fact that data set did not make it into the draft 06, was it?
+
+Is because the working group as they were evaluating the various systems,
+
+not enough of them put the requirement of the original data set as strictly
+
+required to modify, study, use, and share.
+
+So they ranked higher other -- like the training information.
+
+Like the training code, the documentation on the data used were ranked
+
+higher.
+
+And so because there are so many machine learning systems that don't have
+
+the original data set, like it just doesn't exist because it's not created.
+
+Like for anything that is used with -- learning and other ways that are
+
+privacy preserving.
+
+Then there is that question of private data.
+
+Where it might go -- I mean, it may be part -- I mean, technically part of
+
+the -- good part of the originating data set.
+
+But can be obfuscated or hidden from the model itself.
+
+Like we were concerned -- we are concerned.
+
+I mean, all of us are concerned about generating -- putting the bar so high
+
+that there is no incentive.
+
+Not only there is no incentive into releasing open source, but there is
+
+actually a very strong disincentive into the open source AI.
+
+And in fact, if you look at the amount of lawsuits that any of the more
+
+open foundation models that have been released, they're receiving just
+
+because they've been transparently saying, hey, we have scour the web and
+
+incorporated pretty much anything that we could find.
+
+That, you know, give us -- while on the other side of the spectrum, we
+
+have things like Lama 3 or open AI, they don't say what's inside the
+
+data sets, what went into their training sets, because they don't want to
+
+be sued.
+
+So we're trying to see if there is a balance to be found.
+
+And let's -- the validation is also for this.
+
+Like do we have a set of models out there that already exist that can
+
+fit into the open source AI definition and we can actually work with
+
+them?
+
+Yeah, we want to be pragmatic, but we also want to maintain the
+
+principles right.
+
+The principles that we want to give users freedom, agency, control
+
+over the technical choices doesn't necessarily mean that we want to
+
+have the full spectrum of everything always open all the time.
+
+Because it may be that there is enough elements even without having
+
+the complete spectrum.
+
+If you have looked at the model openness framework paper, it's an
+
+interesting read because it has -- lists all of those components and
+
+then gives a sliding scale of what's required for the -- to be included
+
+in the Linux foundation projects.
+
+And it scales from basically just give us the model parameters all the
+
+way to give us everything.
+
+And they call it open models, open tooling, when some more extra
+
+pieces are available.
+
+In open science where there is everything.
+
+So we're trying to find a balance in there where there is a bar where
+
+we can say, okay, this is open source AI, but -- and then everything
+
+else goes on top.
+
+Yeah.
+
+All right.
+
+So the transparency is a feature of open source.
+
+>> I just want to pause.
+
+I just want to pause.
+
+Because we can continue this conversation for a long time.
+
+I just want to pause.
+
+Is there anyone else on the call who has a different kind of question?
+
+And if not, we can continue this conversation for a bit of time.
+
+Okay.
+
+No.
+
+All right.
+
+So, yeah.
+
+So we can continue, I don't know, to the half hour maybe talking about
+
+this topic?
+
+>> Yeah.
+
+I just want to also announce the fact that we're going to be talking
+
+about data in a separate talk.
+
+Like there is absolutely a need to better understand the space also
+
+as data becomes functional.
+
+Which is a new thing.
+
+Fairly new thing.
+
+And we want to understand it a little bit better.
+
+One of the stops in September is in France.
+
+And we're working on a workshop specifically to start the
+
+conversation that I'm quite sure is going to take a little bit longer.
+
+Because transparency is the feature.
+
+I want to highlight that.
+
+That's why we're insisting on having data information, provenance
+
+and all of that.
+
+And the code for the training.
+
+The code used for the creation of that data set.
+
+I think it's going to be -- it's a good compromise.
+
+But let's see what else exists in there.
+
+>> I see Claire, you have a comment.
+
+Do you want to come off mute, Claire?
+
+>> Sure.
+
+Thank you.
+
+So this is just a question to see if there is any current effort
+
+going into keeping track of any other definitions of open source
+
+AI.
+
+And specifically thinking about anything that might be referenced
+
+in any emerging regulation or policies that might be coming at a
+
+government level.
+
+Knowing that I think it was referenced in the AI act, but I'm
+
+not sure how it was referenced or what they defined it as in that
+
+act.
+
+>> Yeah.
+
+So thanks for the question.
+
+Because the AI act mentions multiple times, a couple of times
+
+that it's a free and open source AI system without providing any
+
+explanation of what that means.
+
+So it was one of the triggers to push for this project to start
+
+two years ago when we saw -- when I saw the first draft of the
+
+AI act, I was like, oh, we need to have -- we need to help
+
+regulators understand this space.
+
+And we're having fairly good, intense conversations also with
+
+the American agencies which are now under pressure to come up
+
+with regulations inside to -- right.
+
+To control a little bit this market.
+
+As it comes out, there are so many foundation models that it
+
+talks about risks and they all want to know what open source
+
+means, what open means in this space and what the implications
+
+are for public in general, for public interest.
+
+>> Thank you.
+
+>> Maybe one final thought or comment and then we'll close the
+
+session.
+
+I saw you typing.
+
+If you want to have a last thought, you're more than welcome
+
+to share it.
+
+>> Maybe I see types.
+
+I can say watch the space, watch our blog, too, because we're
+
+going to be continuing the conversations around data.
+
+I think it's a really important space where we don't have a lot
+
+of practice.
+
+There are new legal questions that are being raised like what
+
+is exactly right, acceptable when it comes to text and data
+
+mining.
+
+New regulation around text and data mining specifically
+
+appearing around the world like Japan has an approach that is
+
+very -- Europe has introduced it as a new right and it's still
+
+having -- there are some limitations to it, though.
+
+So policies are going to be written and all the lawsuits in
+
+the United States which are very interesting and we're waiting
+
+for them to be clarified.
+
+Yes, so Claire, the outreach plan is vast.
+
+Like we've scrolled through with Mayor, but yes, we are reaching
+
+out to a lot of the AI communities, startups, developers,
+
+conferences like new rips and others.
+
+Yeah.
+
+Granted, it's going to -- remember what I like to remind
+
+everyone, that the open source definition came out after at
+
+least 15 years of experience in the free software world and when
+
+the developers were few, computers were not as ubiquitous as
+
+they are now, and it took a while to become so well-known and
+
+widely respected, so we'll have to be doing this work of open
+
+source AI.
+
+We're defining it in a few months.
+
+So we're going to have to do a lot of work after -- continue to
+
+do a lot of this outreach work in the next years.
+
+Yes, if you're coming to PyCon, you'll find us there.
+
+That's our next stop.
+
+All right.
+
+Thanks, everyone.
+
+We host this every two weeks.
+
+I think that next week I'll be at PyCon, so we will not be able
+
+to have this.
+
+But we'll meet again in two weeks and the forums are still
+
+going to be active and available.
+
+Thanks, everyone.
+

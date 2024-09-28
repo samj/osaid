@@ -1,0 +1,634 @@
+All right, and welcome.
+
+Welcome everyone.
+
+This is our second public town hall on the open source AI definition.
+
+The process that the open source initiative has started more than a year ago now.
+
+So a little ground rules before we start, we have these community agreements and I love
+
+to have your comments on these one person at a time.
+
+Meaning make space for others.
+
+If you have the tendency to speak a lot, try yourself.
+
+Think about being quiet and allow others to speak up.
+
+And if you're the kind of person who usually doesn't speak, I highly encourage you to raise
+
+your hand, write down your comments on the chat or take the mic.
+
+We want to hear your voice.
+
+We want to hear your comments.
+
+Everyone is welcome.
+
+Be nice.
+
+I don't think that we need to be talking too much about this.
+
+We expect everyone to go through this hard work without being hard themselves.
+
+And another couple of points, like we need to keep moving.
+
+And this means that if we face an obstacle during our conversations and as we are drafting
+
+the open source AI definition, we may want to face recognize that we have an obstacle
+
+or something hard to deal with.
+
+But during the meetings, we try to keep on moving.
+
+And we'll get back to the hard part later.
+
+So then we go towards the destination.
+
+And focus on solutions.
+
+That means this is pioneer work.
+
+It's a multi-stakeholder process.
+
+And we know that there are a lot of things that don't work that can be done better.
+
+But we need to focus on what works and keep marching towards the end goal.
+
+And the end goal is to have the open source AI definition version 1 by the end of the
+
+year.
+
+By ideally October.
+
+We started more than a year ago.
+
+And we need to have a shared understanding among multiple experts in various disciplines
+
+around the world.
+
+This definition is not coming from a sacred text given by a genius or a saint or some
+
+other form of venerable entity.
+
+It needs to be built by us.
+
+And we need to build an understanding together as we move forward before we can call this
+
+version 1.0.
+
+And I said we started some time ago now.
+
+And this is what we have achieved so far.
+
+We have a document that we're calling this definition.
+
+And it's made of a few parts.
+
+There is a definition of AI system at the beginning which is the same as the definition
+
+used by the organization for economic cooperation and development.
+
+OECD.
+
+And there's a preamble that contains the basic principles of why we need open source AI.
+
+And also mention of what is out of scope.
+
+Meaning the things that we're not covering in the definition.
+
+Then for freedoms which is the shortest possible answer to the question what is open source
+
+AI and followed by a checklist to evaluate legal documents, not just licenses that are
+
+used to grant the four freedoms to the components and elements of an AI system.
+
+So we have done quite a bit of work on the part above the checklist.
+
+And that's what we're missing.
+
+We're missing the checklist.
+
+That's what we're focusing on.
+
+That's what we focused on the last couple of weeks.
+
+Since our last meeting.
+
+So what is open source AI in terms of the four freedoms?
+
+This is the text that we have now in draft four.
+
+And after a few reviews with a few experts, I don't think that this is up for discussion.
+
+But I don't think that there are a lot of controversies or controversial statements
+
+in here.
+
+I think it should be quite fairly understood and fairly well supported.
+
+Now what we need to do in terms of question that we need to find an answer for, the next
+
+big thing is to understand what is the preferred form to make modifications to an AI system.
+
+Because if you those of you who are familiar with the open source definition and the free
+
+software definition, the preferred form to make modification is quite crucial to understand
+
+how you can make how you can exercise your freedom on software.
+
+To exercise your freedoms on software, for example, the freedom to study or the freedom
+
+to modify the software, you need access to the source code of that program.
+
+And we need to find an equivalent of source code of the program for the AI system.
+
+And the proposed path towards getting there is to use this multiple steps.
+
+First start from the concept of AI system.
+
+Now AI system as defined by the OECD means to simplify a system, a digital system that
+
+is capable given an input to generate an output with various degrees of independence from
+
+human interactions.
+
+So input, magic collaboration, output.
+
+Now for the first step that we're working on now is to find the list of components that
+
+are necessary to use, study, modify, share an AI system.
+
+And depending on the component, then from the list of components, we're going to look
+
+at each of these components to see if in which in each legal, which legal framework, legal
+
+regimes they operate under.
+
+So if it's, for example, the inference code or the training code that is software, it's
+
+under the what we already know that is covered by software.
+
+So it's going to be what people refer to as usually intellectual property or things like
+
+that.
+
+If it's data, then we have different regime.
+
+And this is also going to be an exercise where we're going to be identifying potential gaps.
+
+But we already know, for example, that large language models, the weights, for example,
+
+are not clearly, are not yet clearly labeled either as data or software, and they may fall
+
+into some other regime.
+
+So there's going to be conversations around there.
+
+And then we're going to look at existing frameworks.
+
+I mean, for each component, we're going to look at the legal documents that go with them
+
+and see if there is any gaps.
+
+And reading them and analyzing them, identify common traits.
+
+And finally, we should have, after repeating this exercise for many different AI systems,
+
+we're going to have something that looks like a valuable checklist that we can use for many
+
+years probably, hopefully.
+
+So last week I said the past weeks we have started working to analyze Lama 2 as an AI
+
+system as an example.
+
+And this is what we discovered in the meetings and online conversations that we had last
+
+week.
+
+We assembled a working group made of these people from different organizations, different
+
+expertise, all of them participating in the personal capacity.
+
+This is one of the -- none of them is authorized to speak for the company, but they are working
+
+-- they're collaborating with us.
+
+And the -- so the purpose of the meeting is -- I mean, we show the purpose of the meeting.
+
+It's part of the -- part of a track of work that is testing the system to discover the
+
+components that are available, like the -- and so make that list and identify which ones
+
+of them are absolutely necessary for -- to exercise each of the individual freedoms.
+
+Like the study -- use, study, modify, and share.
+
+And so we have reviewed the table of components that we have -- that we have borrowed.
+
+We've been following the work of the Linux Foundation, AI and data foundation, and data
+
+group, they've been working on a document on their own.
+
+And that contains a pretty long, pretty detailed list of components.
+
+And we've used that as a conversation starter for our exercise.
+
+We have -- so this is what we've done.
+
+We have separated the list of components into four main blocks.
+
+Well, three main blocks and one smaller block.
+
+One for things that we call code.
+
+That is software.
+
+And we have, for example, looking at the code, list of components that we call code.
+
+And apply to the exercise -- I mean, the function of using an AI system.
+
+So getting an output from an AI system.
+
+Asked the group to write down if that component was necessary, strictly necessary or not.
+
+For running or using the system.
+
+And this is the first result for the code.
+
+And then the next question is looking at the data.
+
+Separated into many -- you see many different types of datasets in here.
+
+And we asked what is necessary to use Llama2 in terms of data.
+
+And as you can see, most of the answers are in the not necessary.
+
+And we also captured in the document the comments on nuanced approaches.
+
+It's not necessarily it would be nice to have.
+
+And this is something that we want to debate further.
+
+I'm gonna ask a question to you afterwards.
+
+And finally, on the model itself, so the model weights, parameters, architecture, model card,
+
+et cetera, we asked people here to describe what is needed to use.
+
+I gotta say there was a little bit of a lot of actually a lot of conversations during
+
+the meeting around the meaning of these words.
+
+And there was a major misunderstanding on the word model parameters.
+
+Because in the intention of the paper from the LFAI data, which is a very early draft,
+
+so it's not really meant to be quoted yet, model parameters contains both model weights
+
+and model biases and parameters, hyperparameters and other elements.
+
+So there was a little bit of confusion.
+
+But there was -- you know, the group seemed to agree that, of course, you need the model
+
+weights to run, to use Llama2.
+
+And other components like model card, some people interpreted the definition of model
+
+card as something that is necessary for use.
+
+And then finally, the last group of elements or components is on the documentation, the
+
+supporting documentation.
+
+Like, the availability of a thorough research paper for the execution, you know, for running
+
+Llama2 is nice to have.
+
+I guess, you know, you can understand a lot of things.
+
+But it's actually not strictly -- what is strictly or much more necessary is have documentation
+
+on the usage.
+
+And this is the current status.
+
+We didn't get through -- we didn't get through the first meeting, during the first meeting
+
+through the other freedoms, Modify and others.
+
+But we're gonna keep on iterating with the others.
+
+So yeah.
+
+This is what we need to do next.
+
+It's to ask these questions on what you need to study.
+
+So understand how the Llama2 was built, fine-tuned, how it can be fine-tuned, what biases are
+
+in the dataset.
+
+And things like that.
+
+Explain its performance.
+
+And on the Modify questions are more on the -- what are the tools, techniques that we
+
+can use to fine-tune, optimize, get a different output from -- or faster outputs from the
+
+model or more accurate.
+
+And finally, in order to share it, what are we gonna do?
+
+You know, what is necessary, what is needed?
+
+So for us, the next steps are continuing on this process of running these meetings and
+
+starting new AI systems.
+
+We've already -- I've already asked a few people who volunteered to analyze Pythia.
+
+But we need to start parallel the process for Bloom and Mistral.
+
+And also we want to look at AI systems that are not generative AI, that are not large
+
+language models.
+
+And like inside OpenCV, the Open Computer Vision Project, there are a lot of neural
+
+networks and other kind of AI that are not generative AI.
+
+So they pose a slightly different -- slightly different questions if we want to look into
+
+those.
+
+So if you know anyone in those areas, point them our way.
+
+And I'll give you also more information about how to engage later.
+
+And we also need to validate this list of components.
+
+As I mentioned, we worked with the AI and data from Linux Foundation.
+
+But we know that the -- that their paper is not peer-reviewed.
+
+And their working paper, they're still working on it.
+
+So we need to provide feedback to them.
+
+But also we need to see whether that list of components is enough or if we need to keep
+
+on improving it.
+
+So to reiterate our timeline, it still looks like this.
+
+We want to have a new draft of the definition in February.
+
+And then a regular cadence every month.
+
+Have a new draft of the definition.
+
+Refining at every step.
+
+And most importantly, the most important part is as we refine this step, we also have more
+
+publicity to it, more people supporting it, endorsing it.
+
+And we need it to -- we want to get to a point in between the end of May, early June, where
+
+we have enough support and enough endorsements collected from a variety of different stakeholders
+
+to be able to call the definition feature complete and issue a release candidate, first
+
+release candidate.
+
+Then between June and October, we want to get into a series of conferences, a series
+
+of meetings around the world with me and other volunteers who have participated in the drafting
+
+process.
+
+Maybe some of the original endorsers that participated to release candidate work.
+
+And push it through a big exposure and a round of larger feedback.
+
+And by October, gain like double the amount of endorsers and be able to call it version
+
+1.0.
+
+And because version 1.0 will be basically feature complete license that enough organizations
+
+from a variety of interests will be supporting it and be able to endorse it.
+
+And say we're going to be using it.
+
+But then after version 1, we know that there's going to be more work to be done.
+
+So in terms of stakeholders that we want to have in the rooms to work with us on the definition,
+
+we need to find a way to engage with policymakers.
+
+That is we have some contacts and we need to have a little bit more of conversations
+
+with people who are working in the government space, in the policymaking space.
+
+Even though of course regulators will not be giving comments to us.
+
+People who write the legislation.
+
+And we will not engage with people who write legislation directly because we cannot as
+
+an American.
+
+But we want to hear from the people who are in this space.
+
+Because we notice that there is legislators are concerned about abuse of AI.
+
+And there is already starting to emerge a vision that open source AI or open AI widely
+
+available models and AI are capable of influencing elections or creating havoc in the society
+
+in general.
+
+So we need to make sure that whatever definition comes out of this process is not seen as a
+
+threat to society by regulators.
+
+That's something we need to be very careful about.
+
+And we need to explain this as we go.
+
+Understanding the problematics and solve them as soon as possible.
+
+And we need also to engage a lot with end users.
+
+So people who are like interacting with a bot at a bank.
+
+Or subjects.
+
+These are people who don't know that they're talking to an AI and they are affected by
+
+the automatic decisions, for example.
+
+We need to engage with them.
+
+So how a reminder, this is doesn't end with 1.0.
+
+We already started to define to think about what's going to be the future of 1.0.
+
+Like the open source initiative and its board has set up is setting up a new committee to
+
+brainstorm to think about the maintenance of this definition that is coming very quickly
+
+in a space that is evolving even faster, even more rapidly.
+
+So we need to prepare to catch up and to have a process to maintain the definition to keep
+
+it valid over time.
+
+And so what we're launching today is a new forum.
+
+We'll keep on doing these biweekly town halls and we'll keep on adding opportunities to
+
+volunteer to help out.
+
+We're working on a new version of the landing page to have the information all about this
+
+process all in one place.
+
+And we've done that.
+
+We're working on this.
+
+And as I said, setting up the board for managing the future.
+
+So as a big announcement for you is to the opening of the forums to have this conversation
+
+publicly online in order to join the forum.
+
+The forum uses the single sign on with other OSIs website.
+
+So you can you need to become a member of OSI.
+
+That is a free member.
+
+We have three tiers.
+
+There is a free membership.
+
+So you don't have to worry about having to pay.
+
+Or if this is an opportunity for you to support this work, which is very important, you can
+
+become a full member and donate to us from $50 a year and up.
+
+And on the forums you will find the links to the latest drafts.
+
+We will keep on asking questions on the forums.
+
+We'll keep on having the conversations we're having here constantly on the forums.
+
+And with that, I will I see that there are some questions on the chat.
+
+If you prefer, I can unmute all of you.
+
+You can also take the mic and speak.
+
+So I'll answer the question from Dirk.
+
+What licenses are required for the data and software components in the AI system?
+
+So we'll be talking about it.
+
+From the software components, it's I think that the answer is going to be quite easy.
+
+Anything that is recognizably software, we need to use licenses that have been approved
+
+by the open source definition.
+
+For the data component, it's we'll have to have conversations around that.
+
+I think we are working with organizations like Creative Commons and I mentioned the
+
+Linux Foundation AI Data.
+
+They have their licenses.
+
+There are different licenses that qualify as open data.
+
+The open data world has a different culture than the open source movement and the open
+
+source world.
+
+The data people, I mean, the people who have been dealing with open data that I met, I'm
+
+not sure how much they have been thinking about the fact that their data is actionable.
+
+We need to understand with them, we need to work with them to understand exactly what
+
+they think of their space once the space of open data, once it becomes actionable just
+
+like software.
+
+In other words, to make a pretty simple example, not many data sets out there are maintained
+
+in a way that they can be modified and fixed.
+
+One of the latest examples that I noticed is that in an open data set that has been
+
+used to train a lot of the large language models had reported, I mean, someone analyzed
+
+it years ago and found that it contained a lot of images that were illegal in many parts
+
+of the world and absolutely abhorrent, including child porn and atrocious material.
+
+Now the project that the people, the group that maintains this data set, which is open,
+
+never received a public issue.
+
+This is on GitHub, this data set.
+
+It's a GitHub project and there was no issue filed, but there was a paper, a research paper
+
+filed that described the bad material in the data set.
+
+So I think that there is work that needs to be done into this community because they're
+
+completely different and they're probably inside a similar conundrum that we as open
+
+source groups are when it comes to AI.
+
+Our world is being disrupted, let's say, modified.
+
+I don't know if that explains it.
+
+Any other questions?
+
+Curiosities?
+
+Thanks, Kellen.
+
+Yeah, glad to see you.
+
+And I hope that we can, yeah, we can work together soon.
+
+Any other concerns, questions?
+
+I'll give you time to start playing with the forums and maybe if you have any technical
+
+issues, you can, we can do, play with it.
+
+All right.
+
+No more questions.
+
+I'm going to stop the recording.
+
+Thanks.
+
+Bye.
+

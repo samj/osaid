@@ -1,0 +1,448 @@
+So, first of all, let me introduce myself.
+
+My name is Nick Vidal.
+
+I'm the community manager at the OSI, the Open Source Initiative.
+
+And every two weeks, we organize a public town hall about the open source AI definition.
+
+The goal of this town hall is to give updates and news about what has been happening with
+
+the definition and also to hear your feedback and see how we can make it better.
+
+So let's jump to the rules, right?
+
+What are some agreements that we have here?
+
+I think we can all be very open and very kind.
+
+The idea here, even though if we have any differences, we can agree to disagree.
+
+And so this is especially important when I open space for questions.
+
+You're free to ask any questions and I'll be happy to answer them as best as possible.
+
+So let's talk about the open source AI definition and where we are.
+
+We have been at version 0.0.8 for quite some time right now.
+
+And the reason for that is that we received a lot of feedback and we are working those
+
+details because the next one, the next version will be something much more stable and really
+
+with very few changes going forward.
+
+So the current definition, what we have right now is we have the preamble, we have the four
+
+freedoms and a checklist.
+
+Now what are we working for version 0.0.9?
+
+There are going to be some significant changes based on this feedback and we're about to
+
+release version 0.0.9.
+
+It's just a matter of a final approval.
+
+And we still have the preamble and we try to clarify who are the recipients of the freedoms.
+
+We also have the what's open source AI and we clarify those four freedoms.
+
+As you know, we have the freedom to use, to study, to modify and to share the system.
+
+And for those who know, who have some background on the history of free software and open source,
+
+you know very well that those four freedoms are from the free software definition.
+
+And this has been very stable.
+
+We have been using those four freedoms as the basis throughout most of the moment.
+
+Now one observation that we're also making is that we are underlining that components
+
+and systems must be free from encumbrances that prevent any developer, deployer or user
+
+from exercising those freedoms.
+
+So this is something that we highlighted for this version as well.
+
+And now we made some substantial changes to the preferred form to make modifications to
+
+machine learning systems.
+
+And the reason why we did that, we received a lot of feedback and we wanted to really
+
+make this as precise as possible.
+
+So we added the definitions, right?
+
+Also there's the question of OSD compliance and OSD conformance for each one of those
+
+requirements, right?
+
+And also the legal requirements for each components.
+
+So we made this text here, the preferred form, clearer for us to understand.
+
+And now this is a big one.
+
+Since the definition is going to be something very stable, we cannot make, we shouldn't
+
+make many changes with every version.
+
+We want to have something very solid.
+
+So this, the definition itself should not change much.
+
+However, we know that the technologies are evolving very rapidly and there might be some
+
+changes to the legal framework or to each one of those components.
+
+And so what we're doing for 0.0.9 is actually we're going to make the checklist as a separate
+
+document because the definition is going to be stable.
+
+And the checklist, we might have some smaller changes, of course, but it's going to evolve,
+
+right?
+
+And I wanted to highlight that we use as the list of components, the model openness
+
+framework.
+
+This is something that was created by the Linux Foundation and they have 17 components
+
+and we're using that as a basis, right?
+
+For the checklist.
+
+Now we are currently validating the open source CI definition, looking at several models.
+
+Right now we're looking at Arctic, Bloom, Falcon, Grok, Yamachu, LLM360, Mistral, Oumu,
+
+OpenCV, Fitu, Pythia, T5, and also I believe Vykan, we added that as well.
+
+So the idea behind this is we are looking at the open source CI definition and looking
+
+at the different models and different AI systems that exist.
+
+And we are matching that, looking at the checklist and seeing if those systems are in fact, if
+
+they achieve this, right?
+
+If the open source CI definition applies well to them and we're validating this.
+
+And so as part of this validation updates, here are the current results so far.
+
+So looking at Arctic, for example, this is a large language model by Snowflake and it's
+
+actually pretty good.
+
+It's pretty open.
+
+And we are looking at those different systems and for Arctic, we believe that it's expected
+
+that it does, yes, fulfill the open source CI definition, all the checklists.
+
+So it's very likely that Arctic is an open source AI, right?
+
+Now we have other systems which can be a bit more challenging, right?
+
+So Bloom, Bloom is regarded as an open model by some, but at the same time, they use Rail,
+
+which is very restrictive.
+
+It does not match the open source CI definition on that regard.
+
+And if we look at all other models as well, we see that a few of them, the ones that we
+
+expect to actually be considered open, in fact, they are, they are validating.
+
+So for example, Omo, it's a very open and it's likely that it meets the open source
+
+CI definition requirements.
+
+And AlphaBifia, it's a confirmed yes right now.
+
+So this validation process is important, right?
+
+Now this, what's next?
+
+What's the timeline?
+
+What's happening?
+
+We have this validation phase.
+
+We are looking at the comments.
+
+We're about to release version 0.0.9 after this validation.
+
+We want to have a release candidate.
+
+Also there's a guidance from the board and this is really important.
+
+So the board has three requirements, right, for this definition.
+
+It has to be supported by diverse stakeholders, right?
+
+Also it must provide real life examples.
+
+We don't want a definition that there's no AI system that actually matches that.
+
+So it's important for us to have this, at least a few cases where those AI systems match
+
+the open source CI definition.
+
+They fulfill the open source CI definition.
+
+And we really want to have this stable version by October, at all things open, where we're
+
+going to be announcing this.
+
+So we have this, this restriction on time.
+
+We cannot just go on for this forever.
+
+In fact, a lot of, there's a lot going on around policies and legislation around the
+
+world.
+
+And a definition, a clear definition really is really important.
+
+So we're trying to run against the clock, right?
+
+Basically this is a timeline throughout this past month, we've been attending several events
+
+worldwide.
+
+So July, right now we were in New York City for an event called Auspice for Good that
+
+happened in the United Nations headquarters in New York.
+
+And we also participated in Sustain Africa.
+
+August is coming up.
+
+We're still going to organize those online events, especially because not everyone can
+
+travel, right?
+
+And this makes it more accessible.
+
+But we're going to attend AI Dev in Hong Kong.
+
+This is an event by the Linux Foundation.
+
+We're going to give a talk there.
+
+We're also going to be in Northern Ireland, Buenos Aires.
+
+So we want to make sure that we keep AI Dev will happen in Hong Kong, in Asia.
+
+Northern Ireland, in Buenos Aires, in Latin America.
+
+We just came from an event in New York.
+
+So we really try to make this as representative as possible.
+
+We're trying to organize an in-person event in Africa as well.
+
+And I think we're finalizing that as well.
+
+So we're trying to make the events as accessible as possible by making it online, but also
+
+in-person events and representative of the whole world, right?
+
+For October, then we have the All Things Open events, an important event around open source.
+
+And by then, we hope to announce the stable version of the definition.
+
+Also there's an event, a very small meeting around data.
+
+But this is, we've been gathering mostly nonprofit organizations to be part of this meeting.
+
+It's really small and it's fully booked.
+
+So apologies if we cannot open it up more.
+
+We will try to organize other events as well and invite people to be part of that.
+
+This is the list of some events that have been happening these past months.
+
+We were also in France for OW2.
+
+And so you can see the dates here.
+
+And this in-person events, they have been important.
+
+We have been able to hear a lot of good feedback from everyone and really try to come up with
+
+a definition that it has a lot of backing from people, right?
+
+And so I would like to invite you to participate at these events, the events in person as well.
+
+Also the public forum, you can go to discuss.opensource.org and comments on the drafts or any other topic
+
+that you like to understand.
+
+It's totally free.
+
+You can join.
+
+You don't have to join as an OSI paying member.
+
+You can join as a free member as well.
+
+And you have an access to the forum.
+
+We're going to continue organizing this biweekly virtual townhouse.
+
+And here is an opportunity for you to ask questions and try to understand what's really
+
+happening, right?
+
+Invite you if you want to volunteer for the validation process.
+
+I believe right now it's the working groups are closed, but you can still email us to
+
+know if there's still an opportunity.
+
+And that's it.
+
+So right now I'm going to open up spaces for questions and answers.
+
+You can either ask questions on chats, if you have your microphone option open as well,
+
+you can ask that question live.
+
+And I'm available to answer your questions as best as I can.
+
+>> I have a quick question.
+
+Do you think there are only a few people on this call because there's not a release of
+
+the .9 to discuss or sort of is that why this call is so quiet?
+
+>> Yes.
+
+So this is our 13th townhouse.
+
+And so it has been we do this every two weeks.
+
+And I think right now there's a high expectation for version 0.0.9.
+
+We've been discussing 0.0.8 for quite some time right now.
+
+And I think most of the questions around this version have been answered.
+
+So people are really expecting a new version.
+
+And highly so.
+
+So are we.
+
+We're just waiting for a final decision from the board to release the version.
+
+I expect that we're going to have more questions around that.
+
+>> Okay.
+
+I have another question.
+
+What about the events in Hong Kong and Buenos Aires?
+
+Are there going to be more discussions, like presentations or more discussions or are they
+
+panels?
+
+Can you tell me any more about what's planned specifically for Hong Kong?
+
+>> Of course.
+
+Yeah.
+
+For AI Dev Hong Kong, we're going to have a talk from Mare Joyce, who is the facilitator
+
+of the open source AI definition.
+
+And also from Annie Lai, who is the chair of the Linux Foundation AI and Data.
+
+So they're going to give this talk.
+
+And I believe they're also going to be available for any discussions.
+
+I don't think we have a panel there.
+
+Now for Buenos Aires, for Nerdiarla, there's going to be I see that there's a yes.
+
+So we're going to have a presentation by Mare Joyce and staff.
+
+And are we going to have a panel there or a I believe we're going to have a workshop
+
+as well.
+
+This is being confirmed right now by Holo, who is organizing this.
+
+Yeah.
+
+We're going to have a workshop as well.
+
+It's very likely we're going to have a workshop there.
+
+And it's this event in Buenos Aires is pretty huge.
+
+It's 10,000 participants.
+
+And very well organized events.
+
+So I highly recommend it as well.
+
+Anyone has any other questions?
+
+Of course.
+
+Yeah.
+
+So let me share the link here.
+
+Oh, thanks, Holo.
+
+Holo has already added that.
+
+In fact, Holo is one of the organizers of the events.
+
+The leading organizer.
+
+If you'd like to reach out to him directly, Holo, maybe if you could base your email
+
+or all right.
+
+Yeah.
+
+Feel free to reach out to Holo regarding the events.
+
+All right.
+
+So if there are no other questions, this is going to be made available, the slides and
+
+the recording.
+
+I'm going to be basing this on the forum.
+
+And thank you so much.
+
+We really appreciate it.
+
+And we look forward to your feedback on the forum as well.
+
+All right?
+
+Have a great weekend.
+
+Bye bye.
+
+Bye bye.
+
+Bye bye.
+
