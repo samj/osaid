@@ -1,0 +1,20 @@
+{
+  "townHallNumber": "14",
+  "date": "August 23, 2024",
+  "overview": "The fourteenth OSI townhall focused on unveiling version 0.0.9 of the Open Source AI Definition. The meeting emphasized the necessity of including weights, code, and detailed data information for AI systems, while acknowledging the challenges of providing full access to training data due to legal, privacy, and cultural constraints. The atmosphere was collaborative, with a focus on refining the definition to be globally applicable. Ongoing debates about data inclusion persisted, highlighting the compromise between transparency and practicality. The meeting aimed to align stakeholders for the final release.",
+  "keyTakeaways": [
+    "Unveiling of OSAID version 0.0.9 with emphasis on weights, code, and data information.",
+    "Acknowledgment of challenges in providing full training data access.",
+    "Focus on creating a globally applicable definition.",
+    "Ongoing debates about data inclusion and transparency.",
+    "Compromise between transparency and practicality."
+  ],
+  "dataMentions": "The townhall emphasized the inclusion of model weights, code, and detailed information about data rather than full datasets. Legal, privacy, and cultural challenges were acknowledged as obstacles to full data inclusion, with a focus on transparency as a compromise.",
+  "quotes": [
+    "'Training data is valuable to study AI systems, but not part of the preferred form for making modifications.'",
+    "'Data can be hard to share. Laws limit resharing to protect interests.'",
+    "'Open training data provides the best way to enable users to study the system.'",
+    "'Public training data also enables users to study the work.'",
+    "'If training data had been required, how many models would have met that?'"
+  ]
+}
