@@ -1,0 +1,508 @@
+OPEN SOURCE AI DEFINITION
+Online public townhall
+May 31, 2024
+last updated: May 28, 2024 (MJ)
+
+1
+
+Community agreements
+●
+●
+
+●
+
+●
+
+●
+
+●
+
+One Mic, One Speaker -- Please allow one person to speak at a time.
+Take Space, Make Space -- If you tend to talk more, we invite you to
+make space for others to share. If you tend not to share, we invite you
+to speak up.
+Kindness -- This work is hard, but we don't have to be. Gentleness and
+curiosity help. Those who use insults or hate speech will need to leave
+the meeting.
+Forward Motion -- We advance by focusing on what is possible in the
+moment and doing it. Obstacles are marked for later discussion, not
+used to stop the process. If we hit a boulder, we note it on the map and
+keep walking. We'll come back and unearth it later on.
+Solution-Seeking -- This work is so complex that focusing on what
+won't work will stop it. Suggesting new ideas, options, and proposals is
+vulnerable, but crucial. All of us are needed to make this work.
+Anything else?
+
+2
+
+OSI’s objective for 2024
+
+Open Source AI Definition
+
+3
+
+Open Source AI Deﬁnition
+
+Where Are We Now?
+
+4
+
+Open
+Source AI
+Definition
+
+Preamble
+4 Freedoms
+
+v.0.0.8
+
+Legal Checklist
+
+-
+
+Open
+Source AI
+Definition
+
+Preamble
+4 Freedoms
+
+v.0.0.8
+
+Working on review
+processes for
+determining if an
+AI system meets
+the definition
+requirements
+
+Legal Checklist
+
+-
+
+Open Source AI Deﬁnition
+
+How Did We Get Here?
+May 2024
+
+7
+
+Validation Reviewers
+1. Arctic
+1.
+
+Jesús M.
+Gonzalez-Barahona
+Universidad Rey Juan
+Carlos
+
+2. BLOOM*
+2.
+3.
+
+Danish Contractor
+BLOOM Model Gov.
+Work Group
+Jaan Li University of
+Tartu, One Fact
+Foundation
+
+3. Falcon
+1.
+2.
+
+Casey Valk Nutanix
+Jean-Pierre Lorre
+LINAGORA,
+OpenLLM-France
+
+4. Grok
+1.
+2.
+
+Victor Lu independent
+database consultant
+Karsten Wade Open
+Community Architects
+
+We’re interested in reviewing about 10 AI systems self-described as open as part of
+this definition validation phase. Those marked (*) have were reviewed in previous
+phases.
+
+5. Llama 2*
+1.
+2.
+3.
+4.
+
+Davide Testuggine
+Meta
+Jonathan Torres
+Meta
+Stefano Zacchiroli
+Polytechnic Institute of
+Paris
+Victor Lu independent
+database consultant
+
+7. OLMo
+1.
+2.
+
+Amanda Casari
+Google
+Abdoulaye Diack
+Google
+
+8. OpenCV*
+1.
+
+Rasim Sen Oasis
+Software Technology
+Ltd.
+
+10. Pythia*
+1.
+2.
+
+Seo-Young Isabelle
+Hwang Samsung
+Stella Biderman
+EleutherAI
+
+3.
+
+Hailey Schoelkopf
+EleutherAI
+
+4.
+
+Aviya Skowron
+EleutherAI
+
+6. Mistral
+5.
+6.
+7.
+
+Mark Collier
+OpenInfra Foundation
+Jean-Pierre Lorre
+LINAGORA,
+OpenLLM-France
+Cailean Osborne
+University of Oxford,
+Linux Foundation
+
+9. Phi-2
+3.
+
+Seo-Young Isabelle
+Hwang Samsung
+
+11. T5
+5.
+
+Jaan Li University of
+Tartu, One Fact
+Foundation
+
+Open Source AI Definition
+Validation phase
+v.0.0.8
+
+Open Source AI Definition
+Validation phase
+v.0.0.8
+
+It was hard for
+volunteer reviewers
+to find required
+documents to do the
+review.
+
+Open Source AI Definition
+Validation phase
+v.0.0.8
+
+This meant a lot of
+the review analysis
+was left incomplete
+
+Open Source AI Deﬁnition
+
+What’s Next?
+
+June - October 2024
+
+● Complete validation phase (June 10)
+● Resolve comments, release v. 0.0.9 after
+validation
+● Cut the release candidate with sufficient
+endorsement
+12
+
+Complete the Validation
+Phase
+
+Thanks,
+LLM360
+team!
+
+1. Reach out to AI system creators to
+ﬁll in the blanks on their own systems
+by pointing us to correct documentation
+2. Invite volunteers to also help us ﬁll in these
+blanks (forum post forthcoming)
+3. We’re also currently engaging in email and
+phone debriefs with reviewers to better
+understand the blockers they faced.
+13
+
+Seek Public Feedback on Initial Results
+
+Please
+comment on the
+initial report of
+our validation
+process.
+
+14
+
+Simplify the Validation Process
+We’re exploring
+replacing the
+spreadsheet with
+an Evaluation
+Card like this
+prototype.
+
+15
+
+System testing work stream
+
+2024 Timeline
+
+Stakeholder consultation work stream
+Release schedule
+
+February
+
+March
+
+April
+
+May
+
+June …
+
+Call For Volunteers
++ Activity
+Feedback and
+Revision
+
+Virtual System
+Review
+Meetings
+Begin
+
+Virtual System
+Review
+Meetings
+Continue
+
+Virtual System
+Review
+Meetings
+END
+
+Feedback
+Informs Content
+of OSI In-Person
+Stakeholder
+Meeting
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Townhalls +
+
+Townhall +
+
+Draft 0.0.5
+
+Draft 0.0.6
+
+Draft 0.0.7 and 8
+
+PyCon
+Workshop
+May 17th,
+Pittsburgh)
+
+(≈
+
+Draft 0.0.9
+
+… October
+Monthly Virtual
+Meetings
+
+Release stable
+version
+
+Virtual Launch
+Event (date
+TBD)
+
+RC1
+
+Stable
+Version
+
+In-Person Meetings
+Region
+
+Country
+
+City
+
+Conference
+
+Date
+
+North America
+
+United States
+
+Pittsburgh
+
+✓ PyCon US
+
+May 17
+
+Europe
+
+France
+
+Paris
+
+OW2
+
+June 11-12
+
+Africa
+
+Virtual
+
+Virtual
+
+Sustain Africa
+
+June
+
+North America
+
+United States
+
+New York
+
+OSPOs for Good
+
+July 9 - 11
+
+Asia Paciﬁc
+
+China
+
+Hong Kong
+
+AI_dev
+
+August 23
+
+Latin America
+
+Argentina
+
+Buenos Aires
+
+Nerdearla
+
+September
+
+Europe
+
+France
+
+Paris
+
+(data governance)
+
+October
+
+North America
+
+United States
+
+Raleigh
+
+All Things Open
+
+Oct 27 - 29
+
+17
+
+The renewed discussion on data
+1. The AWS Open Source team posted a
+range of concerns with v 0.0.8, foremost on
+data.
+2. Linux Foundation team recommended
+adding Data card to the required
+components. Also they argued that Data
+preprocessing code is unlikely to be shared
+if the dataset is not shared, too.
+18
+
+Other relevant posts
+1. The LLM360 team voluntarily ran their system
+through the v.0.0.8 review process.
+2. Stefano posted on whether and how OSI should
+certify Open Source AI.
+
+19
+
+Participation Options
+● Public forum: discuss.opensource.org
+● Become an OSI member
+○ Free or or full
+○ SSO with other OSI websites
+● Biweekly virtual townhalls… like this one!
+● Volunteer for to fill in the blanks on definition
+validation (email or DM Mer or Stefano)
+20
+
+Q&A
+
+21
+
+Thank you
+We realize this is difficult work and we appreciate
+your help and openness in improving the
+deﬁnitional process.
+
+22
+
+

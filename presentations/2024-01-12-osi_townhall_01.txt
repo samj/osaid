@@ -1,0 +1,751 @@
+OPEN SOURCE AI DEFINITION
+Online public townhall
+Jan 12, 2024
+
+Community agreements
+●
+●
+
+●
+
+●
+
+●
+
+●
+
+One Mic, One Speaker -- Please allow one person to speak at a time.
+Take Space, Make Space -- If you tend to talk more, we invite you to
+make space for others to share. If you tend not to share, we invite you
+to speak up.
+Kindness -- This work is hard, but we don't have to be. Gentleness and
+curiosity help. Those who use insults or hate speech will need to leave
+the meeting.
+Forward Motion -- We advance by focusing on what is possible in the
+moment and doing it. Obstacles are marked for later discussion, not
+used to stop the process. If we hit a boulder, we note it on the map and
+keep walking. We'll come back and unearth it later on.
+Solution-Seeking -- This work is so complex that focusing on what
+won't work will stop it. Suggesting new ideas, options, and proposals is
+vulnerable, but crucial. All of us are needed to make this work.
+Anything else?
+
+The objective for 2024
+
+Open Source AI Deﬁnition
+version 1.0
+
+Deﬁnition of AI system
+
+Preamble
+Out of scope issues
+4 freedoms
+License checklist
+
+How Open Source came to be
+1: Legal framework
+
+2: Principles
+
+3: Licenses
+
+Copyright applied to
+software, ﬁrst.
+
+The GNU Manifesto
+lays the ground to
+oppose privatization.
+
+Copyleft is a hack on
+copyright.
+
+This new artifact
+became privatized
+work.
+Researchers
+complained.
+
+A community forms
+around these
+principles.
+
+Incorporating the
+principles, serving as
+the Constitution of a
+forming community.
+
+5
+
+Golden Rule applied to AI
+If I like an AI system I must be free to share it with other people.
+
+What we’ve learned so far
+● We need to deﬁne Open Source AI, in general, not just
+machine learning
+● OECD’s deﬁnition of AI is well accepted (caveat: decisions)
+“An AI system is a machine-based system that, for explicit or
+implicit objectives, infers, from the input it receives, how to
+generate outputs such as predictions, content,
+recommendations, or decisions that can inﬂuence physical or
+virtual environments. Different AI systems vary in their levels of
+autonomy and adaptiveness after deployment.” (2023)
+
+Matching expectations
+
+AI deserves to enjoy the
+beneﬁts of Open Source
+● autonomy
+● transparency
+● collaborative
+improvement
+● ensuring the agency of
+the user
+
+Policy makers, academia and
+industry are focusing on
+● transparency
+● trustworthiness
+● reliability
+● transparency
+● explainability
+● fairness
+● safety etc
+
+What basic freedoms do we need?
+What is the preferred form to make modiﬁcations to an AI system?
+
+What is Open Source AI
+To be Open Source, an AI system needs to be available under
+legal terms that grant the freedoms to:
+● Use the system for any purpose and without having to ask
+for permission.
+● Study how the system works and inspect its components.
+● Modify the system to change its recommendations,
+predictions or decisions to adapt to your needs.
+● Share the system with or without modiﬁcations, for any
+purpose.
+
+What is the preferred form to make
+modiﬁcations to an AI system?
+
+Getting the speciﬁcations
+AI systems
+
+List of
+components
+
+Legal
+frameworks
+
+Legal
+documents
+
+Checklist
+
+What elements are
+necessary to:
+- use
+- study
+- modify
+- share
+an AI system?
+
+What elements are
+necessary to:
+- use
+- study
+- modify
+- share
+an AI system?
+
+For each artifact,
+evaluate which
+laws apply. Some
+will be under
+“Intellectual
+Property” regimes,
+some will be under
+other regimes.
+
+We’ll match the
+components and
+the identiﬁed legal
+frameworks with
+the terms of the
+legal documents
+already in use,
+where available.
+
+After repeating
+this exercise
+enough times,
+we’ll be able to
+generalize the
+outcomes and
+write the specs to
+evaluate the
+freedoms granted.
+
+Small working groups to analyze systems
+For each in:
+- Pythia
+- Llama2
+- BLOOM
+- Mistral
+- Phi2
+- …
+
+● What do you need to give an input and
+get an output? (use)
+● What do you need to give an input and
+get a different output? (modify)
+● What do you need to understand why
+given an input, you get that output?
+(study)
+● What do you need to let others give an
+input and get an output? (share)
+What’s the preferred form to make
+modiﬁcations to an AI system?
+
+Example: Pythia – INCOMPLETE! DON’T QUOTE!
+Freedom to use:
+- What do you need to
+give an input and get an
+output from Pythia?
+
+❓
+
+Example: Pythia – INCOMPLETE! DON’T QUOTE!
+Freedom to study:
+- What do you need to
+understand why Pythia,
+given an input, gives one
+output?
+
+❓
+
+Example: Pythia – INCOMPLETE! DON’T QUOTE!
+Freedom to modify:
+- What do you need to
+give an input and get a
+different output from
+Pythia?
+
+❓
+
+Example: Pythia – INCOMPLETE! DON’T QUOTE!
+Freedom to share:
+- What do you need to let
+others give an input and
+get an output from
+Pythia or a version you
+modiﬁed?
+
+❓
+
+Then the rest
+-
+
+get the legal framework for each component
+get the legal documents
+analyze the documents
+write up a summary
+
+Repeat for at least 4-5 AI systems, ideally not just LLMs
+and “Generative AI”
+
+2024 timeline
+
+System testing work stream
+Stakeholder consultation work stream
+Release schedule
+
+February
+
+March
+
+April
+
+May
+
+June …
+
+Call For Volunteers
++ Activity
+Feedback and
+Revision
+
+Virtual System
+Review
+Meetings
+Begin
+
+Virtual System
+Review
+Meetings
+Continue
+
+Virtual System
+Review
+Meetings
+END
+
+Feedback
+Informs Content
+of OSI In-Person
+Stakeholder
+Meeting
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Draft 0.0.5
+
+Draft 0.0.6
+
+Draft 0.0.7
+
+Draft 0.0.8
+
+Townhall +
+
+… October
+Monthly Virtual
+Meetings
+
+Release
+version 1.0
+
+OSI In-Person
+Stakeholder
+Meeting (date
++ place TBD)
+
+RC1
+
+v. 1.0
+
+Criteria for RC1 and v. 1.0
+RC1
+
+version 1
+
+- Expected outcome of
+in-person meeting end
+May/early June!
+- The draft is completed
+in all its parts
+- The draft is supported
+by at least 2
+representatives for
+each of the 6
+stakeholder groups
+
+- Expected outcome of
+in-person and online
+meetings through the
+summer/early autumn
+- The draft is endorsed by at
+least 5 reps for each of the
+stakeholder groups
+- Announced in late October
+
+Help us ﬁnd stakeholders
+System Creator
+
+License Creator
+
+Regulator
+
+Licensee
+
+End User
+
+Subject
+
+Makes AI system
+and/or
+component that
+will be studied,
+used, modified,
+or shared
+through an open
+source license
+(e.g., ML
+researcher in
+academia or
+industry)
+
+Writes or edits
+the open source
+license to be
+applied to the AI
+system or
+component;
+includes
+compliance
+(e.g., IP lawyer)
+
+Writes or edits
+rules governing
+licenses and
+systems (e.g.
+government
+policy-maker)
+
+Seeks to study,
+use modify, or
+share an open
+source AI
+system (e.g. AI
+engineer, health
+researcher,
+education
+researcher)
+
+Consumes a
+system output,
+but does not
+seek to study,
+use, modify, or
+share the
+system (e.g.,
+student using a
+chatbot to write
+a report, artist
+creating an
+image)
+
+Affected
+upstream or
+downstream by
+a system output
+without
+interacting with it
+intentionally;
+includes
+advocates for
+this group (e.g.
+people with loan
+denied, or
+content creators)
+
+✅
+
+✅
+
+⚠
+
+✅
+
+⚠
+
+⚠
+
+Enough to start
+
+Enough to start
+
+Leads to US, EU,
+Singapore, no
+commitment yet
+
+Enough to start
+
+Which org is squarely in
+this space?
+
+ACLU, Algorithmic
+Justice League
+
+It doesn’t end with v. 1.0
+We’ll need to deﬁne rules for maintenance and review of the
+Deﬁnition
+
+OSI’s immediate next steps
+- more publicity to the process
+- public discussion forum
+- bi-weekly townhalls
+- more opportunities to volunteer
+- update project landing page
+- reach out to more stakeholders
+- raise funds for 2024 meetings
+- setup the board for review and approval of v. 1.0
+
+Draft v. 0.0.4 of the Open Source AI Deﬁnition
+Open to public comments
+
+https://opensource.org/deepdive/drafts
+
+24
+
+❓
+Become a member of OSI
+https://members.opensource.org/join
+Support more workshops in 2024
+@ed@opensource.org
+stefano@opensource.org
+25
+
+The Open Source Deﬁnition
+
+Three building blocks of AI
+
+Hardware
+
+Knowledge
+
+Data
+
+Money
+
+Money
+
+Money
+
+Time
+
+Time
+Gazillions of laws
+
+A typical $FOO is made of
+Software for
+training and
+testing, inference
+and analysis
+
+Model architecture
+and its weights and
+training
+parameters
+
+Raw data and
+prepared datasets,
+for training and
+testing
+
+All that is written by
+a human and
+copyrightable must
+be Open Source.
+
+No restrictions on:
+
+It’s not the preferred
+form for making
+modiﬁcations to
+model/weights.
+
+●
+
+Who can use them
+
+●
+
+How they’re used
+
+●
+
+Retraining
+
+●
+
+Redistribution
+
+Does that mean the
+Deﬁnition can ignore
+the original data?
+28
+
+A typical $FOO is made of
+Software for
+training and
+testing, inference
+and analysis
+
+Model architecture
+and its weights and
+training
+parameters
+
+Raw data and
+prepared datasets,
+for training and
+testing
+
+All that is written by
+a human and
+copyrightable must
+be Open Source.
+
+No restrictions on:
+
+It’s not the preferred
+form for making
+modiﬁcations to
+model/weights.
+
+●
+
+Who can use them
+
+●
+
+How they’re used
+
+●
+
+Retraining
+
+●
+
+●
+
+Redistribution
+Unless
+it kills you
+
+?
+
+Does that mean the
+Deﬁnition can ignore
+the original data?
+29
+
+“Thou shall not use
+[my code | my art]
+in your dataset.”
+Golden Rule violated!
+If I like an AI system I must share it with other people who like it
+
+EFF: How We Think About Copyright and AI Art
+https://www.eff.org/deeplinks/2023/04/how-we-think-about-c
+opyright-and-ai-art-0
+
+Accumulating data is already highly regulated
+
+Privacy
+Anti-discrimination
+Accessibility
+Disability protection
+National security
+Human rights
+FTC Lina Kahn on regulating AI
+https://www.nytimes.com/2023/05/03/opinion/ai-lina-khan-ftc-technology.html
+
+Fun with names
+
+AI, Artiﬁcial Intelligence
+● It’s a science with 70 years of history
+● Ignore the hype
+● It has no “intelligence”
+Machine Learning, drop AI?
+Open Source AI? No!
+What then?
+32
+
+What are Open Source AI Components
+For the purposes of today’s work, we are deﬁning the
+components* of an AI system broadly as:
+● Code Instruction for a computer to complete a task.
+● Model Abstracted representation of what an AI system
+has learned from the training data.
+● Data Information converted into a form efficient for
+processing and transfer.
+
+*sources: Digital Public Goods Alliance, Bunch, Appen, ComputerScience.org
+
+What Makes an AI System Open Source
+
+How should the freedoms apply to each component for the AI system to be licensed as
+open? Study
+Use
+Modify
+Share
+Code
+For someone to study how the AI
+system's code works and inspect it
+requires that the license for that
+system....
+
+For someone to use the AI system's
+code for any purpose and without
+having to ask for permission
+requires that the license for that
+system....
+
+For someone to modify the code to
+change its recommendations,
+predictions or decisions to adapt to
+their needs requires that the license
+for the AI system...
+
+For someone to share the code with
+or without modiﬁcations, for any
+purpose requires that the license for
+the AI system...
+
+Model
+For someone to study how the AI
+system's model works and inspect it
+requires that the license for that
+system....
+
+For someone to use the AI system's
+model for any purpose and without
+having to ask for permission
+requires that the license for that
+system....
+
+For someone to modify the model
+to change its recommendations,
+predictions or decisions to adapt to
+their needs requires that the license
+for the AI system....
+
+For someone to share the model
+with or without modiﬁcations, for
+any purpose requires that the
+license for the AI system....
+
+Data
+For someone to study how the AI
+system's data works and inspect it
+requires that the license for that
+system....
+
+For someone to use the AI system's
+data for any purpose and without
+having to ask for permission
+requires that the license for that
+system...
+
+For someone to modify the data to
+change its recommendations,
+predictions or decisions to adapt to
+their needs requires that the license
+for the AI system....
+
+For someone to share the data with
+or without modiﬁcations, for any
+purpose requires that the license for
+the AI system....
+
+

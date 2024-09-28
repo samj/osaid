@@ -1,0 +1,851 @@
+OPEN SOURCE AI DEFINITION
+Online public townhall
+April 5, 2024
+last updated: March 21, 2024 (SM)
+
+1
+
+Community agreements
+●
+●
+
+●
+
+●
+
+●
+
+●
+
+One Mic, One Speaker -- Please allow one person to speak at a time.
+Take Space, Make Space -- If you tend to talk more, we invite you to
+make space for others to share. If you tend not to share, we invite you
+to speak up.
+Kindness -- This work is hard, but we don't have to be. Gentleness and
+curiosity help. Those who use insults or hate speech will need to leave
+the meeting.
+Forward Motion -- We advance by focusing on what is possible in the
+moment and doing it. Obstacles are marked for later discussion, not
+used to stop the process. If we hit a boulder, we note it on the map and
+keep walking. We'll come back and unearth it later on.
+Solution-Seeking -- This work is so complex that focusing on what
+won't work will stop it. Suggesting new ideas, options, and proposals is
+vulnerable, but crucial. All of us are needed to make this work.
+Anything else?
+
+2
+
+The objective for 2024
+
+Open Source AI Deﬁnition
+version 1.0
+
+3
+
+hackmd.io/@opensourceinitiative/osaid-0-0-5
+
+Deﬁnition of AI system
+
+Preamble
+Out of scope issues
+4 freedoms
+Legal checklist
+
+4
+
+Deﬁnition of AI system
+
+Preamble
+
+Done … ish?
+
+Out of scope issues
+4 freedoms
+Legal terms checklist
+
+Revising draft
+
+Open Source AI Deﬁnition v. 0.0.6
+An Open Source AI is an AI system made available to the public under terms that grant the freedoms to:
+●
+●
+●
+●
+
+Use the system for any purpose and without having to ask for permission.
+Study how the system works and inspect its components.
+Modify the system for any purpose, including to change its output.
+Share the system for others to use with or without modiﬁcations, for any purpose.
+
+Precondition to exercise these freedoms is to have access to the preferred form to make modiﬁcations to
+the system. For machine learning systems that means having public access to:
+●
+
+●
+transparency
+requirements
+only
+
+●
+
+Data: Sufficiently detailed information on how the system was trained, including the training
+methodologies and techniques, the training data sets used, information about the provenance of
+those data sets, their scope and characteristics; how the data was obtained and selected, the
+labeling procedures and data cleaning methodologies.
+Code: The code used for pre-processing data, the code used for training, validation and testing, the
+supporting libraries like tokenizers and hyperparameters search code (if used), the inference code,
+and the model architecture.
+Model: The model parameters, including weights. Where applicable, these should include
+checkpoints from key intermediate stages of training as well as the ﬁnal optimizer state.
+6
+
+System Review Workgroups
+
+● Creating content for deﬁnition v. 0.0.7
+● Release by next Friday, April 12th
+
+7
+
+Workgroups
+Selected for diversity of approaches to AI openness:
+1.
+
+Pythia: open science project, with a permissive license
+
+2.
+
+BLOOM: open science project, with lots of details released but
+shared with a restrictive license
+
+3.
+
+Llama 2: commercial project, accompanied by limited amount of
+science and with a restrictive license
+
+4.
+
+OpenCV: open source project, with ML components outside of the
+generative AI space
+
+8
+
+Members
+Llama 2
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+
+Bastien Guerry
+DINUM, French
+public administration
+Ezequiel Lanza
+Intel
+Roman Shaposhnik
+Apache Software
+Foundation
+Davide Testuggine
+Meta
+Jonathan Torres
+Meta
+Stefano Zacchiroli
+Polytechnic Institute
+of Paris
+Mo Zhou Debian,
+Johns Hopkins
+University
+Victor Lu
+independent
+database consultant
+
+Pythia
+OpenCV
+BLOOM
+1.
+Rahmat Akintola
+1.
+George C. G. Barbosa
+1.
+Seo-Young Isabelle
+Cubeseed Africa
+Fundação Oswaldo Cruz
+Hwang Samsung
+2.
+Ignatius Ezeani
+2.
+Daniel Brumund GIZ
+2.
+Cailean
+Osborne
+Lancaster University
+FAIR Forward - AI for all
+University
+of
+Oxford,
+3.
+Kevin Harerimana
+3.
+Danish Contractor
+CMU Africa
+Linux Foundation
+BLOOM Model Gov. WG
+4.
+Satya Mallick
+4.
+Abdoulaye Diack
+3.
+Stella Biderman
+OpenCV
+Google
+EleutherAI
+5.
+David Manset
+5.
+Jaan Li University of
+4.
+Justin Colannino
+ITU
+Tartu, Phare Health
+Microsoft
+6.
+Phil Nelson
+6.
+Jean-Pierre Lorre
+5.
+Hailey
+Schoelkopf
+OpenCV
+LINAGORA,
+7.
+Tlamelo Makati
+EleutherAI
+OpenLLM-France
+WiMLDS Gaborone,
+7.
+Ofentse Phuti WiMLDS
+6.
+Aviya Skowron
+Technological
+Gaborone
+EleutherAI
+University Dublin
+8.
+Caleb Fianku Quao
+8.
+Minyechil Alehegn
+To achieve better global
+Kwame Nkrumah
+Tefera Mizan Tepi
+University of Science and representation, we conducted
+University
+Technology, Kumasi
+outreach to Black, Indigenous,
+9.
+Akosua Twumasi
+and other People of Color,
+Ghana Health
+particularly women and
+Service
+9
+individuals from the Global South.
+
+Phase 1: Deciding Required Components
+Component Voting
+
+January 15
+
+Vote
+Compilation
+Recommendation
+Report
+example: Llama 2
+
+Process: From mid-January through February,
+system workgroups voted on which components
+should be required for a system to be deﬁned as
+open. These votes were then publicly tabulated and a recommendations
+report was publicly shared on the forum. The recommendations became
+version 0.0.6 of the deﬁnition.
+
+March 10
+
+Deﬁnition
+v. 0.0.6
+
+10
+
+Phase 2: Finetuning the Component Checklist
+Deﬁnition v. 0.0.6
+Checklist for Doc Review
+
+Deﬁnition to Checklist: A
+week after the v.0.0.6 release
+in mid-March, we went back
+the the workgroup members
+to ask them to help us
+ﬁnetune the requirements
+checklist implied by version
+0.0.6 (left).
+This v 0.0.6 checklist includes
+the components categorized
+as required or likely required
+by voting in Phase 1, plus a list
+of data transparency
+requirements already in force
+under the EU’s AI Act.
+
+Requirements: Open Source AI Deﬁnition 0.0.6
+
+11
+
+Document Review Spreadsheet
+
+example; BLOOM review spreadsheet
+To be added in version 0.0.7
+
+12
+
+Document Reviewers
+Llama 2
+
+BLOOM
+
+Pythia
+
+OpenCV
+
+Affiliated
+
+Affiliated
+
+Affiliated
+
+Affiliated
+
+1.
+2.
+
+Davide Testuggine
+Meta
+Jonathan Torres
+Meta
+
+Unaffiliated
+3.
+
+4.
+
+Stefano Zacchiroli
+Polytechnic Institute
+of Paris
+Victor Lu independent
+database consultant
+
+1.
+
+Danish Contractor
+BLOOM Model
+Governance
+Workgroup
+
+Unaffiliated
+2.
+
+Jaan Li University of
+Tartu, Phare Health
+
+1.
+2.
+3.
+
+Stella Biderman
+EleutherAI
+Aviya Skowron
+EleutherAI
+Hailey Schoelkopf
+EleutherAI
+
+1.
+
+none
+
+Unaffiliated
+
+2.
+
+none
+
+Unaffiliated
+4.
+
+Seo-Young
+Isabelle Hwang
+Samsung
+Volunteers
+needed!
+Email or DM
+Mer
+
+13
+
+Representation: Relation to Open Source AI
+Stakeholder
+
+Description
+
+Example
+
+1. System
+Creator
+
+Makes AI system and/or component that will be
+studied, used, modiﬁed, or shared through an
+open source license
+
+ML researcher in academia or industry
+
+2. License
+Creator
+
+Writes or edits the open source license to be
+applied to the AI system or component,
+includes compliance
+
+IP lawyer
+
+3. Regulator
+
+Writes or edits rules governing licenses and
+systems
+
+government policy-maker
+
+4. Licensee
+
+Seeks to study, use modify, or share an open
+source AI system
+
+AI engineer in industry, health researcher in
+academia
+
+5. End User
+
+Consumes a system output, but does not seek
+to study, use, modify, or share the system
+
+student using a chatbot to write a report, artist
+creating an image
+
+6. Subject
+
+Affected upstream or downstream by a system
+output without interacting with it intentionally +
+advocates for this group.
+
+photographer who ﬁnds their image in training
+dataset (upstream), mortgage applicant
+evaluated by a bank’s AI system (downstream)
+
+14
+
+Representation: Global Inclusion and Equity
+
+15
+
+Next Steps
+
+16
+
+2024 timeline
+
+System testing work stream
+Stakeholder consultation work stream
+OSAID v. 0.0.7
+by next Friday,
+April 12th
+
+Release schedule
+
+February
+
+March
+
+April
+
+May
+
+June …
+
+Call For Volunteers
++ Activity
+Feedback and
+Revision
+
+Virtual System
+Review
+Meetings
+Begin
+
+Virtual System
+Review
+Meetings
+Continue
+
+Virtual System
+Review
+Meetings
+END
+
+Feedback
+Informs Content
+of OSI In-Person
+Stakeholder
+Meeting
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Townhalls +
+
+Townhall +
+
+Draft 0.0.5
+
+Draft 0.0.6
+
+Draft 0.0.7
+
+PyCon
+Workshop
+May 17th,
+Pittsburgh)
+
+(≈
+
+Draft 0.0.8
+
+… October
+Monthly Virtual
+Meetings
+
+Release
+version 1.0
+
+OSI In-Person
+Stakeholder
+Meeting (date
++ place TBD)
+
+RC1
+
+v. 1.0
+
+Deep Dive AI in-person meetings
+Region
+
+Country
+
+City
+
+Conference
+
+Date
+
+North America
+
+United States
+
+Pittsburgh
+
+PyCon US
+
+May 17*
+
+Europe
+
+?
+
+Africa
+
+Nigeria
+
+Abuja
+
+OSCA
+
+June 6 - 8
+
+Latin America
+
+Mexico
+
+Mexico D.F.
+
+Latam OSS
+
+July 19 - 20
+
+Asia Paciﬁc
+
+Hong Kong
+
+Hong Kong
+
+AI_dev
+
+August 23
+
+North America
+
+United States
+
+Raleigh
+
+All Things Open
+
+Oct 27 - 29
+
+*conﬁrmed
+
+May ?
+
+Join the conversation
+● discuss.opensource.org
+● Public forum
+● Join as OSI member
+○ Free or full
+○ SSO with other OSI
+websites
+
+19
+
+Q&A
+
+20
+
+Thank you
+We realize this is difficult work and we appreciate
+your help and openness in improving the
+deﬁnitional process.
+
+21
+
+Criteria for RC1 and v. 1.0
+RC1
+
+version 1
+
+- Expected outcome of
+in-person meeting end
+May/early June!
+- The draft is completed
+in all its parts
+- The draft is supported
+by at least 2
+representatives for
+each of the 6
+stakeholder groups
+
+- Expected outcome of
+in-person and online
+meetings through the
+summer/early autumn
+- The draft is endorsed by at
+least 5 reps for each of the
+stakeholder groups
+- Announced in late October
+
+22
+
+Help us ﬁnd stakeholders
+System Creator
+
+License Creator
+
+Regulator
+
+Licensee
+
+End User
+
+Subject
+
+Makes AI system
+and/or
+component that
+will be studied,
+used, modified,
+or shared
+through an open
+source license
+(e.g., ML
+researcher in
+academia or
+industry)
+
+Writes or edits
+the open source
+license to be
+applied to the AI
+system or
+component;
+includes
+compliance
+(e.g., IP lawyer)
+
+Writes or edits
+rules governing
+licenses and
+systems (e.g.
+government
+policy-maker)
+
+Seeks to study,
+use modify, or
+share an open
+source AI
+system (e.g. AI
+engineer, health
+researcher,
+education
+researcher)
+
+Consumes a
+system output,
+but does not
+seek to study,
+use, modify, or
+share the
+system (e.g.,
+student using a
+chatbot to write
+a report, artist
+creating an
+image)
+
+Affected
+upstream or
+downstream by
+a system output
+without
+interacting with it
+intentionally;
+includes
+advocates for
+this group (e.g.
+people with loan
+denied, or
+content creators)
+
+✅
+
+✅
+
+⚠
+
+✅
+
+⚠
+
+⚠
+
+Enough to start
+
+Enough to start
+
+Leads to US, EU,
+Singapore, no
+commitment yet
+
+Enough to start
+
+Which org is squarely in
+this space?
+
+ACLU, Algorithmic
+Justice League
+
+23
+
+Finetuning with Document Review
+AI systems
+
+Active
+workgroups:
+- Llama2
+- Pythia
+- BLOOM
+Recruiting
+reviewers
+- OpenCV
+
+List of
+components
+
+Legal
+frameworks
+
+Legal
+documents
+
+What elements are
+necessary to:
+- use
+- study
+- modify
+- share
+an AI system?
+
+For each
+component,
+evaluate which
+laws apply. Some
+will be under
+“Intellectual
+Property” regimes,
+some will be
+under other
+regimes.
+
+Next, match the
+components and
+legal frameworks with the
+terms of the
+legal documents,
+if they exist.
+
+These are listed in
+deﬁnition v. 0.0.6.
+
+Finetuned
+
+Checklist
+After repeating
+this exercise
+through multiple
+systems, we’ll be
+able to generalize
+the outcomes and
+write the specs to
+evaluate the
+freedoms granted.
+These will appear
+in deﬁnition 0.0.7.
+
+

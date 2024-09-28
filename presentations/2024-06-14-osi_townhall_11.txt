@@ -1,0 +1,592 @@
+OPEN SOURCE AI DEFINITION
+Online public townhall
+June 14, 2024
+last updated: June 11, 2024 (MJ)
+
+1
+
+Community agreements
+●
+●
+
+●
+
+●
+
+●
+
+●
+
+One Mic, One Speaker -- Please allow one person to speak at a time.
+Take Space, Make Space -- If you tend to talk more, we invite you to
+make space for others to share. If you tend not to share, we invite you
+to speak up.
+Kindness -- This work is hard, but we don't have to be. Gentleness and
+curiosity help. Those who use insults or hate speech will need to leave
+the meeting.
+Forward Motion -- We advance by focusing on what is possible in the
+moment and doing it. Obstacles are marked for later discussion, not
+used to stop the process. If we hit a boulder, we note it on the map and
+keep walking. We'll come back and unearth it later on.
+Solution-Seeking -- This work is so complex that focusing on what
+won't work will stop it. Suggesting new ideas, options, and proposals is
+vulnerable, but crucial. All of us are needed to make this work.
+Anything else?
+
+2
+
+OSI’s objective for 2024
+
+Open Source AI Definition
+
+3
+
+Open Source AI Deﬁnition
+
+Current Version
+OSAID v.0.0.8
+
+4
+
+Open
+Source AI
+Definition
+
+Preamble
+4 Freedoms
+
+v.0.0.8
+
+Legal Checklist
+
+-
+
+Open Source AI Deﬁnition
+
+Key Feedback
+OSAID v.0.0.8
+
+6
+
+Open
+Source AI
+Definition
+Data
+Information
+v.0.0.8
+
+Requiring only data
+information…
+
+…instead of training
+datasets is the
+greatest point of
+debate now.
+
+Open
+Source AI
+Definition
+Other
+Components
+v.0.0.8
+
+Others have
+proposed…
+… removing data
+pre-processing
+code requirement if
+training data is not
+required.
+
+…requiring a model
+card
+… and data card to
+standardize system
+documentation.
+
+Open Source
+AI Definition
+Describing Legal
+Requirements
+v.0.0.8
+
+In contrast to the clear
+“OSI-approved”
+licenses available for
+code components…
+… the “OSD
+compliant”
+requirement for data
+information...
+…and “OSD
+conformant”
+requirement for
+model parameters
+have been
+challenging for
+reviewers to
+interpret.
+
+Preferred form to make modiﬁcations
+Data information
+
+Code
+
+Model
+
+Sufficiently detailed
+information about
+the data used to
+train the system, so
+that a skilled person
+can recreate a
+substantially
+equivalent system
+using the same or
+similar data.
+
+The source code
+used to train and run
+the system.
+
+The model
+parameters
+(weights and biases)
+
+Data Information Explained
+◦ The intention of Data information is to allow
+developers to recreate a substantially
+equivalent system using the same or similar
+data.
+◦ Came out of the systems review process, with
+votes by volunteers.
+
+11
+
+Zooming in on the issues with datasets
+◦ The Pile taken down after an alleged copyright
+infringement in the US. But legal in Japan. Maybe
+legal in EU
+◦ DOLMA, initially had a restrictive license. Later
+switched to a permissive one. Suffers from the
+same legal uncertainties of the Pile, however the
+Allen Institute has not been sued, yet.
+◦ Training techniques that preserve privacy like
+federated learning don’t create datasets.
+12
+
+Alternative proposals
+● Use synthetic data: Experimental,
+unproven technology, limited to
+corner cases
+● All their components must be “open
+source”: This integralism ignores that
+even the GNU project accepts system
+library exceptions and other
+compromises.
+
+13
+
+Open Source AI Deﬁnition
+
+System Validation
+OSAID v.0.0.8
+
+14
+
+Validation Reviewers
+1. Arctic
+1.
+
+Jesús M.
+Gonzalez-Barahona
+Universidad Rey Juan
+Carlos
+
+2. BLOOM*
+2.
+3.
+
+Danish Contractor
+BLOOM Model Gov.
+Work Group
+Jaan Li University of
+Tartu, One Fact
+Foundation
+
+3. Falcon
+1.
+2.
+
+Casey Valk Nutanix
+Jean-Pierre Lorre
+LINAGORA,
+OpenLLM-France
+
+4. Grok
+1.
+2.
+
+Victor Lu independent
+database consultant
+Karsten Wade Open
+Community Architects
+
+We’re interested in reviewing about 10 AI systems self-described as open as part of
+this definition validation phase. Those marked (*) have were reviewed in previous
+phases.
+
+5. Llama 2*
+1.
+2.
+3.
+4.
+
+Davide Testuggine
+Meta
+Jonathan Torres
+Meta
+Stefano Zacchiroli
+Polytechnic Institute of
+Paris
+Victor Lu independent
+database consultant
+
+9. LLM360
+5.
+
+[Team member TBD]
+LLM360
+
+8. Mistral
+1.
+2.
+3.
+
+Mark Collier
+OpenInfra Foundation
+Jean-Pierre Lorre
+LINAGORA,
+OpenLLM-France
+Cailean Osborne
+University of Oxford,
+Linux Foundation
+
+7. OLMo
+4.
+5.
+
+Amanda Casari
+Google
+Abdoulaye Diack
+Google
+
+10. Pythia*
+1.
+2.
+3.
+
+Hailey Schoelkopf
+EleutherAI
+
+4.
+
+Aviya Skowron
+EleutherAI
+
+11. T5
+5.
+
+8. OpenCV*
+We will need an
+independent reviewer
+for LLM360
+
+1.
+
+Rasim Sen Oasis
+Software Technology
+Ltd.
+
+9. Phi-2
+6.
+
+Seo-Young Isabelle
+Hwang Samsung
+
+Seo-Young Isabelle
+Hwang Samsung
+Stella Biderman
+EleutherAI
+
+Jaan Li University of
+Tartu, One Fact
+Foundation
+
+Viking
+6.
+
+Merlijn Sebrechts
+Ghent University
+
+Validation Challenges
+
+It is hard for volunteer reviewers
+to find required documents
+independently..
+
+Validation Challenges
+
+This meant a lot of the review
+analysis has been incomplete.
+
+Validation Solutions
+
+Having the help of
+system creators to locate
+documents has been
+crucial.
+
+Thank you,
+Arctic!
+
+Validation Expectations
+
+Given current system information, our expected
+review results are as follows. If we are missing
+information, please let us know.
+
+Open Source AI Deﬁnition
+
+What’s Next?
+
+June - October 2024
+
+● Complete validation phase
+● Resolve comments, release v. 0.0.9 after
+validation
+● Cut the release candidate with sufficient
+endorsement
+20
+
+Complete the Validation
+Phase
+
+Thanks,
+LLM360!
+
+1. Reach out to AI system creators to
+ﬁll in the blanks on their own systems
+by pointing us to correct
+documentation
+2. Invite volunteers to also help us ﬁll in
+these blanks
+
+21
+
+System testing work stream
+
+2024 Timeline
+
+Stakeholder consultation work stream
+Release schedule
+
+February
+
+March
+
+April
+
+May
+
+June …
+
+Call For Volunteers
++ Activity
+Feedback and
+Revision
+
+Virtual System
+Review
+Meetings
+Begin
+
+Virtual System
+Review
+Meetings
+Continue
+
+Virtual System
+Review
+Meetings
+END
+
+Feedback
+Informs Content
+of OSI In-Person
+Stakeholder
+Meeting
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Townhalls +
+
+Townhall +
+
+Draft 0.0.5
+
+Draft 0.0.6
+
+Draft 0.0.7 and 8
+
+PyCon
+Workshop
+May 17th,
+Pittsburgh)
+
+(≈
+
+Draft 0.0.9
+
+… October
+Monthly Virtual
+Meetings
+
+Release stable
+version
+
+Virtual Launch
+Event (date
+TBD)
+
+RC1
+
+Stable
+Version
+
+In-Person Meetings
+Region
+
+Country
+
+City
+
+Conference
+
+Date
+
+North America
+
+United States
+
+Pittsburgh
+
+✓ PyCon US
+
+May 17
+
+Europe
+
+France
+
+Paris
+
+✓ OW2
+
+June 11 - 12
+
+North America
+
+United States
+
+New York
+
+OSPOs for Good
+
+July 9 - 11
+
+Africa
+
+Virtual
+
+Virtual
+
+Sustain Africa
+
+July
+
+Asia Paciﬁc
+
+China
+
+Hong Kong
+
+AI_dev
+
+August 23
+
+Latin America
+
+Argentina
+
+Buenos Aires
+
+Nerdearla
+
+September
+
+Europe
+
+TBD
+
+TBD
+
+(data governance)
+
+October
+
+North America
+
+United States
+
+Raleigh
+
+All Things Open
+
+Oct 27 - 29
+23
+
+Participation Options
+● Public forum: discuss.opensource.org
+● Become an OSI member
+○ Free or or full
+○ SSO with other OSI websites
+● Biweekly virtual townhalls… like this one!
+● Volunteer to help with validation (email or DM Mer
+Joyce)
+24
+
+Q&A
+
+25
+
+Thank you
+We realize this is difficult work and we appreciate
+your help and openness in improving the deﬁnition.
+
+26
+
+

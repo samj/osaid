@@ -1,0 +1,829 @@
+OPEN SOURCE AI DEFINITION
+Online public townhall
+Feb 9, 2024
+
+Community agreements
+●
+●
+
+●
+
+●
+
+●
+
+●
+
+One Mic, One Speaker -- Please allow one person to speak at a time.
+Take Space, Make Space -- If you tend to talk more, we invite you to
+make space for others to share. If you tend not to share, we invite you
+to speak up.
+Kindness -- This work is hard, but we don't have to be. Gentleness and
+curiosity help. Those who use insults or hate speech will need to leave
+the meeting.
+Forward Motion -- We advance by focusing on what is possible in the
+moment and doing it. Obstacles are marked for later discussion, not
+used to stop the process. If we hit a boulder, we note it on the map and
+keep walking. We'll come back and unearth it later on.
+Solution-Seeking -- This work is so complex that focusing on what
+won't work will stop it. Suggesting new ideas, options, and proposals is
+vulnerable, but crucial. All of us are needed to make this work.
+Anything else?
+
+The objective for 2024
+
+Open Source AI Deﬁnition
+version 1.0
+
+Deﬁnition of AI system
+
+Preamble
+Out of scope issues
+4 freedoms
+License checklist
+
+What is Open Source AI
+To be Open Source, an AI system needs to be available under
+legal terms that grant the freedoms to:
+● Use the system for any purpose and without having to ask
+for permission.
+● Study how the system works and inspect its components.
+● Modify the system to change its recommendations,
+predictions or decisions to adapt to your needs.
+● Share the system with or without modiﬁcations, for any
+purpose.
+
+What is the preferred form to make
+modiﬁcations to an AI system?
+
+Getting the speciﬁcations
+AI systems
+
+As deﬁned by the
+OECD.
+
+List of
+components
+
+Legal
+frameworks
+
+Legal
+documents
+
+Checklist
+
+What elements are
+necessary to:
+- use
+- study
+- modify
+- share
+an AI system?
+
+For each artifact,
+evaluate which
+laws apply. Some
+will be under
+“Intellectual
+Property” regimes,
+some will be under
+other regimes.
+
+We’ll match the
+components and
+the identiﬁed legal
+frameworks with
+the terms of the
+legal documents
+already in use,
+where available.
+
+After repeating
+this exercise
+enough times,
+we’ll be able to
+generalize the
+outcomes and
+write the specs to
+evaluate the
+freedoms granted.
+
+Report from the working groups
+Analyzing Llama2 and Pythia
+
+8
+
+Participants (Llama2 WG)
+●
+●
+●
+●
+●
+●
+●
+●
+
+✔ Stefano Maffulli -- Open Source Initiative (convener)
+✔ Mer Joyce -- Do Big Good (facilitator)
+
+✔ Bastien Guerry -- DINUM, French public
+
+administration
+✔ Ezequiel Lanza -- Intel
+✔ Roman Shaposhnik -- Apache Software Foundation
+✔ Davide Testuggine -- Meta
+✔ Jonathan Torres -- Meta
+Stefano Zacchiroli -- Polytechnic Institute of Paris
+
+✔ = attended
+All members participating in a personal capacity.
+
+9
+
+Participants (Pythia wg)
+●
+●
+●
+●
+●
+●
+
+Stefano Maffulli -- Open Source Initiative (convener)
+Seo-Young Isabelle Hwang (Samsung)
+Cailean Osborne (Researcher, Linux Foundation)
+Stella Biderman (Eleuther AI)
+Justin Colannino (Microsoft)
+Aviya Skowron (Eleuther AI)
+
+All members participating in a personal capacity.
+
+10
+
+Purpose
+● Process -- OSI has been convening a global
+conversation to ﬁnd the deﬁnition of open source AI for
+almost two years.
+● Track -- The 2024 objective scope for Track 1: System
+Testing is to discover what components need to be
+available in each AI system for the whole system to be
+studied, used, modiﬁed, and shared. We plan to
+complete this track at the latest by May.
+● Working group report -- objective is to talk through
+initial points of difference on what components of
+Llama2, Pythia would need to be open for the whole AI
+system to be studied, used, modiﬁed, and shared.
+11
+
+Framing
+● Document – We’ll review the components table in the
+Llama 2 specs doc and decide which exist in that AI
+system, with a focus on resolving disagreement.
+● Expectations – We’ll see how much of the table we get
+through. (Insights on tempo and pace will be among
+the learnings from this meeting.)
+● Anything else? – Are there any other expectations or
+framings we should put in place before we begin
+working through the components table?
+● Deadline - Feb 16 publish Llama2 and Pythia
+12
+
+Analysis of LLaMA2
+Code All code used to parse and process
+data, including:
+
+Required to
+Use?
+
+Required
+to Study?
+
+Required to
+Modify?
+
+Data preprocessing code
+
+SZ
+
+SZ EL
+
+Training code
+
+SZ
+
+SZ
+
+Required to
+Share?
+
+Test code
+Code used to perform inference for benchmark
+tests
+Validation code
+Inference code
+
+SZ
+SM EL DT
+SM JT SZ
+
+SZ
+
+SZ
+
+SZ
+
+SZ
+
+Evaluation code
+Other libraries or code artifacts that are part of
+the system, such as tokenizers and
+hyperparameter search code, if used.
+
+BG,EL, SM,
+SZ
+
+SZ
+
+13
+
+Analysis of LLaMA2
+
+Data All data sets, including:
+Training data sets
+
+Required to
+Use?
+
+Required
+to Study?
+
+Required to
+Modify?
+
+SZ
+
+SZ
+
+Testing data sets
+
+SZ
+
+Validation data sets
+
+SZ
+
+Required to
+Share?
+
+Benchmarking data sets
+Data card
+Evaluation data
+Evaluation metrics and results
+All other data documentation
+
+SZ
+
+SZ
+
+14
+
+Analysis of LLaMA2
+Model All model elements, including:
+
+Required to
+Use?
+
+Model architecture
+Model parameters
+
+SM, SZ, JT
+
+Model card
+
+EL
+
+Required to
+Study?
+
+Required to Modify? Require
+d to
+Share?
+
+SZ
+
+SZ
+
+SZ
+
+SZ
+
+Required to
+Study?
+
+Required to Modify? Require
+d to
+Share?
+
+SZ
+
+Sample model outputs
+Other Any other documentation or tools produced or
+used, including:
+
+Required to
+Use?
+
+Research paper
+Usage documentation
+
+SZ
+
+Technical report
+Supporting tools
+
+15
+
+Analysis of Pythia
+Code All code used to parse and process
+data, including:
+
+Required to
+Use?
+
+Required
+to Study?
+
+Required to
+Modify?
+
+Required to
+Share?
+
+Data preprocessing code
+
+SH
+
+SB SH CO
+
+SB SH CO
+
+SH
+
+Training code
+
+SH
+
+SB SH CO
+
+SB SH CO
+
+SH
+
+Test code
+
+SH
+
+SB SH CO
+
+Code used to perform inference for benchmark
+tests
+
+SB SH CO
+
+Validation code
+
+SB SH CO
+
+Inference code
+
+SB SH
+
+Evaluation code
+Other libraries or code artifacts that are part of
+the system, such as tokenizers and
+hyperparameter search code, if used.
+
+SH
+
+SH
+
+SH
+
+SB SH CO
+SB CO
+
+SB SH CO
+
+SB CO
+
+16
+
+Analysis of Pythia
+
+Data All data sets, including:
+
+Required to
+Use?
+
+Required
+to Study?
+
+Training data sets
+
+SH
+
+SB SH CO
+
+Testing data sets
+
+SH
+
+SB SH CO
+
+Validation data sets
+
+SB SH CO
+
+Benchmarking data sets
+
+SB SH CO
+
+Data card
+
+SB SH ?
+
+Evaluation data
+
+SB SH CO
+
+Evaluation metrics and results
+
+SB SH CO
+
+All other data documentation
+
+SB SH CO
+
+Required to
+Modify?
+
+Required to
+Share?
+
+17
+
+Analysis of Pythia
+Model All model elements, including:
+
+Required to
+Use?
+
+Required to
+Study?
+
+Required to Modify? Require
+d to
+Share?
+
+Model architecture
+
+SB SH CO
+
+SB SH CO
+
+SB SH CO
+
+SB SH
+CO
+
+Model parameters
+
+SB SH CO
+
+SB SH CO
+
+SB SH CO
+
+SB SH
+CO
+
+SB
+
+SB
+
+Model card
+Sample model outputs
+
+SH
+
+Other Any other documentation or tools produced or
+used, including:
+Research paper
+Usage documentation
+Technical report
+Supporting tools
+
+SB
+
+SB
+
+18
+
+Important questions on the forums
+◦
+◦
+◦
+
+The question of data
+Is the OECD deﬁnition too broad?
+Does the “Share” verb need clariﬁcation?
+
+19
+
+Next steps
+
+20
+
+Recruiting volunteers
+- Review and validate the list of components
+- Analyze other AI systems
+(BLOOM, OpenCV …)
+
+21
+
+2024 timeline
+
+System testing work stream
+Stakeholder consultation work stream
+Release schedule
+
+February
+
+March
+
+April
+
+May
+
+June …
+
+Call For Volunteers
++ Activity
+Feedback and
+Revision
+
+Virtual System
+Review
+Meetings
+Begin
+
+Virtual System
+Review
+Meetings
+Continue
+
+Virtual System
+Review
+Meetings
+END
+
+Feedback
+Informs Content
+of OSI In-Person
+Stakeholder
+Meeting
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Draft 0.0.5
+
+Draft 0.0.6
+
+Draft 0.0.7
+
+Draft 0.0.8
+
+Townhall +
+
+… October
+Monthly Virtual
+Meetings
+
+Release
+version 1.0
+
+OSI In-Person
+Stakeholder
+Meeting (date
++ place TBD)
+
+RC1
+
+v. 1.0
+
+Criteria for RC1 and v. 1.0
+RC1
+
+version 1
+
+- Expected outcome of
+in-person meeting end
+May/early June!
+- The draft is completed
+in all its parts
+- The draft is supported
+by at least 2
+representatives for
+each of the 6
+stakeholder groups
+
+- Expected outcome of
+in-person and online
+meetings through the
+summer/early autumn
+- The draft is endorsed by at
+least 5 reps for each of the
+stakeholder groups
+- Announced in late October
+
+Help us ﬁnd stakeholders
+System Creator
+
+License Creator
+
+Regulator
+
+Licensee
+
+End User
+
+Subject
+
+Makes AI system
+and/or
+component that
+will be studied,
+used, modified,
+or shared
+through an open
+source license
+(e.g., ML
+researcher in
+academia or
+industry)
+
+Writes or edits
+the open source
+license to be
+applied to the AI
+system or
+component;
+includes
+compliance
+(e.g., IP lawyer)
+
+Writes or edits
+rules governing
+licenses and
+systems (e.g.
+government
+policy-maker)
+
+Seeks to study,
+use modify, or
+share an open
+source AI
+system (e.g. AI
+engineer, health
+researcher,
+education
+researcher)
+
+Consumes a
+system output,
+but does not
+seek to study,
+use, modify, or
+share the
+system (e.g.,
+student using a
+chatbot to write
+a report, artist
+creating an
+image)
+
+Affected
+upstream or
+downstream by
+a system output
+without
+interacting with it
+intentionally;
+includes
+advocates for
+this group (e.g.
+people with loan
+denied, or
+content creators)
+
+✅
+
+✅
+
+⚠
+
+✅
+
+⚠
+
+⚠
+
+Enough to start
+
+Enough to start
+
+Leads to US, EU,
+Singapore, no
+commitment yet
+
+Enough to start
+
+Which org is squarely in
+this space?
+
+ACLU, Algorithmic
+Justice League
+
+It doesn’t end with v. 1.0
+We’ll need to deﬁne rules for maintenance and review of the
+Deﬁnition
+
+OSI’s immediate next steps
+- more publicity to the process
+- public discussion forum https://discuss.opensource.org
+- bi-weekly townhalls
+- more opportunities to volunteer
+- update project landing page
+- reach out to more stakeholders
+- raise funds for 2024 meetings
+- setup the board for review and approval of v. 1.0
+
+Join the conversation
+● Public forum
+● Join as OSI member
+○ Free or full
+○ SSO with other
+OSI websites
+
+27
+
+Draft v. 0.0.5 of the Open Source AI Deﬁnition
+Open to public comments
+
+https://opensource.org/deepdive/drafts
+
+28
+
+Closing
+
+37
+
+Debrief
+● Reﬂection – How did that discussion go? Were we
+able to address areas of disagreement in a
+meaningful way? If so, how? If not, why not?
+● Adaptation – How might we change the structure of
+this meeting? How can we improve our review method
+for other AI systems?
+● Next Steps – How to continue to resolve
+disagreements? Another synchronous meeting?
+Asynchronous commenting or other method? How
+would you personally like to be involved?
+38
+
+Thank you
+We realize this is difficult work and we appreciate
+your help and openness, both in analyzing this
+system and improving the deﬁnitional process.
+
+39
+
+

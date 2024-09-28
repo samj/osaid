@@ -1,0 +1,654 @@
+OPEN SOURCE AI DEFINITION
+Online public townhall
+Feb 23, 2024
+last updated: Feb 22, 2024 (MJ)
+
+1
+
+Community agreements
+●
+●
+
+●
+
+●
+
+●
+
+●
+
+One Mic, One Speaker -- Please allow one person to speak at a time.
+Take Space, Make Space -- If you tend to talk more, we invite you to
+make space for others to share. If you tend not to share, we invite you
+to speak up.
+Kindness -- This work is hard, but we don't have to be. Gentleness and
+curiosity help. Those who use insults or hate speech will need to leave
+the meeting.
+Forward Motion -- We advance by focusing on what is possible in the
+moment and doing it. Obstacles are marked for later discussion, not
+used to stop the process. If we hit a boulder, we note it on the map and
+keep walking. We'll come back and unearth it later on.
+Solution-Seeking -- This work is so complex that focusing on what
+won't work will stop it. Suggesting new ideas, options, and proposals is
+vulnerable, but crucial. All of us are needed to make this work.
+Anything else?
+
+2
+
+The objective for 2024
+
+Open Source AI Deﬁnition
+version 1.0
+
+3
+
+Deﬁnition of AI system
+
+Preamble
+Out of scope issues
+4 freedoms
+License checklist
+
+4
+
+What is Open Source AI
+To be Open Source, an AI system needs to be available under
+legal terms that grant the freedoms to:
+● Use the system for any purpose and without having to ask
+for permission.
+● Study how the system works and inspect its components.
+● Modify the system to change its recommendations,
+predictions or decisions to adapt to your needs.
+● Share the system with or without modiﬁcations, for any
+purpose.
+
+5
+
+Report from the workgroups
+
+6
+
+Workgroups
+Llama 2
+1.
+2.
+3.
+4.
+5.
+6.
+
+Bastien Guerry
+DINUM, French
+public administration
+Ezequiel Lanza
+Intel
+Roman Shaposhnik
+Apache Software
+Foundation
+Davide Testuggine
+Meta
+Jonathan Torres
+Meta
+Stefano Zacchiroli
+Polytechnic Institute
+of Paris
+
+Pythia
+BLOOM
+1.
+George C. G. Barbosa
+1.
+Seo-Young Isabelle
+Fundação Oswaldo Cruz
+Hwang Samsung
+2.
+Daniel Brumund GIZ
+2.
+Cailean Osborne
+FAIR Forward - AI for all
+University of Oxford,
+3.
+Danish Contractor
+Linux Foundation
+BLOOM Model Gov. WG
+4.
+Abdoulaye Diack
+3.
+Stella Biderman
+Google
+EleutherAI
+5.
+Deshni Govender GIZ
+4.
+Justin Colannino
+FAIR Forward - AI for all
+Microsoft
+6.
+Jaan Li University of
+5.
+Aviya Skowron
+Tartu, Phare Health
+EleutherAI
+7.
+Jean-Pierre Lorre
+LINAGORA,
+OpenLLM-France
+8.
+Ofentse Phuti WiMLDS
+Gaborone
+9.
+Caleb Fianku Quao
+Kwame Nkrumah
+University of Science and
+Technology, Kumasi
+
+OpenCV
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+
+8.
+9.
+
+Rahmat Akintola
+Cubeseed Africa
+Ignatius Ezeani
+Lancaster University
+Kevin Harerimana
+CMU Africa
+Satya Mallick
+OpenCV
+David Manset
+ITU
+Phil Nelson
+OpenCV
+Tlamelo Makati
+WiMLDS Gaborone,
+Technological
+University Dublin
+Minyechil Alehegn
+Tefera Mizan Tepi
+University
+Akosua Twumasi
+Ghana Health
+Service
+
+7
+
+Recommendations summary
+
+2/21/24
+
+● Required
+● Likely Not Required
+○ Training, validation and
+○ Evaluation code
+testing code
+○ Evaluation data
+○ Inference code
+○ Evaluation results
+○ Model architecture
+○ All other data
+○ Model parameters
+documentation
+○ Supporting libraries and
+○ Model metadata
+tools
+○ Model card
+● Likely Required
+○ Research paper
+○ Data preprocessing code
+○ Technical report
+● Maybe Required
+● Not Required
+○ Datasets
+○ Data card
+○ Usage documentation
+○ Sample model outputs
+
+8
+
+Methodology
+○ Voting: by component (Llama 2 example) +
+compilation overview
+○ Emerging Results: recommendation rubric
+■ Code: recommendations + detail
+■ Data: recommendations + detail
+■ Model: recommendations + detail
+■ Other: recommendations + detail
+
+Component voting (Llama 2 example)
+Code All code used to parse and process
+data, including:
+
+Required to
+Use?
+
+Required
+to Study?
+
+Required to
+Modify?
+
+Data preprocessing code
+
+SZ
+
+SZ EL
+
+Training code
+
+SZ
+
+SZ
+
+Required to
+Share?
+
+Test code
+Code used to perform inference for benchmark
+tests
+Validation code
+Inference code
+
+SZ
+SM EL DT
+SM JT SZ
+
+SZ
+
+SZ
+
+SZ
+
+SZ
+
+Evaluation code
+Other libraries or code artifacts that are part of
+the system, such as tokenizers and
+hyperparameter search code, if used.
+
+BG,EL, SM,
+SZ
+
+SZ
+
+(as of Feb. 9, 2024)
+10
+
+Vote compilation (overview)
+
+As of 2/21/24 at 9:00 pm UTC
+
+11
+
+Recommendation rubric
+
+*
+
+As of 2/21/24 at 9:00 pm UTC
+
+12
+
+Code recommendations
+
+As of 2/21/24 at 9:00 pm UTC
+
+13
+
+Code detail
+
+As of 2/21/24 at 9:00 pm UTC
+
+14
+
+Data recommendations
+
+As of 2/21/24 at 9:00 pm UTC
+
+15
+
+Data detail
+
+As of 2/21/24 at 9:00 pm UTC
+
+16
+
+Model recommendations
+
+As of 2/21/24 at 9:00 pm UTC
+
+17
+
+Model detail
+
+As of 2/21/24 at 9:00 pm UTC
+
+18
+
+Other recommendations
+
+As of 2/21/24 at 9:00 pm UTC
+
+19
+
+Other detail
+
+As of 2/21/24 at 9:00 pm UTC
+
+* Most votes come from a category titled "Other libraries
+or code artifacts that are part of the system, such as
+tokenizers and hyperparameter search code, if used."
+20
+
+Liesenfeld, A., Lopez, A. &
+Dingemanse, M. 2023. “Opening up
+ChatGPT: Tracking Openness,
+Transparency, and Accountability in
+Instruction-Tuned Text Generators.”
+In CUI '23: Proceedings of the 5th
+International Conference on
+Conversational User Interfaces. July
+19-21, Eindhoven. doi:
+10.1145/3571884.3604316
+
+21
+
+Voting ends today @ 11:00pm UTC
+
+22
+
+Other updates
+
+23
+
+Focus narrowing on machine learning
+
+● Narrowing the deﬁnitional scope from any AI
+system to ML speciﬁcally
+● Goal is to increase the accuracy and precision of
+the deﬁnition we create
+● Change will appear in version 0.0.6 this month
+24
+
+Questions from the forum
+● In other words, the use of this “system”
+terminology is a complication that may have the
+effect of narrowing the perceived scope of what
+the OSAID covers. Is the thought that the ordinary
+OSD kicks in in cases where purportedly you don’t
+have a “system”?
+(Richard Fontana)
+25
+
+Next steps
+● Final vote compilation next week
+● Version 0.0.6 release early March
+
+26
+
+2024 timeline
+
+System testing work stream
+Stakeholder consultation work stream
+Release schedule
+
+February
+
+March
+
+April
+
+May
+
+June …
+
+Call For Volunteers
++ Activity
+Feedback and
+Revision
+
+Virtual System
+Review
+Meetings
+Begin
+
+Virtual System
+Review
+Meetings
+Continue
+
+Virtual System
+Review
+Meetings
+END
+
+Feedback
+Informs Content
+of OSI In-Person
+Stakeholder
+Meeting
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Draft 0.0.5
+
+Draft 0.0.6
+
+Draft 0.0.7
+
+Draft 0.0.8
+
+Townhall +
+
+… October
+Monthly Virtual
+Meetings
+
+Release
+version 1.0
+
+OSI In-Person
+Stakeholder
+Meeting (date
++ place TBD)
+
+RC1
+
+v. 1.0
+
+27
+
+Criteria for RC1 and v. 1.0
+RC1
+
+version 1
+
+- Expected outcome of
+in-person meeting end
+May/early June!
+- The draft is completed
+in all its parts
+- The draft is supported
+by at least 2
+representatives for
+each of the 6
+stakeholder groups
+
+- Expected outcome of
+in-person and online
+meetings through the
+summer/early autumn
+- The draft is endorsed by at
+least 5 reps for each of the
+stakeholder groups
+- Announced in late October
+
+28
+
+Help us ﬁnd stakeholders
+System Creator
+
+License Creator
+
+Regulator
+
+Licensee
+
+End User
+
+Subject
+
+Makes AI system
+and/or
+component that
+will be studied,
+used, modified,
+or shared
+through an open
+source license
+(e.g., ML
+researcher in
+academia or
+industry)
+
+Writes or edits
+the open source
+license to be
+applied to the AI
+system or
+component;
+includes
+compliance
+(e.g., IP lawyer)
+
+Writes or edits
+rules governing
+licenses and
+systems (e.g.
+government
+policy-maker)
+
+Seeks to study,
+use modify, or
+share an open
+source AI
+system (e.g. AI
+engineer, health
+researcher,
+education
+researcher)
+
+Consumes a
+system output,
+but does not
+seek to study,
+use, modify, or
+share the
+system (e.g.,
+student using a
+chatbot to write
+a report, artist
+creating an
+image)
+
+Affected
+upstream or
+downstream by
+a system output
+without
+interacting with it
+intentionally;
+includes
+advocates for
+this group (e.g.
+people with loan
+denied, or
+content creators)
+
+✅
+
+✅
+
+⚠
+
+✅
+
+⚠
+
+⚠
+
+Enough to start
+
+Enough to start
+
+Leads to US, EU,
+Singapore, no
+commitment yet
+
+Enough to start
+
+Which org is squarely in
+this space?
+
+ACLU, Algorithmic
+Justice League
+
+29
+
+It doesn’t end with v. 1.0
+We’ll need to deﬁne rules for maintenance and review of the
+Deﬁnition
+
+30
+
+Join the conversation
+● Public forum
+● Join as OSI member
+○ Free or full
+○ SSO with other
+OSI websites
+
+31
+
+Draft v. 0.0.5 of the Open Source AI Deﬁnition
+Open to public comments
+
+https://opensource.org/deepdive/drafts
+
+32
+
+Q&A
+
+33
+
+Thank you
+We realize this is difficult work and we appreciate
+your help and openness in improving the
+deﬁnitional process.
+
+34
+
+

@@ -1,0 +1,273 @@
+OPEN SOURCE AI DEFINITION
+Online public townhall
+September 20, 2024
+last updated: September 18, 2024 (MJ)
+
+1
+
+Community Agreements
+●
+●
+
+●
+
+●
+
+●
+
+●
+
+One Mic, One Speaker -- Please allow one person to speak at a time.
+Take Space, Make Space -- If you tend to talk more, we invite you to
+make space for others to share. If you tend not to share, we invite you
+to speak up.
+Kindness -- This work is hard, but we don't have to be. Gentleness and
+curiosity help. Those who use insults or hate speech will need to leave
+the meeting.
+Forward Motion -- We advance by focusing on what is possible in the
+moment and doing it. Obstacles are marked for later discussion, not
+used to stop the process. If we hit a boulder, we note it on the map and
+keep walking. We'll come back and unearth it later on.
+Solution-Seeking -- This work is so complex that focusing on what
+won't work will stop it. Suggesting new ideas, options, and proposals is
+vulnerable, but crucial. All of us are needed to make this work.
+Anything else?
+
+2
+
+Open Source AI Deﬁnition
+
+Version 0.0.9
+
+Released Aug. 22, 2024
+
+3
+
+OSAID: 4 Freedoms
+
+An Open Source AI is an AI system made available under
+terms and in a way that grant the freedoms to:
+
+1. Use the system for any purpose and without having
+to ask for permission.
+2. Study how the system works and inspect its
+components.
+3. Modify the system for any purpose, including to
+change its output.
+4. Share the system for others to use with or without
+modiﬁcations, for any purpose.
+4
+
+OSAID: Preferred Form
+
+The preferred form of making modiﬁcations for a machine-learning
+Open Source AI System must include:
+
+Open
+
+Open
+
+Model weights and
+parameters
+
+Source code used
+to train and run
+the system
+
+Weights + Code +
+
+Data
+
+Information
+The dataset or
+detailed information
+about the data used
+to train the system
+
+Open Source AI Deﬁnition
+
+What’s Next?
+
+September - October 2024
+
+● Resolve comments, release RC1 this week
+● Launch stable version at All Things Opens
+on October 28th
+
+6
+
+Board Approval Criteria for the OSAID
+Supported
+by diverse
+stakeholders
+
+Provides
+real-life
+examples
+
+Ready by
+October
+
+The deﬁnition
+needs to have
+approval by end
+users, developers,
+deployers and
+subjects of AI,
+globally.
+
+The deﬁnition must
+include relevant
+examples of AI
+systems that comply
+with it at the time of
+approval, so cannot
+have an empty set.
+
+A usable version of
+the deﬁnition needs
+to be ready for
+approval by the
+board at the
+October board
+meeting.
+
+2024
+
+System testing work stream
+
+2024 Timeline
+
+Stakeholder consultation work stream
+Release schedule
+
+February
+
+April
+
+Call For Volunteers
++ Activity
+Feedback and
+Revision
+
+Virtual System
+Review
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Draft 0.0.5
+
+Draft 0.0.8
+
+August
+
+September
+
+October
+
+Virtual System
+Review
+
+Virtual System
+Review
+
+Feedback and
+review
+Hardening WG
+
+Feedback and
+review
+Hardening WG
+
+Townhalls +
+
+Townhalls +
+
+- OSPOs for
+Good (NYC)
+- OS Community
+Africa (virtual)
+
+- AI-dev (Hong
+Kong)
+- OSC (Beijing)
+
+July
+
+Draft 0.0.8
+
+Draft 0.0.9
+
+Weekly townhalls
+- DL Indaba (Dakar)
+- FOSSIndia (Bangalore)
+- RegenAI (Ashland)
+- LF Europe (Vienna)
+- Nerdearla (Buenos
+Aires)
+
+RC1
+
+Weekly townhalls
+- All Things
+Open (Raleigh)
+- Data Workshop
+(Paris)
+
+Stable
+Version
+
+Open Source AI Deﬁnition
+
+Get Involved!
+
+Endorse The OSAID
+
+9
+
+Call for
+Public Participation
+
+Endorse the OSAID!
+opensource.org/osaid-endorse
+
+Endorse the OSAID!
+● In preparation for next month’s launch, we are
+seeking both individual and organizational
+endorsements of the OSAID.
+● “Endorsement” means your name and
+organizational affiliation will be appended to a
+press release announcing the OSAID.
+● Use OSI’s webform to give your endorsement.
+● Email or DM Mer or Nick with any questions.
+11
+
+How to Participate :)
+● Endorse the OSAID!
+○ opensource.org/osaid-endorse
+● Public forum: discuss.opensource.org
+● Become an OSI member
+○ Free or or full
+○ SSO with other OSI websites
+● Biweekly virtual townhalls… like this one!
+12
+
+Q&A
+
+13
+
+Thank you
+We realize this is difficult work and we appreciate
+your help and openness in improving the deﬁnition.
+
+14
+
+

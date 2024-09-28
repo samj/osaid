@@ -1,0 +1,374 @@
+OPEN SOURCE AI DEFINITION
+Online public townhall
+June 28, 2024
+last updated: June 25, 2024 (MJ)
+
+1
+
+Community agreements
+●
+●
+
+●
+
+●
+
+●
+
+●
+
+One Mic, One Speaker -- Please allow one person to speak at a time.
+Take Space, Make Space -- If you tend to talk more, we invite you to
+make space for others to share. If you tend not to share, we invite you
+to speak up.
+Kindness -- This work is hard, but we don't have to be. Gentleness and
+curiosity help. Those who use insults or hate speech will need to leave
+the meeting.
+Forward Motion -- We advance by focusing on what is possible in the
+moment and doing it. Obstacles are marked for later discussion, not
+used to stop the process. If we hit a boulder, we note it on the map and
+keep walking. We'll come back and unearth it later on.
+Solution-Seeking -- This work is so complex that focusing on what
+won't work will stop it. Suggesting new ideas, options, and proposals is
+vulnerable, but crucial. All of us are needed to make this work.
+Anything else?
+
+2
+
+OSI’s objective for 2024
+
+Open Source AI Definition
+
+3
+
+Open Source AI Deﬁnition
+
+Current Version
+OSAID v.0.0.8
+
+4
+
+Open
+Source AI
+Definition
+
+Preamble
+4 Freedoms
+
+v.0.0.8
+
+Legal Checklist
+
+-
+
+Open Source AI Deﬁnition
+
+What We’re Working On
+OSAID v.0.0.9
+
+6
+
+Open
+Source AI
+Definition
+Preamble
+v.0.0.9 plans
+Clarifying that
+the recipients
+of the freedoms
+are developers,
+deployers and
+end-users
+
+Open
+Source AI
+Definition
+Four
+Freedoms
+v.0.0.9 plans
+
+Clarifying that the
+four freedoms of
+open source AI are
+derived from the
+Free Software
+Definition
+
+Open
+Source AI
+Definition
+Four
+Freedoms
+v.0.0.9 plans
+
+Underlining that
+components and
+systems must be
+free from
+encumbrances that
+prevent any
+developer, deployer,
+or users from
+exercising those
+freedoms.
+
+Open Source
+AI Definition
+Preferred
+Form
+v.0.0.9 plans
+
+Adding definitions of…
+… the “OSD
+compliant”
+requirement for data
+information...
+…and the “OSD
+conformant”
+requirement for model
+parameters
+..so legal
+requirements are
+clear for each
+component
+
+Open
+Source AI
+Definition
+Checklist
+v.0.0.9 plans
+
+Checklist will be a
+separate document
+and process and its
+components will be
+updated to follow the
+Model Openness
+Framework (MOF)
+precisely.
+
+Open Source AI Deﬁnition
+
+System Validation
+
+OSAID v.0.0.8 (and soon v. 0.0.9)
+
+12
+
+Validation Updates
+
+Thanks to Arctic and
+LLM360 for helping identify
+documentation!
+
+13
+
+Open Source AI Deﬁnition
+
+What’s Next?
+
+June - October 2024
+
+● Complete validation phase
+● Resolve comments, release v. 0.0.9 after
+validation
+● Cut the release candidate with sufficient
+endorsement
+14
+
+System testing work stream
+
+2024 Timeline
+
+Stakeholder consultation work stream
+Release schedule
+
+February
+
+June
+
+Call For Volunteers
++ Activity
+Feedback and
+Revision
+
+Virtual System
+Review
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Draft 0.0.5
+
+Draft 0.0.8
+
+July
+
+August
+
+September
+
+Virtual System
+Review
+
+Virtual System
+Review
+
+Virtual System
+Review Ends
+
+Townhalls +
+
+Townhalls +
+
+Townhalls +
+
+Townhalls +
+
+- OSPOs for
+Good (NYC)
+- Sustain
+Africa (virtual)
+
+- AI-dev (Hong
+Kong)
+
+- Nerdearla
+(Buenos Aires)
+
+- All Things
+Open (Raleigh)
+- Data Workshop
+(Europe TBD)
+
+Draft 0.0.9
+
+RC1
+
+RC1
+
+October
+
+Stable
+Version
+
+In-Person Meetings
+Region
+
+Country
+
+City
+
+Conference
+
+Date
+
+North America
+
+United States
+
+Pittsburgh
+
+✓ PyCon US
+
+May 17
+
+Europe
+
+France
+
+Paris
+
+✓ OW2
+
+June 11 - 12
+
+North America
+
+United States
+
+New York
+
+OSPOs for Good
+
+July 9 - 11
+
+Africa
+
+Virtual
+
+Virtual
+
+Sustain Africa
+
+July 15
+
+Asia Paciﬁc
+
+China
+
+Hong Kong
+
+AI_dev
+
+August 23
+
+Latin America
+
+Argentina
+
+Buenos Aires
+
+Nerdearla
+
+September 24 - 28
+
+Europe
+
+TBD
+
+TBD
+
+(data governance)
+
+October
+
+North America
+
+United States
+
+Raleigh
+
+All Things Open
+
+Oct 27 - 29
+16
+
+How to Participate :)
+● Public forum: discuss.opensource.org
+● Become an OSI member
+○ Free or or full
+○ SSO with other OSI websites
+● Biweekly virtual townhalls… like this one!
+● Volunteer to help with validation (email or DM Mer
+Joyce)
+17
+
+Q&A
+
+18
+
+Thank you
+We realize this is difficult work and we appreciate
+your help and openness in improving the deﬁnition.
+
+19
+
+

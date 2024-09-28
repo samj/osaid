@@ -1,0 +1,750 @@
+OPEN SOURCE AI DEFINITION
+Online public townhall
+April 19, 2024
+last updated: April 18, 2024 (MJ)
+
+1
+
+Community agreements
+●
+●
+
+●
+
+●
+
+●
+
+●
+
+One Mic, One Speaker -- Please allow one person to speak at a time.
+Take Space, Make Space -- If you tend to talk more, we invite you to
+make space for others to share. If you tend not to share, we invite you
+to speak up.
+Kindness -- This work is hard, but we don't have to be. Gentleness and
+curiosity help. Those who use insults or hate speech will need to leave
+the meeting.
+Forward Motion -- We advance by focusing on what is possible in the
+moment and doing it. Obstacles are marked for later discussion, not
+used to stop the process. If we hit a boulder, we note it on the map and
+keep walking. We'll come back and unearth it later on.
+Solution-Seeking -- This work is so complex that focusing on what
+won't work will stop it. Suggesting new ideas, options, and proposals is
+vulnerable, but crucial. All of us are needed to make this work.
+Anything else?
+
+2
+
+OSI’s objective for 2024
+
+Open Source AI Definition
+
+3
+3
+
+Open Source AI Definition
+
+Where Are We Now?
+
+4
+
+Open
+Source AI
+Definition
+Elements
+
+Preamble
+Out of Scope Issues
+4 Freedoms
+
+v.0.0.7
+
+Legal Checklist
+
+-
+
+Scan me!
+
+Open
+Source AI
+Definition
+Elements
+
+Preamble
+Out of Scope Issues
+4 Freedoms
+
+Done … ish?
+
+v.0.0.7
+
+Legal Checklist
+
+Revising
+draft
+
+Open Source AI Definition
+
+The Co-Design Process
+Fall 2023: The 4 Freedoms
+● Creating content for definition v. 0.0.7
+● Release by next Friday, April 12th
+
+7
+
+The 4 Freedoms for AI
+Use • Study • Modify • Share
+
+What should these
+open source principles mean
+for artificial intelligence?
+
+8
+
+Co-Design Workshop: Raleigh
+All Things Open | October 2023
+
+9
+
+Co-Design Workshop: Monterey
+Linux Foundation Member Summit | October 2023
+
+10
+
+Co-Design Workshop: Addis Ababa
+Digital Public Goods Alliance Members Meeting | November 2023
+
+11
+
+Open Source AI Definition
+The 4 Freedoms for AI
+1. Use the system for any purpose and without having
+to ask for permission.
+2. Study how the system works and inspect its
+components.
+3. Modify the system for any purpose, including to
+change its output.
+4. Share the system for others to use with or without
+modifications, for any purpose.
+12
+
+Open Source AI Definition
+
+The Co-Design Process
+Winter 2023-24: Required Components
+● Creating content for definition v. 0.0.7
+● Release by next Friday, April 12th
+
+13
+
+Required Components for Open Source AI
+
+What components must be
+open in order for an AI system
+to be used, studied, modified,
+and shared?
+
+14
+
+Co-Design Workshop: San Jose
+AI.dev | December 2023
+
+15
+
+Virtual Workgroups
+Selected to represent a diversity of approaches to AI openness:
+1.
+
+Llama 2: commercial project, accompanied by limited amount of
+science and with a restrictive license
+
+2.
+
+BLOOM: open science project, with lots of details released but
+shared with a restrictive license
+
+3.
+
+Pythia: open science project, with a permissive license
+
+4.
+
+OpenCV: open source project, with ML components outside of the
+generative AI space
+
+16
+
+better global representation, we conducted outreach to Black, Indigenous,
+Workgroup Members Toandachieve
+other people of color, particularly women and individuals from the Global South.
+
+Llama 2
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+
+Bastien Guerry
+DINUM, French public
+administration
+Ezequiel Lanza Intel
+Roman Shaposhnik
+Apache Software
+Foundation
+Davide Testuggine
+Meta
+Jonathan Torres
+Meta
+Stefano Zacchiroli
+Polytechnic Institute of
+Paris
+Mo Zhou Debian,
+Johns Hopkins
+University
+Victor Lu independent
+database consultant
+
+BLOOM
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+
+George C. G. Barbosa
+Fundação Oswaldo Cruz
+Daniel Brumund GIZ
+FAIR Forward - AI for all
+Danish Contractor
+BLOOM Model Gov. WG
+Abdoulaye Diack
+Google
+Jaan Li University of
+Tartu, Phare Health
+Jean-Pierre Lorre
+LINAGORA,
+OpenLLM-France
+Ofentse Phuti WiMLDS
+Gaborone
+Caleb Fianku Quao
+Kwame Nkrumah
+University of Science and
+Technology, Kumasi
+
+Pythia
+1.
+2.
+
+3.
+4.
+
+Seo-Young Isabelle
+Hwang Samsung
+Cailean Osborne
+University of Oxford,
+Linux Foundation
+Stella Biderman
+EleutherAI
+Justin Colannino
+Microsoft
+
+5.
+
+Hailey Schoelkopf
+EleutherAI
+
+6.
+
+Aviya Skowron
+EleutherAI
+
+Over 50% of all
+workgroup
+participants are
+people of color.
+
+OpenCV
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+
+8.
+9.
+10.
+
+Rahmat Akintola
+Cubeseed Africa
+Ignatius Ezeani
+Lancaster University
+Kevin Harerimana CMU
+Africa
+Satya Mallick OpenCV
+David Manset ITU
+Phil Nelson
+OpenCV
+Tlamelo Makati
+WiMLDS Gaborone,
+Technological University
+Dublin
+Minyechil Alehegn
+Tefera Mizan Tepi
+University
+Akosua Twumasi
+Ghana Health Service
+Rasim Sen Oasis
+Software Technology Ltd.
+
+Workgroups: Required Component Selection
+Component List
+
+18
+
+Available on arXiv
+CC BY-NC-SA 4.0
+
+Workgroups: Required Component Selection
+Component
+List
+Component Votes
+
+19
+
+Example:
+Llama 2
+Workgroup
+
+Workgroups: Required Component Selection
+Component
+List
+
+Component
+Votes
+Vote Compilation
+
+20
+
+Workgroups: Required Component Selection
+Component
+List
+
+Component
+Votes
+Vote
+Compilation
+Recommendation Report
+
+21
+
+v.0.0.6
+
+Workgroups: Required Component Selection
+Component
+List
+
+Component
+Votes
+Vote
+Compilation
+
+Recommendation
+Report
+Definition
+Checklist
+
+22
+
+v.0.0.6
+
+Open Source AI Definition v.0.0.7
+Required Components
+
+23
+
+Open Source AI Definition v.0.0.7
+Required Components: Legal Frameworks
+
+24
+
+Open Source AI Definition v.0.0.7
+Required Components: Legal Frameworks
+
+25
+
+Open Source AI Definition
+
+The Co-Design Process
+Representation, Inclusion, and Equity
+● Creating content for definition v. 0.0.7
+● Release by next Friday, April 12th
+
+26
+
+Equitable and inclusive stakeholder
+representation isn’t only about for
+justice, it’s about legitimacy.
+
+A global definition requires
+global consultation.
+27
+
+Stakeholder
+
+Description
+
+Example
+
+1. System
+Creator
+
+Makes AI system and/or component that will be
+studied, used, modified, or shared through an open
+source license
+
+ML researcher in academia or industry
+
+2. License
+Creator
+
+Writes or edits the open source license to be applied
+to the AI system or component, includes compliance
+
+IP lawyer
+
+3. Regulator
+
+Writes or edits rules governing licenses and systems
+
+government policy-maker
+
+4. Licensee
+
+Seeks to study, use modify, or share an open source
+AI system
+
+AI engineer in industry, health researcher in
+academia
+
+5. End User
+
+Consumes a system output, but does not seek to
+study, use, modify, or share the system
+
+student using a chatbot to write a report, artist
+creating an image
+
+6. Subject
+
+Affected upstream or downstream by a system output
+without interacting with it intentionally + advocates for
+this group.
+
+photographer who finds their image in training
+28
+dataset (upstream), mortgage applicant
+evaluated
+by a bank’s AI system (downstream)
+
+28
+
+Stakeholder
+
+Most
+involved
+in current
+phase
+
+Description
+
+Example
+
+1. System
+Creator
+
+Makes AI system and/or component that will be
+studied, used, modified, or shared through an open
+source license
+
+ML researcher in academia or industry
+
+2. License
+Creator
+
+Writes or edits the open source license to be applied
+to the AI system or component, includes compliance
+
+IP lawyer
+
+3. Regulator
+
+Writes or edits rules governing licenses and systems
+
+government policy-maker
+
+4. Licensee
+
+Seeks to study, use modify, or share an open source
+AI system
+
+AI engineer in industry, health researcher in
+academia
+
+5. End User
+
+Consumes a system output, but does not seek to
+study, use, modify, or share the system
+
+student using a chatbot to write a report, artist
+creating an image
+
+6. Subject
+
+Affected upstream or downstream by a system output
+without interacting with it intentionally + advocates for
+this group.
+
+photographer who finds their image in training
+29
+dataset (upstream), mortgage applicant
+evaluated
+by a bank’s AI system (downstream)
+
+29
+
+30
+
+Open Source AI Definition
+
+The Co-Design Process
+Next Steps
+● Creating content for definition v. 0.0.7
+● Release by next Friday, April 12th
+
+31
+
+System testing work stream
+Stakeholder consultation work stream
+
+2024 Timeline
+OSAID v. 0.0.7
+last Friday, April
+12th
+
+Release schedule
+
+February
+
+March
+
+April
+
+May
+
+June …
+
+Call For Volunteers
++ Activity
+Feedback and
+Revision
+
+Virtual System
+Review
+Meetings
+Begin
+
+Virtual System
+Review
+Meetings
+Continue
+
+Virtual System
+Review
+Meetings
+END
+
+Feedback
+Informs Content
+of OSI In-Person
+Stakeholder
+Meeting
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Townhalls +
+
+Townhall +
+
+Draft 0.0.5
+
+Draft 0.0.6
+
+Draft 0.0.7
+
+PyCon
+Workshop
+May 17th,
+Pittsburgh)
+
+(≈
+
+Draft 0.0.8
+
+… October
+Monthly Virtual
+Meetings
+
+Release stable
+version
+
+OSI In-Person
+Stakeholder
+Meeting (date
++ place TBD)
+
+RC1
+
+Stable
+Version
+
+In-Person Meetings
+Region
+
+Country
+
+City
+
+Conference
+
+Date
+
+North America
+
+United States
+
+Pittsburgh
+
+PyCon US
+
+May 17
+
+Europe
+
+France
+
+Paris
+
+OW2
+
+June
+
+Africa
+
+Nigeria
+
+Lagos
+
+Sustain Africa
+
+June
+
+North America
+
+United States
+
+New York
+
+OSPOs for Good
+
+July 9 - 11
+
+Asia Paciﬁc
+
+China
+
+Hong Kong
+
+AI_dev
+
+August 23
+
+Latin America
+
+Argentina
+
+Buenos Aires
+
+Nerdearla
+
+September
+
+Europe
+
+France
+
+Paris
+
+(data governance)
+
+September
+
+North America
+
+United States
+
+Raleigh
+
+All Things Open
+
+Oct 27 - 29
+
+33
+
+Open Source AI Definition
+Stay Connected
+●
+●
+
+●
+
+Public forum: discuss.opensource.org
+Become an OSI Member
+○ Free or or full
+○ SSO with other OSI websites
+Biweekly virtual town halls
+34
+
+Q&A
+
+35
+
+Thank you
+We realize this is difficult work and we appreciate
+your help and openness in improving the
+deﬁnitional process.
+
+36
+
+
