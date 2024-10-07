@@ -1,0 +1,907 @@
+Open Source Initiative
+
+Deﬁning
+Open Source AI
+Nick Vidal, Stefano Maffulli | October 4th, 2024
+
+Supported by:
+
+Why Deﬁne Open Source AI
+Now?
+Frontier of OS
+
+Shaping Regulation
+
+Combat Open-Washing
+
+Deﬁning Open Source AI is
+the most signiﬁcant
+challenge facing the open
+source movement.
+
+Government regulations
+have begun in the EU, US,
+and elsewhere. We have
+the opportunity to share
+these new policies and
+laws by deﬁning OSAI.
+
+Companies are calling AI
+systems “open source”
+even though their licenses
+contain restrictions that go
+against the accepted
+principles and freedoms of
+open source.
+
+Beneﬁts of Open Source AI
+by Lea Gimpel
+Transparency + Safety
+
+Market Deconcentration +
+AI Polyculture
+
+OSAI provides information
+essential for auditing
+systems and to mitigate
+bias, ensures
+accountability and
+transparency of data
+sources, and accelerates AI
+safety research
+
+OSAI makes more models
+available, spurs innovation
+and quality due to
+increased competition and
+tackles AI monoculture by
+providing more
+stakeholders access to
+foundational technology.
+
+Diverse Applications
+OSAI gives developers
+access to resources crucial
+for developing contextspeciﬁc, localized applications that are representative of cultural and
+linguistic diversity and allow
+for model aligned with
+different value systems.
+
+https://opensource.org/deepdive/webinars
+
+2022-2023 research
+Interviews (Podcast)
+
+Panel discussions
+
+Webinar series
+
+Four panels with 4 experts covering 4
+area:
+●
+Business
+●
+Society
+●
+Legal
+●
+Academia
+
+18 experts of different disciplines
+from all over the world dissected
+issues from data governance, privacy,
+labor laws, software development and
+more.
+
+https://deepdive.opensource.org/report/
+
+https://opensource.org/deepdive/webinars
+
+We’ve known that the availability of training data was THE ISSUE
+
+Co-Designing
+the OSAID
+How we created the Open Source AI
+Deﬁnition through global consultation.
+
+Co-Designing the OSAID
+A Global Snapshot
+Our co-design process included in-person
+workshops on five continents – South America,
+North America, Africa, Europe, and Asia – and
+virtual participants from more than 35 countries.
+
+OSAID Co-Design Question
+
+1
+
+Use • Study • Modify • Share
+What should these open
+source principles mean for
+artiﬁcial intelligence?
+
+Open Source
+AI Definition
+Four
+Freedoms
+v.0.0.9
+
+1. Use the system for any
+purpose and without having to
+ask for permission.
+2. Study how the system works
+and inspect its components.
+3. Modify the system for any
+purpose, including to change
+its output.
+4. Share the system for others to
+use with or without
+modiﬁcations, for any purpose.
+
+OSAID Co-Design Question
+
+2
+
+What components must be
+open in order for an AI
+system to be used, studied,
+modiﬁed, and shared?
+
+Virtual
+Workgroups
+Llama 2 Group
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+
+Bastien Guerry
+DINUM, French public
+administration
+Ezequiel Lanza
+Intel
+Roman Shaposhnik
+Apache Software
+Foundation
+Davide Testuggine
+Meta
+Jonathan Torres
+Meta
+Stefano Zacchiroli
+Polytechnic Institute of
+Paris
+Mo Zhou Debian,
+Johns Hopkins
+University
+Victor Lu independent
+database consultant
+
+Members agreed to make their names and affiliations public to support the
+transparency of the co-design process.
+
+BLOOM Group
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+
+George C. G. Barbosa
+Fundação Oswaldo Cruz
+Daniel Brumund GIZ
+FAIR Forward - AI for all
+Danish Contractor
+BLOOM Model Gov. WG
+Abdoulaye Diack
+Google
+Jaan Li University of
+Tartu, Phare Health
+Jean-Pierre Lorre
+LINAGORA,
+OpenLLM-France
+Ofentse Phuti WiMLDS
+Gaborone
+Caleb Fianku Quao
+Kwame Nkrumah
+University of Science and
+Technology, Kumasi
+
+Pythia Group
+1.
+2.
+
+3.
+4.
+
+Seo-Young Isabelle
+Hwang Samsung
+Cailean Osborne
+University of Oxford,
+Linux Foundation
+Stella Biderman
+EleutherAI
+Justin Colannino
+Microsoft
+
+5.
+
+Hailey Schoelkopf
+EleutherAI
+
+6.
+
+Aviya Skowron
+EleutherAI
+
+Over 50% of participants
+are People of Color, 30%
+are Black, and 25% are
+women, trans, and
+nonbinary.
+
+OpenCV Group
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+
+8.
+9.
+10.
+
+Rahmat Akintola
+Cubeseed Africa
+Ignatius Ezeani
+Lancaster University
+Kevin Harerimana CMU
+Africa
+Satya Mallick OpenCV
+David Manset ITU
+Phil Nelson
+OpenCV
+Tlamelo Makati
+WiMLDS Gaborone,
+Technological University
+Dublin
+Minyechil Alehegn
+Tefera Mizan Tepi
+University
+Akosua Twumasi
+Ghana Health Service
+Rasim Sen Oasis
+Software Technology Ltd.
+
+Outreach
+
+To achieve better global representation in the co-design process, we conducted outreach to
+Black, Indigenous, and other People of Color, particularly women and individuals from the
+Global South.
+
+This public forum
+post from March
+an example of
+our outreach.
+
+Selecting the required components described in the
+
+Voting for Requirements checklist and preferred form section
+1. Workgroup
+Votes
+
+2. Public Vote
+Compilation
+3. Public Results
+Report on Forum
+
+4. Deﬁnition v.0.0.6
++ Checklist
+
+components from
+Model Openness
+Framework (MOF)
+
+March 1, 2024
+March 10, 2024
+
+OSAID Co-Design Question
+
+3
+
+Which AI systems
+meet the criteria of
+the OSAID?
+
+We were interested in reviewing about 10 AI systems self-described as
+
+Validation Reviewers open to validate the definition. Work began May 1, 2024.
+1. Arctic
+1.
+
+Jesús M.
+Gonzalez-Barahona
+Universidad Rey Juan
+Carlos
+
+2. BLOOM
+2.
+3.
+
+Danish Contractor
+BLOOM Model Gov.
+Work Group
+Jaan Li University of
+Tartu, One Fact
+Foundation
+
+3. Falcon
+1.
+2.
+
+Casey Valk Nutanix
+Jean-Pierre Lorre
+LINAGORA,
+OpenLLM-France
+
+4. Grok
+1.
+2.
+
+Victor Lu
+independent
+database consultant
+Karsten Wade Open
+Community
+Architects
+
+5. Llama 2
+1.
+2.
+3.
+4.
+
+Davide Testuggine
+Meta
+Jonathan Torres
+Meta
+Stefano Zacchiroli
+Polytechnic
+Institute of Paris
+Victor Lu
+independent
+database consultant
+
+6. LLM360
+5.
+
+[Team member
+TBD] LLM360
+
+7. Phi-2
+6.
+
+Seo-Young Isabelle
+Hwang Samsung
+
+8. Mistral
+1.
+2.
+3.
+
+Mark Collier
+OpenInfra
+Foundation
+Jean-Pierre Lorre
+LINAGORA,
+OpenLLM-France
+Cailean Osborne
+University of Oxford,
+Linux Foundation
+
+9. OLMo
+4.
+5.
+
+Amanda Casari
+Google
+Abdoulaye Diack
+Google
+
+10. OpenCV
+1.
+
+Rasim Sen Oasis
+Software
+Technology Ltd.
+
+11. Pythia
+1.
+2.
+
+Seo-Young Isabelle
+Hwang Samsung
+Stella Biderman
+EleutherAI
+
+3.
+
+Hailey Schoelkopf
+EleutherAI
+
+4.
+
+Aviya Skowron
+EleutherAI
+
+12. T5
+5.
+
+Jaan Li University of
+Tartu, One Fact
+Foundation
+
+13. Viking
+6.
+
+Merlijn Sebrechts
+Ghent University
+
+Validation Review
+
+Each system is reviewed on a public form, to maximize transparency.
+
+Validation is ongoing. We have found that creator participation is in
+
+Validation Progress most cases necessary to identify all the legal documents needed to
+ascertain openness. Last updated in June, 2024.
+
+Current Version: Release Candidate 1
+
+Open Source AI Deﬁnition
+4 Freedoms
+● Use
+● Study
+● Modify
+● Share
+
++
+
+Open Weights
+
+● Model
+weights and
+parameters
+
++
+
+Open Code
+
+● Source code
+used to train
+and run the
+system
+
++
+
+Data Info
+
+● Dataset or
+detailed
+information
+about the
+data used to
+train the
+system
+
+The AI conundrums
+“If we assume, for example, that the definition requires full
+release of datasets, one thing is certain: in Julia’s words, it
+would be “a definition for which few existing systems qualify.”
+(OSI note: also less powerful and limited to specific domains
+
+https://redmonk.com/sogrady/2024/07/03/ai-conundrums/
+
+We can't ask for people to
+release datasets that are
+illegal to be distributed,
+like private data.
+And we don't want to say
+that medical AI can never
+be Open Source AI either.
+
+A long history of
+exceptions
+“The GNU C library uses a special kind of copyleft called the GNU
+Library General Public License, which gives permission to link
+proprietary software with the library. Why make this exception? [...]
+It is not a matter of principle;[...] but strategically it seems that
+disallowing them would do more to discourage use of the GNU
+system than to encourage development of free applications
+Richard Stallman
+https://www.gnu.org/philosophy/fsfs/rms-essays.pdf
+
+Board Guidance
+The OSI Board requires a deﬁnition that is:
+
+Supported by
+diverse stakeholders
+
+Provides real-life
+examples
+
+Ready by
+October 2024
+
+The deﬁnition
+needs to have
+approval by end
+users, developers,
+deployers and
+subjects of AI,
+globally.
+
+The deﬁnition must
+include relevant
+examples of AI
+systems that comply
+with it at the time of
+approval, so cannot
+have an empty set.
+
+A usable version of
+the deﬁnition
+needs to be ready
+for approval by the
+board at the
+October board
+meeting.
+
+Approved June 21, 2024
+
+Open Source
+AI Definition
+The general structure of
+the document
+
+Basic concepts
+
+The Open Source
+AI Definition
+
+The definition of
+preferred form to
+make modifications
+to machine learning
+
+Clarifications
+
+Unlikely to
+change in the
+future
+
+Most likely to
+change in the
+future
+
+New FAQ entry (preview)
+Open training data: data that can be copied, preserved and reshared. It provides the best way to enable users to study the
+system.
+Public training data: data that others can inspect as long as it remains available. This also enables users to study the work.
+However, this data can degrade as links or references are lost or removed from network availability. To obviate this, different
+communities will have to work together to define standards, procedures, tools and governance models to overcome this risk,
+and Data Information is required in case the data becomes later unavailable..
+Obtainable training data: data that can be obtained, including for a fee. This information provides transparency and is
+similar to a purchasable component in an open hardware system. The Data Information provides a means of understanding
+this data other than obtaining or purchasing it. This is an area that is likely to change rapidly and will need careful monitoring
+to protect Open Source AI developers.
+Unshareable non-public training data: data that cannot be shared for explainable reasons, like Personally Identifiable
+Information (PII). For this class of data, the ability to study some of the system's biases demands a detailed description of the
+data – what it is, how it was collected, its characteristics, and so on – so that users can understand the biases and
+categorization underlying the system.
+
+RC1
+Data Information: Sufficiently detailed information about the data used to train the system so that a skilled
+person can recreatebuild a substantially equivalent system, together with the code requirements listed
+below. Data Information shall be made available under terms that allow the copying, modification, and
+redistribution of the information.
+In particular, if used, this wouldmust include:
+(1) a listing of all publicly available training data;
+(2) a listing of all training data obtainable from third parties and where to obtain it, including for a fee; and
+(3) a detailed description of all data, including unshareable data, that provides information about the
+provenance of the data, its scope and characteristics, how the data was obtained and selected, the labeling
+procedures and data cleaning methodologies.
+
+RC1
+Code: The complete source code used to train and run the system. The Code shall represent the full
+specification of how the Data Information was processed and how the training was done. Code shall be
+made available under OSI-approved licenses.
+* For example, if used, this must include code used for pre-processing data, code used for training, validation
+and testing, supporting libraries like tokenizers and hyperparameters search code, inference code, and model
+architecture.
+Parameters: The model parameters, such as weights or other configuration settings. Parameters shall be
+made available under OSI-approved terms[^4].
+* For example, this might include checkpoints from key intermediate stages of training as well as the final
+optimizer state.
+The licensing or other contractual terms applied to these elements and to any combination thereof
+may contain conditions that require any modified version to be released under the same license as the
+original.
+
+The Board requires that the definition have approval by end users,
+
+Stakeholder Groups developers, deployers and subjects of AI, globally.
+Stakeholder
+
+Description
+
+Example
+
+Vols
+
+1. Developer
+
+Makes AI system and/or
+component that will be studied,
+used, modiﬁed, or shared
+through an open source license
+
+ML researcher in academia or
+industry
+
+31%
+
+2. Deployer
+
+Seeks to study, use modify, or
+share an open source AI system
+
+AI engineer in industry, health
+researcher in academia
+
+46%
+
+3. End User
+
+Consumes a system output, but
+does not seek to study, use,
+modify, or share the system
+
+Student using a chatbot to write
+a report, artist creating an image
+
+≈ 90%
+
+4. Subject
+
+Affected upstream or
+downstream by a system output
+without interacting with it
+intentionally + advocates for this
+group.
+
+Photographer who ﬁnds their
+image in training dataset
+(upstream), mortgage applicant
+evaluated by a bank’s AI system
+(downstream)
+
+≈ 100%
+26
+
+26
+
+System testing work stream
+
+2024 Timeline
+
+Stakeholder consultation work stream
+Release schedule
+
+February
+
+April
+
+Call For Volunteers
++ Activity
+Feedback and
+Revision
+
+Virtual System
+Review
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Bi-Weekly
+Virtual
+Public
+Townhalls
+
+Draft 0.0.5
+
+Draft 0.0.8
+
+July
+
+August
+
+September
+
+October
+
+Virtual System
+Review
+
+Virtual System
+Review
+
+Feedback and
+review
+Hardening WG
+
+Feedback and
+review
+Hardening WG
+
+Townhalls +
+
+Townhalls +
+
+- OSPOs for
+Good (NYC)
+- OS Community
+Africa (virtual)
+
+- AI-dev (Hong
+Kong)
+- OSC (Beijing)
+
+Draft 0.0.8
+
+Draft 0.0.9
+
+Weekly townhalls
+- DL Indaba (Dakar)
+- FOSSIndia (Bangalore)
+- RegenAI (Ashland)
+- LF Europe (Vienna)
+- Nerdearla (Buenos
+Aires)
+
+RC1
+
+Weekly townhalls
+- Data Workshop
+(Paris)
+- All Things
+Open (Raleigh)
+
+Version 1.0
+
+Call for Public Participation
+
+Endorse
+the
+OSAID!
+opensource.org/osaid-endorse
+Mer Joyce
+
+Endorse the OSAID!
+● In preparation for next month’s launch, we are
+seeking both individual and organizational
+endorsements of the OSAID.
+● “Endorsement” means your name and
+organizational aﬃliation will be appended to a press
+release announcing the OSAID.
+● Use OSI’s webform to give your endorsement.
+● Email or DM me on the forum with any questions.
+29
+
+How to Participate
+● Endorse the OSAID!
+○ opensource.org/osaid-endorse
+● Public forum: discuss.opensource.org
+● Comment on RC1 next week
+● Become an OSI Member (free + paid)
+● Weekly virtual town halls
+
+Thank You,
+Co-Designers!
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+
+The following individuals volunteered as workgroup members or system reviewers
+during the co-design process. This group of 36 volunteers represents 23 countries by
+birth and residence. African participants are highlighted.
+
+Rahmat Akintola Cubeseed Africa
+George C. G. Barbosa Fundação Oswaldo Cruz
+Stella Biderman EleutherAI
+Amanda Casari Google
+Justin Colannino Microsoft
+Mark Collier OpenInfra Foundation
+Daniel Brumund GIZ FAIR Forward - AI for All
+Danish Contractor BLOOM Model Gov. WG
+Abdoulaye Diack Google
+Ignatius Ezeani Lancaster University
+Jesús M. Gonzalez-Barahona Universidad Rey
+Juan Carlos
+Bastien Guerry DINUM, French public
+administration
+Kevin Harerimana CMU Africa
+Seo-Young Isabelle Hwang Samsung
+Ezequiel Lanza Intel
+Jaan Li University of Tartu, One Fact Foundation
+Jean-Pierre Lorre LINAGORA, OpenLLM-France
+Victor Lu independent database consultant
+
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+
+Tlamelo Makati WiMLDS Gaborone, Technological
+University Dublin
+Satya Mallick OpenCV
+David Manset ITU
+Phil Nelson OpenCV
+Cailean Osborne University of Oxford,
+Linux Foundation
+Ofentse Phuti WiMLDS Gaborone
+Caleb Fianku Quao Kwame Nkrumah University of
+Science and Technology, Kumasi
+Hailey Schoelkopf EleutherAI
+Rasim Sen Oasis Software Technology Ltd.
+Roman Shaposhnik Apache Software Foundation
+Aviya Skowron EleutherAI
+Minyechil Alehegn Tefera Mizan Tepi University
+Davide Testuggine Meta
+Jonathan Torres Meta
+Akosua Twumasi Ghana Health Service
+Casey Valk Nutanix
+Stefano Zacchiroli Polytechnic Institute of Paris
+Mo Zhou Debian, Johns Hopkins University
+
+Q+A
+
+

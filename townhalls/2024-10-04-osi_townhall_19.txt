@@ -1,0 +1,56 @@
+So let's start the recording. Hello everyone, my name is Nick Vidal. I'm the Community Manager
+
+at the OSI. Today I'll be presenting and staff will be joining us shortly for Q&A.
+
+And but if you have again if you have any questions just put it on chats. Later we are going to open
+
+up for Q&A. So today we're going to be talking about especially RC1 that was released two days
+
+ago. And this release candidates has introduced a lot of changes and hopefully we're converging in
+
+the right direction based on community feedback, right? Of course there are a lot of controversial
+
+topics still. People are still asking about the community feedback. So I'm going to start with
+
+the community feedback. So I'm going to start with the community feedback. So I'm going to start
+
+with the community feedback. So I'm going to start with the community feedback. So I'm going to start
+
+People are very passionate about their opinions.
+
+And that's perfectly fine.
+
+And we're here to hear everyone's opinion.
+
+Now let's start with the question why define open source AI now, right?
+
+Why now?
+
+So of course, there has been a huge popularity of AI, especially large language models in
+
+the past, I would say, two years.
+
+And so this is something that has been over media.
+
+People have been claiming that they actually have an open source AI or large language model.
+
+But there's no clear definition of what that is.
+
+What that actually entails.
+
+What's actually open source AI.
+
+And for that reason, OSI being the, I would say, the champion of open source, the open
+
+source definition, we felt that it was important for us to step in, not just ourselves, but
+
+together with other community members, other nonprofit organizations, to try to come up
+
+with a more open source AI.
+
+And we're here to hear everyone's opinion.
+
+Bye.
+
+Yes, bye.
+

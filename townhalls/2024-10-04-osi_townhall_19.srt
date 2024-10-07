@@ -1,0 +1,112 @@
+1
+00:00:00,480 --> 00:00:08,640
+So let's start the recording. Hello everyone, my name is Nick Vidal. I'm the Community Manager
+
+2
+00:00:08,640 --> 00:00:16,800
+at the OSI. Today I'll be presenting and staff will be joining us shortly for Q&A.
+
+3
+00:00:16,800 --> 00:00:24,960
+And but if you have again if you have any questions just put it on chats. Later we are going to open
+
+4
+00:00:24,960 --> 00:00:36,000
+up for Q&A. So today we're going to be talking about especially RC1 that was released two days
+
+5
+00:00:36,000 --> 00:00:45,760
+ago. And this release candidates has introduced a lot of changes and hopefully we're converging in
+
+6
+00:00:45,760 --> 00:00:52,640
+the right direction based on community feedback, right? Of course there are a lot of controversial
+
+7
+00:00:52,640 --> 00:00:54,720
+topics still. People are still asking about the community feedback. So I'm going to start with
+
+8
+00:00:54,720 --> 00:00:54,800
+the community feedback. So I'm going to start with the community feedback. So I'm going to start
+
+9
+00:00:54,800 --> 00:00:54,880
+with the community feedback. So I'm going to start with the community feedback. So I'm going to start
+
+10
+00:00:54,880 --> 00:00:58,360
+People are very passionate about their opinions.
+
+11
+00:00:58,360 --> 00:01:00,700
+And that's perfectly fine.
+
+12
+00:01:00,700 --> 00:01:05,860
+And we're here to hear everyone's opinion.
+
+13
+00:01:05,860 --> 00:01:12,880
+Now let's start with the question why define open source AI now, right?
+
+14
+00:01:12,880 --> 00:01:14,060
+Why now?
+
+15
+00:01:14,060 --> 00:01:26,200
+So of course, there has been a huge popularity of AI, especially large language models in
+
+16
+00:01:26,200 --> 00:01:29,580
+the past, I would say, two years.
+
+17
+00:01:29,580 --> 00:01:34,820
+And so this is something that has been over media.
+
+18
+00:01:34,820 --> 00:01:41,760
+People have been claiming that they actually have an open source AI or large language model.
+
+19
+00:01:41,760 --> 00:01:44,040
+But there's no clear definition of what that is.
+
+20
+00:01:44,040 --> 00:01:45,540
+What that actually entails.
+
+21
+00:01:45,540 --> 00:01:48,600
+What's actually open source AI.
+
+22
+00:01:48,600 --> 00:01:57,580
+And for that reason, OSI being the, I would say, the champion of open source, the open
+
+23
+00:01:57,580 --> 00:02:04,840
+source definition, we felt that it was important for us to step in, not just ourselves, but
+
+24
+00:02:04,840 --> 00:02:14,020
+together with other community members, other nonprofit organizations, to try to come up
+
+25
+00:02:14,020 --> 00:02:15,020
+with a more open source AI.
+
+26
+00:02:15,020 --> 00:02:16,020
+And we're here to hear everyone's opinion.
+
+27
+01:09:26,020 --> 01:09:26,660
+Bye.
+
+28
+01:09:26,660 --> 01:09:28,380
+Yes, bye.
+
