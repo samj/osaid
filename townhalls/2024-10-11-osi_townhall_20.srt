@@ -1,0 +1,276 @@
+1
+00:00:00,001 --> 00:00:02,400
+So hello everyone.
+
+2
+00:00:02,400 --> 00:00:06,760
+Welcome to the Twitter town hall of the open source
+
+3
+00:00:06,760 --> 00:00:07,960
+AI definition.
+
+4
+00:00:07,960 --> 00:00:12,200
+And today we're going to go very quickly over the
+
+5
+00:00:12,200 --> 00:00:17,000
+slides and then we're going to have a dialogue with
+
+6
+00:00:17,000 --> 00:00:18,680
+Sam and Gerardo.
+
+7
+00:00:18,680 --> 00:00:26,840
+So why we need to define open source AI now?
+
+8
+00:00:26,840 --> 00:00:29,760
+This is a big topic.
+
+9
+00:00:29,760 --> 00:00:32,560
+AI has been on the media.
+
+10
+00:00:32,560 --> 00:00:37,080
+And there's a lot going on regulation in the US
+
+11
+00:00:37,080 --> 00:00:41,920
+in Europe and a lot of companies are claiming they're
+
+12
+00:00:41,920 --> 00:00:46,600
+open. They're releasing open source AI when there might not
+
+13
+00:00:46,600 --> 00:00:47,760
+be the facts.
+
+14
+00:00:47,760 --> 00:00:49,360
+We do need a definition.
+
+15
+00:00:49,360 --> 00:00:52,720
+This is not a new content.
+
+16
+00:00:52,720 --> 00:00:54,440
+I don't mind if you just click through them.
+
+17
+00:00:54,440 --> 00:00:56,800
+If you want.
+
+18
+00:00:56,840 --> 00:00:59,600
+It's just mostly just to get them like I say,
+
+19
+00:00:59,600 --> 00:01:01,080
+see if there's any new content and get them on
+
+20
+00:01:01,080 --> 00:01:02,080
+the record and get them out there.
+
+21
+00:01:02,080 --> 00:01:06,320
+Alright, yeah, so I'll go very quickly here.
+
+22
+00:01:06,320 --> 00:01:10,560
+So here are the benefits of open source AI by
+
+23
+00:01:10,560 --> 00:01:15,720
+Leah from the Digital Public Goods Alliance, mostly around
+
+24
+00:01:15,720 --> 00:01:20,760
+transparency and safety, market, the concentration and AI
+
+25
+00:01:20,760 --> 00:01:23,560
+polyculture and diverse application.
+
+26
+00:01:23,560 --> 00:01:32,440
+So the whole process of defining open source AI at the OSI
+
+27
+00:01:32,440 --> 00:01:42,840
+started in 2022 and this started with interviews.
+
+28
+00:01:42,840 --> 00:01:48,240
+That was, we created a podcast and a panel with experts.
+
+29
+00:01:48,240 --> 00:01:51,680
+Later we have webinars, a webinar series.
+
+30
+00:01:51,680 --> 00:01:52,960
+And so.
+
+31
+00:01:52,960 --> 00:01:59,280
+This was really important for us to reach this point,
+
+32
+00:01:59,280 --> 00:02:01,840
+right? Where we created the definition.
+
+33
+00:02:01,840 --> 00:02:12,360
+Well, in late 2023, we had the co-design process led by Mair.
+
+34
+00:02:12,360 --> 00:02:13,760
+So we hired Mair.
+
+35
+00:02:13,760 --> 00:02:22,360
+She's independent, so she has no influence over the results regarding
+
+36
+00:02:22,360 --> 00:02:25,680
+sponsorships and et cetera.
+
+37
+00:02:25,680 --> 00:02:29,080
+And she really did her work as independent as possible.
+
+38
+00:02:29,080 --> 00:02:36,480
+She organized several activities online and in person as well.
+
+39
+00:02:36,480 --> 00:02:42,360
+And we had several questions that we wanted to answer.
+
+40
+00:02:42,360 --> 00:02:46,280
+So the first question was, what should this open source
+
+41
+00:02:46,280 --> 00:02:48,800
+principles mean for artificial intelligence?
+
+42
+00:02:48,800 --> 00:02:52,320
+So the principles would be used to use to study,
+
+43
+00:02:52,320 --> 00:02:53,880
+modify and to share.
+
+44
+00:02:53,880 --> 00:03:01,000
+And so during this, the first, I would say the first months,
+
+45
+00:03:01,000 --> 00:03:08,880
+we changed the four freedoms of software and we adapted that to AI.
+
+46
+00:03:08,880 --> 00:03:12,200
+And we came up with these four freedoms.
+
+47
+00:03:12,200 --> 00:03:18,040
+Now, the second question was, what components must be open in order
+
+48
+00:03:18,040 --> 00:03:21,200
+for an AI system to be used, studied, modified and shared?
+
+49
+00:03:21,720 --> 00:03:26,920
+So we used the MOF framework, the model open framework created by the Linux
+
+50
+00:03:26,920 --> 00:03:29,640
+Foundation as the list of components.
+
+51
+00:03:29,640 --> 00:03:33,280
+And for each one, we evaluated the four freedoms, right?
+
+52
+00:03:33,280 --> 00:03:40,240
+We created four working groups, Yamachu, Bloom, Pythia and OpenCV.
+
+53
+00:03:40,240 --> 00:03:47,880
+And we started outreach to bring people to join
+
+54
+00:03:47,880 --> 00:03:50,480
+those working groups.
+
+55
+00:03:50,480 --> 00:03:53,960
+Each working group, they had a discussion.
+
+56
+00:03:53,960 --> 00:04:01,280
+I believe the discussions were for several sessions.
+
+57
+00:04:01,280 --> 00:04:05,400
+It was not just one session where they.
+
+58
+00:04:05,400 --> 00:04:11,360
+They didn't actually find a consensus, so they actually voted.
+
+59
+00:04:11,360 --> 00:04:16,600
+And after voting, after every work group voted,
+
+60
+00:04:16,600 --> 00:04:19,240
+there was a compilation of those votes.
+
+61
+00:04:19,880 --> 00:04:24,040
+A publication of reports and that led to the definition.
+
+62
+00:04:24,040 --> 00:04:29,400
+It's worth highlighting here as well that one of the working groups,
+
+63
+00:04:29,400 --> 00:04:34,400
+Yamachu, they were able to cast negative votes.
+
+64
+00:04:34,400 --> 00:04:41,320
+And this the reason for that was that was supposed to happen with every working group.
+
+65
+00:04:41,320 --> 00:04:44,760
+But it seems it was too complicated.
+
+66
+00:04:44,760 --> 00:04:49,840
+So that was dropped after Yama cast a negative vote.
+
+67
+00:04:49,840 --> 00:04:50,840
+So that was the reason for that.
+
+68
+00:04:50,840 --> 00:04:52,840
+And then we started to work with the other working groups.
+
+69
+00:53:30,840 --> 00:54:00,820
+Thank you.
+

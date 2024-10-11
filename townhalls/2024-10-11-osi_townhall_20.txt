@@ -1,0 +1,138 @@
+So hello everyone.
+
+Welcome to the Twitter town hall of the open source
+
+AI definition.
+
+And today we're going to go very quickly over the
+
+slides and then we're going to have a dialogue with
+
+Sam and Gerardo.
+
+So why we need to define open source AI now?
+
+This is a big topic.
+
+AI has been on the media.
+
+And there's a lot going on regulation in the US
+
+in Europe and a lot of companies are claiming they're
+
+open. They're releasing open source AI when there might not
+
+be the facts.
+
+We do need a definition.
+
+This is not a new content.
+
+I don't mind if you just click through them.
+
+If you want.
+
+It's just mostly just to get them like I say,
+
+see if there's any new content and get them on
+
+the record and get them out there.
+
+Alright, yeah, so I'll go very quickly here.
+
+So here are the benefits of open source AI by
+
+Leah from the Digital Public Goods Alliance, mostly around
+
+transparency and safety, market, the concentration and AI
+
+polyculture and diverse application.
+
+So the whole process of defining open source AI at the OSI
+
+started in 2022 and this started with interviews.
+
+That was, we created a podcast and a panel with experts.
+
+Later we have webinars, a webinar series.
+
+And so.
+
+This was really important for us to reach this point,
+
+right? Where we created the definition.
+
+Well, in late 2023, we had the co-design process led by Mair.
+
+So we hired Mair.
+
+She's independent, so she has no influence over the results regarding
+
+sponsorships and et cetera.
+
+And she really did her work as independent as possible.
+
+She organized several activities online and in person as well.
+
+And we had several questions that we wanted to answer.
+
+So the first question was, what should this open source
+
+principles mean for artificial intelligence?
+
+So the principles would be used to use to study,
+
+modify and to share.
+
+And so during this, the first, I would say the first months,
+
+we changed the four freedoms of software and we adapted that to AI.
+
+And we came up with these four freedoms.
+
+Now, the second question was, what components must be open in order
+
+for an AI system to be used, studied, modified and shared?
+
+So we used the MOF framework, the model open framework created by the Linux
+
+Foundation as the list of components.
+
+And for each one, we evaluated the four freedoms, right?
+
+We created four working groups, Yamachu, Bloom, Pythia and OpenCV.
+
+And we started outreach to bring people to join
+
+those working groups.
+
+Each working group, they had a discussion.
+
+I believe the discussions were for several sessions.
+
+It was not just one session where they.
+
+They didn't actually find a consensus, so they actually voted.
+
+And after voting, after every work group voted,
+
+there was a compilation of those votes.
+
+A publication of reports and that led to the definition.
+
+It's worth highlighting here as well that one of the working groups,
+
+Yamachu, they were able to cast negative votes.
+
+And this the reason for that was that was supposed to happen with every working group.
+
+But it seems it was too complicated.
+
+So that was dropped after Yama cast a negative vote.
+
+So that was the reason for that.
+
+And then we started to work with the other working groups.
+
+Thank you.
+
