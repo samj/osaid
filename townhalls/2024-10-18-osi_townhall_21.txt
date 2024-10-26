@@ -1,0 +1,176 @@
+All right, everyone, and welcome to the final town hall before the release of version 1.0.
+
+The last week of October, on October 28th, will be at all things open, and there will be a public announcement of a sort.
+
+And so let's recap just a little bit for everyone who may have not followed.
+
+We have received a grant from the Alfred Sloan Foundation to conduct part of this work, so we're grateful for that, and a sponsorship donation from Mercado Libre.
+
+We're also very grateful for that contribution.
+
+Let's go through the reason why we're doing this, because people are asking us, why don't you take a break?
+
+Why don't you wait a little bit?
+
+Are you ready for it?
+
+The thing is that we need to respond to what's happening already outside.
+
+So we know that this is a challenging effort, and it's been a hard conversation to drive.
+
+But we also are in a space where the term open source AI is being used and referred in many different areas from the market, from...
+
+companies, organizations, and regulators are all referring to the term open source with the AI space and with the AI world right after it.
+
+And our stakeholders in general, the open source initiatives, supporters and communities keep asking us the same thing.
+
+Why is this not open source?
+
+Why are you not going to...
+
+Why are you not saying...
+
+Why are you not correcting these statements?
+
+Right.
+
+And this was visible a long time ago.
+
+Like we started noticing that this issue was of AI not having a clear understanding was very visible when I started at the Open Source Initiative in 2022.
+
+So we started that year to interview experts in various areas.
+
+Because this is a new space.
+
+It's a new domain that we don't have familiarity with.
+
+And so we started educating ourselves with a series of interviews that we published as a podcast.
+
+We also held discussions in four different areas in the business, society, impact, legal, academic research, and with experts.
+
+And we published the result and the results of all of that in a nice, easy to read article.
+
+I recommend you all to go find it and read it to get an initial overview of why AI and machine learning, this machine learning space is so radically different from the software space that we are very familiar with.
+
+And at the end of this research that continued in 2023 with a series of webinars, we decided that we needed to have...
+
+We had to have a process that was wide.
+
+It was...
+
+It had to be global and it had to be involving not the typical people who you find in the Open Source conferences or in the Open Source software circles.
+
+It needed to be something that was involving researchers and from other parts of the world, but also experts in different specific domains, not just the software space.
+
+We needed to have experts in civil, civic society and environmental impact, legal experts in copyright, but also in privacy rights and indigenous knowledge.
+
+All of those, all of areas that we were not traditionally familiar with in the Open Source software space.
+
+And we held this...
+
+It was...
+
+This is how we started with this process called co-designing, which is a process.
+
+That is a technique basically to design new things with the people who are going to be impacted by it, not for them.
+
+And the process was structured in a series of questions.
+
+The first question that we asked the groups of volunteers that we have made a concerted effort to be different, diverse with various dimensions of the process.
+
+And we tried to assemble working groups that had all of these characteristics represented.
+
+We asked the first question, what should the open, the meaning of Open Source and the free software principles, how do we translate them?
+
+How do we apply them to artificial intelligence space?
+
+And it was fairly easy to transform it slightly wordsmith, if you want.
+
+The four freedoms, the freedom to choose, freedom to use, freedom to use the tools.
+
+The freedom to use, study, modify and share and apply them with changing some of the words so that they would fit the machine learning, the artificial intelligence space.
+
+So then the next question we asked them is what components of AI systems you need in order to use, study, modify and share?
+
+Again, this is because it's a new space.
+
+We know that there are multiple artifacts of different nature and we need to ask them, the working groups to help us.
+
+Understand what components are required.
+
+And we have these the working group set up to analyze, for example, systems, some that we knew were not open source and some that we knew are more open in different ways, like the difference between bloom and Pithia and some of like OpenCV that we know is works in the open source space.
+
+So but it's not generative AI.
+
+It's more it is about computer vision.
+
+But still using machine learning techniques.
+
+So we asked them also to rank the importance of each of the components.
+
+And they give us indications of of how to how to proceed, how to move forward.
+
+And we released a new draft of the definition.
+
+Now, with that draft definition version version zero zero six, we asked another question to other people, which of these if you use these.
+
+These criteria listed in zero zero six, which of these systems actually comply with those criteria?
+
+And we asked we had these reviewers and many more involved and they give us they give us the the validated the the theory and that theory confirmed what we thought was going to be happening.
+
+So we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+
+And we asked them to rank the components.
+

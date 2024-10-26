@@ -1,0 +1,352 @@
+1
+00:00:00,001 --> 00:00:09,440
+All right, everyone, and welcome to the final town hall before the release of version 1.0.
+
+2
+00:00:09,440 --> 00:00:21,280
+The last week of October, on October 28th, will be at all things open, and there will be a public announcement of a sort.
+
+3
+00:00:23,440 --> 00:00:30,260
+And so let's recap just a little bit for everyone who may have not followed.
+
+4
+00:00:30,260 --> 00:00:42,120
+We have received a grant from the Alfred Sloan Foundation to conduct part of this work, so we're grateful for that, and a sponsorship donation from Mercado Libre.
+
+5
+00:00:42,120 --> 00:00:44,640
+We're also very grateful for that contribution.
+
+6
+00:00:44,640 --> 00:00:51,980
+Let's go through the reason why we're doing this, because people are asking us, why don't you take a break?
+
+7
+00:00:51,980 --> 00:00:53,280
+Why don't you wait a little bit?
+
+8
+00:00:53,280 --> 00:00:54,620
+Are you ready for it?
+
+9
+00:00:54,620 --> 00:01:01,160
+The thing is that we need to respond to what's happening already outside.
+
+10
+00:01:01,160 --> 00:01:07,600
+So we know that this is a challenging effort, and it's been a hard conversation to drive.
+
+11
+00:01:07,600 --> 00:01:22,600
+But we also are in a space where the term open source AI is being used and referred in many different areas from the market, from...
+
+12
+00:01:23,120 --> 00:01:39,700
+companies, organizations, and regulators are all referring to the term open source with the AI space and with the AI world right after it.
+
+13
+00:01:39,700 --> 00:01:51,720
+And our stakeholders in general, the open source initiatives, supporters and communities keep asking us the same thing.
+
+14
+00:01:52,960 --> 00:01:54,040
+Why is this not open source?
+
+15
+00:01:54,040 --> 00:01:55,420
+Why are you not going to...
+
+16
+00:01:55,420 --> 00:01:56,980
+Why are you not saying...
+
+17
+00:01:56,980 --> 00:02:01,120
+Why are you not correcting these statements?
+
+18
+00:02:01,120 --> 00:02:01,320
+Right.
+
+19
+00:02:01,320 --> 00:02:05,140
+And this was visible a long time ago.
+
+20
+00:02:05,140 --> 00:02:17,180
+Like we started noticing that this issue was of AI not having a clear understanding was very visible when I started at the Open Source Initiative in 2022.
+
+21
+00:02:17,180 --> 00:02:22,800
+So we started that year to interview experts in various areas.
+
+22
+00:02:22,800 --> 00:02:25,260
+Because this is a new space.
+
+23
+00:02:25,260 --> 00:02:28,680
+It's a new domain that we don't have familiarity with.
+
+24
+00:02:28,680 --> 00:02:35,640
+And so we started educating ourselves with a series of interviews that we published as a podcast.
+
+25
+00:02:35,640 --> 00:02:46,540
+We also held discussions in four different areas in the business, society, impact, legal, academic research, and with experts.
+
+26
+00:02:46,540 --> 00:02:52,640
+And we published the result and the results of all of that in a nice, easy to read article.
+
+27
+00:02:52,640 --> 00:03:11,160
+I recommend you all to go find it and read it to get an initial overview of why AI and machine learning, this machine learning space is so radically different from the software space that we are very familiar with.
+
+28
+00:03:11,160 --> 00:03:22,480
+And at the end of this research that continued in 2023 with a series of webinars, we decided that we needed to have...
+
+29
+00:03:22,480 --> 00:03:26,880
+We had to have a process that was wide.
+
+30
+00:03:26,880 --> 00:03:29,000
+It was...
+
+31
+00:03:29,000 --> 00:03:40,040
+It had to be global and it had to be involving not the typical people who you find in the Open Source conferences or in the Open Source software circles.
+
+32
+00:03:40,040 --> 00:03:52,320
+It needed to be something that was involving researchers and from other parts of the world, but also experts in different specific domains, not just the software space.
+
+33
+00:03:52,320 --> 00:04:05,920
+We needed to have experts in civil, civic society and environmental impact, legal experts in copyright, but also in privacy rights and indigenous knowledge.
+
+34
+00:04:05,920 --> 00:04:13,440
+All of those, all of areas that we were not traditionally familiar with in the Open Source software space.
+
+35
+00:04:13,440 --> 00:04:16,040
+And we held this...
+
+36
+00:04:16,040 --> 00:04:17,200
+It was...
+
+37
+00:04:17,200 --> 00:04:22,160
+This is how we started with this process called co-designing, which is a process.
+
+38
+00:04:22,160 --> 00:04:36,600
+That is a technique basically to design new things with the people who are going to be impacted by it, not for them.
+
+39
+00:04:36,600 --> 00:04:42,280
+And the process was structured in a series of questions.
+
+40
+00:04:42,280 --> 00:04:52,000
+The first question that we asked the groups of volunteers that we have made a concerted effort to be different, diverse with various dimensions of the process.
+
+41
+00:04:52,000 --> 00:05:02,560
+And we tried to assemble working groups that had all of these characteristics represented.
+
+42
+00:05:02,560 --> 00:05:10,400
+We asked the first question, what should the open, the meaning of Open Source and the free software principles, how do we translate them?
+
+43
+00:05:10,400 --> 00:05:14,400
+How do we apply them to artificial intelligence space?
+
+44
+00:05:14,400 --> 00:05:20,120
+And it was fairly easy to transform it slightly wordsmith, if you want.
+
+45
+00:05:20,120 --> 00:05:21,840
+The four freedoms, the freedom to choose, freedom to use, freedom to use the tools.
+
+46
+00:05:21,840 --> 00:05:32,040
+The freedom to use, study, modify and share and apply them with changing some of the words so that they would fit the machine learning, the artificial intelligence space.
+
+47
+00:05:32,040 --> 00:05:40,560
+So then the next question we asked them is what components of AI systems you need in order to use, study, modify and share?
+
+48
+00:05:40,560 --> 00:05:43,760
+Again, this is because it's a new space.
+
+49
+00:05:43,760 --> 00:05:51,680
+We know that there are multiple artifacts of different nature and we need to ask them, the working groups to help us.
+
+50
+00:05:51,680 --> 00:05:55,040
+Understand what components are required.
+
+51
+00:05:55,040 --> 00:06:15,600
+And we have these the working group set up to analyze, for example, systems, some that we knew were not open source and some that we knew are more open in different ways, like the difference between bloom and Pithia and some of like OpenCV that we know is works in the open source space.
+
+52
+00:06:15,600 --> 00:06:18,160
+So but it's not generative AI.
+
+53
+00:06:18,160 --> 00:06:21,520
+It's more it is about computer vision.
+
+54
+00:06:21,520 --> 00:06:23,920
+But still using machine learning techniques.
+
+55
+00:06:23,920 --> 00:06:30,880
+So we asked them also to rank the importance of each of the components.
+
+56
+00:06:30,880 --> 00:06:39,120
+And they give us indications of of how to how to proceed, how to move forward.
+
+57
+00:06:39,120 --> 00:06:42,560
+And we released a new draft of the definition.
+
+58
+00:06:42,560 --> 00:06:51,360
+Now, with that draft definition version version zero zero six, we asked another question to other people, which of these if you use these.
+
+59
+00:06:51,360 --> 00:06:59,200
+These criteria listed in zero zero six, which of these systems actually comply with those criteria?
+
+60
+00:06:59,200 --> 00:07:21,200
+And we asked we had these reviewers and many more involved and they give us they give us the the validated the the theory and that theory confirmed what we thought was going to be happening.
+
+61
+00:07:21,200 --> 00:07:23,200
+So we asked them to rank the components.
+
+62
+00:07:23,200 --> 00:07:25,200
+And we asked them to rank the components.
+
+63
+00:07:49,200 --> 00:07:51,040
+And we asked them to rank the components.
+
+64
+00:07:51,040 --> 00:07:53,040
+And we asked them to rank the components.
+
+65
+00:08:19,040 --> 00:08:20,880
+And we asked them to rank the components.
+
+66
+00:08:20,880 --> 00:08:22,880
+And we asked them to rank the components.
+
+67
+00:08:48,880 --> 00:08:50,720
+And we asked them to rank the components.
+
+68
+00:08:50,720 --> 00:08:52,720
+And we asked them to rank the components.
+
+69
+00:09:18,720 --> 00:09:20,560
+And we asked them to rank the components.
+
+70
+00:09:20,560 --> 00:09:22,560
+And we asked them to rank the components.
+
+71
+00:09:48,560 --> 00:09:50,400
+And we asked them to rank the components.
+
+72
+00:09:50,400 --> 00:09:52,400
+And we asked them to rank the components.
+
+73
+00:10:18,400 --> 00:10:20,240
+And we asked them to rank the components.
+
+74
+00:10:20,240 --> 00:10:22,240
+And we asked them to rank the components.
+
+75
+00:10:48,240 --> 00:10:50,080
+And we asked them to rank the components.
+
+76
+00:10:50,080 --> 00:10:52,080
+And we asked them to rank the components.
+
+77
+00:11:18,080 --> 00:11:19,920
+And we asked them to rank the components.
+
+78
+00:11:19,920 --> 00:11:21,920
+And we asked them to rank the components.
+
+79
+00:11:47,920 --> 00:11:49,760
+And we asked them to rank the components.
+
+80
+00:11:49,760 --> 00:11:51,760
+And we asked them to rank the components.
+
+81
+00:12:17,760 --> 00:12:19,600
+And we asked them to rank the components.
+
+82
+00:12:19,600 --> 00:12:21,600
+And we asked them to rank the components.
+
+83
+00:12:47,600 --> 00:12:49,440
+And we asked them to rank the components.
+
+84
+00:12:49,440 --> 00:12:51,440
+And we asked them to rank the components.
+
+85
+00:13:17,440 --> 00:13:19,280
+And we asked them to rank the components.
+
+86
+00:13:19,280 --> 00:13:21,280
+And we asked them to rank the components.
+
+87
+00:13:47,280 --> 00:13:49,120
+And we asked them to rank the components.
+
+88
+00:13:49,120 --> 00:13:51,120
+And we asked them to rank the components.
+
