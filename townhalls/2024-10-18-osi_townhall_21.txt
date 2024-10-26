@@ -1,14 +1,20 @@
 All right, everyone, and welcome to the final town hall before the release of version 1.0.
 
-The last week of October, on October 28th, will be at all things open, and there will be a public announcement of a sort.
+The last week of October, October 28th, will be at all things open and there will be a
+
+public announcement of a sort.
 
 And so let's recap just a little bit for everyone who may have not followed.
 
-We have received a grant from the Alfred Sloan Foundation to conduct part of this work, so we're grateful for that, and a sponsorship donation from Mercado Libre.
+We have received a grant from the Alfred Sloan Foundation to conduct part of this work.
+
+So we're grateful for that and a sponsorship donation from Mercado Libre.
 
 We're also very grateful for that contribution.
 
-Let's go through the reason why we're doing this, because people are asking us, why don't you take a break?
+Let's go through the reason why we're doing this because people are asking us, why don't
+
+you take a break?
 
 Why don't you wait a little bit?
 
@@ -16,161 +22,1185 @@ Are you ready for it?
 
 The thing is that we need to respond to what's happening already outside.
 
-So we know that this is a challenging effort, and it's been a hard conversation to drive.
+So we know that this is a challenging effort and it's been a hard conversation to drive.
 
-But we also are in a space where the term open source AI is being used and referred in many different areas from the market, from...
+But we also are in a space where the term open source AI is being used and referred
 
-companies, organizations, and regulators are all referring to the term open source with the AI space and with the AI world right after it.
+in many different areas from the market, from companies, organizations, and regulators are
 
-And our stakeholders in general, the open source initiatives, supporters and communities keep asking us the same thing.
+all referring to the term open source with the AI space and with the AI word right after
 
-Why is this not open source?
+it.
 
-Why are you not going to...
+And our stakeholders in general, the open source initiatives, supporters and communities
 
-Why are you not saying...
+keep asking us the same thing.
+
+Like, this is not open source.
 
 Why are you not correcting these statements?
 
-Right.
-
 And this was visible a long time ago.
 
-Like we started noticing that this issue was of AI not having a clear understanding was very visible when I started at the Open Source Initiative in 2022.
+We started noticing that this issue was of AI not having a clear understanding was very
 
-So we started that year to interview experts in various areas.
+visible when I started at the open source initiative in 2022.
 
-Because this is a new space.
+So we started that year to interview experts in various areas because this is a new space.
 
 It's a new domain that we don't have familiarity with.
 
-And so we started educating ourselves with a series of interviews that we published as a podcast.
+And so we started educating ourselves with a series of interviews that we published as
 
-We also held discussions in four different areas in the business, society, impact, legal, academic research, and with experts.
+a podcast.
 
-And we published the result and the results of all of that in a nice, easy to read article.
+We also held discussions in four different areas in the business, society impact, legal,
 
-I recommend you all to go find it and read it to get an initial overview of why AI and machine learning, this machine learning space is so radically different from the software space that we are very familiar with.
+academic research, and with experts.
 
-And at the end of this research that continued in 2023 with a series of webinars, we decided that we needed to have...
+And we published the results of all of that in a nice easy to read report.
 
-We had to have a process that was wide.
+I recommend you all to go find it and read it to get an initial overview of why AI and
 
-It was...
+machine learning, this machine learning space is so radically different from the software
 
-It had to be global and it had to be involving not the typical people who you find in the Open Source conferences or in the Open Source software circles.
+space that we are very familiar with.
 
-It needed to be something that was involving researchers and from other parts of the world, but also experts in different specific domains, not just the software space.
+And at the end of this research that continued in 2023 with a series of webinars, we decided
 
-We needed to have experts in civil, civic society and environmental impact, legal experts in copyright, but also in privacy rights and indigenous knowledge.
+that we needed to have a process that was wide.
 
-All of those, all of areas that we were not traditionally familiar with in the Open Source software space.
+It had to be global and it had to be involving not the typical people who you find at the
 
-And we held this...
+open source conferences or in the open source software circles.
 
-It was...
+It needed to be something that was involving researchers and from other parts of the world,
 
-This is how we started with this process called co-designing, which is a process.
+but also experts in different specific domains.
 
-That is a technique basically to design new things with the people who are going to be impacted by it, not for them.
+Not just the software space.
+
+We needed to have experts in civil, civic society and environmental impact.
+
+Legal experts in copyright, but also in privacy rights and indigenous knowledge.
+
+All of those, all of the areas that we were not traditionally familiar with in the open
+
+source software space.
+
+And we held this, this is how we started with this process called co-design, which is a
+
+process that is a technique basically to design new things with the people who are going to
+
+be impacted by it, not for them.
 
 And the process was structured in a series of questions.
 
-The first question that we asked the groups of volunteers that we have made a concerted effort to be different, diverse with various dimensions of the process.
+The first question that we asked groups of volunteers that we have made a concerted effort
+
+to be different, diverse with various dimensions of diversity from geographic, gender expertise.
 
 And we tried to assemble working groups that had all of these characteristics represented.
 
-We asked the first question, what should the open, the meaning of Open Source and the free software principles, how do we translate them?
+We asked the first question, what should the open, the meaning of open source and the free
+
+software principles, how do we translate them?
 
 How do we apply them to artificial intelligence space?
 
-And it was fairly easy to transform it slightly wordsmith, if you want.
+And it was fairly easy to transform it slightly wordsmith, if you want the four freedoms,
 
-The four freedoms, the freedom to choose, freedom to use, freedom to use the tools.
+the freedom to use, study, modify and share and apply them with changing some of the words
 
-The freedom to use, study, modify and share and apply them with changing some of the words so that they would fit the machine learning, the artificial intelligence space.
+so that they will fit the machine learning, the artificial intelligence space.
 
-So then the next question we asked them is what components of AI systems you need in order to use, study, modify and share?
+So then the next question we asked them is what components of AI systems you need in
+
+order to use, study, modify and share.
 
 Again, this is because it's a new space.
 
-We know that there are multiple artifacts of different nature and we need to ask them, the working groups to help us.
+We know that there are multiple artifacts of different nature and we needed to ask them
 
-Understand what components are required.
+the working groups to help us understand what components are required.
 
-And we have these the working group set up to analyze, for example, systems, some that we knew were not open source and some that we knew are more open in different ways, like the difference between bloom and Pithia and some of like OpenCV that we know is works in the open source space.
+And we have these, the working group set up to analyze for example, systems, some that
 
-So but it's not generative AI.
+we knew were not open source and some that we knew are more open in different ways, like
 
-It's more it is about computer vision.
+the difference between Bloom and Pythia and some of like OpenCV that we know is works
 
-But still using machine learning techniques.
+in the open source space.
 
-So we asked them also to rank the importance of each of the components.
+So, but it's not a generative AI, it's more, it is about computer vision, but still using
 
-And they give us indications of of how to how to proceed, how to move forward.
+machine learning techniques.
+
+So we asked them also to rank the importance of each of the components and they give us
+
+indications of how to proceed, how to move forward.
 
 And we released a new draft of the definition.
 
-Now, with that draft definition version version zero zero six, we asked another question to other people, which of these if you use these.
+Now with that draft definition version 006, we asked another question to other people,
 
-These criteria listed in zero zero six, which of these systems actually comply with those criteria?
+which of these, if you use these criteria listed in 006, which of these systems actually
 
-And we asked we had these reviewers and many more involved and they give us they give us the the validated the the theory and that theory confirmed what we thought was going to be happening.
+comply with those criteria?
 
-So we asked them to rank the components.
+And we asked, we have these reviewers, many more involved, and they give us, they give
 
-And we asked them to rank the components.
+us the, they validated the theory.
 
-And we asked them to rank the components.
+And that theory confirmed what we thought was going to be happening.
 
-And we asked them to rank the components.
+In other words, that the systems like LLM 360, Olmo and Pythia, which had been developed
 
-And we asked them to rank the components.
+by nonprofit organizations in the open, supplying all of the components that are necessary to
 
-And we asked them to rank the components.
+really study, share, modify, use, including the data sets, including the training code,
 
-And we asked them to rank the components.
+and including crucially also the data processing code and filtering, all of these would pass.
 
-And we asked them to rank the components.
+The other one, the ones that would pass if they changed their license, were other, the
 
-And we asked them to rank the components.
+other ones from Bloom, the big research group, it would pass if they changed the license.
 
-And we asked them to rank the components.
+And then there were other groups, other that were easily confirmed as no, like Mistral
 
-And we asked them to rank the components.
+and Lama, not only because they don't have sufficient permissions granted through their
 
-And we asked them to rank the components.
+terms of use and distribution, but also because they lack critical components in specifically
 
-And we asked them to rank the components.
+the training code and the training, the data filtering, the data filtering code.
 
-And we asked them to rank the components.
+And so we ended up with a definition that you can see on release candidate one, that
 
-And we asked them to rank the components.
+is structured in a way that you recognize that it's a top part, it is more of a manifesto,
 
-And we asked them to rank the components.
+basic concept of why we're doing this, what is an open source AI, those four freedoms,
 
-And we asked them to rank the components.
+which are referred to a preferred form of making modifications to machine learning system.
 
-And we asked them to rank the components.
+And that part is, the top part is simple and probably likely to change in the future, but
 
-And we asked them to rank the components.
+what will, is more likely to be adapted to the evolution in the future is this preferred
 
-And we asked them to rank the components.
+form of making modifications to machine learning.
 
-And we asked them to rank the components.
+And that's, we're going to look at it more quickly.
 
-And we asked them to rank the components.
+But the very short version of it is that an open source AI is an AI that gives you the
 
-And we asked them to rank the components.
+basic components of weights, code, and data in a way that you can use it, modify, share
 
-And we asked them to rank the components.
+it as you want.
 
-And we asked them to rank the components.
+Now under, yeah, under open source terms and conditions approved by the Open Source Initiative
 
-And we asked them to rank the components.
+using the open source definition as the classic open source definition as a thermal reference.
 
-And we asked them to rank the components.
+Now the thing is that we want also open source AI in fields like medical space.
 
-And we asked them to rank the components.
+And some of you may have noticed that there is some controversy.
+
+You may have read this post by Red Monk saying that there is a conundrum, that the definition
+
+contains the possibility around data and people ask for all the data to be made available.
+
+Transform probably, well, all right, ask for all the data.
+
+But we do ask for all the data also in this definition, and it's all about all the data
+
+that you can distribute.
+
+And so that allows us to have medical AI without compromising any of our assumptions.
+
+We do because we do require all the information and all the code to replicate the data set.
+
+And so this is also rooted in a practice historically accepted by the open source movement, which
+
+is to make sure that there is the possibility to actually create data software that can
+
+compete with the proprietary ones.
+
+And the reason why we have, I mean, we follow the same pattern in this case to make sure
+
+that we do not compromise on our principles.
+
+And we don't leave open AI or meta to use all of the, to have all of the freedoms and
+
+why we prevent ourselves from ever being able to have open source competing platforms and
+
+projects.
+
+The board of AOSI gave us guidance that I think we have pretty met because we have a
+
+diversity, a variety of stakeholders that are supporting already and endorsing this
+
+definition.
+
+We have a set of real life examples of systems that comply, which are PTR, Olmo, and LLM
+
+360.
+
+And there are a few more that if we spent more time or if they changed the license,
+
+they would fit like Bloom, Starcoder, and others.
+
+And we have a release candidate that is in pretty decent shape, can be proposed to the
+
+meeting in Raleigh.
+
+To clarify all of this, also accompanying the definition, we have worked on an FAQ.
+
+It's pretty extensive.
+
+We have responded to the most frequently asked questions during this debates in the past
+
+months.
+
+And we have clarified in here the type of data and the reason for why data is completely
+
+different from software.
+
+So it does require people who come from the software space to spend some time training,
+
+updating, and we will keep on doing this work to educate the public in general that this
+
+is a different space.
+
+It's not software.
+
+And we clarified in release candidate one of the intention here is to have data, details
+
+about either the data itself or if it's not available because of legal constraints or
+
+other constraints, like other constraints, it needs to be available together with the
+
+code, one needs to be able to rebuild a data set that can be fed into the machine.
+
+And together with the code, that gives you as a downstream user all the necessary tools,
+
+abilities, licenses to create a system that is a fork of the original one.
+
+And you can build and innovate on top with your own data or with the same data that has
+
+been provided by the original developer.
+
+So we've been doing this quite intensively for many months.
+
+In 2024, it was a very intense list of meetings, travel, and we're to the end.
+
+We're going to the end.
+
+So at this time, it's about time for you to endorse it.
+
+We have a public process, a public website where you can go and you can endorse it as
+
+an individual or as an organization.
+
+And you can also criticize it.
+
+You can write long form.
+
+We encourage you to write long form critiques for it.
+
+And this is not going to be the end of it.
+
+Because we're going to be releasing a definition that we know is only a 1.0.
+
+It's a humble release.
+
+It's not going to be something that we know it's going to last for 26 years pretty much
+
+untouched like the original open source definition, even though we know that the open source definition
+
+also changed quite-- yeah, it was nine points when it was first released.
+
+And then a 10th one was added.
+
+So we're going to do something similar.
+
+The board is ready to establish a committee and call for working groups to monitor with
+
+the rest of the communities involved, monitor the space, and get ready to adapt the definition
+
+to response that we get from the public after it's launched.
+
+And so with that, I think I can take some questions.
+
+And I want to remind everyone to follow our community agreements.
+
+Be nice.
+
+We're not here to get bashed.
+
+And we're not here to listen to long rants.
+
+So you can raise your hand or ask written down on the public chat, however you feel
+
+more comfortable.
+
+Sure.
+
+Go ahead.
+
+Let's see.
+
+All right.
+
+Lunduk.
+
+You should be-- yeah, OK.
+
+I can see you but not hear you.
+
+Oh, from your icon, I think when you joined, you were listen only.
+
+You need to rejoin, I think.
+
+Where is that?
+
+Let me see.
+
+Let's try this way.
+
+Let's try this way.
+
+There we go.
+
+There you are.
+
+There.
+
+Thank you so much.
+
+I just want to say thank you for holding this.
+
+I appreciate you guys doing this very out in the open.
+
+That's most outstanding.
+
+I do have a couple of questions and I know some of this has been kind of things you've
+
+reiterated over the past several months as you guys have been pulling the OSAID together.
+
+But two key questions.
+
+So being as it is technically impossible to accurately replicate the exact functionality
+
+of any large language model system without an exact replication of the entire data set,
+
+how can this license be open source and meet the share definition, the share requirement
+
+without 100% data availability as a requirement of the license?
+
+I mean, I know this comes up regularly, but it really hasn't been addressed how that can
+
+actually work.
+
+I would love to hear.
+
+So are you sure that you can actually replicate an LLM given the data?
+
+No, that's a fair argument.
+
+I mean, LLMs have a wide variety of issues with it.
+
+But in theory, you could at least if you have the entirety of the data set and the data
+
+model and all the details.
+
+Are you sure?
+
+You definitely can't if you don't have the data.
+
+Who told you?
+
+Okay, procure the science that says so.
+
+And then we can discuss.
+
+Really?
+
+Because that's not...
+
+Yep.
+
+Well, that's pretty well accepted.
+
+I mean, the way large language models work, data is a core part of the functionality,
+
+right?
+
+I mean, it's...
+
+It's definitely a part of the functionality.
+
+Yeah.
+
+Let me use this as an example.
+
+To move out of the AI space, if you were to make, say, an open source...
+
+Stay in the AI space.
+
+Look, Lunduk, if you go by Lunduk, stay in the AI space.
+
+Do not move out of the AI space because it's only confusing.
+
+And I want to give also time to others if they have questions.
+
+Okay.
+
+All right.
+
+Then a second question then.
+
+Considering that AI systems can be considered open source under the open source AI definition,
+
+under this definition, without providing the dataset, by merely providing the source code
+
+and a description of what data might be, what is the point of the OS AI definition over
+
+simply using the existing open source definition?
+
+Because if you release the source code of the license for your AI system, you are already
+
+OSD.
+
+You are already under the open source definition.
+
+And if you're not releasing any additional content under any sort of open source or related
+
+license, what's the difference between OSD and OSAID in that particular case?
+
+Okay.
+
+So if I understand correctly, if I can rephrase your question to see if I got it right.
+
+You're asking basically, given that if the data is not required or considering the data
+
+as a separate issue, you're basically saying you need to give code and parameters of the
+
+weights, right?
+
+And therefore you can use the OSD only because you can use the OSD to say, well, ignore also
+
+the weights.
+
+You can say, just give me the code under these conditions, the OSAID proof license, right?
+
+Okay.
+
+So the real, really important answer that we have found during this conversation is
+
+that a way to interpret OSD section two, point number two.
+
+The point number two in the open source definition defines the fact that forces says that an
+
+open source software program needs to provide the source code and describes the source code
+
+as the form in which a programmer would make modifications to the program, a software developer.
+
+Okay.
+
+So for AI machine learning LLMs, if I asked you the question three years ago, what is
+
+that you need in order, what code do you actually need to make modifications to an AI machine?
+
+Think LLAMA or think Bloom or Pythia or what have you, right?
+
+What actually do you need?
+
+What kind of code do you need?
+
+There's so much code that goes in there.
+
+There's training code, there is data filtering and processing, there is inference code for
+
+running it.
+
+There are applications going around the fact that you need, there is code for architecture
+
+itself of the model, right?
+
+Which of these do you need?
+
+That's the answer.
+
+The answer is in the open source AI definition, you will find that you need code for filtering
+
+the end processing the data.
+
+You need the code for the inference and you need the code for the architecture of the
+
+model.
+
+That's the answer in there.
+
+And then these pieces are part of the rest of it, like the data and the data details,
+
+the data information and the parameters themselves.
+
+So in the current OSD, that applies to not just say C source code files, but also applies
+
+to configuration files, make files, anything that you can release under that license that
+
+goes into the generation of the software.
+
+So wouldn't that also apply in exactly the same way to AI systems?
+
+I don't see how anything is gained here, I guess is what I'm getting to.
+
+And I don't mean that as a criticism.
+
+I mean that as a, I've been legitimately racking my brain trying to figure out what is gained
+
+here under the OSAID.
+
+If I were to release a large language model system, but not provide the data, there is
+
+functionally no difference.
+
+I could use the OSD or the OSAID and it's really no different.
+
+Now I appreciate that, you know, there's at least discussion around data being provided
+
+in the OSAID.
+
+So that's a good thing.
+
+However, I don't see how without the data, there's any functional difference between
+
+the two.
+
+And I've heard this criticism used repeatedly.
+
+Yeah, I think you're coming at it from the software angle.
+
+From the software angle, you're thinking there is a pipeline, very simple.
+
+There is the source code, there are the building scripts, the files, what have you.
+
+And then there is the final, after the compilation phase, you get binary.
+
+And you're thinking of it into this framework.
+
+For AI machine learning, that's not the framework.
+
+The code, source code, after the compilation becomes a binary and the two are basically
+
+the same artifact seen from different angles.
+
+It's not what's happening here, right?
+
+So if you keep on applying the same framework that works in software into the AI machine
+
+learning space, you will get all of it confused.
+
+With the people who say that the software, the original open source developers, OSD,
+
+the open source definition can be applied, they're actually correct.
+
+We are applying the OSD to evaluate data licenses.
+
+We're going to be evaluating licenses or legal terms, legal agreements.
+
+We're going to be evaluating the OSD also for the weights, the legal terms of services
+
+of the weights.
+
+These pieces, and of course the OSD for the code, these pieces individually have a completely
+
+different meaning in the space of machine learning.
+
+They have an interdependency that the open source definition alone does not explain.
+
+We needed to have this step, this learning package, these learning steps, right?
+
+To understand what is the preferred form of making modifications to a machine learning
+
+system.
+
+Now we have an answer and now we can tell others to ask, what is an open source AI?
+
+We say it's data with training code, with data processing code, with model weights available
+
+under an open source approved license or terms or service or agreements.
+
+I think I get what you're saying on that.
+
+And I don't want to beat a dead horse.
+
+I have one completely different question on the creation of the license.
+
+You've taken a very interesting approach to the creation of the OSA ID.
+
+And that is a dramatic departure from how the original OSD was developed.
+
+The original OSD was primarily written by Bruce Perens with a little bit of input from
+
+a few other additional developers.
+
+And it stayed mostly static since that time with a few caveats.
+
+Whereas the OSA ID you have developed in a kind of a large group by committee sort of
+
+setting.
+
+And you've put a very heavy emphasis on diversity and inclusion and those sorts of things in
+
+the development process.
+
+Considering how successful the original OSD was, that was primarily developed by a singular
+
+individual, why change so dramatically the process to use an entirely different process
+
+that almost has no similarities to the development of the original OSD?
+
+Considering how successful the OSD was.
+
+Yeah, why change it up?
+
+Would you have taken something that I developed by myself in my room and coming out with a
+
+secret text?
+
+Or would you have passed it to the open source world?
+
+That's just it.
+
+The whole open source world really did accept that document that came out of Bruce Perens
+
+and the Debian community and whatnot.
+
+Of course.
+
+And it was a great document.
+
+And I'm not saying that you can't make something decent by committee and whatnot.
+
+But typically, when something works so well the first time, why change it so radically
+
+the second time?
+
+What was the motivation?
+
+Did you feel that the current OSD wasn't developed properly?
+
+What was the motivation of that?
+
+The motivation was very simple.
+
+Those days are not replicable.
+
+Those days were times when there were a few dozens developers, hundreds of developers.
+
+They were coming from a history of sharing and understanding the space.
+
+Regulators and legal requirements, they were not even paying attention.
+
+The lawyers were not even paying attention to what was happening.
+
+It was a whole different time.
+
+And if today, with millions of developers around the world, we would have been accepting
+
+the work of one lone genius coming out at the right time with a definition, all of a
+
+sudden, what acceptance do you think it would have had?
+
+We knew that no one would have said, "Oh, yeah.
+
+Follow that guy."
+
+Whether it's me or anyone else.
+
+It would have been impossible.
+
+So with that in mind, we needed to come up with something else.
+
+Involve the communities, plural, and definitely work with them to understand what do you think
+
+that open source is?
+
+What do you think that open source means for what you are doing today and what you will
+
+be doing in the next few months and years?
+
+But I want to give space to others.
+
+I think we should be -- >> Fair enough.
+
+I appreciate the time.
+
+>> Yeah.
+
+Absolutely.
+
+Anyone else?
+
+I see there is quite some chatter in here.
+
+Tom, go ahead.
+
+Let's see.
+
+I think you should be able now to --
+
+>> Okay.
+
+I just wanted to hear more about the co-design process itself and how it was selected.
+
+But specifically, I think we have heard a bit on that already.
+
+But specifically, how does it work in terms of what is the kind of ceremonies, the artifacts,
+
+how agile you have got, regular sprints and daily stand-ups and things like that.
+
+If you can walk us through how co-design actually works, that would be great.
+
+>> Co-design worked in a way that we asked people to join it.
+
+We made a concerted outreach to get diversity.
+
+And we asked them questions.
+
+It's published on the website.
+
+You can go look at it.
+
+Orbitz source.org/deep dive.
+
+You will find the list.
+
+You will find -- >> I have been through all of that.
+
+I have been through all of the references.
+
+But I can't find anything that actually describes the process or its suitability for creating
+
+a technical standard, which would typically be by --
+
+>> Not a technical standard.
+
+This is not a technical standard.
+
+It's not a technical standard.
+
+It's never supposed to be a technical standard.
+
+>> Let's focus on co-design.
+
+Can you help us to learn and understand co-design?
+
+>> You ask questions.
+
+You get people in a room, virtual or physical.
+
+You ask them questions.
+
+And work with them through different techniques.
+
+Sometimes it's been butcher papers and Post-it notes.
+
+Sometimes it's been more assignments of tasks.
+
+And we ask them to give feedback.
+
+And we reconcile that feedback at the end of the session.
+
+That's it.
+
+>> So the closest thing I found is a list here in the design justice essay that talks
+
+about things like we believe everyone is an expert based on their own lived experience.
+
+But it also says that we see the role of the designer as a facilitator rather than an expert.
+
+And I guess that you're kind of playing the role of facilitating most of the discussions
+
+I realize Mare has in some circumstances.
+
+You're making quite opinionated decisions throughout the process.
+
+Like for example, closing Carsten's proposal for a consensus for 1.0.
+
+How does that reconcile with co-design?
+
+I know you've chosen co-design but it looks like you're not doing what I understand co-design.
+
+>> Because those are happening outside of the co-design sessions.
+
+Those are just feedback sessions in the forum.
+
+It's a different story.
+
+So you're referring now to specific conversations happening on the forum.
+
+That conversation has been closed.
+
+And it cannot be heard anymore.
+
+Because it's reopening a question that has already been achieved, that has already achieved
+
+consensus.
+
+There has already been conversations for months.
+
+>> Not by any kind of reasonable definition of consensus.
+
+>> Right.
+
+There is a minority of vocal opposition.
+
+It's not consensus.
+
+There is a vocal minority opposing the results.
+
+The arguments that have been brought up from people have been -- from this minority are
+
+arguments that have been known for more than -- for years, I would say.
+
+And they all lead to unacceptable conditions.
+
+Either no open source AI or open source AI that is limited in scope.
+
+In specific words, it cannot be applied to medical fields.
+
+For example.
+
+Or they provide only M50 sets of approvable open source AI.
+
+So those conditions, those conversations cannot continue to happen when there is a formed
+
+majority visible in the endorsements page on our website.
+
+And it would be even more visible as we release 1.0.
+
+There is no point in continuing to argue for all data to be open.
+
+That excludes -- reduces the scope of open source.
+
+So without -- >> It's not my intention to have the data
+
+discussion.
+
+It's my intention to have the co-design discussion and really just understand that process.
+
+Because software is increasingly being written by an incorporating AI.
+
+So this is effectively going to be OSD 2.0.
+
+And it's such an important decision.
+
+It's very important for us to understand.
+
+>> Why OSD 2.0?
+
+>> Because increasingly AI and software are merging.
+
+It's why I dropped electrical engineering and went to computing.
+
+I realized electrical engineers were not creating systems that provide any functionality.
+
+They were just life support systems for computers.
+
+And now inference code is just life support systems for a model.
+
+So the model might be working out whether or not you have access to a system.
+
+Everything around it is just kind of the wiring, like DevOps type stuff.
+
+So it is increasingly the case that AI is software.
+
+So the OSA ID is going to be OSD 2.0.
+
+So you are wholesale redefining open source as freeware.
+
+>> I can fully disagree with that assessment.
+
+And not me.
+
+It's just the people who are endorsing this definition don't agree with that assessment.
+
+The definition is providing you all the equivalent that allows you to meaningfully fork, take
+
+apart, build on top, reshape, however you want to call it, an existing system.
+
+If it is an open source AI, you have all the means and all the ability and all the rights
+
+given by the legal agreements to rebuild, replicate, reshape.
+
+I'm not -- with lacking words here to say that you can, given what the open source AI
+
+definition, release candidate one, gives you, you can do what you could do with only source
+
+code and the build scripts.
+
+It's the same thing.
+
+>> I would be opposed to that question.
+
+It's a bit like scratching your name in the back of a toilet door.
+
+It's not particularly useful.
+
+>> Yeah.
+
+Okay.
+
+We'll have more details about the process itself and we'll share more information about
+
+that.
+
+Hopefully it's satisfactory.
+
+Gerardo, you want to --
+
+>> Hello.
+
+>> Hey.
+
+>> Hi.
+
+I would -- sorry for arriving late.
+
+I mixed up the time zones again.
+
+I wanted just to make sure that everybody is on more or less the same page.
+
+That is my position, that the OSI board has all the legitimacy and power to deliver the
+
+document in the form it believes it has to have.
+
+These discussions that we are having and the arguments that we are having are meant to
+
+help OSI and its board to better sustain all the decisions it makes.
+
+In my case, which I endorsed the document a long time ago, even with all its defects,
+
+it is important that the community sees an effort to define what is open source in the
+
+AI context.
+
+That doesn't mean that we endorse all the decisions, but the principle of OSI presenting
+
+something.
+
+Just to make sure that it is also understood that just because you have endorsements,
+
+it doesn't mean that all the closed questions, as you say, are valid.
+
+The thing that I have been asking myself and others is that, okay, for every issue and
+
+argument that has posed, we have to -- and the forum is probably not the best way to
+
+do it.
+
+We have to have the reasoning behind the decisions.
+
+That's why I propose that we should be using something like Git repo with issues for each
+
+question, which would be much easier to follow.
+
+But just for one thing that you just said, and I think it's important to clear, which
+
+is whatever the decision is on the document, we'll never have an empty set.
+
+It's already established that there are enough open source AI projects that would fit even
+
+the strictest definition.
+
+And as we saw with the open source adoption, is that even projects that were very closed
+
+in the past have become more open and then truly open as time has come by because of
+
+the adoption of the open source and the strength that other users, and in this case I'm clearly
+
+defining the governments, have decided that the full open source option is the best way
+
+for them.
+
+That has brought the vendors, the commercial vendors, to say maybe we should change our
+
+code.
+
+And here I'm talking about change our code to be fully open source.
+
+We've seen this happening time by time.
+
+But I'm digressing.
+
+It's important and the AI Act has forced us into this.
+
+The Act and the decisions on the Japanese and Singaporean governments has forced us
+
+into go forward with a new thing.
+
+Anyway, and just to lighten up this.
+
+You have -- >> Just to close this.
+
+Even on the case of things that we think the data is closed and we might not have, I just
+
+shared on the forum that there are data sets of medical data that are actually cleared
+
+for public use.
+
+They have been sufficiently anonymized and vetted and tested and peer reviewed, more
+
+than that, which allows to say maybe the universe of fully open, open source AI systems is not
+
+as small as we think it is.
+
+And so -- >> No, it could change.
+
+>> In a positive mood, okay?
+
+So because there is a strength in going on to the fully open thing.
+
+But okay.
+
+But let's say that even with the current definition and the fact it has too many explanations
+
+and clarifications and redefinitions inside makes it a fragile document.
+
+But okay.
+
+As long as we can sell to the politicians, decisions makers, this is still a work in
+
+progress even if it gets a 1.0.
+
+It's still a work in progress.
+
+It's not a mutable document.
+
+Then we are free to go and to go around.
+
+And just to finish one thing, and that is really the crucial part.
+
+We have definition.
+
+We need process of validation.
+
+And we need a validation tool.
+
+We already have two validation tools that we can base our work with.
+
+So the MOT from the LinkedIn Foundation and the other one from Stanford about the transparency
+
+index.
+
+And we should create them.
+
+And I'm willing to help in creating a process of validation that anyone, especially on the
+
+public administration side, can look into and see how can we make sure that this has
+
+been validated.
+
+That's all.
+
+>> That's very good.
+
+And I take that as a very, very useful comment.
+
+We heard not just from you but others.
+
+And we knew from the beginning.
+
+First, this is version 1.0.
+
+It's very early.
+
+It's stable but needs to be tested.
+
+It needs to be put into production in order to find the issues and bugs.
+
+And to put it into production, we need exactly what you were talking about.
+
+We need a standard operating manual of some sort.
+
+And we know it's a fragile document.
+
+It needs way too many explanations in order to be understood.
+
+And we will need to get there.
+
+I remember the day when the open source definition was introduced.
+
+It was not that simple.
+
+And I challenge anyone to recite the ten points of it.
+
+While the free software definition was so simple.
+
+And four points and everyone can recite them by heart.
+
+So I think we're gonna get there.
+
+And the board, the OSI, but also wider array of the supporters of the endorsers of the
+
+definition are asking for the same thing.
+
+This is first step.
+
+And then we need to continue.
+
+So we'll have some news after the end of October.
+
+After 30s.
+
+Any other questions?
+
+We have ten minutes left.
+
+Yes, you're right, Nick.
+
+25 years and we still have a lot to explain to do about open source itself.
+
+So it's not a done deal.
+
+Especially in many, many areas.
+
+Let's see.
+
+Karan, were you asking a question?
+
+Oh, okay.
+
+All right.
+
+If there are no more questions, I think we can let you all go and gain another ten minutes
+
+of your life.
+
+And we're gonna see you soon.
+
+Hope to see many of your faces also at all things open.
+
+We're gonna have a celebration.
+
+And we're gonna have to put on our working boots.
+
+We're gonna have to keep our working boots.
+
+Because there's still gonna be a lot of work to be done after 1.0 has been released.
+
+Thanks, everyone, for all of the comments and participation.
+
+Bye-bye.
+
+Bye.
+
+Bye.
+
+Bye.
+
+Bye.
+
+Bye.
 
