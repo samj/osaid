@@ -1,0 +1,4536 @@
+1
+00:00:00,001 --> 00:00:04,760
+Hey folks, this week Aaron joins me and we talk with Simon and Stefano about the open
+
+2
+00:00:04,760 --> 00:00:06,320
+source AI definition.
+
+3
+00:00:06,320 --> 00:00:10,160
+That's something that was just minted and did not come a moment too soon.
+
+4
+00:00:10,160 --> 00:00:14,520
+It's a super interesting conversation and you don't want to miss it, so stay tuned.
+
+5
+00:00:14,520 --> 00:00:19,880
+This is Floss Weekly, episode 816, recorded Tuesday, January the 14th.
+
+6
+00:00:19,880 --> 00:00:21,360
+Open source AI.
+
+7
+00:00:21,360 --> 00:00:25,180
+Hey folks, it's time for Floss Weekly.
+
+8
+00:00:25,180 --> 00:00:28,400
+That's the show about free, libre, and open source software.
+
+9
+00:00:28,400 --> 00:00:32,280
+I'm your host, Jonathan Bennett, and we've got something that we've been teasing, it
+
+10
+00:00:32,280 --> 00:00:34,320
+seems like, for months now.
+
+11
+00:00:34,320 --> 00:00:39,960
+We're actually going to do a deep dive on the open source AI definition.
+
+12
+00:00:39,960 --> 00:00:45,680
+I've got a co-host that is not also part of the team that wrote the definition, and you'll
+
+13
+00:00:45,680 --> 00:00:47,680
+get this joke here in just a second.
+
+14
+00:00:47,680 --> 00:00:48,800
+But I've got Aaron with me.
+
+15
+00:00:48,800 --> 00:00:49,800
+Welcome Aaron.
+
+16
+00:00:49,800 --> 00:00:50,800
+Hey, thanks.
+
+17
+00:00:50,800 --> 00:00:52,040
+Thanks for having me.
+
+18
+00:00:52,040 --> 00:00:55,360
+Aaron is going to be sort of our AI optimist.
+
+19
+00:00:55,360 --> 00:00:57,320
+Is that how you described yourself?
+
+20
+00:00:57,320 --> 00:00:59,240
+Yeah, a little bit of an optimist.
+
+21
+00:00:59,240 --> 00:01:03,400
+I don't think it's taking over the world as quickly as people think, although it's doing
+
+22
+00:01:03,400 --> 00:01:09,120
+a lot of crazy things these days, it seems like.
+
+23
+00:01:09,120 --> 00:01:17,200
+Especially since I do use it on a daily basis for work and for other stuff I'm working on.
+
+24
+00:01:17,200 --> 00:01:21,680
+I tend to be, if there's one person in the room that's a little bit more optimistic,
+
+25
+00:01:21,680 --> 00:01:24,040
+I tend to be that person.
+
+26
+00:01:24,040 --> 00:01:25,040
+Yeah.
+
+27
+00:01:25,040 --> 00:01:26,040
+I've explained this on the show before.
+
+28
+00:01:26,040 --> 00:01:31,040
+My theory, working theory as of now, is that artificial intelligence falls into sort of
+
+29
+00:01:31,040 --> 00:01:35,920
+the same place that the crypto bubble did, but also the same place that the dot-com bubble
+
+30
+00:01:35,920 --> 00:01:37,240
+did.
+
+31
+00:01:37,240 --> 00:01:41,360
+And that is that it's a bubble, people are doing dumb things with it, trying to figure
+
+32
+00:01:41,360 --> 00:01:45,360
+out where it makes sense, but once the bubble bursts, it's going to stick around and it's
+
+33
+00:01:45,360 --> 00:01:49,480
+going to be something that sort of changes the way the world works indelibly.
+
+34
+00:01:49,480 --> 00:01:54,320
+That's obvious with dot-com and with cryptocurrency, we're still sort of in the process of figuring
+
+35
+00:01:54,320 --> 00:01:56,160
+out what that looks like.
+
+36
+00:01:56,160 --> 00:01:57,160
+I think it's a good analogy.
+
+37
+00:01:57,160 --> 00:01:58,160
+Yeah.
+
+38
+00:01:58,160 --> 00:01:59,160
+Yeah.
+
+39
+00:01:59,160 --> 00:02:04,560
+10 years from now, we'll kind of have to think back, what life was like before we had AI
+
+40
+00:02:04,560 --> 00:02:09,680
+just assuming that it was there and that we could ask it to do things.
+
+41
+00:02:09,680 --> 00:02:16,640
+It's the same difference of worldview that I have with my children, because I remember
+
+42
+00:02:16,640 --> 00:02:21,320
+before the internet was just always there, and my kids don't.
+
+43
+00:02:21,320 --> 00:02:25,680
+They've always been connected in some way, the household has been at least.
+
+44
+00:02:25,680 --> 00:02:27,360
+So it's just totally different.
+
+45
+00:02:27,360 --> 00:02:28,360
+All right.
+
+46
+00:02:28,360 --> 00:02:30,760
+Well, let's bring the guys on.
+
+47
+00:02:30,760 --> 00:02:38,560
+So we have both Simon Phipps, which that is the joke that I was making, that one of our
+
+48
+00:02:38,560 --> 00:02:43,560
+co-hosts is also a guest, but we've also got Stefano Maffoli.
+
+49
+00:02:43,560 --> 00:02:45,400
+And welcome guys.
+
+50
+00:02:45,400 --> 00:02:54,480
+And you two are the absolute experts, from what I can tell, in what it means for an AI
+
+51
+00:02:54,480 --> 00:02:58,080
+or for an LLM to be open source.
+
+52
+00:02:58,080 --> 00:03:05,160
+And let's, I guess, go to Stefano first and sort of taking that as the prompt to use an
+
+53
+00:03:05,160 --> 00:03:06,880
+LLM term.
+
+54
+00:03:06,880 --> 00:03:12,040
+Tell us what is all of this about?
+
+55
+00:03:12,040 --> 00:03:15,160
+Thanks for having me.
+
+56
+00:03:15,160 --> 00:03:19,480
+It's a pleasure to be here.
+
+57
+00:03:19,480 --> 00:03:21,520
+So what is open source AI?
+
+58
+00:03:21,520 --> 00:03:24,520
+Yes, let's start there.
+
+59
+00:03:24,520 --> 00:03:34,040
+It's really not that different from other open and open materials or artifacts that
+
+60
+00:03:34,040 --> 00:03:35,040
+we've been thinking of.
+
+61
+00:03:35,040 --> 00:03:40,960
+We need to have, we want to have freely free access, freely available access to all the
+
+62
+00:03:40,960 --> 00:03:46,200
+components and all the pieces that have made that artifact that you have received.
+
+63
+00:03:46,200 --> 00:03:51,760
+So it sounds, sounded really simple and almost trivial at the very beginning of the conversation
+
+64
+00:03:51,760 --> 00:03:54,040
+that we had almost three years ago.
+
+65
+00:03:54,040 --> 00:04:00,920
+But it was quickly, we quickly realized that all the paradigms that we were used to apply,
+
+66
+00:04:00,920 --> 00:04:08,680
+like the term source, just to get started with, didn't really match the technology.
+
+67
+00:04:08,680 --> 00:04:14,080
+And so we had to study a little bit the issue and we had a long process.
+
+68
+00:04:14,080 --> 00:04:20,440
+And the end result that I can, today, I can simply say that an open source AI is an AI
+
+69
+00:04:20,440 --> 00:04:21,440
+is a system.
+
+70
+00:04:21,440 --> 00:04:28,320
+It's a system that makes you, gives you a free availability to all the pieces that made
+
+71
+00:04:28,320 --> 00:04:29,320
+it.
+
+72
+00:04:29,320 --> 00:04:32,640
+And that includes the parameters.
+
+73
+00:04:32,640 --> 00:04:39,520
+So the results of the training, the code that does all the training, the code that produces
+
+74
+00:04:39,520 --> 00:04:44,320
+the training data set and the data itself when it's possible to distribute that.
+
+75
+00:04:44,320 --> 00:04:45,320
+And that's it.
+
+76
+00:04:45,320 --> 00:04:46,320
+Sounds simple.
+
+77
+00:04:46,320 --> 00:04:52,520
+I'm kind of thinking of the, and I know this is not exactly the same thing, the free software
+
+78
+00:04:52,520 --> 00:04:58,000
+and the OSI, those are two like overlapping, but at the same time, separate things.
+
+79
+00:04:58,000 --> 00:05:01,740
+Because I can't help but think of the five freedoms that the Free Software Foundation
+
+80
+00:05:01,740 --> 00:05:02,740
+talks about.
+
+81
+00:05:02,740 --> 00:05:08,040
+And that's the freedom to, when it comes to software, to run, to copy, to distribute,
+
+82
+00:05:08,040 --> 00:05:12,140
+to study, and then to change and improve a piece of software.
+
+83
+00:05:12,140 --> 00:05:17,320
+Are we kind of talking about the same thing when it comes to open source AI?
+
+84
+00:05:17,320 --> 00:05:21,680
+Or is it a similar sort of overlapping definition, the way that the OSI and the free software
+
+85
+00:05:21,680 --> 00:05:22,680
+definition?
+
+86
+00:05:23,680 --> 00:05:24,680
+Right.
+
+87
+00:05:24,680 --> 00:05:29,920
+Let me start from scratch because maybe the whole concept of open source AI definition
+
+88
+00:05:29,920 --> 00:05:32,400
+throws people off balance.
+
+89
+00:05:32,400 --> 00:05:36,680
+Because what we have done, the principles are really the same.
+
+90
+00:05:36,680 --> 00:05:41,320
+And in fact, if you look at the document that we have published, the OSI published at the
+
+91
+00:05:41,320 --> 00:05:47,600
+end of last year, the document really lists all those freedoms that you are talking about.
+
+92
+00:05:47,600 --> 00:05:55,400
+An AI, and we talk about systems, I can talk about it later, but the AI pieces, in other
+
+93
+00:05:55,400 --> 00:06:04,680
+words, something that produces an output, infers an output based on an input, needs
+
+94
+00:06:04,680 --> 00:06:09,880
+to be made available, needs to be able, you as a recipient of that system, need to be
+
+95
+00:06:09,880 --> 00:06:18,520
+able to study, to share it, to understand, to run it, to execute, to have those outputs
+
+96
+00:06:18,520 --> 00:06:20,320
+generated for you.
+
+97
+00:06:20,320 --> 00:06:25,380
+And you have to have also the freedom to modify it, change it, change how it works so that
+
+98
+00:06:25,380 --> 00:06:29,140
+others can enjoy the same freedoms that you have received.
+
+99
+00:06:29,140 --> 00:06:31,880
+So those principles are really the same.
+
+100
+00:06:31,880 --> 00:06:37,660
+What is really missing when you look at the definition of free software is that sentence
+
+101
+00:06:37,660 --> 00:06:45,520
+that says the precondition to exercise the freedom to study and the freedom to modify
+
+102
+00:06:45,520 --> 00:06:50,660
+the software is access to the source code.
+
+103
+00:06:50,660 --> 00:06:56,800
+And that's the words, those are the words that we were missing when we started looking
+
+104
+00:06:56,800 --> 00:06:59,720
+into AI specifically.
+
+105
+00:06:59,720 --> 00:07:05,400
+We didn't have a very good way, we didn't have any way of understanding how an AI system
+
+106
+00:07:05,400 --> 00:07:13,560
+can be really studied deeply and modified to change its behavior.
+
+107
+00:07:13,560 --> 00:07:19,320
+That's what we have researched for the past almost three years.
+
+108
+00:07:19,320 --> 00:07:27,960
+And what we came out with is a way to describe the equivalent of source code for software,
+
+109
+00:07:27,960 --> 00:07:34,360
+which in the open source definition, it's a definition point number two, it's called
+
+110
+00:07:34,360 --> 00:07:38,320
+the preferred form of making modifications to the code.
+
+111
+00:07:38,320 --> 00:07:44,480
+It's not just the source code, but also instructions on how to build dependencies of libraries
+
+112
+00:07:44,480 --> 00:07:49,800
+and versions and of course, language compilers and things like that.
+
+113
+00:07:49,800 --> 00:07:55,080
+All those things, knowledge about those pieces need to be shared in order to have access
+
+114
+00:07:55,080 --> 00:07:57,320
+to the source code.
+
+115
+00:07:57,320 --> 00:07:58,680
+That's interesting that you mentioned that.
+
+116
+00:07:58,680 --> 00:08:04,600
+I'm trying to find the exact, my notes on this, but there was a court case in, I believe
+
+117
+00:08:04,600 --> 00:08:10,920
+it was in Germany, here recently, where a router manufacturer used some code that was
+
+118
+00:08:10,920 --> 00:08:16,040
+under the GNU, the lesser public license of the LGPL.
+
+119
+00:08:16,040 --> 00:08:24,120
+And they got sued, not because the code itself was missing, but that extra stuff, like the
+
+120
+00:08:24,120 --> 00:08:32,400
+scripts needed for compilation and installation were missing from their source code repository.
+
+121
+00:08:32,400 --> 00:08:36,960
+And someone sued them and said, "No, you've got to provide this under the LGPL as well."
+
+122
+00:08:36,960 --> 00:08:41,720
+And I've commented before that every time the GPL, the LGPL, or any of the other, but
+
+123
+00:08:41,720 --> 00:08:45,800
+particularly those two, because they have the strongest copy left protections in them.
+
+124
+00:08:45,800 --> 00:08:50,440
+Every time they go to court, I'm kind of like, "I hope this turns out okay."
+
+125
+00:08:50,440 --> 00:08:54,360
+Because there's sort of this nightmare scenario that a court says, "No, no, no, this is a
+
+126
+00:08:54,360 --> 00:08:56,680
+contract, not a license, and it's not a valid contract."
+
+127
+00:08:56,680 --> 00:09:00,500
+Or there's various ways that that could go poorly.
+
+128
+00:09:00,500 --> 00:09:10,520
+But the German court found that, yes, not only is it a valid agreement, but it looks
+
+129
+00:09:10,520 --> 00:09:15,320
+like, reading between the lines here, it looks like a conclusion was come to before the court
+
+130
+00:09:15,320 --> 00:09:18,600
+case happened, but then the court case kind of rubber stamped it.
+
+131
+00:09:18,600 --> 00:09:25,840
+But the extra stuff was shared, and so it was confirmed that, yes, you can force someone
+
+132
+00:09:25,840 --> 00:09:30,880
+to share your compilation steps as a part of the source code license.
+
+133
+00:09:30,880 --> 00:09:32,220
+So that's kind of a...
+
+134
+00:09:32,220 --> 00:09:34,480
+It's good to see that confirmed in court.
+
+135
+00:09:34,480 --> 00:09:35,480
+Right.
+
+136
+00:09:35,480 --> 00:09:41,580
+It's really a fundamental component, a fundamental piece of the whole movement, is to have access
+
+137
+00:09:41,580 --> 00:09:46,320
+to the source code as defined as the preferred form in which a programmer would modify the
+
+138
+00:09:46,320 --> 00:09:47,320
+program.
+
+139
+00:09:47,320 --> 00:09:55,040
+Because obfuscated source code is not source code in the context of the open source definition.
+
+140
+00:09:55,040 --> 00:10:01,120
+Missing information about build scripts is really not open source code.
+
+141
+00:10:01,120 --> 00:10:02,120
+Yeah.
+
+142
+00:10:02,120 --> 00:10:13,200
+So what OSI has done is they've put together a definition for what open source AI...
+
+143
+00:10:13,200 --> 00:10:16,560
+What it has to be, like the minimum requirements.
+
+144
+00:10:16,560 --> 00:10:21,080
+I guess the next step then, or maybe this has already been done, is to begin to produce
+
+145
+00:10:21,080 --> 00:10:25,480
+OSI-compliant licenses for AI models.
+
+146
+00:10:25,480 --> 00:10:27,760
+Is that what's sort of next on the horizon?
+
+147
+00:10:27,760 --> 00:10:34,080
+I'm jumping way to the end with this question, but it just comes to mind, and I'm very curious.
+
+148
+00:10:34,080 --> 00:10:43,120
+We are, as OSI, we are ready to start evaluating licenses that do not cover squarely or exclusively
+
+149
+00:10:43,120 --> 00:10:44,120
+software.
+
+150
+00:10:44,120 --> 00:10:52,160
+Historically, the OSI has never taken into consideration licenses that cover, for example,
+
+151
+00:10:52,160 --> 00:11:00,560
+content, music, or databases, or other things that are not necessarily software.
+
+152
+00:11:00,560 --> 00:11:06,880
+But we are ready to evaluate other sorts of licenses against the open source definition,
+
+153
+00:11:06,880 --> 00:11:12,040
+the original one, the 10 points one.
+
+154
+00:11:12,040 --> 00:11:18,040
+There are efforts that we are aware of, of groups that are writing new documents.
+
+155
+00:11:18,040 --> 00:11:22,560
+They're not licenses technically, or they're not necessarily going to be licenses, but
+
+156
+00:11:22,560 --> 00:11:25,880
+they're terms of use and distributions.
+
+157
+00:11:25,880 --> 00:11:36,840
+There are other legal terms that are squarely new and that cover only specifically parameters,
+
+158
+00:11:36,840 --> 00:11:44,480
+data, and datasets, and code also, and they're all comprehensive, put together.
+
+159
+00:11:44,480 --> 00:11:49,080
+Yes, we're ready to do it, to review them.
+
+160
+00:11:49,080 --> 00:11:55,080
+This is another sort of strange, tangential question, but when we talk about open source
+
+161
+00:11:55,080 --> 00:11:59,360
+beyond just software, what immediately comes to mind is open source hardware.
+
+162
+00:11:59,360 --> 00:12:04,760
+Has OSI been involved with any of the open source hardware efforts, like defining what
+
+163
+00:12:04,760 --> 00:12:08,440
+that looks like, or has that been left to...
+
+164
+00:12:08,440 --> 00:12:11,400
+You want to jump in, Simon?
+
+165
+00:12:11,400 --> 00:12:14,040
+You have thoughts about open source hardware, don't you?
+
+166
+00:12:14,040 --> 00:12:19,640
+Yeah, well, so this came up before Steph's time.
+
+167
+00:12:19,640 --> 00:12:24,280
+There is another organization called Open Source Hardware Association, or OSHWA, and
+
+168
+00:12:24,280 --> 00:12:32,020
+OSHWA did what frequently happens in open source communities.
+
+169
+00:12:32,020 --> 00:12:39,520
+They gave us the great honor of using our logo as the basis for their logo, and in trademark
+
+170
+00:12:39,520 --> 00:12:44,040
+law, that's a big problem because that means you have to ask them very politely not to
+
+171
+00:12:44,040 --> 00:12:46,480
+do that.
+
+172
+00:12:46,480 --> 00:12:53,880
+And so at that time, which was about 10 years ago, 12 years ago, OSI and OSHWA had to reach
+
+173
+00:12:53,880 --> 00:12:57,920
+a legal agreement agreeing that they would deal with open source hardware and we would
+
+174
+00:12:57,920 --> 00:12:59,820
+deal with open source software.
+
+175
+00:12:59,820 --> 00:13:05,720
+As a consequence, OSI has never actually got into defining what open source means in the
+
+176
+00:13:05,720 --> 00:13:11,880
+world of hardware, in the same way that the Open Data Institute, ODI, talked about what
+
+177
+00:13:11,880 --> 00:13:17,740
+open data was, and OSI, again, has never got into defining what open data would be.
+
+178
+00:13:17,740 --> 00:13:20,000
+So the open source hardware definition...
+
+179
+00:13:20,000 --> 00:13:25,260
+Sorry, the open source AI definition is something of a departure because it's really OSI's first
+
+180
+00:13:25,260 --> 00:13:29,680
+move into something which is not pure software.
+
+181
+00:13:29,680 --> 00:13:38,120
+But I think it was a necessary thing to do because the boundary is such a series of dotted
+
+182
+00:13:38,120 --> 00:13:40,280
+lines that it's very...
+
+183
+00:13:40,280 --> 00:13:44,120
+Whereas with hardware, you can tell, well, you know, that's fairly clear.
+
+184
+00:13:44,120 --> 00:13:46,960
+Even actually open source hardware is fairly unclear.
+
+185
+00:13:46,960 --> 00:13:53,360
+One of the things I did when I was at Sun in 2006 was release all of the Spark designs
+
+186
+00:13:53,360 --> 00:13:58,140
+for the Spark silicon chips as open source under the GPLv2.
+
+187
+00:13:58,140 --> 00:14:02,560
+We called it OpenSpark and we released all of the Verilog designs because it turns out
+
+188
+00:14:02,560 --> 00:14:05,560
+that silicon chips are actually software as well.
+
+189
+00:14:05,560 --> 00:14:08,140
+They're just software that's compiled to silicon.
+
+190
+00:14:08,140 --> 00:14:11,360
+So the dividing lines are kind of hazy there as well.
+
+191
+00:14:11,360 --> 00:14:18,880
+But OSI as an organization doesn't harbor an opinion about open source hardware and
+
+192
+00:14:18,880 --> 00:14:22,400
+does not produce a definition in that region.
+
+193
+00:14:22,400 --> 00:14:27,020
+So can I jump in because I want to augment a little bit this part.
+
+194
+00:14:27,020 --> 00:14:28,440
+Like, why did we jump in?
+
+195
+00:14:28,440 --> 00:14:32,720
+Why did we feel the urge when hardware is not...
+
+196
+00:14:32,720 --> 00:14:34,480
+We haven't done the same for hardware.
+
+197
+00:14:34,480 --> 00:14:44,200
+I think what Simon just said, hardware is programmed by a human in some sense.
+
+198
+00:14:44,200 --> 00:14:50,540
+Like the chip design is done by a human and then it is compiled into silicon.
+
+199
+00:14:50,540 --> 00:14:57,160
+So you can see the mapping is pretty easily translated into source code being written
+
+200
+00:14:57,160 --> 00:15:02,580
+by a human compiled by a compiler into executable code.
+
+201
+00:15:02,580 --> 00:15:08,900
+For AI, what we noticed was that these systems look a lot like software, but they're not
+
+202
+00:15:08,900 --> 00:15:11,700
+programmed by humans.
+
+203
+00:15:11,700 --> 00:15:15,800
+They apprehend, they learn by themselves.
+
+204
+00:15:15,800 --> 00:15:21,060
+They have capabilities that emerge semi-randomly.
+
+205
+00:15:21,060 --> 00:15:24,620
+I'm not a technician, so I don't understand exactly why.
+
+206
+00:15:24,620 --> 00:15:32,580
+But what I've been told is that these things just start to execute and become...
+
+207
+00:15:32,580 --> 00:15:33,920
+They have new capabilities.
+
+208
+00:15:33,920 --> 00:15:36,320
+They're not programmed.
+
+209
+00:15:36,320 --> 00:15:40,360
+And the question is, therefore, how do you fix it?
+
+210
+00:15:40,360 --> 00:15:50,260
+If it's consistently creating issues or spitting out the wrong answers or whatever, you want
+
+211
+00:15:50,260 --> 00:15:53,540
+to fix it, you want to change it, you want to give it to others, what is it that you
+
+212
+00:15:53,540 --> 00:15:55,340
+actually want to ask?
+
+213
+00:15:55,340 --> 00:15:57,700
+It was easy for the hardware piece.
+
+214
+00:15:57,700 --> 00:15:58,840
+It's not that simple.
+
+215
+00:15:58,840 --> 00:15:59,840
+It wasn't easy.
+
+216
+00:15:59,840 --> 00:16:02,140
+It wasn't immediate for the AI piece.
+
+217
+00:16:02,140 --> 00:16:03,980
+That's what triggered the research.
+
+218
+00:16:03,980 --> 00:16:04,980
+Yeah, yeah.
+
+219
+00:16:04,980 --> 00:16:06,700
+That makes sense.
+
+220
+00:16:06,700 --> 00:16:11,920
+Before we get any further into this, we really ought to stop and define who we are talking
+
+221
+00:16:11,920 --> 00:16:12,920
+to.
+
+222
+00:16:12,920 --> 00:16:18,880
+And I know that both Stefano and Simon are involved with OSI, and I honestly could not
+
+223
+00:16:18,880 --> 00:16:22,620
+tell you what each of your exact roles are.
+
+224
+00:16:22,620 --> 00:16:26,180
+So let's go there next.
+
+225
+00:16:26,180 --> 00:16:28,960
+Start with Stefano, I guess.
+
+226
+00:16:28,960 --> 00:16:33,840
+Where are you in the OSI org chart?
+
+227
+00:16:33,840 --> 00:16:36,960
+I'm the executive director of the Open Source Initiative.
+
+228
+00:16:36,960 --> 00:16:41,720
+I started three years ago, and I'm in Italy now.
+
+229
+00:16:41,720 --> 00:16:44,240
+You're at the top of the chart.
+
+230
+00:16:44,240 --> 00:16:46,160
+No, the board is actually at the top.
+
+231
+00:16:46,160 --> 00:16:47,160
+Well, okay.
+
+232
+00:16:47,160 --> 00:16:48,160
+That's fair.
+
+233
+00:16:48,160 --> 00:16:49,640
+Simon, where do you fall in this?
+
+234
+00:16:49,640 --> 00:16:55,160
+Well, I was the president of OSI for about a decade, give or take the odd year here or
+
+235
+00:16:55,160 --> 00:16:56,480
+there.
+
+236
+00:16:56,480 --> 00:17:03,760
+And when I quit the board of directors, I had foolishly started some work on open standards
+
+237
+00:17:03,760 --> 00:17:05,840
+and public policy.
+
+238
+00:17:05,840 --> 00:17:09,880
+And there was nobody to carry that work on if I just ran away and disappeared.
+
+239
+00:17:09,880 --> 00:17:14,200
+So OSI hired me to be their director of policy.
+
+240
+00:17:14,200 --> 00:17:20,600
+And so for the last three years, I've been OSI's director of policy and standards.
+
+241
+00:17:20,600 --> 00:17:24,920
+And then we hired somebody else to look after US policy.
+
+242
+00:17:24,920 --> 00:17:30,600
+So I've been the director of EU policy and standards for the last year or so.
+
+243
+00:17:30,600 --> 00:17:35,760
+And I actually don't do anything at all to do with AI.
+
+244
+00:17:35,760 --> 00:17:40,560
+I look after making sure that things like the Cyber Resilience Act doesn't break open
+
+245
+00:17:40,560 --> 00:17:48,080
+source and making sure that the standards organizations create standards as if open
+
+246
+00:17:48,080 --> 00:17:49,080
+source was real.
+
+247
+00:17:49,080 --> 00:17:51,840
+Those are the two things that I actually do as the day job.
+
+248
+00:17:51,840 --> 00:17:58,200
+But one of the things I'm going to have to do now, Steph made a very clear statement
+
+249
+00:17:58,200 --> 00:18:04,280
+when he took over as executive director that OSI needed to do something about defining
+
+250
+00:18:04,280 --> 00:18:07,620
+open source in the context of AI.
+
+251
+00:18:07,620 --> 00:18:17,080
+And I'm now going to be taking that definition forward into Brussels and performing the necessary
+
+252
+00:18:17,080 --> 00:18:23,640
+education to help people understand that, for example, Meta's Lama AI system is not
+
+253
+00:18:23,640 --> 00:18:31,280
+open source because the licensing includes field of use restrictions and other insights
+
+254
+00:18:31,280 --> 00:18:36,920
+drawn from understanding what AI is and working out how we should legislate.
+
+255
+00:18:36,920 --> 00:18:41,800
+And that's necessary because people have already started writing legislation about
+
+256
+00:18:41,800 --> 00:18:42,800
+AI.
+
+257
+00:18:42,800 --> 00:18:49,760
+It may be really young, but there is already on the statute books in Europe the Artificial
+
+258
+00:18:49,760 --> 00:18:55,520
+Intelligence Act, and it contains within it an exception for open source AI.
+
+259
+00:18:55,520 --> 00:19:00,920
+So somebody had to define what open source AI means, and that was Steph.
+
+260
+00:19:00,920 --> 00:19:01,920
+No, no, no, no.
+
+261
+00:19:01,920 --> 00:19:02,920
+Wait a second.
+
+262
+00:19:02,920 --> 00:19:03,920
+Wait a second.
+
+263
+00:19:03,920 --> 00:19:04,920
+It wasn't me who defined it.
+
+264
+00:19:04,920 --> 00:19:05,920
+I mean, that's…
+
+265
+00:19:05,920 --> 00:19:06,920
+Don't point this at me.
+
+266
+00:19:06,920 --> 00:19:07,920
+No, no.
+
+267
+00:19:07,920 --> 00:19:16,680
+Well, that's crucial because different from the Free Software definition and the open
+
+268
+00:19:16,680 --> 00:19:24,200
+source definition itself, this is not the work of a lone person, smart or otherwise,
+
+269
+00:19:24,200 --> 00:19:29,560
+coming out of their garage with the sacred text.
+
+270
+00:19:29,560 --> 00:19:31,200
+This was the process.
+
+271
+00:19:31,200 --> 00:19:39,120
+This process had to come from the community of AI developers, researchers, lawyers, copyright
+
+272
+00:19:39,120 --> 00:19:43,440
+holders, subjects of AI systems.
+
+273
+00:19:43,440 --> 00:19:50,720
+All of these different stakeholders had to be consulted, and we needed to find a definition
+
+274
+00:19:50,720 --> 00:19:58,040
+that matched what was actually happening in the space, providing some guidance, of course,
+
+275
+00:19:58,040 --> 00:20:05,440
+and bringing our expertise and experience from 30 plus years of Free Software experience.
+
+276
+00:20:05,440 --> 00:20:11,860
+But it was definitely not the work of my work.
+
+277
+00:20:11,860 --> 00:20:18,120
+We absolutely need now to go ask one of the AI image generators to generate the image
+
+278
+00:20:18,120 --> 00:20:22,880
+of Stefano carrying the tablets of stone out of his garage.
+
+279
+00:20:22,880 --> 00:20:23,880
+Yeah.
+
+280
+00:20:23,880 --> 00:20:29,360
+No, I think that the point Stef's making there is actually really important because
+
+281
+00:20:29,360 --> 00:20:35,160
+there has been the question asked, you know, what right has OSI got to define what open
+
+282
+00:20:35,160 --> 00:20:37,440
+source AI is?
+
+283
+00:20:37,440 --> 00:20:41,240
+And this then reads back to the open source definition itself, you know, what right has
+
+284
+00:20:41,240 --> 00:20:43,840
+OSI got to define what open source means?
+
+285
+00:20:43,840 --> 00:20:51,560
+And the answer is that it's actually the OSI's role is to collect together the consensus
+
+286
+00:20:51,560 --> 00:20:53,320
+on what it means.
+
+287
+00:20:53,320 --> 00:20:56,760
+That's what we did with the open source definition.
+
+288
+00:20:56,760 --> 00:21:01,760
+There was a definition that came out of Debian that became the open source definition, and
+
+289
+00:21:01,760 --> 00:21:06,960
+over a fairly short space of time, it became obvious that the consensus of the global community
+
+290
+00:21:06,960 --> 00:21:14,040
+was that the open source definition was the canonical explanation of how you can tell
+
+291
+00:21:14,040 --> 00:21:17,200
+that a license is an open source license.
+
+292
+00:21:17,200 --> 00:21:23,240
+And now what Stef has done for the last few years is he has run this exhausting global
+
+293
+00:21:23,240 --> 00:21:29,000
+program where he's held public meetings, he's hired facilitators, he's hired authors and
+
+294
+00:21:29,000 --> 00:21:38,960
+writers and what's happened is he's asked AI experts and open source experts and people
+
+295
+00:21:38,960 --> 00:21:44,520
+who work in social development, he said to them, "What is open source AI?"
+
+296
+00:21:44,520 --> 00:21:49,220
+And over that time, he's gradually evolved what the answer is, not by being clever and
+
+297
+00:21:49,220 --> 00:21:56,420
+working it out for himself, but by identifying the consensus of this huge crowd of people.
+
+298
+00:21:56,420 --> 00:22:04,240
+And that means that the definition is really a consensus definition in many ways.
+
+299
+00:22:04,240 --> 00:22:11,160
+Now, because the field is younger, there are some dissenting voices, but you go out and
+
+300
+00:22:11,160 --> 00:22:16,920
+ask anybody who actually works in AI on open source, nine out of ten of them, and I can
+
+301
+00:22:16,920 --> 00:22:21,760
+tell you the name of the tenth, but nine out of ten of them will tell you that this definition
+
+302
+00:22:21,760 --> 00:22:23,280
+is pretty much right.
+
+303
+00:22:23,280 --> 00:22:29,040
+They might want to nuance some of the words or some of the concepts, and indeed, OSI is
+
+304
+00:22:29,040 --> 00:22:35,920
+putting in place a plan to evolve the definition to a V1.1 or a V2 in the future.
+
+305
+00:22:35,920 --> 00:22:41,240
+But this really is a consensus definition rather than an imposed definition from Steph.
+
+306
+00:22:41,240 --> 00:22:42,840
+There you go.
+
+307
+00:22:42,840 --> 00:22:43,920
+He's got it.
+
+308
+00:22:43,920 --> 00:22:48,920
+There's Steph with the open source definition coming out of his garage.
+
+309
+00:22:48,920 --> 00:22:49,920
+That's great.
+
+310
+00:22:49,920 --> 00:22:52,640
+I'll just stop here.
+
+311
+00:22:52,640 --> 00:22:59,000
+I think we could take a moment and just say, on some level, that is impressive.
+
+312
+00:22:59,000 --> 00:23:03,260
+That's pretty amazing that we could do that, that we could go, "Hey, here's a cool idea.
+
+313
+00:23:03,260 --> 00:23:08,120
+Let's have a machine draw a picture for us," and it comes out that well.
+
+314
+00:23:08,120 --> 00:23:10,920
+It is cool that we live in these times where we could do that.
+
+315
+00:23:10,920 --> 00:23:11,920
+Yeah.
+
+316
+00:23:11,920 --> 00:23:12,920
+Can you imagine?
+
+317
+00:23:12,920 --> 00:23:17,760
+Do you remember when you had to go to a bookstore to order a book?
+
+318
+00:23:17,760 --> 00:23:21,160
+I still enjoy going to bookstores, but yes, point taken.
+
+319
+00:23:21,160 --> 00:23:22,160
+Point taken.
+
+320
+00:23:22,160 --> 00:23:23,160
+Yeah.
+
+321
+00:23:23,160 --> 00:23:28,280
+Hey, I wanted to dig in, if I could, a little bit more into the nuances of what we're dealing
+
+322
+00:23:28,280 --> 00:23:32,480
+with, because one of the things that really interested me, two things.
+
+323
+00:23:32,480 --> 00:23:39,240
+One is that there could be a dependency on something that lives outside the source code
+
+324
+00:23:39,240 --> 00:23:44,320
+for the thing to work, as a problem statement.
+
+325
+00:23:44,320 --> 00:23:51,840
+Then the other, that it may have self-generation capabilities and how do you license them.
+
+326
+00:23:51,840 --> 00:23:59,440
+I'm just curious if what made me think initially was about, yesterday, I discovered and started
+
+327
+00:23:59,440 --> 00:24:02,840
+playing around with Whisper from OpenAI.
+
+328
+00:24:02,840 --> 00:24:11,560
+I'm not sure if you're familiar with it, but it's a text to speech translation tool.
+
+329
+00:24:11,560 --> 00:24:18,040
+It's under the MIT license, so you can go do whatever you want with it under that license.
+
+330
+00:24:18,040 --> 00:24:24,160
+But I'm just curious if there's some examples of things that are already out there where
+
+331
+00:24:24,160 --> 00:24:27,960
+those two things are problematic already.
+
+332
+00:24:27,960 --> 00:24:32,640
+Do two things that are problematic?
+
+333
+00:24:32,640 --> 00:24:36,680
+Sorry, I wasn't sure what you mean.
+
+334
+00:24:36,680 --> 00:24:48,360
+An example of some AI tool or AI LLM or something that's out there that is either self-generating,
+
+335
+00:24:48,360 --> 00:24:51,480
+do you have an example of something like that that could be problematic?
+
+336
+00:24:51,480 --> 00:24:57,720
+Or the other one is where it's totally dependent on things that are outside of what could be
+
+337
+00:24:57,720 --> 00:25:08,800
+covered under a license or what could be considered open source and thereby invalidates the idea.
+
+338
+00:25:08,800 --> 00:25:11,200
+Do you mean self-generating as in Skynet?
+
+339
+00:25:11,200 --> 00:25:13,600
+That programs itself and improves?
+
+340
+00:25:13,600 --> 00:25:17,800
+I don't know if I'm going that far, but something where, I think you were talking about it,
+
+341
+00:25:17,800 --> 00:25:25,520
+Simon, where it would be difficult to categorize what was covered under there because it wasn't
+
+342
+00:25:25,520 --> 00:25:27,920
+necessarily programmed by a human.
+
+343
+00:25:27,920 --> 00:25:29,520
+All right.
+
+344
+00:25:29,520 --> 00:25:31,760
+Okay, now I understand.
+
+345
+00:25:31,760 --> 00:25:37,800
+So the case of Whisper is interesting because the license is extremely permissive.
+
+346
+00:25:37,800 --> 00:25:42,760
+We're very familiar with it and it covers the parameters, like the weights, the trained
+
+347
+00:25:42,760 --> 00:25:46,000
+weights of that engine.
+
+348
+00:25:46,000 --> 00:25:52,880
+What we don't know about Whisper is how it's been built, how the training happened, what
+
+349
+00:25:52,880 --> 00:25:59,160
+kind of data sources they use to have those results.
+
+350
+00:25:59,160 --> 00:26:00,760
+Those pieces are missing.
+
+351
+00:26:00,760 --> 00:26:09,240
+And that is why we wouldn't consider Whisper an open source AI, despite the fact that the
+
+352
+00:26:09,240 --> 00:26:14,000
+weights are openly and freely available.
+
+353
+00:26:14,000 --> 00:26:18,440
+Because what we have defined in the document, the open source AI definition, what's defined
+
+354
+00:26:18,440 --> 00:26:24,880
+in there that is brand new is the definition of preferred form of making modifications
+
+355
+00:26:24,880 --> 00:26:26,000
+to an AI system.
+
+356
+00:26:26,000 --> 00:26:31,960
+If you want to change the behavior of Whisper, sure, you can fine tune it.
+
+357
+00:26:31,960 --> 00:26:39,360
+You can add layers to it or you can modify manually some of the, or randomly poke at
+
+358
+00:26:39,360 --> 00:26:42,800
+the weights themselves inside the matrix.
+
+359
+00:26:42,800 --> 00:26:52,000
+But you will have a much easier time if you knew what kind of data went in there, have
+
+360
+00:26:52,000 --> 00:26:54,560
+a full list of it.
+
+361
+00:26:54,560 --> 00:27:02,480
+If you had the training code in order to understand how that training was done, you had all the
+
+362
+00:27:02,480 --> 00:27:07,760
+code that was used to generate the training data set.
+
+363
+00:27:07,760 --> 00:27:14,400
+Because training data, I mean, the original data needs to be massaged, needs to be filtered,
+
+364
+00:27:14,400 --> 00:27:20,360
+needs to be deduplicated, tokenized, etc. before it can be fed into the training machine.
+
+365
+00:27:20,360 --> 00:27:27,640
+So all of these pieces are required to understand, to have a fully, to have access to preferred
+
+366
+00:27:27,640 --> 00:27:36,720
+form of making modifications to the code, sorry, to the system, to the AI.
+
+367
+00:27:36,720 --> 00:27:39,320
+That's the new thing that's in the definition.
+
+368
+00:27:39,320 --> 00:27:40,320
+Yeah.
+
+369
+00:27:40,320 --> 00:27:43,960
+So would it be fair to say then that that particular model, some of it is still a black
+
+370
+00:27:43,960 --> 00:27:45,160
+box.
+
+371
+00:27:45,160 --> 00:27:46,160
+You don't know where it came from.
+
+372
+00:27:46,160 --> 00:27:49,960
+It's just you have this black box kind of artifact that's part of it.
+
+373
+00:27:49,960 --> 00:27:53,560
+And to make something an open source AI, we want to get rid of all of those black boxes
+
+374
+00:27:53,560 --> 00:27:55,800
+and be able to see inside of all of them.
+
+375
+00:27:55,800 --> 00:27:56,800
+Yep.
+
+376
+00:27:56,800 --> 00:27:57,800
+That's exactly.
+
+377
+00:27:57,800 --> 00:28:01,960
+Or at least know where they came from.
+
+378
+00:28:01,960 --> 00:28:09,560
+So you can't, because some of the things that you do to make an AI are ephemeral, they are
+
+379
+00:28:09,560 --> 00:28:11,600
+transient.
+
+380
+00:28:11,600 --> 00:28:19,120
+What matters more is that you've got an adequate description of how the AI acquired its knowledge,
+
+381
+00:28:19,120 --> 00:28:24,800
+that somebody else who is sufficiently experienced could take your recipe and do the same thing.
+
+382
+00:28:24,800 --> 00:28:29,440
+They may not need exactly the same data, but they do need the same recipe that you had
+
+383
+00:28:29,440 --> 00:28:37,240
+for how to train it on the health data of everyone in an emergency room for a month
+
+384
+00:28:37,240 --> 00:28:46,240
+with these inputs from the equipment and with these sign offs from the patients and so on.
+
+385
+00:28:46,240 --> 00:28:54,040
+An expert can take that description and produce the same transparent box.
+
+386
+00:28:54,040 --> 00:28:58,360
+They don't necessarily need all the exact same data to do that.
+
+387
+00:28:58,360 --> 00:29:00,240
+So that's a corner case.
+
+388
+00:29:00,240 --> 00:29:03,000
+As the general case, yes, indeed.
+
+389
+00:29:03,000 --> 00:29:04,200
+We don't want any black boxes.
+
+390
+00:29:04,200 --> 00:29:10,000
+We want to know what they were shown in order to be populated.
+
+391
+00:29:10,000 --> 00:29:13,160
+And I suppose that's sort of a hinge point here, right?
+
+392
+00:29:13,160 --> 00:29:16,320
+There are certain, medical is a really good example, right?
+
+393
+00:29:16,320 --> 00:29:22,400
+There are certain times where you would want an LLM that has been trained on medical data
+
+394
+00:29:22,400 --> 00:29:28,640
+and the idea of releasing all of that medical source data is just, it's a complete non-starter.
+
+395
+00:29:28,640 --> 00:29:31,560
+Like legally you just cannot do it.
+
+396
+00:29:31,560 --> 00:29:37,920
+But you would want that LLM to still be as open as possible and ideally be able to fall
+
+397
+00:29:37,920 --> 00:29:41,240
+under the open source definition of AI.
+
+398
+00:29:41,240 --> 00:29:45,680
+And so that's kind of the corner case that's been the sticking point maybe through all
+
+399
+00:29:45,680 --> 00:29:47,600
+of this.
+
+400
+00:29:47,600 --> 00:30:02,760
+Honestly, a lot of the corner cases that have been circulating, we must wait and see.
+
+401
+00:30:02,760 --> 00:30:09,240
+A lot of the conversations that we're having about these corner cases require new science
+
+402
+00:30:09,240 --> 00:30:14,680
+or they may become obsolete tomorrow.
+
+403
+00:30:14,680 --> 00:30:21,240
+A lot of the ideas that we had two or three years ago about the technology, specifically
+
+404
+00:30:21,240 --> 00:30:28,720
+LLMs, are starting to go away or are becoming less relevant.
+
+405
+00:30:28,720 --> 00:30:37,280
+So before we talk about corner cases, I would really love to see more work and more analysis
+
+406
+00:30:37,280 --> 00:30:46,560
+of the actual good examples that we have today of groups, research institutions, nonprofit
+
+407
+00:30:46,560 --> 00:30:55,000
+hackers that are really releasing datasets with full instructions on how to build them,
+
+408
+00:30:55,000 --> 00:30:57,580
+full code releases.
+
+409
+00:30:57,580 --> 00:31:03,520
+They're making attempts at creating platforms, including hardware descriptions of clusters,
+
+410
+00:31:03,520 --> 00:31:09,480
+training clusters, to build AI themselves.
+
+411
+00:31:09,480 --> 00:31:16,240
+All of these examples, the virtuous examples, are the ones that we are losing track of.
+
+412
+00:31:16,240 --> 00:31:18,000
+Everyone talks about LLMA.
+
+413
+00:31:18,000 --> 00:31:23,800
+And then on the other side, there is a lot of other groups that are releasing very, very
+
+414
+00:31:23,800 --> 00:31:31,520
+compelling technology with full access to all of the underlying components and pieces.
+
+415
+00:31:31,520 --> 00:31:39,880
+So respecting the concept of preferred form of making modifications to an AI system.
+
+416
+00:31:39,880 --> 00:31:43,420
+Have you gotten a decent bit of contact from the industry?
+
+417
+00:31:43,420 --> 00:31:47,280
+People saying, "We acknowledge the work that you've done and we would like to make changes
+
+418
+00:31:47,280 --> 00:31:52,720
+to make our license or model or whatever open source compliant."
+
+419
+00:31:52,720 --> 00:31:56,720
+Has there been some reach out?
+
+420
+00:31:56,720 --> 00:32:03,720
+Other than the industry, the most productive conversations we had and collaboration we
+
+421
+00:32:03,720 --> 00:32:10,120
+had, we had collaboration with industry, large corporations, small corporations, startups,
+
+422
+00:32:10,120 --> 00:32:13,260
+and research institutions, and nonprofit groups.
+
+423
+00:32:13,260 --> 00:32:19,120
+The nonprofit groups are the ones who have endorsed more happily the definition as it
+
+424
+00:32:19,120 --> 00:32:25,640
+came out, because it really supports that idea of creating a framework for collaboration,
+
+425
+00:32:25,640 --> 00:32:33,440
+a shared understanding of what are the principles of furthering the science, furthering the
+
+426
+00:32:33,440 --> 00:32:38,960
+knowledge on how systems have been built, how you train, and therefore how to improve
+
+427
+00:32:38,960 --> 00:32:41,960
+without having to reinvent the wheel.
+
+428
+00:32:41,960 --> 00:32:48,280
+But from the industry perspective, because of the technology, the way it is built, the
+
+429
+00:32:48,280 --> 00:32:55,880
+way of its complexity, the fact that it has to take into account multiple layers of the
+
+430
+00:32:55,880 --> 00:33:01,840
+companies themselves, like they go from the data scientists, but even on the legal departments,
+
+431
+00:33:01,840 --> 00:33:06,640
+just to give you an example, in the legal department for software, copyright experts
+
+432
+00:33:06,640 --> 00:33:10,400
+and maybe patent experts are sufficient.
+
+433
+00:33:10,400 --> 00:33:17,440
+All of a sudden for AI components and pieces, you end up having to involve the whole expertise
+
+434
+00:33:17,440 --> 00:33:27,240
+of the firm, plus consultants from outside, because you have to have export regulation,
+
+435
+00:33:27,240 --> 00:33:34,840
+the privacy regulation across multiple countries and worlds.
+
+436
+00:33:34,840 --> 00:33:38,320
+It becomes a lot more complex.
+
+437
+00:33:38,320 --> 00:33:43,600
+Companies generally haven't been very happy with the way the definition came out.
+
+438
+00:33:43,600 --> 00:33:45,840
+It's too restrictive for their point of view.
+
+439
+00:33:45,840 --> 00:33:49,360
+Yeah, and then you've got people on the other side that don't think it's restrictive enough,
+
+440
+00:33:49,360 --> 00:33:50,360
+I'm sure.
+
+441
+00:33:50,360 --> 00:33:51,360
+Right.
+
+442
+00:33:51,360 --> 00:33:59,360
+Yes, there are some groups who say, yes, we should be asking for more.
+
+443
+00:33:59,360 --> 00:34:04,680
+The thing that comes to mind with that is that there's nothing in this that would prevent
+
+444
+00:34:04,680 --> 00:34:09,280
+someone from writing a more restrictive license.
+
+445
+00:34:09,280 --> 00:34:12,060
+I would imagine that you could write a more restrictive license and it would still be
+
+446
+00:34:12,060 --> 00:34:15,520
+considered an open source AI license under these guidelines.
+
+447
+00:34:15,520 --> 00:34:22,880
+So someone could come along and try to bring the idea of copy left into this.
+
+448
+00:34:22,880 --> 00:34:26,220
+It's the open source AI definition.
+
+449
+00:34:26,220 --> 00:34:33,280
+Someone could come along and try to bring in a Fero genie public license to where if
+
+450
+00:34:33,280 --> 00:34:37,720
+anyone touches it, even on a website, they need to have a way to be able to get the source.
+
+451
+00:34:37,720 --> 00:34:40,280
+I would imagine that it would be possible to write these now.
+
+452
+00:34:40,280 --> 00:34:44,800
+They're not going to get a whole lot of uptake, but it would be possible to write these license
+
+453
+00:34:44,800 --> 00:34:52,040
+and to release something, to release an LLM under a less restrictive or a copy left license.
+
+454
+00:34:52,040 --> 00:34:53,040
+Right?
+
+455
+00:34:53,040 --> 00:34:55,620
+That's an option, isn't it?
+
+456
+00:34:55,620 --> 00:34:59,520
+It is an option and it's a conscious one.
+
+457
+00:34:59,520 --> 00:35:04,400
+I don't think it's a negative one, to be honest.
+
+458
+00:35:04,400 --> 00:35:11,480
+I don't classify the GNU GPL or the LGPL, the Fero GPL as restrictive licenses.
+
+459
+00:35:11,480 --> 00:35:12,480
+They're permissive.
+
+460
+00:35:12,480 --> 00:35:19,760
+They just add requirements that you may want or not.
+
+461
+00:35:19,760 --> 00:35:21,560
+They're not really restrictive.
+
+462
+00:35:21,560 --> 00:35:29,080
+So in the same vein, I do think that it's a good idea to have the possibility to have
+
+463
+00:35:29,080 --> 00:35:36,200
+legal frameworks, legal documents that would let someone like a user downstream to say,
+
+464
+00:35:36,200 --> 00:35:41,920
+"Hey, you're coming up with this system is spitting out this output.
+
+465
+00:35:41,920 --> 00:35:48,520
+I'm asking for a mortgage and it's consistently telling me that I'm not qualified to have
+
+466
+00:35:48,520 --> 00:35:49,520
+it.
+
+467
+00:35:49,520 --> 00:35:50,520
+But why?
+
+468
+00:35:50,520 --> 00:35:54,360
+Can I get access to all the instructions of how it's been built?
+
+469
+00:35:54,360 --> 00:35:57,960
+Can I have my experts review it?"
+
+470
+00:35:57,960 --> 00:36:01,200
+That kind of stuff is good for society.
+
+471
+00:36:01,200 --> 00:36:05,240
+And in general, let me put it also in the other way.
+
+472
+00:36:05,240 --> 00:36:10,840
+Think about the fact that we collectively have created a lot of content that has been
+
+473
+00:36:10,840 --> 00:36:19,720
+crawled and spidered and archived into repositories like Common Crawl or the Internet Archive
+
+474
+00:36:19,720 --> 00:36:25,880
+or our code is into Software Heritage and GitHub repositories.
+
+475
+00:36:25,880 --> 00:36:33,320
+That content is now can be used and is being used to train wonderful machines that create
+
+476
+00:36:33,320 --> 00:36:37,720
+images and spit out code.
+
+477
+00:36:37,720 --> 00:36:43,160
+Do we want as a society to have the possibility to say, "Hey, you're using my code.
+
+478
+00:36:43,160 --> 00:36:51,280
+I want the parameters to go back to me under the same conditions I gave the code to you
+
+479
+00:36:51,280 --> 00:36:54,680
+or my pictures."
+
+480
+00:36:54,680 --> 00:36:57,560
+I don't think it's wrong to think about it that way.
+
+481
+00:36:57,560 --> 00:36:59,480
+It's a choice that we need to allow.
+
+482
+00:36:59,480 --> 00:37:00,480
+Yeah.
+
+483
+00:37:00,480 --> 00:37:06,320
+And that actually kind of touches on a much bigger question with the way AI works right
+
+484
+00:37:06,320 --> 00:37:07,480
+now.
+
+485
+00:37:07,480 --> 00:37:14,440
+And there's this sort of legal theory that AI is putting data into a large language model.
+
+486
+00:37:14,440 --> 00:37:21,720
+It is so transformative that it pretty much removes the original copyright.
+
+487
+00:37:21,720 --> 00:37:29,400
+You put it in and the language model trains on it but does not inherit the copyright of
+
+488
+00:37:29,400 --> 00:37:30,880
+the training data.
+
+489
+00:37:30,880 --> 00:37:32,600
+That's essentially the way that it's being used.
+
+490
+00:37:32,600 --> 00:37:35,240
+You look at something like Copilot on GitHub.
+
+491
+00:37:35,240 --> 00:37:38,140
+It is trained on a whole bunch of GPL code.
+
+492
+00:37:38,140 --> 00:37:42,280
+But then you can say to Copilot, "Write me code," and there's no expectation that the
+
+493
+00:37:42,280 --> 00:37:45,640
+code that Copilot writes carries the GPL license.
+
+494
+00:37:45,640 --> 00:37:49,620
+So just as an example, that's the sort of thing that I mean.
+
+495
+00:37:49,620 --> 00:37:54,680
+And I know that there are some legal theories out there that that's not going to survive.
+
+496
+00:37:54,680 --> 00:37:59,880
+Now, we talked last week with a lawyer and his comment was, "The genie is out of the
+
+497
+00:37:59,880 --> 00:38:00,880
+bottle."
+
+498
+00:38:00,880 --> 00:38:05,000
+And I don't think we can ever put the genie back in the bottle.
+
+499
+00:38:05,000 --> 00:38:10,180
+But it is interesting to think that there is sort of this push for we should inherit
+
+500
+00:38:10,180 --> 00:38:15,160
+some of the copyright of the original training data.
+
+501
+00:38:15,160 --> 00:38:17,120
+I guess, what is your thought on that?
+
+502
+00:38:17,120 --> 00:38:20,640
+Do you think that's a reasonable thing to think about or is the genie just entirely
+
+503
+00:38:20,640 --> 00:38:27,040
+out of the bottle and there's no way to go back?
+
+504
+00:38:27,040 --> 00:38:29,000
+I don't have an easy answer.
+
+505
+00:38:29,000 --> 00:38:35,080
+It's a complicated and nuanced conversation.
+
+506
+00:38:35,080 --> 00:38:39,840
+And I have a dual approach to this.
+
+507
+00:38:39,840 --> 00:38:47,840
+On one hand, first of all, these theories, they are being proven in American courts.
+
+508
+00:38:47,840 --> 00:38:53,360
+And I'm saying American courts specifically because there are different laws.
+
+509
+00:38:53,360 --> 00:39:00,480
+The copyright law is fairly uniformly applied around the world, but some things are different
+
+510
+00:39:00,480 --> 00:39:05,280
+in the United States, in Europe, in Britain, China, etc.
+
+511
+00:39:05,280 --> 00:39:14,360
+So yes, the genie, I guess the lawyer may have been referring to the theory that has
+
+512
+00:39:14,360 --> 00:39:21,320
+been proven by Google Scholar, Google Books actually.
+
+513
+00:39:21,320 --> 00:39:30,040
+If you remember, was it 10 plus years ago, Google started scanning books and making them
+
+514
+00:39:30,040 --> 00:39:34,800
+available, search available through the content of the books.
+
+515
+00:39:34,800 --> 00:39:39,980
+They were buying the books on paper, scanning them, doing character recognition and offering
+
+516
+00:39:39,980 --> 00:39:44,600
+those as search engine products.
+
+517
+00:39:44,600 --> 00:39:53,760
+And Google got sued by the American Publisher Association and Google won that case because
+
+518
+00:39:53,760 --> 00:40:03,720
+the judge said basically that what Google was doing was not damaging the copyright holders
+
+519
+00:40:03,720 --> 00:40:07,960
+and also was transformative work.
+
+520
+00:40:07,960 --> 00:40:14,120
+And so I believe that Copilot and GitHub and Microsoft are building their cases, their
+
+521
+00:40:14,120 --> 00:40:19,960
+defenses against the lawsuits pretty much on similar theories.
+
+522
+00:40:19,960 --> 00:40:22,560
+We'll see if that survives the courts.
+
+523
+00:40:22,560 --> 00:40:29,200
+But there is a different, there is another angle that I keep on thinking, that the fact
+
+524
+00:40:29,200 --> 00:40:34,800
+that collectively we have created content, collectively the society has created content,
+
+525
+00:40:34,800 --> 00:40:41,840
+every blogger, every podcaster, we are creating content, we're making it available under permissive
+
+526
+00:40:41,840 --> 00:40:45,760
+licenses like Creative Commons licenses and others.
+
+527
+00:40:45,760 --> 00:40:49,240
+And we're telling the world, use it, do whatever you want with it.
+
+528
+00:40:49,240 --> 00:40:57,080
+And now if we start saying individually, like, you can use it, but not for training, or you
+
+529
+00:40:57,080 --> 00:41:04,720
+can use it not for training under these conditions, etc., then all of a sudden the larger copyright
+
+530
+00:41:04,720 --> 00:41:12,520
+holders, the larger corporations who can license content from content providers, large aggregators,
+
+531
+00:41:12,520 --> 00:41:16,560
+etc., they will have an edge.
+
+532
+00:41:16,560 --> 00:41:21,540
+They will have an advantage because they have the money and the resources to get access
+
+533
+00:41:21,540 --> 00:41:23,900
+to large quantities of data.
+
+534
+00:41:23,900 --> 00:41:31,840
+And groups like that are building their systems openly and freely and they want to have access
+
+535
+00:41:31,840 --> 00:41:37,840
+to freely available content, they will have to jump through hoops and license individually
+
+536
+00:41:37,840 --> 00:41:41,120
+for millions of people and copyright holders.
+
+537
+00:41:41,120 --> 00:41:52,480
+So it's a more complicated question in my mind than what it looks like at surface.
+
+538
+00:41:52,480 --> 00:41:56,120
+With some of those being more complicated questions and the way that all of this is
+
+539
+00:41:56,120 --> 00:42:02,560
+still being developed and changing so much, do you foresee the possibility of changing
+
+540
+00:42:02,560 --> 00:42:05,160
+the open source AI definition?
+
+541
+00:42:05,160 --> 00:42:09,480
+Do you think there's going to be some updates to it where you go back and you say, this
+
+542
+00:42:09,480 --> 00:42:13,080
+needed to be stronger or this doesn't need to be in there?
+
+543
+00:42:13,080 --> 00:42:14,240
+Absolutely.
+
+544
+00:42:14,240 --> 00:42:21,920
+I think we need to really pay attention to what's happening in the space, in the field.
+
+545
+00:42:21,920 --> 00:42:28,000
+What are not only the technologies, how they're evolving and changing, but also how the developers
+
+546
+00:42:28,000 --> 00:42:33,840
+and developers of AI, builders of AI, builders of datasets, how they're behaving, how they're
+
+547
+00:42:33,840 --> 00:42:41,080
+adjusting their tooling, their expectations, how they're releasing.
+
+548
+00:42:41,080 --> 00:42:45,000
+Where is the collaboration happening and how?
+
+549
+00:42:45,000 --> 00:42:47,280
+What's the potential for collaboration?
+
+550
+00:42:47,280 --> 00:42:48,800
+Where is the safety coming from?
+
+551
+00:42:48,800 --> 00:42:53,000
+All of these habits, we need to watch them.
+
+552
+00:42:53,000 --> 00:42:59,240
+Consider the fact that the open source definition appeared more than a decade, almost two decades
+
+553
+00:42:59,240 --> 00:43:02,400
+after the free software definition appeared.
+
+554
+00:43:02,400 --> 00:43:10,840
+And the free software definition was basically a statement of principles and a manifesto.
+
+555
+00:43:10,840 --> 00:43:13,920
+The open source definition is more like a checklist.
+
+556
+00:43:13,920 --> 00:43:19,200
+What we have today, a checklist that was based on 20 years of experience.
+
+557
+00:43:19,200 --> 00:43:24,560
+So we're basically watching the space as it evolves.
+
+558
+00:43:24,560 --> 00:43:31,840
+More systems are released, more datasets are released, more experience we gain, and we
+
+559
+00:43:31,840 --> 00:43:33,640
+can generalize from there.
+
+560
+00:43:33,640 --> 00:43:36,960
+What we have right now in the open source AI definition version one is a stake in the
+
+561
+00:43:36,960 --> 00:43:37,960
+ground.
+
+562
+00:43:37,960 --> 00:43:41,400
+It's basically like a conversation starter, if you want.
+
+563
+00:43:41,400 --> 00:43:48,360
+The place that we can use, like someone was saying, to have conversations with policymakers,
+
+564
+00:43:48,360 --> 00:43:56,720
+with researchers and developers, with corporations, to say, "These are the principles that came
+
+565
+00:43:56,720 --> 00:44:00,120
+out of a large conversation.
+
+566
+00:44:00,120 --> 00:44:01,240
+Where do you disagree?
+
+567
+00:44:01,240 --> 00:44:04,960
+What do you think is wrong?"
+
+568
+00:44:04,960 --> 00:44:07,200
+We keep collecting that information.
+
+569
+00:44:07,200 --> 00:44:12,000
+And we're also going to keep watching the data space because that's where I think that
+
+570
+00:44:12,000 --> 00:44:14,760
+we need to pay more attention to.
+
+571
+00:44:14,760 --> 00:44:20,360
+We have right now really been talking about open data as if it's the only and most important
+
+572
+00:44:20,360 --> 00:44:25,000
+thing that we have.
+
+573
+00:44:25,000 --> 00:44:33,680
+But the open data alone is not sufficient to describe the complexity of training datasets
+
+574
+00:44:33,680 --> 00:44:36,160
+and training data.
+
+575
+00:44:36,160 --> 00:44:38,400
+There's more than one to that.
+
+576
+00:44:38,400 --> 00:44:39,400
+>> Yeah, sure.
+
+577
+00:44:39,400 --> 00:44:43,760
+>> So I've got a kind of a reverse question.
+
+578
+00:44:43,760 --> 00:44:48,440
+We talked about this a little bit when Jonathan was talking about protecting creators' rights
+
+579
+00:44:48,440 --> 00:44:54,800
+or protecting the rights of the people whose data, whether it was images or whatever kind
+
+580
+00:44:54,800 --> 00:44:58,240
+of data that was used for training.
+
+581
+00:44:58,240 --> 00:45:03,040
+I'm reading through the definition now.
+
+582
+00:45:03,040 --> 00:45:06,640
+Because one of the nice things about open source licenses, and we've got to probably
+
+583
+00:45:06,640 --> 00:45:12,400
+also distinguish between the definition and the license, but the license does provide
+
+584
+00:45:12,400 --> 00:45:18,280
+protection at various levels, depending on which license you choose, for the creator
+
+585
+00:45:18,280 --> 00:45:25,320
+of the software in that case, to make sure that they get credit, for example, as the
+
+586
+00:45:25,320 --> 00:45:29,460
+code is copied by others or used in other projects, et cetera.
+
+587
+00:45:29,460 --> 00:45:38,400
+Is there also that same protection in the definition, or is that left up to the various
+
+588
+00:45:38,400 --> 00:45:49,000
+licenses that will come that meet the definition to provide that type of protection?
+
+589
+00:45:49,000 --> 00:45:55,960
+>> I think it will have to be coming from the legal terms as they get developed.
+
+590
+00:45:55,960 --> 00:45:57,600
+>> Yeah.
+
+591
+00:45:57,600 --> 00:46:03,800
+So keep in mind that the credit to the author is a license term.
+
+592
+00:46:03,800 --> 00:46:10,200
+It's one that's permitted by the open source definition, but it's not actually required.
+
+593
+00:46:10,200 --> 00:46:15,680
+Actually a little while ago, somebody, I think it was Jonathan, talked about restrictive
+
+594
+00:46:15,680 --> 00:46:16,680
+licenses.
+
+595
+00:46:16,680 --> 00:46:17,680
+There are no restrictive open source licenses.
+
+596
+00:46:17,680 --> 00:46:18,680
+>> I knew that was coming.
+
+597
+00:46:18,680 --> 00:46:19,680
+>> You knew it was coming.
+
+598
+00:46:19,680 --> 00:46:20,680
+>> Simon's had his bee in his bonnet ever since I said that.
+
+599
+00:46:20,680 --> 00:46:21,680
+I'm like, "Oh no, he's going to say it."
+
+600
+00:46:21,680 --> 00:46:22,680
+>> Yeah, yeah.
+
+601
+00:46:22,680 --> 00:46:31,640
+There are no restrictive open source licenses because a restriction is something that you
+
+602
+00:46:31,640 --> 00:46:34,600
+have to negotiate removal of.
+
+603
+00:46:34,600 --> 00:46:39,280
+And open source licenses do include conditions.
+
+604
+00:46:39,280 --> 00:46:45,920
+And so I say you can use this license if blah, but that's not a restriction, that's a condition.
+
+605
+00:46:45,920 --> 00:46:53,280
+A restriction is you guys who don't have white hair, you can't use this software.
+
+606
+00:46:53,280 --> 00:46:54,280
+That's a restriction.
+
+607
+00:46:54,280 --> 00:46:58,640
+And the only way you can get rid of that restriction is to go to the person who owns the copyright
+
+608
+00:46:58,640 --> 00:47:02,720
+and ask them to waive the restriction, probably in exchange for some money.
+
+609
+00:47:02,720 --> 00:47:09,280
+So all open source licenses are permissive because they contain no restrictions.
+
+610
+00:47:09,280 --> 00:47:11,720
+They only contain conditions.
+
+611
+00:47:11,720 --> 00:47:15,800
+And credit to the authors is a condition, and it's an optional condition.
+
+612
+00:47:15,800 --> 00:47:19,680
+There are open source licenses that don't include that condition.
+
+613
+00:47:19,680 --> 00:47:26,520
+And so if there are going to be those sorts of conditions placed on open source AIs, they
+
+614
+00:47:26,520 --> 00:47:31,400
+will have to be licensed terms because they're not predicated by the open source AI definition
+
+615
+00:47:31,400 --> 00:47:32,400
+itself.
+
+616
+00:47:32,400 --> 00:47:37,360
+>> That's a good point.
+
+617
+00:47:37,360 --> 00:47:42,000
+The other question I had as you guys were talking, was there ever any thought put into
+
+618
+00:47:42,000 --> 00:47:46,880
+this, or maybe it's just outside the bounds and it doesn't apply because it's too high
+
+619
+00:47:46,880 --> 00:47:51,280
+level of intelligence itself, right?
+
+620
+00:47:51,280 --> 00:47:57,560
+So what happens when we have an AI that, I don't want to go all the way to sentience,
+
+621
+00:47:57,560 --> 00:48:04,280
+but I mean, as these AI tools and things become more and more intelligent and able to do things
+
+622
+00:48:04,280 --> 00:48:10,040
+on their own, was there any thought in terms of the definition into we need to somehow
+
+623
+00:48:10,040 --> 00:48:18,200
+accommodate that or think about that, or do the rights change at that point when AIs become
+
+624
+00:48:18,200 --> 00:48:22,360
+or approach sentience?
+
+625
+00:48:22,360 --> 00:48:26,120
+>> That's got to be your question because I don't believe that can ever happen.
+
+626
+00:48:26,120 --> 00:48:27,280
+I'm a weak AI guy.
+
+627
+00:48:27,280 --> 00:48:34,920
+I read Marvin Minsky in the '80s, and I believe that society of mind does not lead to emergent
+
+628
+00:48:34,920 --> 00:48:36,600
+intelligence.
+
+629
+00:48:36,600 --> 00:48:45,440
+I believe that the evolution of machine learning only goes to just below that point.
+
+630
+00:48:45,440 --> 00:48:48,000
+But it's got to be his question.
+
+631
+00:48:48,000 --> 00:48:49,000
+>> My question?
+
+632
+00:48:49,000 --> 00:48:50,000
+>> Your question.
+
+633
+00:48:50,000 --> 00:48:52,080
+>> I'll take it.
+
+634
+00:48:52,080 --> 00:48:57,960
+We have this sticker that says, "Skynet won't be open source."
+
+635
+00:48:57,960 --> 00:49:00,960
+>> I love that.
+
+636
+00:49:00,960 --> 00:49:09,440
+>> But it's just a working theory right now.
+
+637
+00:49:09,440 --> 00:49:17,320
+>> Oh, Aaron, I think that is a great question, but I think that's probably also a great answer.
+
+638
+00:49:17,320 --> 00:49:20,640
+>> Yeah, that's pretty funny.
+
+639
+00:49:20,640 --> 00:49:21,760
+>> All right.
+
+640
+00:49:21,760 --> 00:49:22,760
+Let's see.
+
+641
+00:49:22,760 --> 00:49:27,720
+Where do we want to go from here?
+
+642
+00:49:27,720 --> 00:49:29,640
+Simon told me where one of the bodies was buried.
+
+643
+00:49:29,640 --> 00:49:31,880
+Do I want to dig around in that?
+
+644
+00:49:31,880 --> 00:49:34,280
+Simon's like, "I don't care.
+
+645
+00:49:34,280 --> 00:49:36,200
+I know, Simon."
+
+646
+00:49:36,200 --> 00:49:44,120
+There's this thought that in the ... There are exceptions for where sometimes all of
+
+647
+00:49:44,120 --> 00:49:46,640
+the data, for whatever reason, cannot be provided.
+
+648
+00:49:46,640 --> 00:49:51,200
+We talked about the medical exception, and there are some others.
+
+649
+00:49:51,200 --> 00:49:57,820
+Is it sort of a challenge to explain the open source definition because those exceptions
+
+650
+00:49:57,820 --> 00:49:59,960
+are so prominent?
+
+651
+00:49:59,960 --> 00:50:03,800
+Are we going to maybe see a version in the future that puts the exceptions sort of in
+
+652
+00:50:03,800 --> 00:50:09,280
+the back half of that section?
+
+653
+00:50:09,280 --> 00:50:10,280
+>> We might.
+
+654
+00:50:10,280 --> 00:50:12,240
+Okay, let me put it that way.
+
+655
+00:50:12,240 --> 00:50:19,040
+If I started today rewriting everything from scratch with the help of a few people without
+
+656
+00:50:19,040 --> 00:50:25,600
+having to go through the whole process and interviewing hundreds of people, et cetera,
+
+657
+00:50:25,600 --> 00:50:31,920
+and traveling the world, blah, blah, blah, probably the wording could change.
+
+658
+00:50:31,920 --> 00:50:37,580
+But honestly, I think that we are panicking a little bit, and we need to take a little
+
+659
+00:50:37,580 --> 00:50:40,720
+bit of a step back.
+
+660
+00:50:40,720 --> 00:50:48,460
+We're going to release next week a paper about data, specifically about the issue of data.
+
+661
+00:50:48,460 --> 00:50:54,080
+Because if you put things away ... Like I said, an open source AI is one that gives
+
+662
+00:50:54,080 --> 00:51:00,280
+you all the means to understand exactly how it's been built and be able to build something
+
+663
+00:51:00,280 --> 00:51:06,520
+that is working exactly like the one that you have received.
+
+664
+00:51:06,520 --> 00:51:16,640
+Knowing that software is ... We have decades of experience with, we have understood it
+
+665
+00:51:16,640 --> 00:51:22,000
+well enough that we have now reproducible builds, or at least a theory of it.
+
+666
+00:51:22,000 --> 00:51:31,620
+We can really take source code and rebuild a binary bit by bit exactly the same as, exactly
+
+667
+00:51:31,620 --> 00:51:35,440
+equivalent to the one that we have received.
+
+668
+00:51:35,440 --> 00:51:38,320
+It took us decades to get there.
+
+669
+00:51:38,320 --> 00:51:45,480
+With AI, with LLMs, with this sort of neural networks technology, we still don't have the
+
+670
+00:51:45,480 --> 00:51:48,120
+science to do the same thing.
+
+671
+00:51:48,120 --> 00:51:55,920
+You take ... I've been told by a notable AI developer that releases everything in open
+
+672
+00:51:55,920 --> 00:52:10,160
+source that they tried to take the same dataset, take one dataset, feed it through ... I had
+
+673
+00:52:10,160 --> 00:52:11,160
+an ambulance.
+
+674
+00:52:11,160 --> 00:52:15,160
+I live near a hospital, so ambulances every now and then.
+
+675
+00:52:15,160 --> 00:52:16,680
+I forgot about this issue.
+
+676
+00:52:16,680 --> 00:52:17,680
+No problem.
+
+677
+00:52:17,680 --> 00:52:18,680
+Okay.
+
+678
+00:52:18,680 --> 00:52:26,240
+They had this one dataset, and they were feeding the same dataset through two different pipelines
+
+679
+00:52:26,240 --> 00:52:30,080
+into the same cluster split into halves.
+
+680
+00:52:30,080 --> 00:52:36,920
+These two streams would produce two different models.
+
+681
+00:52:36,920 --> 00:52:38,920
+It's not easy.
+
+682
+00:52:38,920 --> 00:52:39,920
+It's not easy.
+
+683
+00:52:39,920 --> 00:52:45,680
+It's not a solved problem on how to replicate a training so that you get an exact, identical
+
+684
+00:52:45,680 --> 00:52:50,800
+model, model weights.
+
+685
+00:52:50,800 --> 00:52:56,920
+So knowing that this is different than software, and this is a very young discipline, we need
+
+686
+00:52:56,920 --> 00:52:59,440
+to take a little bit of a step back.
+
+687
+00:52:59,440 --> 00:53:06,120
+We need to really understand the issue of data is that the issue of data is not going
+
+688
+00:53:06,120 --> 00:53:08,320
+to be solved quickly.
+
+689
+00:53:08,320 --> 00:53:14,240
+It requires much deeper understanding than what I was talking about.
+
+690
+00:53:14,240 --> 00:53:19,280
+Now thinking of open data versus not, and I give you a very quick example.
+
+691
+00:53:19,280 --> 00:53:27,320
+I was talking to a developer who's been thinking about building a dataset that is purely made
+
+692
+00:53:27,320 --> 00:53:37,520
+of copyright-free or unencumbered material, content, and they were adamant on using public
+
+693
+00:53:37,520 --> 00:53:41,000
+domain movies only.
+
+694
+00:53:41,000 --> 00:53:46,680
+They stepped into the public domain issue, which is in the United States, public domain
+
+695
+00:53:46,680 --> 00:53:54,640
+for a movie is 70 years after the death of the director.
+
+696
+00:53:54,640 --> 00:54:01,200
+In France, a movie goes into public domain 70 years after the last person who worked
+
+697
+00:54:01,200 --> 00:54:03,840
+on the movie dies.
+
+698
+00:54:03,840 --> 00:54:06,200
+It's impossible to calculate.
+
+699
+00:54:06,200 --> 00:54:15,360
+So a dataset that looks like it's built on public domain material in the United States
+
+700
+00:54:15,360 --> 00:54:22,880
+may not be in public domain in Europe or in France or in Germany.
+
+701
+00:54:22,880 --> 00:54:23,880
+Completely different story.
+
+702
+00:54:23,880 --> 00:54:28,480
+We need to get a little bit, take a step back and say, "Okay, this is different than source
+
+703
+00:54:28,480 --> 00:54:29,480
+code.
+
+704
+00:54:29,480 --> 00:54:30,600
+We need more.
+
+705
+00:54:30,600 --> 00:54:37,960
+We need to talk about changing policies, maybe have new laws or build new habits or change
+
+706
+00:54:37,960 --> 00:54:38,960
+the technology."
+
+707
+00:54:38,960 --> 00:54:39,960
+Right?
+
+708
+00:54:39,960 --> 00:54:41,280
+All of these questions are all open.
+
+709
+00:54:41,280 --> 00:54:43,440
+All of these possibilities are open.
+
+710
+00:54:43,440 --> 00:54:50,000
+One of the things as we get towards wrapping up, this is something that's kind of been
+
+711
+00:54:50,000 --> 00:54:53,080
+in the back of my mind the whole time.
+
+712
+00:54:53,080 --> 00:54:59,080
+When we talk about open source software, generally all it takes is a computer to be able to make
+
+713
+00:54:59,080 --> 00:55:02,600
+changes and compile.
+
+714
+00:55:02,600 --> 00:55:07,480
+But when it comes to open source AI, just the barrier to entry to really play with these
+
+715
+00:55:07,480 --> 00:55:09,720
+things is much higher.
+
+716
+00:55:09,720 --> 00:55:14,800
+In some cases you can do it on a CPU, in some cases a GPU, but these rather on the edge
+
+717
+00:55:14,800 --> 00:55:20,440
+AI models, multiple GPUs to be able to do anything interesting with it.
+
+718
+00:55:20,440 --> 00:55:24,280
+I guess that doesn't really change anything as far as what the open source definition
+
+719
+00:55:24,280 --> 00:55:26,120
+says for it.
+
+720
+00:55:26,120 --> 00:55:32,160
+But surely that changes things for how accessible, on a practical level, how accessible it is
+
+721
+00:55:32,160 --> 00:55:35,320
+to be able to actually get into and mess with some of these things.
+
+722
+00:55:35,320 --> 00:55:36,320
+Yeah.
+
+723
+00:55:36,320 --> 00:55:38,760
+There is definitely something that changed.
+
+724
+00:55:38,760 --> 00:55:44,880
+The scale of some of these training is prohibitive.
+
+725
+00:55:44,880 --> 00:55:51,760
+But again, in a couple of years, I've seen there's been some difference.
+
+726
+00:55:51,760 --> 00:55:57,880
+And small language models and other technologies, they seem to be making things more accessible.
+
+727
+00:55:57,880 --> 00:56:05,880
+Like if OpenAI, the company, trains on clusters that are worth billions of dollars, there
+
+728
+00:56:05,880 --> 00:56:13,440
+are smaller groups that are doing something on tens of thousands of dollars and getting
+
+729
+00:56:13,440 --> 00:56:14,440
+similar results.
+
+730
+00:56:14,440 --> 00:56:20,760
+I'm not saying that they can build something as powerful of OpenAI as GPT and being able
+
+731
+00:56:20,760 --> 00:56:22,280
+to respond that quickly.
+
+732
+00:56:22,280 --> 00:56:30,560
+But these models, like Mozilla is doing something extremely fascinating with smaller models
+
+733
+00:56:30,560 --> 00:56:35,120
+running inside the browser, even a mobile.
+
+734
+00:56:35,120 --> 00:56:39,640
+So training versus execution, that's another big conversation.
+
+735
+00:56:39,640 --> 00:56:40,640
+It's early.
+
+736
+00:56:40,640 --> 00:56:41,640
+It's really early.
+
+737
+00:56:41,640 --> 00:56:43,640
+We need to give it time.
+
+738
+00:56:43,640 --> 00:56:44,960
+Oh, yeah.
+
+739
+00:56:44,960 --> 00:56:46,960
+We are definitely in the...
+
+740
+00:56:46,960 --> 00:56:50,720
+Well, even faster than Moore's Law.
+
+741
+00:56:50,720 --> 00:56:57,280
+So there's this idea with early computing that every, what was it, 16 months, the computing
+
+742
+00:56:57,280 --> 00:56:59,400
+power would double, something like that.
+
+743
+00:56:59,400 --> 00:57:03,600
+And we're moving even faster than that with AI at this point.
+
+744
+00:57:03,600 --> 00:57:07,420
+So give it a year or two, and who knows where we'll be as far as the accessibility part
+
+745
+00:57:07,420 --> 00:57:08,420
+of it goes.
+
+746
+00:57:08,420 --> 00:57:13,480
+Yeah, it definitely speaks to the reason why something like this is needed, in my opinion.
+
+747
+00:57:13,480 --> 00:57:17,040
+Even though I'm an optimist, I'm not a skeptic.
+
+748
+00:57:17,040 --> 00:57:22,640
+I'm not saying we don't need any of these protections and definitions for things.
+
+749
+00:57:22,640 --> 00:57:27,000
+Speaking of definitions, I'm kind of curious, you've been saying it's early days.
+
+750
+00:57:27,000 --> 00:57:30,480
+This is 1.0, the definition, right, is what's out today.
+
+751
+00:57:30,480 --> 00:57:35,720
+By the way, if people are looking for it, it's on, I think it's opensource.org/ai if
+
+752
+00:57:35,720 --> 00:57:37,200
+they want to check it out.
+
+753
+00:57:37,200 --> 00:57:43,320
+So definitely go there and have a read, as I've been doing, as we've been talking here.
+
+754
+00:57:43,320 --> 00:57:44,320
+But it's still early days.
+
+755
+00:57:44,320 --> 00:57:52,000
+I'm kind of curious, for example, I only see really two definitions in version 1.0.
+
+756
+00:57:52,000 --> 00:57:56,880
+One is of an AI system, and the other one, and these are definitions in the definition,
+
+757
+00:57:56,880 --> 00:58:01,080
+but one is of an AI system, and then the other one is for machine learning.
+
+758
+00:58:01,080 --> 00:58:07,960
+And of course, AI is lots of different things, right, like LLMs and different types of things.
+
+759
+00:58:07,960 --> 00:58:11,480
+So I'm kind of curious, where do you go from here?
+
+760
+00:58:11,480 --> 00:58:15,480
+Will there be other definitions that you know you already have to add?
+
+761
+00:58:15,480 --> 00:58:19,800
+Are there things that, you know, what's the roadmap here of the definition?
+
+762
+00:58:19,800 --> 00:58:20,800
+Where do we go?
+
+763
+00:58:20,800 --> 00:58:22,480
+Yeah, very good point.
+
+764
+00:58:22,480 --> 00:58:28,200
+So why did we include the definition of an AI system in there is because we needed to
+
+765
+00:58:28,200 --> 00:58:34,320
+have an anchor to understand what we were talking about, what we were defining.
+
+766
+00:58:34,320 --> 00:58:39,800
+Three years ago, it wasn't really clear what we were talking about, like what's different
+
+767
+00:58:39,800 --> 00:58:41,160
+in here?
+
+768
+00:58:41,160 --> 00:58:46,480
+And so we used the definition of the OECD, the Organization for Economic Cooperation
+
+769
+00:58:46,480 --> 00:58:52,040
+and Development, which is what's been used also in the Artificial Intelligence Act, very
+
+770
+00:58:52,040 --> 00:58:54,360
+similar definition.
+
+771
+00:58:54,360 --> 00:59:01,080
+And why we're targeting machine learning specifically to talk about the preferred form to make modifications
+
+772
+00:59:01,080 --> 00:59:07,960
+is because the new LLMs, the ones that require training, they have the dependency of data,
+
+773
+00:59:07,960 --> 00:59:13,040
+etc., the ones that learn how to magically, those are machine learning systems.
+
+774
+00:59:13,040 --> 00:59:20,960
+So we said, okay, we don't want to define the preferred form for everything, forever,
+
+775
+00:59:20,960 --> 00:59:23,120
+at every time.
+
+776
+00:59:23,120 --> 00:59:27,440
+Let's focus on what we know today that needs clarifications.
+
+777
+00:59:27,440 --> 00:59:29,520
+And that's where we got it from.
+
+778
+00:59:29,520 --> 00:59:34,840
+Where do we go from here?
+
+779
+00:59:34,840 --> 00:59:41,760
+In the next year, year and a half, we will need to understand better how groups like
+
+780
+00:59:41,760 --> 00:59:50,680
+LLM360, Eleuther AI, the Allen Institute for AI, Falcon Foundation, TII, and other groups
+
+781
+00:59:50,680 --> 00:59:55,200
+like this are LLM France.
+
+782
+00:59:55,200 --> 01:00:04,800
+These groups that are releasing software parameters and datasets as much as possible to the
+
+783
+01:00:04,800 --> 01:00:12,960
+commons, into the open source communities, to understand how they operate and how they
+
+784
+01:00:12,960 --> 01:00:21,280
+work and what they need in terms of legal frameworks, legal documents, opinions, and
+
+785
+01:00:21,280 --> 01:00:25,600
+generalize from there.
+
+786
+01:00:25,600 --> 01:00:30,080
+How soon do you think we'll see the first license that is OSI approved specifically
+
+787
+01:00:30,080 --> 01:00:33,440
+for AI?
+
+788
+01:00:33,440 --> 01:00:37,800
+I know that the Linux Foundation is working on a new license specifically for that.
+
+789
+01:00:37,800 --> 01:00:45,680
+I would love to see even the current ones that would not pass definition, but I would
+
+790
+01:00:45,680 --> 01:00:50,160
+love to see the debate, like the ones, like the responsible AI license.
+
+791
+01:00:50,160 --> 01:00:56,120
+I would love to see one of those being submitted, but also would love to see submitted the data
+
+792
+01:00:56,120 --> 01:01:04,680
+licenses, for example, like the CDLA, I think it's called, from the Linux Foundation.
+
+793
+01:01:04,680 --> 01:01:10,880
+They have developed a couple of licenses that are suitable for datasets.
+
+794
+01:01:10,880 --> 01:01:20,040
+It would be a nice exercise to start getting the habits, but also understanding where the
+
+795
+01:01:20,040 --> 01:01:26,240
+open source definition terms require clarifications.
+
+796
+01:01:26,240 --> 01:01:27,720
+Yeah.
+
+797
+01:01:27,720 --> 01:01:29,640
+All right.
+
+798
+01:01:29,640 --> 01:01:30,640
+Very interesting.
+
+799
+01:01:30,640 --> 01:01:31,640
+Good stuff.
+
+800
+01:01:31,640 --> 01:01:32,920
+We have basically reached the bottom of the hour.
+
+801
+01:01:32,920 --> 01:01:37,200
+Aaron, was there anything that you desperately wanted to ask before we wrap?
+
+802
+01:01:37,200 --> 01:01:45,040
+Yeah, I've got two and they weren't immediately applicable to the discussion, but I'm curious
+
+803
+01:01:45,040 --> 01:01:46,400
+about their thoughts on this.
+
+804
+01:01:46,400 --> 01:01:54,800
+So I'm kind of curious if you have any thoughts on what other open source projects can do
+
+805
+01:01:54,800 --> 01:02:03,160
+besides getting more developers involved to incorporate some AI tools into other open
+
+806
+01:02:03,160 --> 01:02:05,240
+source programs or existing open source programs.
+
+807
+01:02:05,240 --> 01:02:08,640
+And the ones that come to mind for me, because I use them all the time, of course, are like
+
+808
+01:02:08,640 --> 01:02:10,880
+Inkscape and GIMP.
+
+809
+01:02:10,880 --> 01:02:15,680
+I find myself using Photoshop more than I want to these days because I just need a tool
+
+810
+01:02:15,680 --> 01:02:22,120
+that can quickly remove the background and generate a forest behind my image or something.
+
+811
+01:02:22,120 --> 01:02:24,040
+And they do that really well.
+
+812
+01:02:24,040 --> 01:02:28,120
+And I'm just concerned that people will stop using these great tools that have been in
+
+813
+01:02:28,120 --> 01:02:33,600
+the community for so long because now they're missing this AI functionality because they
+
+814
+01:02:33,600 --> 01:02:37,480
+don't have the development bench to go build it.
+
+815
+01:02:37,480 --> 01:02:39,480
+Any thoughts on that?
+
+816
+01:02:39,480 --> 01:02:42,240
+That's interesting.
+
+817
+01:02:42,240 --> 01:02:43,800
+Yeah.
+
+818
+01:02:43,800 --> 01:02:52,480
+I love to see Collabora and LibreOffice get some summarization stuff.
+
+819
+01:02:52,480 --> 01:02:55,920
+Mozilla is doing some very interesting work on that front.
+
+820
+01:02:55,920 --> 01:03:04,840
+I think it's just a matter of time to get, on the one hand, developers with skills and
+
+821
+01:03:04,840 --> 01:03:13,120
+understanding these tools and how to do things like reducing the size of a model, like something
+
+822
+01:03:13,120 --> 01:03:19,600
+that looks really gigantic that works only on a hardcore and high-level GPUs to make
+
+823
+01:03:19,600 --> 01:03:26,280
+it run on CPUs, for example, so that it can be distributed freely by Debian.
+
+824
+01:03:26,280 --> 01:03:31,160
+But also we need a little bit...
+
+825
+01:03:31,160 --> 01:03:37,480
+Speaking of Debian, I think that we need to understand a little bit better what the legal
+
+826
+01:03:37,480 --> 01:03:42,720
+frameworks are, because I don't think that Debian is going to be very happily distributing
+
+827
+01:03:42,720 --> 01:03:47,320
+Whisper, for example, or something based on Whisper.
+
+828
+01:03:47,320 --> 01:03:56,000
+So we will have to have more conversations about that.
+
+829
+01:03:56,000 --> 01:04:02,160
+This reluctance or maybe, let me put it that way, maybe we need to think about how we're
+
+830
+01:04:02,160 --> 01:04:12,280
+going to be solving that challenge between, "Oh my God, this thing is stealing my content.
+
+831
+01:04:12,280 --> 01:04:13,640
+It's stealing my stuff."
+
+832
+01:04:13,640 --> 01:04:16,240
+And, "Oh my God, this is useful.
+
+833
+01:04:16,240 --> 01:04:17,240
+I would use it."
+
+834
+01:04:17,240 --> 01:04:19,800
+Or, "My friends are using it."
+
+835
+01:04:19,800 --> 01:04:23,400
+So there's that tension in there that we need to resolve.
+
+836
+01:04:23,400 --> 01:04:26,720
+And you had one more, Aaron?
+
+837
+01:04:26,720 --> 01:04:30,400
+Yeah, one more quick one, and maybe this can be part of the wrap-up instead of our usual
+
+838
+01:04:30,400 --> 01:04:36,320
+questions, but I'm kind of curious what your favorite AI tool is that you're using at the
+
+839
+01:04:36,320 --> 01:04:37,320
+moment.
+
+840
+01:04:37,320 --> 01:04:40,280
+Oh, that's a really good one.
+
+841
+01:04:40,280 --> 01:04:49,920
+I really don't use them that much, but we do use Google Workspace at USI, and Gemini
+
+842
+01:04:49,920 --> 01:04:50,920
+is included in it.
+
+843
+01:04:50,920 --> 01:04:56,480
+So every now and then, the temptation is to go and check what Gemini does.
+
+844
+01:04:56,480 --> 01:04:57,920
+Simon?
+
+845
+01:04:57,920 --> 01:05:04,960
+I'm not knowingly using any AIs at the moment.
+
+846
+01:05:04,960 --> 01:05:07,720
+I do go and kick the tires on them every now and then.
+
+847
+01:05:07,720 --> 01:05:15,040
+So like Steph, I kick the tires on Gemini because you do that without needing to buy
+
+848
+01:05:15,040 --> 01:05:19,560
+tokens to put in the slot machine.
+
+849
+01:05:19,560 --> 01:05:21,240
+I'm going to be quite interested.
+
+850
+01:05:21,240 --> 01:05:25,620
+So to go back to Aaron's earlier question, the biggest challenges with doing that are
+
+851
+01:05:25,620 --> 01:05:37,260
+indeed the belief that the copyleft is carried into the statistical model.
+
+852
+01:05:37,260 --> 01:05:44,520
+And personally, I'm of the view that the courts are going to find that ridiculous.
+
+853
+01:05:44,520 --> 01:05:48,420
+They have done so far in each attempt in the US.
+
+854
+01:05:48,420 --> 01:05:52,020
+We've really not seen very much happening elsewhere.
+
+855
+01:05:52,020 --> 01:05:57,260
+But until we get over the idea that the copyleft has been carried into the model, we're not
+
+856
+01:05:57,260 --> 01:06:02,960
+going to see anybody then using the model in some software.
+
+857
+01:06:02,960 --> 01:06:09,620
+And I think that's a big obstacle to seeing AI ending up in open source tools.
+
+858
+01:06:09,620 --> 01:06:18,340
+I also think that we're going to see another generational change in AI coming about where
+
+859
+01:06:18,340 --> 01:06:23,220
+the technology is going to be made differently and deployed differently to the way that it
+
+860
+01:06:23,220 --> 01:06:24,220
+is now.
+
+861
+01:06:24,220 --> 01:06:30,700
+And I think that quite likely to wait for those cool things to make their way in to
+
+862
+01:06:30,700 --> 01:06:33,980
+open source tools is going to need to wait for that.
+
+863
+01:06:33,980 --> 01:06:38,340
+Having said that, there are already AI hooks in an awful lot of places.
+
+864
+01:06:38,340 --> 01:06:40,260
+I don't know if you've realized this.
+
+865
+01:06:40,260 --> 01:06:42,700
+You look in Home Assistant, for example.
+
+866
+01:06:42,700 --> 01:06:45,020
+So I do use Home Assistant.
+
+867
+01:06:45,020 --> 01:06:49,180
+There's a great big AI hook in the middle of Home Assistant so that it can do voice
+
+868
+01:06:49,180 --> 01:06:50,180
+recognition.
+
+869
+01:06:50,180 --> 01:06:57,820
+There are great big hooks in Mastodon for going and doing AI translation.
+
+870
+01:06:57,820 --> 01:07:03,860
+So actually, the question you asked, when are we going to see open source supporting
+
+871
+01:07:03,860 --> 01:07:05,660
+AI, it's already happening.
+
+872
+01:07:05,660 --> 01:07:10,660
+But the way it's happening at the moment is by providing hooks to go use external systems
+
+873
+01:07:10,660 --> 01:07:14,900
+rather than by building the capability into the product itself.
+
+874
+01:07:14,900 --> 01:07:17,900
+There's a lot of that already happening.
+
+875
+01:07:17,900 --> 01:07:22,620
+But as a community or a community of communities, we've got some very hard conversations to
+
+876
+01:07:22,620 --> 01:07:30,580
+have sometime soon if we're going to see freedom respecting software do AI rather than just
+
+877
+01:07:30,580 --> 01:07:35,500
+call out to freedom non-respecting software that does AI.
+
+878
+01:07:35,500 --> 01:07:38,460
+The agentic model, I guess, as it's known.
+
+879
+01:07:38,460 --> 01:07:41,860
+It seems like that's a big word that's thrown around a lot these days.
+
+880
+01:07:41,860 --> 01:07:47,700
+To your point, Simon, there about whether, and it's the same question that I asked about
+
+881
+01:07:47,700 --> 01:07:56,340
+the kind of the inherence of the copy left when it's part of the training data and how
+
+882
+01:07:56,340 --> 01:07:57,420
+that's gone in the courts.
+
+883
+01:07:57,420 --> 01:08:01,180
+I imagine what we're eventually going to see is essentially a test.
+
+884
+01:08:01,180 --> 01:08:05,220
+There's going to be a legal test that says, if, and I don't know for sure what it's going
+
+885
+01:08:05,220 --> 01:08:13,020
+to look like, but if you can create a prompt that gives you this many words in a row that
+
+886
+01:08:13,020 --> 01:08:19,380
+matches the input, then you have inherited the copyright from the input.
+
+887
+01:08:19,380 --> 01:08:23,500
+It may not be exactly that, but I have to assume that there's going to be some court
+
+888
+01:08:23,500 --> 01:08:27,700
+case that's going to give us a test that sort of everybody can agree on.
+
+889
+01:08:27,700 --> 01:08:35,180
+Because obviously you could just copy a file through a black box AI that doesn't do anything,
+
+890
+01:08:35,180 --> 01:08:36,180
+call it AI.
+
+891
+01:08:36,180 --> 01:08:43,980
+I mean, there was a cartoon to that effect, wasn't there?
+
+892
+01:08:43,980 --> 01:08:49,780
+Someone tried to do that with Beatles music years ago, and they ran the Beatles records
+
+893
+01:08:49,780 --> 01:08:52,740
+through their Sonic Maximizer.
+
+894
+01:08:52,740 --> 01:08:56,540
+And I don't know if they even use the AI buzzword or not, but they tried to make the point that,
+
+895
+01:08:56,540 --> 01:08:59,580
+"Oh, this transforms it so much, it's a completely new work."
+
+896
+01:08:59,580 --> 01:09:02,660
+And of course, the courts completely shot that down.
+
+897
+01:09:02,660 --> 01:09:04,620
+But there's got to be a happy medium in there somewhere.
+
+898
+01:09:04,620 --> 01:09:09,700
+So I expect that at some point there's going to be an agreed upon test of some sort, that
+
+899
+01:09:09,700 --> 01:09:15,220
+here's the guideline for where your AI is transformative enough that you're not inheriting
+
+900
+01:09:15,220 --> 01:09:16,220
+that copyright.
+
+901
+01:09:16,220 --> 01:09:17,220
+Yeah.
+
+902
+01:09:17,220 --> 01:09:20,140
+Well, I'm not going to second guess it.
+
+903
+01:09:20,140 --> 01:09:27,540
+But as an accident of what I do for a living, I know a lot of lawyers, and I have yet to
+
+904
+01:09:27,540 --> 01:09:39,540
+meet one that thinks that the statistical model is a derivative work of the source data.
+
+905
+01:09:39,540 --> 01:09:43,100
+Now maybe that's going to change sooner or later.
+
+906
+01:09:43,100 --> 01:09:49,700
+But at the moment, if you want to go make a court case that some AI has copied your
+
+907
+01:09:49,700 --> 01:09:55,380
+work, it's going to be a really tough case to even get legal counsel to defend you on.
+
+908
+01:09:55,380 --> 01:10:01,860
+And I draw your attention to the fact there's a lot of no win, no fee work going on in this
+
+909
+01:10:01,860 --> 01:10:02,860
+area.
+
+910
+01:10:02,860 --> 01:10:03,860
+But Steph disagrees.
+
+911
+01:10:03,860 --> 01:10:04,860
+I can see him waving.
+
+912
+01:10:04,860 --> 01:10:05,860
+No, I don't disagree.
+
+913
+01:10:05,860 --> 01:10:11,140
+I think that it's a less interesting question for me, because the more interesting question
+
+914
+01:10:11,140 --> 01:10:16,060
+is should it be considered a derivative or not?
+
+915
+01:10:16,060 --> 01:10:20,820
+And I think that we should be running that exercise a little bit more consciously and
+
+916
+01:10:20,820 --> 01:10:22,860
+think about the consequences of either way.
+
+917
+01:10:22,860 --> 01:10:29,580
+Like either way, what happens and what's the worst outcome possible in either path?
+
+918
+01:10:29,580 --> 01:10:33,340
+And maybe we can even influence courts.
+
+919
+01:10:33,340 --> 01:10:36,500
+But we should do it with consciousness.
+
+920
+01:10:36,500 --> 01:10:40,220
+It's not just the gut reaction, say, "Hey, that code is mine.
+
+921
+01:10:40,220 --> 01:10:46,780
+I should be getting something, remuneration for copilot's capabilities," for example.
+
+922
+01:10:46,780 --> 01:10:53,580
+Or DALI, the fact that it reproduces works that look like mine.
+
+923
+01:10:53,580 --> 01:10:55,140
+I need to get compensated.
+
+924
+01:10:55,140 --> 01:10:56,460
+All right?
+
+925
+01:10:56,460 --> 01:10:57,780
+Should you?
+
+926
+01:10:57,780 --> 01:10:59,180
+What happens if we do?
+
+927
+01:10:59,180 --> 01:11:00,780
+Yeah, there's a whole...
+
+928
+01:11:00,780 --> 01:11:04,540
+We do not have time to go down this rabbit hole, but there is an entire rabbit hole about
+
+929
+01:11:04,540 --> 01:11:10,940
+whether it's a good thing that we can have a machine produce an image and we're no longer
+
+930
+01:11:10,940 --> 01:11:12,980
+paying an artist to do it.
+
+931
+01:11:12,980 --> 01:11:17,340
+That's its own entire conversation that, yeah, I think is important to think about.
+
+932
+01:11:17,340 --> 01:11:20,220
+But as I said, we are not going down that rabbit hole today.
+
+933
+01:11:20,220 --> 01:11:22,900
+Maybe someday in the future.
+
+934
+01:11:22,900 --> 01:11:28,500
+I am required to get a couple of final questions in myself, and that is, what are each of your
+
+935
+01:11:28,500 --> 01:11:33,060
+favorite text editor and scripting language?
+
+936
+01:11:33,060 --> 01:11:34,060
+Stefano?
+
+937
+01:11:34,060 --> 01:11:35,060
+TISC.
+
+938
+01:11:35,060 --> 01:11:41,060
+Yeah, it's passed on the scripting language.
+
+939
+01:11:41,060 --> 01:11:44,420
+I really don't code anymore.
+
+940
+01:11:44,420 --> 01:11:52,060
+I played with Bash and Python, but right now I'd probably ask a copilot, a chat GPT or
+
+941
+01:11:52,060 --> 01:11:54,780
+something to do it for me.
+
+942
+01:11:54,780 --> 01:11:56,940
+Is there a text editor in there?
+
+943
+01:11:56,940 --> 01:12:04,020
+Text editors, VI, Vim is one that I usually fire up when I do some quick stuff, but I'm
+
+944
+01:12:04,020 --> 01:12:07,020
+not really a text editor guy.
+
+945
+01:12:07,020 --> 01:12:08,900
+And I'm very disloyal to my text editors.
+
+946
+01:12:08,900 --> 01:12:11,100
+I've been using different ones throughout my career.
+
+947
+01:12:11,100 --> 01:12:15,180
+The one I fire up most often at the moment is Nano.
+
+948
+01:12:15,180 --> 01:12:25,460
+But hey, when I was IBM, we were using E. I used to work on a word processor called
+
+949
+01:12:25,460 --> 01:12:29,860
+– I worked with WordStar and WordPerfect back in the day.
+
+950
+01:12:29,860 --> 01:12:33,780
+And I've got everything loaded on various computers around here.
+
+951
+01:12:33,780 --> 01:12:34,780
+Scripting language is more interesting, though.
+
+952
+01:12:34,780 --> 01:12:38,460
+I'm doing it all in YAML at the moment because I'm doing all this home assistant stuff.
+
+953
+01:12:38,460 --> 01:12:39,460
+Yeah.
+
+954
+01:12:39,460 --> 01:12:40,460
+Yeah.
+
+955
+01:12:40,460 --> 01:12:41,460
+Yeah.
+
+956
+01:12:41,460 --> 01:12:42,460
+You consider that a scripting language?
+
+957
+01:12:42,460 --> 01:12:47,780
+I'm not sure that yet another markup language really counts as a scripting language, but
+
+958
+01:12:47,780 --> 01:12:53,300
+– And yet I'm programming the whole of my home assistant deployment using YAML pages.
+
+959
+01:12:53,300 --> 01:12:54,300
+All right.
+
+960
+01:12:54,300 --> 01:12:55,300
+That's fair, I suppose.
+
+961
+01:12:55,300 --> 01:12:56,300
+All right.
+
+962
+01:12:56,300 --> 01:13:00,820
+Thank you guys both so much for being here.
+
+963
+01:13:00,820 --> 01:13:01,820
+We appreciate it.
+
+964
+01:13:01,820 --> 01:13:06,420
+And Andrew, a fascinating dive into some of the questions and some of the answers about
+
+965
+01:13:06,420 --> 01:13:07,420
+open source AI.
+
+966
+01:13:07,420 --> 01:13:08,420
+Appreciate it, man.
+
+967
+01:13:08,420 --> 01:13:09,420
+Thank you very much.
+
+968
+01:13:09,420 --> 01:13:10,420
+Thank you.
+
+969
+01:13:10,420 --> 01:13:11,420
+All right.
+
+970
+01:13:11,420 --> 01:13:14,420
+Man, what do you think?
+
+971
+01:13:14,420 --> 01:13:17,860
+Yeah, I mean, it is – I'm glad it's being done.
+
+972
+01:13:17,860 --> 01:13:24,900
+I feel like with other areas in tech, we kind of missed the boat.
+
+973
+01:13:24,900 --> 01:13:26,820
+Open source hardware and some of those other things.
+
+974
+01:13:26,820 --> 01:13:29,820
+Social media, for example.
+
+975
+01:13:29,820 --> 01:13:32,020
+It feels like now there's all this concern around social media.
+
+976
+01:13:32,020 --> 01:13:37,260
+It's like, well, where were you five, ten years ago, right?
+
+977
+01:13:37,260 --> 01:13:40,340
+And people could see some of the problems that it was going to have.
+
+978
+01:13:40,340 --> 01:13:47,140
+And at least with AI moving so fast, I'm glad that somebody at least is thinking about
+
+979
+01:13:47,140 --> 01:13:52,780
+these things and coming up with these definitions because otherwise, you know, who knows what
+
+980
+01:13:52,780 --> 01:13:54,100
+could happen, right?
+
+981
+01:13:54,100 --> 01:13:58,100
+And like Stefano said, we need to have the discussion, right?
+
+982
+01:13:58,100 --> 01:14:03,900
+Even if you don't like 1.0 of the definition that's out today, talk about it.
+
+983
+01:14:03,900 --> 01:14:04,900
+Have the discussion.
+
+984
+01:14:04,900 --> 01:14:10,180
+It's what we've always done going back to early days of networking, for example.
+
+985
+01:14:10,180 --> 01:14:14,460
+Think of all the discussions and all the groups that were around to try to define how we're
+
+986
+01:14:14,460 --> 01:14:16,520
+going to make this thing work, right?
+
+987
+01:14:16,520 --> 01:14:22,460
+Without discussing it, you're just opening the door for not necessarily bad things to
+
+988
+01:14:22,460 --> 01:14:25,700
+happen but unwanted things to happen.
+
+989
+01:14:25,700 --> 01:14:27,940
+And so yeah, I'm glad it's taking place.
+
+990
+01:14:27,940 --> 01:14:32,860
+So I think it was Simon that told us something that absolutely terrifies me and that is that
+
+991
+01:14:32,860 --> 01:14:40,160
+in Europe, there are laws that refer to open source AI and they refer to that with there
+
+992
+01:14:40,160 --> 01:14:43,100
+being no definition for what open source AI is.
+
+993
+01:14:43,100 --> 01:14:50,620
+And it's like that encapsulates the central problem that many of us have with like overregulation
+
+994
+01:14:50,620 --> 01:14:56,860
+and just governments stepping into things that they really don't understand.
+
+995
+01:14:56,860 --> 01:14:57,860
+That's humorous.
+
+996
+01:14:57,860 --> 01:15:02,140
+And all of that to say, I'm glad that there are people working on this and, you know,
+
+997
+01:15:02,140 --> 01:15:04,740
+people that sort of have an idea what they're doing.
+
+998
+01:15:04,740 --> 01:15:05,740
+Exactly.
+
+999
+01:15:05,740 --> 01:15:11,500
+People that understand these things instead of politicians who don't, just coming up with
+
+1000
+01:15:11,500 --> 01:15:14,500
+random things that they throw darts on the wall and come up with sometimes.
+
+1001
+01:15:14,500 --> 01:15:15,500
+Yes.
+
+1002
+01:15:15,500 --> 01:15:16,500
+Yes.
+
+1003
+01:15:16,500 --> 01:15:17,500
+All right.
+
+1004
+01:15:17,500 --> 01:15:18,500
+You have anything-
+
+1005
+01:15:18,500 --> 01:15:22,980
+Hey, we should talk about our favorite AI tools that were used.
+
+1006
+01:15:22,980 --> 01:15:23,980
+What's your favorite, Jonathan?
+
+1007
+01:15:23,980 --> 01:15:24,980
+What are you using?
+
+1008
+01:15:24,980 --> 01:15:28,380
+So about the only one that I use these days is when you Google something, sometimes you'll
+
+1009
+01:15:28,380 --> 01:15:31,020
+get like the AI, and I guess it's Gemini, right?
+
+1010
+01:15:31,020 --> 01:15:33,500
+So you'll get like the AI answer to your question.
+
+1011
+01:15:33,500 --> 01:15:36,940
+And that is getting to the point to where it's useful.
+
+1012
+01:15:36,940 --> 01:15:40,940
+I do not consider it trustworthy, but it is useful.
+
+1013
+01:15:40,940 --> 01:15:44,340
+And then I've done a little bit similar to what you did with like, here's a prompt, give
+
+1014
+01:15:44,340 --> 01:15:45,820
+me an image that looks like this.
+
+1015
+01:15:45,820 --> 01:15:50,380
+I've done some playing around with that with varying degrees of success.
+
+1016
+01:15:50,380 --> 01:15:53,580
+Sometimes the prompts can be, if you're good at writing the prompts, sometimes you can
+
+1017
+01:15:53,580 --> 01:15:55,100
+get really good results.
+
+1018
+01:15:55,100 --> 01:15:59,420
+And then sometimes you ask for something a little esoteric or off the beaten path and
+
+1019
+01:15:59,420 --> 01:16:03,620
+you just get weird results, which I guess is kind of fun too, but not really what you
+
+1020
+01:16:03,620 --> 01:16:04,620
+were looking for.
+
+1021
+01:16:04,620 --> 01:16:05,620
+Yeah.
+
+1022
+01:16:05,620 --> 01:16:06,620
+Yeah.
+
+1023
+01:16:06,620 --> 01:16:08,660
+What tool do you make most use of?
+
+1024
+01:16:08,660 --> 01:16:10,460
+I've probably got to pick Jack GPT.
+
+1025
+01:16:10,460 --> 01:16:17,100
+I mean, I do pay for the plus license and I use it multiple times a day for personal
+
+1026
+01:16:17,100 --> 01:16:20,340
+and business use.
+
+1027
+01:16:20,340 --> 01:16:26,000
+And it impresses me more than it disappoints me, that's for sure.
+
+1028
+01:16:26,000 --> 01:16:30,220
+So I use it to summarize notes from meetings.
+
+1029
+01:16:30,220 --> 01:16:35,620
+So I'll have like hour and a half long meetings, get the transcription, feed it into chat GPT,
+
+1030
+01:16:35,620 --> 01:16:36,620
+say can you summarize this?
+
+1031
+01:16:36,620 --> 01:16:37,620
+And it does a great job.
+
+1032
+01:16:37,620 --> 01:16:39,020
+And there are other tools of course, that do that.
+
+1033
+01:16:39,020 --> 01:16:44,620
+I use it as part of my YouTube channel for sometimes creating thumbnails, images.
+
+1034
+01:16:44,620 --> 01:16:51,740
+If I just can't find anything that I'm allowed to use sometimes, I'll use it for that.
+
+1035
+01:16:51,740 --> 01:16:59,160
+And of course I use it for, like I said, removing background on things, just things, shortcuts
+
+1036
+01:16:59,160 --> 01:17:03,720
+that I can get it to do that would take me 10 times as long.
+
+1037
+01:17:03,720 --> 01:17:08,600
+I can say, look, just like generating that image today, for example, of the guy coming
+
+1038
+01:17:08,600 --> 01:17:10,600
+out of the garage with the open source tablets.
+
+1039
+01:17:10,600 --> 01:17:11,600
+Right.
+
+1040
+01:17:11,600 --> 01:17:12,600
+Yeah, that was pretty good.
+
+1041
+01:17:12,600 --> 01:17:13,600
+Yeah.
+
+1042
+01:17:13,600 --> 01:17:18,000
+So things like that, that you can do just as time savers really is the biggest way that
+
+1043
+01:17:18,000 --> 01:17:19,000
+I use it today.
+
+1044
+01:17:19,000 --> 01:17:26,300
+I think I'm a little gun shy on using AI because I write for Hackaday and I do not want there
+
+1045
+01:17:26,300 --> 01:17:31,800
+to ever be even the appearance of crossing those streams.
+
+1046
+01:17:31,800 --> 01:17:36,160
+So every word that I write for Hackaday always comes directly from me.
+
+1047
+01:17:36,160 --> 01:17:41,200
+The most an AI is ever involved with is Google will tell me that I misspelled something and
+
+1048
+01:17:41,200 --> 01:17:43,000
+that's it.
+
+1049
+01:17:43,000 --> 01:17:46,600
+And we've had some conversations internally at Hackaday and that's pretty much the conclusion
+
+1050
+01:17:46,600 --> 01:17:48,320
+we've come to as well.
+
+1051
+01:17:48,320 --> 01:17:54,920
+I think there was once one of our writers used an AI image as like the headline image
+
+1052
+01:17:54,920 --> 01:17:56,560
+and we kind of got shut down internally.
+
+1053
+01:17:56,560 --> 01:18:00,840
+It's like, let's not do this unless we decide that we're going to be okay with this.
+
+1054
+01:18:00,840 --> 01:18:07,160
+And so I'm pretty careful to not use much AI just kind of because of that.
+
+1055
+01:18:07,160 --> 01:18:12,360
+Even as a research tool though for the background for the piece that you're writing?
+
+1056
+01:18:12,360 --> 01:18:15,480
+About the only thing is if I Google something.
+
+1057
+01:18:15,480 --> 01:18:21,280
+It'll come up with the Google summary of what it thinks the answer is.
+
+1058
+01:18:21,280 --> 01:18:26,000
+And again, I've kind of found out that that's not necessarily always trustworthy.
+
+1059
+01:18:26,000 --> 01:18:29,160
+Sometimes it'll tell you the exact, now it's getting better obviously, but sometimes it'll
+
+1060
+01:18:29,160 --> 01:18:33,140
+tell you the exact opposite or it'll pull something from an article that's not really
+
+1061
+01:18:33,140 --> 01:18:35,440
+about the thing that you asked about.
+
+1062
+01:18:35,440 --> 01:18:42,040
+So even then I'm pretty careful to go in and try to find actual hard sources.
+
+1063
+01:18:42,040 --> 01:18:46,120
+I use it for research and I tell it to give me sources and then I can go take a look at
+
+1064
+01:18:46,120 --> 01:18:47,440
+the sources and validate.
+
+1065
+01:18:47,440 --> 01:18:48,440
+Yeah.
+
+1066
+01:18:48,440 --> 01:18:51,400
+And that's apparently a really useful hack.
+
+1067
+01:18:51,400 --> 01:18:56,400
+You make your AI assistant way more accurate if you tell it.
+
+1068
+01:18:56,400 --> 01:18:57,880
+It's kind of like with people.
+
+1069
+01:18:57,880 --> 01:19:01,040
+You ask them, "Hey, what's the answer to this?" and give me your source.
+
+1070
+01:19:01,040 --> 01:19:03,960
+Well, we're going to work a little bit harder to make sure we give you the right answer
+
+1071
+01:19:03,960 --> 01:19:05,520
+if we also have to give you a source.
+
+1072
+01:19:05,520 --> 01:19:07,400
+Apparently that works for AI too.
+
+1073
+01:19:07,400 --> 01:19:08,400
+Exactly.
+
+1074
+01:19:08,400 --> 01:19:09,400
+Exactly.
+
+1075
+01:19:09,400 --> 01:19:10,400
+Yeah.
+
+1076
+01:19:10,400 --> 01:19:11,400
+All right.
+
+1077
+01:19:11,400 --> 01:19:12,400
+So where do you guys go?
+
+1078
+01:19:12,400 --> 01:19:14,120
+Well, I mentioned the YouTube channel.
+
+1079
+01:19:14,120 --> 01:19:15,120
+Check it out.
+
+1080
+01:19:15,120 --> 01:19:16,120
+I've got two channels.
+
+1081
+01:19:16,120 --> 01:19:18,960
+That's important because I've actually been publishing more on the second channel than
+
+1082
+01:19:18,960 --> 01:19:20,280
+on the first.
+
+1083
+01:19:20,280 --> 01:19:24,480
+So there's RetroHackShack of course, which is the main channel.
+
+1084
+01:19:24,480 --> 01:19:28,480
+I do more history videos there, more big projects there, and they come out a little bit less
+
+1085
+01:19:28,480 --> 01:19:34,120
+frequently and then there's also RetroHackShack After Hours.
+
+1086
+01:19:34,120 --> 01:19:40,560
+And the last two videos I did there, one was a repair on a 1990s motherboard where the
+
+1087
+01:19:40,560 --> 01:19:42,040
+keyboard didn't work.
+
+1088
+01:19:42,040 --> 01:19:45,360
+I couldn't get any keyboards to work, so that was a short one.
+
+1089
+01:19:45,360 --> 01:19:47,360
+And you can go watch that one and figure out what happened.
+
+1090
+01:19:47,360 --> 01:19:52,120
+And then the one before that was, oh, I do a lot of e-waste stuff on the second channel.
+
+1091
+01:19:52,120 --> 01:19:58,280
+I find stuff at e-waste and just bring it home and start the camera and I go through
+
+1092
+01:19:58,280 --> 01:20:03,720
+and figure out on the fly what it is, what's working, what's not.
+
+1093
+01:20:03,720 --> 01:20:05,320
+And so that's a lot of fun too.
+
+1094
+01:20:05,320 --> 01:20:10,520
+So check out both channels and hopefully there's still people out there that like vintage
+
+1095
+01:20:10,520 --> 01:20:11,520
+computers.
+
+1096
+01:20:11,520 --> 01:20:12,520
+Oh, definitely.
+
+1097
+01:20:12,520 --> 01:20:17,040
+I know I watched that last one about the keyboard not working and I won't give it away, but
+
+1098
+01:20:17,040 --> 01:20:20,480
+I will say the component that you replaced, I would have looked at and probably just thought
+
+1099
+01:20:20,480 --> 01:20:21,840
+it was a weird resistor.
+
+1100
+01:20:21,840 --> 01:20:28,840
+So that's actually a pretty useful bit of knowledge for me to add to my own fix-it toolkit.
+
+1101
+01:20:28,840 --> 01:20:30,240
+Right, right.
+
+1102
+01:20:30,240 --> 01:20:34,440
+And I would say probably it wasn't long ago, 10 years ago, I would have been in the same
+
+1103
+01:20:34,440 --> 01:20:35,440
+boat.
+
+1104
+01:20:35,440 --> 01:20:37,440
+I would have been like, "Oh, what's that thing?"
+
+1105
+01:20:37,440 --> 01:20:42,800
+But so yeah, it's fun and that's what's fun about it is you learn about what things are
+
+1106
+01:20:42,800 --> 01:20:45,040
+and how they work and how they used to work.
+
+1107
+01:20:45,040 --> 01:20:46,040
+Yes, absolutely.
+
+1108
+01:20:46,040 --> 01:20:47,040
+Absolutely.
+
+1109
+01:20:47,040 --> 01:20:48,040
+All right.
+
+1110
+01:20:48,040 --> 01:20:51,840
+So next week, we've actually got something really interesting.
+
+1111
+01:20:51,840 --> 01:20:58,280
+I believe, yeah, we're talking with, according to the calendar, hopefully it's right, we
+
+1112
+01:20:58,280 --> 01:20:59,280
+have another Stefano.
+
+1113
+01:20:59,280 --> 01:21:04,560
+We're talking with Stefano Zaccaroli about the Software Heritage Group and that's going
+
+1114
+01:21:04,560 --> 01:21:06,000
+to be a lot of fun.
+
+1115
+01:21:06,000 --> 01:21:11,240
+And then the week after that, hopefully we're going to have someone from CIQ to talk about
+
+1116
+01:21:11,240 --> 01:21:13,480
+Rocky, which we've talked all Malinx.
+
+1117
+01:21:13,480 --> 01:21:15,560
+I figure we might as well talk Rocky.
+
+1118
+01:21:15,560 --> 01:21:17,760
+They were there at the very beginning as well.
+
+1119
+01:21:17,760 --> 01:21:19,840
+And then the week after that, we're talking Thunderbird.
+
+1120
+01:21:19,840 --> 01:21:21,340
+So all kinds of fun stuff coming up.
+
+1121
+01:21:21,340 --> 01:21:23,160
+You don't want to miss it.
+
+1122
+01:21:23,160 --> 01:21:26,160
+If you want to follow me and my work, of course, there is Hackaday.
+
+1123
+01:21:26,160 --> 01:21:28,960
+We appreciate Hackaday being the home of Floss Weekly.
+
+1124
+01:21:28,960 --> 01:21:33,360
+I've got the security column that goes live pretty much every Friday morning there and
+
+1125
+01:21:33,360 --> 01:21:34,600
+you can check that out.
+
+1126
+01:21:34,600 --> 01:21:36,600
+I've got a YouTube channel that you can find.
+
+1127
+01:21:36,600 --> 01:21:39,720
+There's also the Untitled Linux Show still over at Twit.
+
+1128
+01:21:39,720 --> 01:21:40,720
+That's twit.tv.
+
+1129
+01:21:40,720 --> 01:21:43,840
+I think it's twit.tv/uls.
+
+1130
+01:21:43,840 --> 01:21:46,720
+But we have a lot of fun there talking about what's going on with Linux and lots of open
+
+1131
+01:21:46,720 --> 01:21:51,200
+source stuff, but more news of the week over there as opposed to the long interview forum
+
+1132
+01:21:51,200 --> 01:21:52,200
+here.
+
+1133
+01:21:52,200 --> 01:21:57,600
+Yeah, we appreciate everyone that watches, that get us both live and on the download,
+
+1134
+01:21:57,600 --> 01:22:00,040
+and we will see you next week on Floss Weekly.
+

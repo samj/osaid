@@ -1,0 +1,1016 @@
+So, I'm Saiz Choudhury from Carnegie Mellon.
+
+Those are my roles at Carnegie Mellon.
+
+Like some of you, I have left Twitter and I am on Blue Sky, so if you want to engage
+
+on social media, please go to Blue Sky instead of Twitter, at least in my case.
+
+I'm here to talk about the Open Forum for Artificial Intelligence, or OFAI, as we call
+
+it, at CMU.
+
+This was launched this past July 2024, and it's received funding from Carnegie Mellon
+
+University Libraries, from our reserve funds, and also two organizations called the Amidyar
+
+Network and the Noble Reach Foundation.
+
+You may not be familiar with those groups.
+
+They were started by people from the private equity, venture finance, and tech world, but
+
+they have non-profit wings through which we are getting our funding.
+
+The CEO of Noble Reach Foundation is Arun Gupta.
+
+He's written a book called Venture Meets Mission, and the idea is how does the venture Silicon
+
+Valley way of doing things meet the public sector?
+
+So he likes to use the term mission capital, and that's what they've provided for OFAI.
+
+So the overarching goal for OFAI is to bend the art towards human-centered AI.
+
+And by human-centered, what OFAI means is that the people who use and are affected by
+
+AI should be the ones who evaluate, test, and affirm the safety, the transparency, the
+
+lack of bias, and so on, rather than the builders or deployers of AI systems.
+
+So right now we have large companies deploying these models on some frequent basis.
+
+We all react to those and look at them and study them.
+
+It's largely difficult to understand the impact from a transparency or reproducibility or
+
+safety perspective.
+
+We're relying on them to self-report.
+
+OFAI, in some sense, is trying to invert that so that it's a more proactive approach, that
+
+we can say these are the desirable attributes of an AI system, and please build and design
+
+and deploy your models accordingly.
+
+If you think about the development of the internet and the web, there was a triad or
+
+a triple helix of industry, government, and university.
+
+And if you think of the shift from the internet to the web to AI, the role of the private
+
+sector has grown considerably in that triple helix.
+
+And I'm not saying that in a values type of way.
+
+I'm just noting that that imbalance, I think, has some consequences, some of them unintended.
+
+But we need to address that and try and rebalance that partnership or triad.
+
+And the way that we're trying to do that through OFAI is to raise the voice of the universities
+
+as a sector.
+
+So while this is a CMU-led initiative, we have currently three other universities involved,
+
+Georgia Tech, George Washington University, and the University of Texas at Austin.
+
+And all of those organizations are involved through their open source programs offices.
+
+Carnegie Mellon has a more broad type of involvement through the OSPO, but also through things
+
+like our Responsible AI program.
+
+But we have these universities coming together to work on OFAI issues.
+
+And we are looking for additional partners, of course.
+
+Now in addition to the university voice, we recognize there's other types of capacity
+
+or expertise that is very important to tap into.
+
+So a couple of examples include the Open Source Initiative.
+
+So I'm a board member at OSI.
+
+This is the group that is the official steward of the definition and licenses around open
+
+source software.
+
+And we have gone through a process to define open source AI, which I'll talk about in a
+
+few slides.
+
+The Atlantic Council is a think tank or a policy group in Washington, DC.
+
+And the Creative Commons, I think many of you know from the open data world.
+
+Conscience is a group you may not have heard of.
+
+It's a nonprofit that is using AI for drug discovery where there are market failures.
+
+So when the pharmaceutical industry says there's no profit here, there's no incentive here,
+
+Conscience has done some really amazing work in drug discovery in that area.
+
+Both Creative Commons and Conscience are providing a lot of capacity around public data.
+
+We're engaging the private and public sector as well, but not as partners.
+
+So we have individuals from the following organizations that are involved in OFAI.
+
+And in the case of the Navy, it's the chief technology officer.
+
+So this is very intentional in that we recognize it's, of course, valuable to get the perspective
+
+of the private and public sector, but we don't want people to feel like they're having the
+
+same level of influence, quite frankly, within our network.
+
+So they're not even considered an advisory board.
+
+They're more like sounding boards or connectors.
+
+We are trying to form an OFAI advisory board as well.
+
+I'm glad to note that somebody from the Mozilla Foundation has agreed.
+
+Somebody from the Atlantic Council has agreed.
+
+And we have a colleague at CMU, Anne Lambright, who's doing a lot of great work with my colleague,
+
+Nikki Agate, who's in the crowd, on humanities perspectives on AI.
+
+So we're getting additional feedback in addition to the partners themselves.
+
+This is a snapshot of the current leadership.
+
+So I am the director of it.
+
+We have a lot of people from CMU.
+
+Hoda Adari is the co-lead for the Responsible AI program at Carnegie Mellon, and she leads
+
+the research working group.
+
+Vince Shaw, who you'll see in a video clip shortly, is an assistant dean in our school
+
+of our College of Humanities and Social Sciences and leads the technical prototypes group.
+
+Deb Bryant is a long-time, well-respected leader in the open source community who is
+
+leading our community engagement efforts.
+
+Trey Herr is at the Atlantic Council.
+
+He's one of our advisors, and he's helping us with the policy recommendations effort.
+
+And Rachel Zomback is another colleague of mine at Carnegie Mellon who's leading what's
+
+called the Talent for Service track.
+
+And that is basically how do you identify people who have the right skill sets and could
+
+be oriented towards a more systems view, a holistic view AI, and prepare them through
+
+training and curricular development for roles in the public sector.
+
+So we see all of these groups having distinct goals and scope, but there's a strong interrelationship
+
+between them.
+
+And I'll talk about that a little bit with something called our landscape map.
+
+So the open in OFAI has a few particular connotations, if you will.
+
+One of them is that the value of openness is a design principle.
+
+So I talked about the Internet and the web.
+
+If you think about TCP/IP or HTTP as protocols, these were open protocols.
+
+They were global protocols in many ways.
+
+What they did is remove all the local variants.
+
+If you remember, IBM had something called Token Ring, which is a way they were exchanging
+
+information over the Internet.
+
+When TCP/IP came out, it made no sense to run a local variant, right?
+
+So having these global open protocols and approach is really important for fostering
+
+innovation and participation and so on.
+
+There are now well-documented benefits from this kind of openness in the open source software
+
+community.
+
+The Harvard Business School has conducted a study that indicated that open source software
+
+has generated $8.8 trillion of value, and it's reduced the production costs by a factor
+
+of 3.5.
+
+So that's very significant, of course.
+
+Another way of being open is questioning and testing assumptions.
+
+So I'm not immune from, I'll just say, the anxieties around what AI might be doing to
+
+our society, might be doing to us, might be doing in the future on its own.
+
+But I think it's understandable that as we try to grapple with what that might mean,
+
+we start to make assumptions or assertions about how it works.
+
+But I think it's really important to focus on the evidence and the research and ground
+
+whatever types of decisions and strategies and policies we have on that evidence and
+
+on that research.
+
+And then finally, given the speed and really, quite frankly, the potential impact of AI
+
+to be as open as possible with producing our outputs.
+
+I know we can talk about lots of reasons for open access and so on, but I'm going back
+
+to what I think is one of the core principles is get the information and the knowledge out
+
+as soon as possible, as openly as possible.
+
+And that's not to say there are other ways you can't do that, but we're really asking
+
+all of our researchers to focus on preprints, and we're looking at creating policy briefs,
+
+and we're going to produce things like the landscape map, which I'll show you in just
+
+a second.
+
+So at the heart of our work is developing something called the openness and AI framework.
+
+I obviously can't say open AI for really annoying reasons.
+
+So openness and AI framework is a technical framework, but it's not intended to be only
+
+for engineers or AI developers or deployers.
+
+But again, grounding in that technical dimension of AI.
+
+But developed with community engagement, and it rigorously explores and defines what it
+
+means to be open in AI, not as defined by a company.
+
+And what is the ensuing or corresponding value?
+
+So openness is actually not the end goal.
+
+Openness is a means towards safety, transparency, lack of bias, and so on.
+
+And a way that we will hopefully accomplish that is moving from this sense of open source,
+
+which is more about the objects, sort of the components, to open governance, which is more
+
+about how those things are designed, deployed, and shared.
+
+How do we actually assess the openness of an AI system and think about making it more
+
+accessible and so on?
+
+And the research group in particular has made a very important point that openness needs
+
+to be considered in a specific context and for specific use cases.
+
+Again, it's not enough to say this system is open.
+
+I'm not trying to pick on something like the Hugging Face leaderboards that are looking
+
+at openness in AI models.
+
+It's very helpful.
+
+But what questions can I ask of those models when I look at something like that?
+
+It's not enough, in my opinion, to just have a ranking of those models, but to actually
+
+understand the who, the why, the what, the who, the when, and the where.
+
+So one foundational piece of this openness in AI framework is the open source AI definition.
+
+I mentioned that I'm a board member at the Open Source Initiative, and that OSI has led
+
+a at least two-year-long effort in an inclusive community co-design process to come up with
+
+this definition of open source AI.
+
+And in many ways, what it's trying to do is affirm the so-called four freedoms of open
+
+source software.
+
+So one of the benefits that led to that $8.8 trillion value is that if something is truly
+
+open source software, you can use, study, modify, and share the software.
+
+We're trying to bring those same four freedoms to open source AI so that I'll have to be
+
+able to do the same things with an AI system.
+
+Now it's really important to remember, though, that AI is fundamentally different and more
+
+complex than software.
+
+So in many ways, what the open source AI definition has done is introduce the legal and developer,
+
+software developer-oriented perspectives on what it means to have open source AI.
+
+And now what I see OFAI and others doing is bringing the engineering dimensions into that
+
+conversation.
+
+And one of the ways we do that is to obviously look at the definition itself.
+
+This is a screenshot from the definition.
+
+I encourage you to go take a look at it yourself.
+
+And probably just in full disclosure, the most contentious part of this was the requirements
+
+around data.
+
+So the definition did not require that you share all the data you used to train an AI
+
+model.
+
+And that's not because we wouldn't like that to happen, but that's because there are legal
+
+reasons you may not be able to share this.
+
+There are privacy reasons.
+
+Think of medical data, that you may not be able to share the data.
+
+There are practicality reasons.
+
+Some of the digital twins generate petabytes of data.
+
+Are you going to send that to me over the web?
+
+I don't think so.
+
+So we weren't saying that it's not important to have the data.
+
+It's just that in order to have a definition that can actually be actionable and pragmatic
+
+and usable, you can provide detailed information in cases where you can't share the data.
+
+I will say that I posted on LinkedIn a new model.
+
+I don't know how to pronounce it.
+
+I think it's Playos.
+
+That actually does provide the data that they use for training.
+
+The Allen Institute of Washington has Alma, which is another model that does the same
+
+thing.
+
+So there are examples of those.
+
+Those would be consistent with the open source AI definition.
+
+And then there are provisions around the code and the weights.
+
+Those are required to be shared.
+
+So the training code and the weights that you use to tune and configure a model.
+
+This is a screenshot from the Mozilla Foundation's endorsement of the open source AI definition.
+
+It's a very strong endorsement.
+
+And I've highlighted one line in particular.
+
+You can read that yourself.
+
+That it's marking a critical juncture in the evolution of the internet.
+
+I'm not the right person to comment on whether that's a fair statement or not.
+
+But I definitely respect the Mozilla Foundation.
+
+And if that's how they feel, then more power to them.
+
+But I definitely think the last line is really on the mark.
+
+It's about shaping the future of this technology and its impact on society.
+
+And we have a real opportunity to do this in a community-oriented way, in an open way.
+
+However, much challenges we may face.
+
+We think that the open source AI definition puts the proverbial stake in the ground.
+
+If you think about the fact that the EU AI Act mentions open source AI and has less stringent
+
+types of requirements from a regulatory basis, but does not define it.
+
+There are federal documents and memos that talk about open source AI.
+
+And the Office of Management and Budget talked about procuring open source AI.
+
+Doesn't define it.
+
+So we have clear signals that there is value to using open source AI, but not a definition.
+
+So we hope that our definition from the community process can provide that benchmark.
+
+So what we'd like to say is that releasing version 1.0 in October, which we did at the
+
+All Things Open meeting, provided a stable reference point, but not a permanent one.
+
+We do understand that it'll have to evolve over time.
+
+Not everybody is a fan of this definition.
+
+In particular, Meta.
+
+This is an article from The Economist.
+
+You can certainly go take a look at it for yourself.
+
+I don't know why the writer used the metaphor of Mark Zuckerberg and a mankini, but if you
+
+get past that, you can see that Meta has basically asserted its own definition of open source
+
+AI.
+
+It maps completely to their Lama models.
+
+I've noticed advertisements now about open source AI from Meta.
+
+So they have a marketing campaign that is now also being part of this effort to define
+
+open source AI.
+
+I will note that other big tech companies we've talked to have had a more nuanced approach
+
+going so far as saying, we may not even agree with the definition, but we respect the process
+
+you used to come to the definition.
+
+We would like to engage in how this definition might evolve.
+
+So whatever you may think of the definition, I think one big question is, do you want any
+
+single company, not just Meta, any company defining what open source AI is for everybody,
+
+or do you want an inclusive community process for that to happen?
+
+And I think you know what my answer to that is.
+
+So one thing I want to bring up and show you is what we're calling the OFAI landscape map.
+
+And this is a way of basically showing what's happening within the OFAI in a programmatic
+
+way.
+
+So a visual, concise way of saying, here are the types of activities, projects, organizations,
+
+programs, working groups of OFAI so that people can either find out what's happening or can
+
+say we can contribute, we can identify new partners that way, or in essence, we can compare
+
+OFAI alignment to other efforts like partnerships in AI or the AI Alliance and so on.
+
+That's a question I get often is, how is this different from those other efforts?
+
+So rather than me sending lots of emails or commenting on Blue Sky or whatever, you can
+
+come to this map and take a look at it.
+
+And the way that the map is organized is along one dimension are what our beliefs are about
+
+the current components of an AI model or system, and then the post deployment types of activities
+
+like evaluation, oversight, and so on.
+
+And then the other dimension are the working groups, research, technical prototypes, community
+
+engagement, policy recognitions, and talent for service.
+
+So now we get into the dangerous, I'm going to get on Wi-Fi and see if this works.
+
+So this is the OFAI landscape map.
+
+The vision is the map that the Cloud Native Computing Federation has created.
+
+We're using the same software, so another benefit for open source software.
+
+You can see that in essence, this is a map of all sorts of projects organized along different
+
+dimensions, and that's where we're aiming to go.
+
+So now you can see there are activities and there are projects from each of the partners.
+
+They've been put onto the map according to those two dimensions.
+
+The card view is another way of looking at this, maybe even a more accessible way.
+
+So you have two ways of sifting through the information in any given case.
+
+I will not pick Carnegie Mellon to be as objective as possible.
+
+This is a project that's taking place at Georgia Washington University called Trails.
+
+You can click on the particular link, see a brief description, and then you can of course
+
+go to the website itself for additional information.
+
+The idea being you can come at any time and see this map and see what we're doing.
+
+Probably other organizations will engage with us and come along and you can see what they're
+
+doing.
+
+I guess what I'll say is regardless of what happens January 20th at 12.01, I would like
+
+to believe that having a map of what's happening in the AI ecosystem will be helpful to anyone.
+
+For whatever policy conversations might be happening or partnerships that might happen
+
+and so on.
+
+I will keep reminding people of this map, but I encourage you to check it out yourself
+
+of course.
+
+So the next thing I want to show you is a video presentation from Vince Shaw.
+
+I mentioned he's the head of the Technical Prototypes Group.
+
+He has done some amazing work that we'll show you in this clip and then I'll make a couple
+
+of comments afterwards.
+
+Hello.
+
+Hello.
+
+I'm Vincent Shaw, Associate Dean for IT and Operations for the Detroit College of Management
+
+and Social Sciences and Technical Lead for the Open Forum for AI here at Carnegie Mellon
+
+University.
+
+Today I'll be sharing with you a little bit about our adoption strategy and one of our
+
+LLM powered prototypes.
+
+Our journey kind of started in April 2023 where I co-led a committee commissioned by
+
+our Dean Richard Scheines with faculty across our college to examine the disruption of what
+
+chat GPD meant for us as a higher education institution and all of these new LLM tools.
+
+We met weekly performing a SWOT analysis, strength, weakness, opportunities and threats
+
+for those of you not familiar with the technical term about how we should be kind of what this
+
+means for each discipline and how we should be responding to it.
+
+At the end of that we published best practices guide for our faculty for teaching and for
+
+in policies, but we also formulated a strategy of adoption and innovation which kind of led
+
+to this collaboration with Saeed and I here in the founding to open for AI.
+
+Our primary focus for our technical prototypes is reducing technical logistical barriers
+
+to access.
+
+We feel that as people gain a deeper appreciation for these tools, instructors and students
+
+will better be able to scaffold the uses of these tools to use them more responsibly,
+
+more productively in research and education also in their professional lives as they graduate.
+
+The result of our work has been the creation of this platform that we call DER, Dietrich
+
+Analysis Research Education Suite, which is a productivity suite set of tools that has
+
+things like basic chat, document summarization, retrieve augmented generation capabilities
+
+on a campus controlled environment.
+
+It's a sandbox designed to allow users to create and store custom system prompt, give
+
+them access to all the different major large language models for the API, with there's
+
+cost controls and budgets and they can leverage data from any source.
+
+And more importantly, they can also conduct research in the platform.
+
+And what we hope is that as we have greater adoption, our faculty will come up with their
+
+own great ideas on these types of tools we can create.
+
+And one of the great ideas that came out of the collaboration and the committee that I
+
+led was Socratic Books, which was proposed by my colleague, Daniel Oppenheimer, who is
+
+a psychologist in the social decision sciences department in psychology.
+
+What Socratic Books is, is I like to consider our entry in the pantheon of trying to solve
+
+Bloom's two sigma problem.
+
+Benjamin Bloom published a paper in 1984, which showed that one-on-one mentoring and
+
+tutoring was superior than any other teaching intervention.
+
+Because it can meet, you know, when you get, we all know who have had great mentors is
+
+that when somebody can adapt to you, meet you where you are, you learn faster, you learn
+
+better.
+
+And, you know, textbooks often are, they don't do that.
+
+They're just one size fits all.
+
+They could be designed for many different locations.
+
+You might be from, excuse me, you might be from a location that you don't understand
+
+analogies or things like that.
+
+So we created Socratic Books.
+
+So let's go ahead and hop right in.
+
+So first I want to give a quick layout of how Socratic Books is set up and why an instructor
+
+might want to use it.
+
+What it does is it gives you the ability to really extend your pedagogy into what you
+
+feel is important about teaching lessons and concepts.
+
+So one of the first things an instructor will do is go ahead and upload their own files
+
+or papers or research papers or could be chapters of things and to ground the knowledge.
+
+So Socratic Books is essentially a multi-agent rag tool, right?
+
+On the left here, so you can see the files are here.
+
+You can assign chapters of books, students can join them.
+
+And you can have a choice between using GPT or Quad.
+
+You set the context of lesson here.
+
+You can set the learning goals.
+
+You can get as nuanced and granular as you want.
+
+This particular one is about GPT's mixture of expert frameworks and the tree of thought
+
+system prompting.
+
+It was created as a prototype, one of our colleagues who teaches about large language
+
+models in high school.
+
+Below the learning goals, the next three windows concatenate into one large prompt about how
+
+you want the teaching to occur and how you want the Socratic tutor to interact with the
+
+student, whether that's how you're going to engage a question and answer, how you're going
+
+to guide them along in the lesson, some restrictions and formatting.
+
+And the bottom is a second bot that works in tandem with the first one and helps to
+
+track how the student's progress is going, helps track mastery if the student wants to
+
+take mastery tests.
+
+And those are all voluntary because we want to encourage a learning environment, not necessarily
+
+assessment here.
+
+We have plans for a different assessment tool, but that's a different project.
+
+Let's jump right into the tool.
+
+And we'll go through this really quickly.
+
+On the left side, you see where the tracking happens, that the learning goals and the progress
+
+tracking will happen.
+
+The center is the main window where your interaction happens.
+
+On the right is where a student can take notes and you can save them to your account.
+
+They can log back in, they can look at their old notes.
+
+We'll be also creating buttons and prompts so they can create their own study guides
+
+from them, audio files for download, some of what you've seen if you're familiar with
+
+Google Notebook LLM.
+
+Unfortunately, we had to plan earlier, but we couldn't release in time.
+
+If anyone has a few billion dollars laying around, we'd be happy to have it and we'll
+
+get that released shortly.
+
+So let's have a quick interaction so we can see how it works.
+
+We just say hello and the system immediately comes online.
+
+We'll start telling us what the lesson is.
+
+Let's just jump right in.
+
+Let's do LG1.
+
+And as you can see, before I hit that, the progress tracker immediately starts to track
+
+and it looks at the conversation after each iteration to see what's been done, what's
+
+been updated, how the student's progressing.
+
+And it tells you what you need to be doing.
+
+So let's do LG1.
+
+And immediately it's going to start teaching a lesson about the mixture of experts framework,
+
+which is a quite technical framework for people who maybe don't have a deep background in
+
+this type of work.
+
+You know, I happen to like Iron Man, so I'm going to ask it if it can relate that to Iron
+
+Man.
+
+Can you relate this information?
+
+Let's see how that system pivots.
+
+So immediately what you see is a system meeting me for where I'm at as a learner, right?
+
+I'm asking it to, you know, I just, I grew up, I love comic books and Tony Stark and
+
+immediately kind of pivots the lesson around something I can ground myself in and it wraps
+
+a lesson around that, which is we think will really enhance one, you know, when people
+
+are attached to things that make them more excited, when people are attached to information
+
+in their brains that are salient, that have really helped with the learning process and
+
+make the cover.
+
+And it has the ability to do that in whatever kind of pop culture or anything is within
+
+the training data, right?
+
+And fortunately, because of the pretty good representation, different languages that actually
+
+pivot to most of the major languages that are represented in large language models.
+
+And since we're short on time for this demo, I just want to move through really quickly
+
+and also show you how the mastery work.
+
+You did mastery as this learning model.
+
+And the way that that works is the agent knows that it should only be taking in my input.
+
+So you know, I can't just, it doesn't read that the fact that the answer has already
+
+been set in the context, what it does is it goes ahead and looks through the conversation
+
+to see of my responses, right?
+
+So I'm just going to go ahead and answer one of them.
+
+Let's see here.
+
+MQ one, Jarvis works as eight.
+
+And you can see, go ahead and we'll go ahead and it gives me, it's going to give me credit
+
+here in a moment here on the left for mastery.
+
+But what I really like seeing is that, you know, it was just a short answer.
+
+It wasn't nuanced enough, right?
+
+So it gave me partial credit because we right now in this version, we have five questions
+
+as mastery, instructor can set that to as many as they would like.
+
+And it really kind of pushes me to have a deeper understanding of that.
+
+Right.
+
+And let's go ahead and actually just look at another question here and answer incorrectly.
+
+I need help.
+
+And it will go ahead and just kind of meet me from where I'm at.
+
+And basically what happened is as you work through one lesson, the system will kind of
+
+keep monitoring as you get towards the end of a lesson, it will go ahead and nudge you
+
+to the next one.
+
+I don't want to spend too much time here teaching everybody about these two concepts, but I
+
+hope that you found this demonstration interesting and that have a wonderful day.
+
+So just a couple of points about these technical prototypes.
+
+So you could see Vince is using right now, Cloud or chat GPT four.
+
+He's also testing it with some of the models, which I would consider open source AI.
+
+And he's saying once the performance gets to that level of shift over all the work that
+
+he is doing, all the work that any technical prototype for that will come out of OFAI will
+
+be open source AI.
+
+So we're committed to making that decision.
+
+And I will note that one of the fellows for OFAI works at something called BGV Capital,
+
+a venture finance group.
+
+And I'm in active conversation with him.
+
+He's a managing partner about funding the open source AI prototypes that come out of
+
+OFAI and more generally, and they're very much interested in supporting responsible
+
+human centered AI.
+
+So it's important to try and get flows of money just to be blunt into this kind of open
+
+source AI and this type of approach.
+
+So I am one minute from the end.
+
+So I hope we can have at least one or two questions or discussion.
+
+These are some resources.
+
+I've placed them in the SCAD or SHED if you're from the UK website.
+
+And so you can have them there, but I'm sure the slides will be available at some point.
+
+I just want to acknowledge our funders again and open it up for any kinds of comments,
+
+questions, feedback you might have.
+
+Thank you.
+
+Interesting project.
+
+How do you think about sustaining this long term?
+
+I mean, there's obviously big money to build any of these models, but they take a lot to
+
+run as well.
+
+They do.
+
+You're right.
+
+So there's a couple of things on the sustainability dimension.
+
+One is to align it with work that's already happening and try to nudge that work toward
+
+the goals and the values and the approach we're taking for OFAI.
+
+So we've identified technical prototypes at UT Austin.
+
+That work is happening independent of whether we fund it or not.
+
+There's also the sustainability of OFAI as a concept.
+
+We have funding through July of 2025 from the initial funders, but I've heard from our
+
+current funders and other funders and from Carnegie Mellon itself that this is something
+
+we wish to sustain.
+
+As long as we can keep producing outputs, whether those are, you know, we have a position
+
+paper that I wish would have been done by today, but it isn't.
+
+But as soon as I'm happy to share with everybody the map, the prototypes and so on, that there's
+
+value in doing this work.
+
+And quite frankly, there's urgency in doing this work.
+
+And if people are interested and engaged in that, whether that's through financial support
+
+or in-kind contributions or work that you're already doing, we certainly welcome that.
+
+Just building off that question, what do you see as the like some of our options for long-term
+
+sustainability in the sense of like treating it like a utility or those sorts of things?
+
+How are you thinking about, you know, as we're bringing these different groups together,
+
+what do we start to seed in people's minds about how we think about the real long-term
+
+preservation and sustainability?
+
+And I'm Casey Wright at the Association of Public and Land-Grant Universities.
+
+Right.
+
+So this is just my own opinion.
+
+I think the large AI foundational model deployers have gotten themselves into a bind.
+
+I think they received enormous amounts of money.
+
+They're not getting the return on investment that they thought they would get.
+
+But what they have essentially done is built infrastructure for the rest of us to build
+
+on top of.
+
+I have serious concerns about infrastructure being opaque.
+
+So that just to be very clear about that.
+
+But all the work that Vince has done and many, many other people are doing are building on
+
+that infrastructure.
+
+And if you have an open source AI system and something goes wrong and you can evaluate
+
+it rigorously because it's open, then there must be something at that infrastructure layer
+
+that's causing the issues.
+
+And I think that's the way we open up those kinds of infrastructure layers.
+
+I don't think they wanted to create infrastructure for all of us to build a whole set of new
+
+models.
+
+They sort of said, look, we're very supportive and inclusive and participatory.
+
+You can do whatever you want.
+
+People have gone to town on that.
+
+So I think we just need to keep building where we can in open ways and in essence basically
+
+connect to their infrastructure and say, you need to open this up.
+
+If somebody says this is not safe and this is having a reproducibility issue or so on.
+
+So that's a technical type of response to that.
+
+In terms of the preservation of AI systems, I don't have an answer for that.
+
+These things are so dynamic.
+
+They're so statistical.
+
+They're so complex.
+
+You start with a set of training data.
+
+You iterate that data over each of the training runs and so on and so on.
+
+These are very complex issues that I think we need to address, but I don't think we have
+
+a good handle on them right now.
+
+So it is 918, let's call it.
+
+Thank you for your attention.
+
+[APPLAUSE]
+
+[APPLAUSE]
+
